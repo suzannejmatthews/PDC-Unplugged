@@ -1,4 +1,4 @@
-baseURL = "http://www.pdc-unplugged.org/"
+baseURL = "http://suzannejmatthews.github.io/PDC-Unplugged"
 languageCode = "en-us"
 title = "PDC Unplugged"
 theme = "minimal"
