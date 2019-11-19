@@ -1,7 +1,9 @@
 ---
 title: "SortingNetwork"
 date: 2019-11-01T10:31:08-04:00
-tags: ["movement", "visual", "K-12", "sorting", "CS1", "CS2", "DSA", "TCPP_Algorithms"]
+tcpp: ["TCPP_Algorithms"]
+courses: ["K-12", "CS1", "CS2", "DSA"]
+senses: ["movement", "visual"]
 draft: true
 ---
 

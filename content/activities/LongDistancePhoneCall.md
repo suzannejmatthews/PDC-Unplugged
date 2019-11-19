@@ -1,7 +1,9 @@
 ---
 title: "LongDistancePhoneCall"
 date: 2019-11-05T17:46:25-05:00
-tags: ["analogy", "PD_ParallelArchitecture", "TCPP_Architecture"]
+cs2013: ["PD_ParallelArchitecture"]
+tcpp: ["TCPP_Architecture"]
+senses: ["analogy"]
 draft: true
 ---
 

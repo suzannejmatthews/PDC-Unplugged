@@ -1,7 +1,10 @@
 ---
 title: "PBJinParallel"
 date: 2019-11-01T16:19:09-04:00
-tags: ["PD_CommunicationAndCoordination", "TCPP_Programming", "TCPP_Algorithms", "CS0", "CS1", "CS2", "systems", "OS", "movement", "touch"]
+cs2013: ["PD_CommunicationAndCoordination"]
+tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
+courses: ["CS0", "CS1", "CS2", "Systems", "OS"]
+senses: ["movement", "touch"]
 draft: true
 ---
 

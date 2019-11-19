@@ -1,7 +1,10 @@
 ---
 title: "SweetenJuice"
 date: 2019-11-07T11:07:01-05:00
-tags: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination", "TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting", "K-12", "CS2", "DSA", "Systems", "movement"]
+cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination"]
+tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
+courses: ["K-12", "CS2", "DSA", "Systems"]
+senses: ["movement"]
 draft: true
 ---
 

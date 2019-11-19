@@ -1,7 +1,10 @@
 ---
 title: "CandySorting"
 date: 2019-11-01T14:23:28-04:00
-tags: ["PD_ParallelDecomposition", "PD_ParallelPerformance", "TCPP_Programming", "visual"]
+cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance"]
+tcpp: ["TCPP_Programming"]
+courses: ["CS0", "CS1", "CS2", "DSA"]
+senses: ["visual"]
 draft: true
 ---
 

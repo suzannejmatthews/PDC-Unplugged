@@ -1,7 +1,10 @@
 ---
 title: "CompanyAnalogy"
 date: 2019-11-01T17:02:44-04:00
-tags: ["analogy", "oo_course", "systems", "PD_ParallelArchitecture", "TCPP_Architecture", "TCPP_Programming"]
+cs2013: ["PD_ParallelArchitecture"]
+tcpp: ["TCPP_Architecture", "TCPP_Programming"]
+courses: ["oo_course", "systems"]
+tags: ["analogy", "movement"]
 draft: true
 ---
 

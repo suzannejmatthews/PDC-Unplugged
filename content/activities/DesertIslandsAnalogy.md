@@ -1,7 +1,10 @@
 ---
 title: "DesertIslandsAnalogy"
 date: 2019-11-05T15:34:13-05:00
-tags: ["analogy", "PD_ParallelDecomposition", "PD_ParallelArchitecture", "PD_ParallelPerformance", "TCPP_Architecture", "TCPP_Programming", "visual", "movement"]
+cs2013: ["PD_ParallelDecomposition", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
+tcpp: ["TCPP_Architecture", "TCPP_Programming"]
+courses: ["CS2", "DSA", "Systems"]
+senses: ["analogy", "visual", "movement"]
 draft: true
 ---
 

@@ -1,7 +1,10 @@
 ---
 title: "ArraysinParallel"
 date: 2019-11-01T11:58:18-04:00
-tags: ["PD_ParallelDecomposition", "TCPP_Programming", "CS0", "CS1", "CS2", "DSA", "ProgLang", "movement", "visual"]
+cs2013: ["PD_ParallelDecomposition"]
+tcpp: ["TCPP_Programming"]
+courses: ["CS0", "CS1", "CS2", "DSA", "ProgLang"]
+senses: ["movement", "visual"]
 draft: true
 ---
 

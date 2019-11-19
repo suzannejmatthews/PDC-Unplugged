@@ -1,7 +1,10 @@
 ---
 title: "CardSorting"
 date: 2019-11-01T12:39:05-04:00
-tags: ["CS0", "CS1", "CS2", "DSA", "visual", "PD_ParallelDecomposition", "PD_ParallelPerformance", "TCPP_Algorithms", "visual", "touch"]
+cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance"]
+tcpp: ["TCPP_Algorithms"]
+courses: ["CS0", "CS1", "CS2", "DSA"]
+senses: ["visual", "touch"]
 draft: true
 ---
 

@@ -1,7 +1,10 @@
 ---
 title: "MatrixAddition"
 date: 2019-11-04T09:38:59-05:00
-tags: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelArchitecture", "PD_ParallelPerformance", "TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms", "CS2", "DSA", "Systems", "movement", "visual"]
+cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
+tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
+courses: ["CS2", "DSA", "Systems"]
+senses: ["movement", "visual"]
 draft: true
 ---
 

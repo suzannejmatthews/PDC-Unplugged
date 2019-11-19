@@ -1,7 +1,10 @@
 ---
 title: "PenGame"
 date: 2019-11-05T14:30:34-05:00
-tags: ["visual", "PD_CommunicationAndCoordination", "TCPP_Programming"]
+cs2013: ["PD_CommunicationAndCoordination"]
+tcpp: ["TCPP_Programming"]
+courses: ["K-12", "CS0", "DSA", "Systems"]
+senses: ["visual"]
 draft: true
 ---
 

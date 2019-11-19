@@ -1,7 +1,10 @@
 ---
 title: "ParallelRadixSort"
 date: 2019-11-14T10:30:47-05:00
-tags: ["PD_ParallelDecomposition", "TCPP_Algorithms", "K-12", "CS2", "DSA", "visual", "movement"]
+cs2013: ["PD_ParallelDecomposition"]
+tcpp: ["TCPP_Algorithms"]
+courses: ["K-12", "CS2", "DSA"]
+senses: ["visual", "movement"]
 draft: true
 ---
 

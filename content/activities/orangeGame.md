@@ -1,7 +1,10 @@
 ---
 title: "OrangeGame"
 date: 2019-11-01T10:59:45-04:00
-tags: ["touch", "visual", "K-12", "Systems", "TCPP_Programming", "PD_CommunicationAndCoordination"]
+cs2013: ["PD_CommunicationAndCoordination"]
+tcpp: ["TCPP_Programming"]
+courses: ["K-12", "Systems"]
+senses: ["touch", "visual"]
 draft: false
 ---
 

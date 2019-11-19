@@ -1,7 +1,10 @@
 ---
 title: "OddEvenTranspositionSort"
 date: 2019-11-04T08:25:13-05:00
-tags: ["PD_ParallelDecomposition", "TCPP_Algorithms", "K-12", "DSA", "CS2", "visual", "movement" ]
+cs2013: ["PD_ParallelDecomposition"]
+tcpp: ["TCPP_Algorithms"]
+courses: ["K-12", "DSA", "CS2"]
+senses: ["visual", "movement" ]
 draft: true
 ---
 

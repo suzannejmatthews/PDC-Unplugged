@@ -1,7 +1,10 @@
 ---
 title: "FindYoungestStudentInClass"
 date: 2019-11-01T11:20:35-04:00
-tags: ["CS0", "CS1", "CS2", "K-12", "DSA", "PD_ParallelDecomposition", "TCPP_Algorithms", ]
+cs2013: ["PD_ParallelDecomposition"]
+tcpp: ["TCPP_Algorithms"]
+courses: ["CS0", "CS1", "CS2", "K-12", "DSA"]
+
 draft: true
 ---
 
