@@ -1,0 +1,3 @@
+{{ range .Params.tcpp }}
+<a href="{{ $.Site.BaseURL }}tcpp/{{ . | urlize }}"><kbd class="item-tcpp">{{ . }}</kbd></a>
+{{ end }}

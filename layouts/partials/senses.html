@@ -1,0 +1,3 @@
+{{ range .Params.senses }}
+<a href="{{ $.Site.BaseURL }}senses/{{ . | urlize }}"><kbd class="item-sense">{{ . }}</kbd></a>
+{{ end }}

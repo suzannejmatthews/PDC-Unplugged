@@ -90,6 +90,22 @@ a:hover {
     background-color: #229954;
 }
 
+.item-course {
+    background-color: #E67E22;
+}
+
+.item-tcpp {
+    background-color: #884EA0;
+}
+
+.item-sense {
+    background-color: #3498DB;
+}
+.item-cs2013 {
+    background-color: #229954;
+}
+
+
 /* Navigation icons */
 
 .navbar-icon {

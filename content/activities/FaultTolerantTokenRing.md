@@ -1,7 +1,11 @@
 ---
 title: "FaultTolerantTokenRing"
 date: 2019-11-14T12:37:23-05:00
-tags: ["PD_CommunicationAndCoordination", "TCPP_Algorithms", "TCPP_CrossCutting", "K-12", "Systems", "visual", "auditory"]
+cs2013: ["PD_CommunicationAndCoordination"]
+courses: ["K-12", "Systems"]
+tcpp: ["TCPP_Algorithms", "TCPP_CrossCutting"]
+senses: ["visual", "auditory"]
+
 draft: true
 ---
 

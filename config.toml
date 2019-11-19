@@ -7,6 +7,10 @@ googleAnalytics = ""
 
 [taxonomies]
     tag="tags"
+    course = "courses"
+    sense = "senses"
+    tcpp = "tcpp"
+    cs2013 = "cs2013"
 
 [params]
     author = "Suzanne J. Matthews (CSinParallel)"
@@ -51,7 +55,7 @@ googleAnalytics = ""
     weight = 4
 
 [[menu.main]]
-    url = "/accessibility/"
+    url = "/senses/"
     name = "Accesibility View"
     weight = 4
 
