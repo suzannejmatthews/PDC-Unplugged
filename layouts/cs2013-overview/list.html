@@ -21,7 +21,7 @@
 </table>
 
 <p><br></p>
-
+  <!--<a href="{{ .Site.BaseURL }}cs2013details/pd_2">{{ len .Site.Taxonomies.cs2013details.pd_2 }} Activities </a> -->
 <h3>Parallel Decomposition (1 Core-Tier1 hour, 3 Core-Tier2 Hours)</h3>
 <p><a href="{{ .Site.BaseURL }}cs2013/pd_paralleldecomposition">See All ({{ len .Site.Taxonomies.cs2013.pd_paralleldecomposition }} Activities)  </a> </p>
 <table >
@@ -29,29 +29,260 @@
     <th  width="60%">Learning Outcome</th> 
     <th>Unplugged Activities</th>
     <tr><th>Core Tier 1 </th></tr>
-<tr><td> 1. Explain why synchronization is necessary in a specific parallel program. [Usage] </td><td> <a href="{{ .Site.BaseURL }}cs2013details/pd_1">{{ len .Site.Taxonomies.cs2013details.pd_1 }} Activities </a></td></tr>
+<tr><td> 1. Explain why synchronization is necessary in a specific parallel program. [Usage] </td><td>   {{ range first 2 .Site.Taxonomies.cs2013details.pd_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_1">See All ({{ len .Site.Taxonomies.cs2013details.pd_1 }}) </a>
+  </td></tr>
 <tr><td> 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</td>
 <td>
-  <!--<a href="{{ .Site.BaseURL }}cs2013details/pd_2">{{ len .Site.Taxonomies.cs2013details.pd_2 }} Activities </a> -->
-  
     {{ range first 2 .Site.Taxonomies.cs2013details.pd_2 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
     <a href="{{ $.Site.BaseURL }}cs2013details/pd_2">See All ({{ len .Site.Taxonomies.cs2013details.pd_2 }}) </a>
-  
 </td>
 
 </tr> 
 <tr><th>Core Tier 2 </th></tr>
-<tr><td> 3. Write a correct and scalable parallel algorithm. [Usage]</td><td></td></tr> 
-<tr><td> 4. Parallelize an algorithm by applying task-based decomposition. [Usage]</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/m&m_sorting/M&M%20Sorting.pdf" target=_blank>M&amp;MSorting</a> (iPDC Module)</td></tr>
-<tr><td> 5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/arrays/Arrays%20in%20Parallel.pdf" target=_blank>FillArray</a> (iPDC Module)</td></tr>
+<tr><td> 3. Write a correct and scalable parallel algorithm. [Usage]</td>
+  <td>
+
+  </td>
+</tr> 
+
+<tr><td> 4. Parallelize an algorithm by applying task-based decomposition. [Usage]</td><td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.pd_4 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_4">See All ({{ len .Site.Taxonomies.cs2013details.pd_4 }}) </a>
+  </td></tr>
+
+<tr><td> 5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</td><td>
+{{ range first 2 .Site.Taxonomies.cs2013details.pd_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_5">See All ({{ len .Site.Taxonomies.cs2013details.pd_5 }}) </a>
+</td></tr>
 <tr><td> 6. Write a program using actors and/or reactive processes. [Usage]</td><td></td></tr>
 </table> 
 
+<p><br></p>
+
+<h3>Communication and Coordination (1 Core-Tier1 hour, 3 Core-Tier2 Hours)</h3>
+<p><a href="{{ .Site.BaseURL }}cs2013/pd_communicationandcoordination">See All ({{ len .Site.Taxonomies.cs2013.pd_communicationandcoordination }} Activities)  </a> </p>
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> <th>Unplugged Activities</th>
+<tr><th>Core Tier 1 </th></tr>
+<tr><td> 1. Use mutual exclusion to avoid a given race condition. [Usage] </td>
+  <td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.cac_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_1">See All ({{ len .Site.Taxonomies.cs2013details.cac_1 }}) </a>
+  </td></tr>
+<tr><td> 2. Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity] </td>
+  <td>  {{ range first 2 .Site.Taxonomies.cs2013details.cac_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_2">See All ({{ len .Site.Taxonomies.cs2013details.cac_2 }}) </a></td></tr>
+<tr><th>Core Tier 2 </th></tr>
+<tr><td> 3. Give an example of a scenario in which blocking message sends can deadlock. [Usage]</td>
+  <td>
+      {{ range first 2 .Site.Taxonomies.cs2013details.cac_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_3">See All ({{ len .Site.Taxonomies.cs2013details.cac_3 }}) </a></td></tr>
+<tr><td> 4. Explain when and why multicast or event-based messaging can be preferable to alternatives. [Familiarity] </td>
+  <td>
+  
+  </td></tr>
+<tr><td> 5. Write a program that correctly terminates when all of a set of concurrent tasks have completed. [Usage] </td><td>
+      {{ range first 2 .Site.Taxonomies.cs2013details.cac_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_5">See All ({{ len .Site.Taxonomies.cs2013details.cac_5 }}) </a>
+</td></tr>
+<tr><td> 6. Use a properly synchronized queue to buffer data passed among activities. [Usage] </td><td>
+  
+</td></tr>
+<tr><td> 7. Explain why checks for preconditions, and actions based on these checks, must share the same unit of atomicity to be effective. [Familiarity] </td><td>
+
+</td></tr>
+<tr><td> 8. Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable. [Usage] </td>
+  <td>    {{ range first 2 .Site.Taxonomies.cs2013details.cac_8 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_8">See All ({{ len .Site.Taxonomies.cs2013details.cac_8 }}) </a></td></tr>
+<tr><td> 9. Describe at least one design technique for avoiding liveness failures in programs using multiple locks or semaphores. [Familiarity] </td>
+
+<tr><td> 10. Describe the relative merits of optimistic versus conservative concurrency control under different rates of contention among updates. [Familiarity] </td>
+  <td>
+  <td>    
+  </td></tr>
+<tr><td> 11. Give an example of a scenario in which an attempted optimistic update may never complete. [Familiarity] </td><td>
+
+ </td></tr>
+</td></tr>
+</table>
+
+<p><br></p>
+<h3>Parallel Algorithms, Analysis, and Programming (3 Core-Tier2 hours)</h3> 
+<a href="{{ .Site.BaseURL }}cs2013/pd_parallelalgorithms">See All ({{ len .Site.Taxonomies.cs2013.pd_parallelalgorithms }} Activities)  </a>
+<table>
+    <tr>
+    <th width = "60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Core Tier 2 </th></tr>
+<tr><td> 1. Define "critical path", "work", and "span". [Familiarity] </td><td></td></tr>
+<tr><td> 2. Compute the work and span, and determine the critical path with respect to a parallel execution diagram. [Usage] </td><td></td></tr>
+<tr><td> 3. Define "speed-up" and explain the notion of an algorithm's scalability in this regard. [Familiarity] </td>
+  <td>
+      {{ range first 2 .Site.Taxonomies.cs2013details.algo_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_3">See All ({{ len .Site.Taxonomies.cs2013details.algo_3 }}) </a>
+  </td>
+</tr>
+<tr><td> 4. Identify independent tasks in a program that may be parallelized. [Usage] </td>
+  <td>
+       {{ range first 2 .Site.Taxonomies.cs2013details.algo_4 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_4">See All ({{ len .Site.Taxonomies.cs2013details.algo_4 }}) </a>
+  </td></tr>
+<tr><td> 5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</td><td></td></tr>
+<tr><td> 6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog. </td><td></td></tr>
+<tr><td> 7. Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.</td><td></td></tr>
+<tr><th>Elective </th></tr>
+<tr><td> 8. Provide an example of a problem that fits the producer-consumer paradigm. [Familiarity]</td><td></td></tr>
+<tr><td> 9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</td><td></td></tr>
+<tr><td> 10. Implement a parallel matrix algorithm. [Usage]</td>
+  <td>
+        {{ range first 2 .Site.Taxonomies.cs2013details.algo_10 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_10">See All ({{ len .Site.Taxonomies.cs2013details.algo_10 }}) </a>
+  </td></tr>
+<tr><td> 11. Identify issues that arise in producer-consumer algorithms and mechanisms that may be used for addressing them. [Familiarity]</td><td></td></tr>
+</table>
+
+<p><br></p>
+
+<h3>Parallel Architecture (1 Core-Tier1 hour, 1 Core-Tier2 hour) </h3>
+<a href="{{ .Site.BaseURL }}cs2013/pd_parallelarchitecture">See All ({{ len .Site.Taxonomies.cs2013.pd_parallelarchitecture }} Activities)  </a>
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Core Tier 1 </th></tr>
+<tr><td> 1. Explain the differences between shared and distributed memory. [Familiarity] [Core-Tier2] </td><td>
+   {{ range first 2 .Site.Taxonomies.cs2013details.arch_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_1">See All ({{ len .Site.Taxonomies.cs2013details.arch_1 }}) </a>
+</td></tr>
+ <tr><th>Core Tier 2 </th></tr>
+<tr><td> 2. Describe the SMP architecture and note its key features. [Familiarity] </td>
+  <td>
+       {{ range first 2 .Site.Taxonomies.cs2013details.arch_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_2">See All ({{ len .Site.Taxonomies.cs2013details.arch_2 }}) </a>
+  </td></tr>
+<tr><td> 3. Characterize the kinds of tasks that are a natural match for SIMD machines. [Familiarity]</td>
+  <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_3">See All ({{ len .Site.Taxonomies.cs2013details.arch_3 }}) </a></td></tr>
+ <tr><th>Elective </th></tr>
+<tr><td>4. Describe the advantages and limitations of GPUs vs. CPUs. [Familiarity]</td>
+  <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_4 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_4">See All ({{ len .Site.Taxonomies.cs2013details.arch_4 }}) </a></td></tr>
+<tr><td>5. Explain the features of each classification in Flynn's taxonomy. [Familiarity]</td><td>
+     {{ range first 2 .Site.Taxonomies.cs2013details.arch_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_5">See All ({{ len .Site.Taxonomies.cs2013details.arch_5 }}) </a>
+</td></tr>
+<tr><td>6. Describe assembly-level support for atomic operations. [Familiarity]</td>
+  <td>   </td></tr>
+<tr><td>7. Describe the challenges in maintaining cache coherence. [Familiarity]</td><td>
+
+</td></tr>
+<tr><td>8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</td><td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.arch_8 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_8">See All ({{ len .Site.Taxonomies.cs2013details.arch_8 }}) </a>
+</td></tr>
+</table>
+
+<p><br></p>
 
 
+<h3>Parallel Performance (Elective)</h3>
+<a href="{{ .Site.BaseURL }}cs2013/pd_parallelperformance">See All ({{ len .Site.Taxonomies.cs2013.pd_parallelperformance }} Activities)  </a>
 
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Elective </th></tr>
+<tr><td>1. Detect and correct a load imbalance. [Usage]</td><td>
+{{ range first 2 .Site.Taxonomies.cs2013details.perf_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_1">See All ({{ len .Site.Taxonomies.cs2013details.perf_1 }}) </a>
+</td></tr>
+<tr><td>2. Calculate the implications of Amdahl's law for a particular parallel algorithm (cross-reference SF/Evaluation for Amdahl's Law). [Usage]</td>
+  <td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.perf_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_2">See All ({{ len .Site.Taxonomies.cs2013details.perf_2 }}) </a></td></tr>
+<tr><td>3. Describe how data distribution/layout can affect an algorithm's communication costs. [Familiarity]</td>
+  <td>{{ range first 2 .Site.Taxonomies.cs2013details.perf_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_3">See All ({{ len .Site.Taxonomies.cs2013details.perf_3 }}) </a></td></tr>
+<tr><td>4. Detect and correct an instance of false sharing. [Usage]</td>
+  <td></td></tr>
+<tr><td>5. Explain the impact of scheduling on parallel performance. [Familiarity]</td><td>
+  {{ range first 2 .Site.Taxonomies.cs2013details.perf_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_5">See All ({{ len .Site.Taxonomies.cs2013details.perf_5 }}) </a>
+</td></tr>
+<tr><td>6. Explain performance impacts of data locality. [Familiarity]</td><td>
+
+</td></tr>
+<tr><td>7. Explain the impact and trade-off related to power usage on parallel performance. [Familiarity]</td><td>
+</td></tr>
+</table>
+
+<p><br></p>
+
+<h3>Cloud Computing (Elective)</h3>
+<a href="{{ .Site.BaseURL }}cs2013/pd_cloudcomputing">See All ({{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities)  </a>
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Elective </th></tr>
+<tr><td>1. Discuss the importance of elasticity and resource management in cloud computing. [Familiarity]</td><td></td></tr>
+<tr><td>2. Explain strategies to synchronize a common view of shared data across a collection of devices.[Familiarity]</td><td>
+   {{ range first 2 .Site.Taxonomies.cs2013details.cc_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cc_2">See All ({{ len .Site.Taxonomies.cs2013details.cc_2 }}) </a>
+</td></tr>
+<tr><td>3. Explain the advantages and disadvantages of using virtualized infrastructure. [Familiarity]</td><td></td></tr>
+<tr><td>4. Deploy an application that uses cloud infrastructure for computing and/or data resources. [Usage]</td><td></td></tr>
+<tr><td>5. Appropriately partition an application between a client and resources. [Usage]</td><td></td></tr>
+</table>
 </main>
 
 {{ partial "footer" . }}
