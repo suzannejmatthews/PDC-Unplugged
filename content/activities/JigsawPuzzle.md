@@ -2,6 +2,7 @@
 title: "JigsawPuzzle"
 date: 2019-11-04T13:12:43-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
+cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Arch_1", "Arch_8", "Perf_1", "Perf_2", "Perf_3", "Perf_5"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
 courses: ["K-12"]
 senses: ["analogy", "visual", "touch"]

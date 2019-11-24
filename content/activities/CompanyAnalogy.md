@@ -2,6 +2,7 @@
 title: "CompanyAnalogy"
 date: 2019-11-01T17:02:44-04:00
 cs2013: ["PD_ParallelArchitecture"]
+cs2013details: ["Arch_2"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
 courses: ["oo_course", "systems"]
 tags: ["analogy", "movement"]

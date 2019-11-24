@@ -2,6 +2,7 @@
 title: "LongDistancePhoneCall"
 date: 2019-11-05T17:46:25-05:00
 cs2013: ["PD_ParallelArchitecture"]
+cs2013details: ["Arch_8"]
 tcpp: ["TCPP_Architecture"]
 senses: ["analogy"]
 draft: true

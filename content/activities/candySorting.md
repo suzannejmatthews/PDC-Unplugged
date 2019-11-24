@@ -2,6 +2,7 @@
 title: "CandySorting"
 date: 2019-11-01T14:23:28-04:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance"]
+cs2013details: ["PD_1", "PD_2", "PD_4", "Perf_1", "Perf_3"]
 tcpp: ["TCPP_Programming"]
 courses: ["CS0", "CS1", "CS2", "DSA"]
 senses: ["visual"]

@@ -2,6 +2,7 @@
 title: "CardSorting"
 date: 2019-11-01T12:39:05-04:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance"]
+cs2013details: ["PD_1", "PD_2", "Perf_1", "Perf_2", "Perf_3"]
 tcpp: ["TCPP_Algorithms"]
 courses: ["CS0", "CS1", "CS2", "DSA"]
 senses: ["visual", "touch"]

@@ -2,6 +2,7 @@
 title: "SieveOfErastothenes"
 date: 2019-11-04T10:56:26-05:00
 cs2013: ["PD_ParallelDecomposition"]
+cs2013details: ["PD_5"]
 tcpp: ["TCPP_Programming"]
 courses: ["CS2", "DSA", "ProgLang"]
 senses: ["movement", "visual"]

@@ -2,6 +2,7 @@
 title: "OddEvenTranspositionSort"
 date: 2019-11-04T08:25:13-05:00
 cs2013: ["PD_ParallelDecomposition"]
+cs2013details: ["PD_2"]
 tcpp: ["TCPP_Algorithms"]
 courses: ["K-12", "DSA", "CS2"]
 senses: ["visual", "movement" ]
