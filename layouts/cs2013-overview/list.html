@@ -7,13 +7,30 @@
 <h1>CS2013 View</h1>
 <p >This view classifies PDC unplugged activities by their associated Knowledge Units (KU) and Learning Outcomes (LO) as specified by 
    	the <a href="https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf" target=_blank>ACM/IEEE Computer Science Curricula 2013</a> (CS2013)
-    Parallel and Distributed (PD) knowledge area. For the immediate, the focus is on identifying unplugged activities that satisfy each of the knowledge units that 
+    Parallel and Distributed (PD) knowledge area. CS2013 recommends coverage of all LOs in Core Tier 1, and 80% of coverage of LOs in Core Tier 2. The following 
+    table from CS2013 gives an outline of topic coverage over the different KUs:</p>
+
+<table border="1">
+<tr><th width="40%"></th><th>Core-Tier1 hours</th> <th>Core-Tier2 hours </th> <th>Electives?</th></tr>
+<tr><td>PD/Parallelism Fundamentals</td> <td>2</td><td></td><td>N</td></tr>
+<tr><td>PD/Parallel Decomposition</td><td>1</td><td>3</td><td>N</td></tr>
+<tr><td>PD/Communication and Coordination</td><td>1</td><td>3</td><td>Y</td></tr>
+<tr><td>PD/Parallel Algorithms, Analysis, and Programming</td><td></td><td>3</td><td>Y</td></tr>
+<tr><td>PD/Parallel Architecture</td><td>1</td><td>1</td><td>Y</td></tr>
+<tr><td>PD/Parallel Performance</td><td></td><td></td><td>Y</td></tr>
+<tr><td>PD/Distributed Systems</td><td></td><td></td><td>Y</td></tr>
+<tr><td>PD/Cloud Computing</td><td></td><td></td><td>Y</td></tr>
+<!--PD/Formal Models and Semantics Y-->
+</table>
+
+<p><br></p>
+<p>For the immediate, the focus is on identifying unplugged activities that satisfy each of the knowledge units that 
     have Core Tier1 and Tier2 requirements. However, unplugged activities that satisfy elective areas are included when discovered.</p>
 
 
-<h3 >Parallelism Fundamentals (2 Core Tier1 hours)</h3>
+<h3 >Parallelism Fundamentals </h3>
 <table>
-<tr>    <th width="75%">Learning Outcome</th>   <th>Unplugged Activities</th>    </tr>
+<tr>    <th width="60%">Learning Outcome</th>   <th>Unplugged Activities</th>    </tr>
   <tr><td>1. Distinguish using computational resources for a faster answer from managing efficient access to a shared resource. [Familiarity]</td> <td></td></tr>
   <tr><td>2. Distinguish multiple sufficient programming constructs for synchronization that may be inter-implementable but have complementary advantages. [Familiarity]</td> <td></td></tr>
   <tr><td>3. Distinguish data races from higher level races.  [Familiarity]</td><td></td></tr>
@@ -21,8 +38,7 @@
 
 <p><br></p>
   <!--<a href="{{ .Site.BaseURL }}cs2013details/pd_2">{{ len .Site.Taxonomies.cs2013details.pd_2 }} Activities </a> -->
-<h3>Parallel Decomposition (1 Core-Tier1 hour, 3 Core-Tier2 Hours)</h3>
-<p><a href="{{ .Site.BaseURL }}cs2013/pd_paralleldecomposition">See All ({{ len .Site.Taxonomies.cs2013.pd_paralleldecomposition }} Activities)  </a> </p>
+<h3>Parallel Decomposition (<a href="{{ .Site.BaseURL }}cs2013/pd_paralleldecomposition">{{ len .Site.Taxonomies.cs2013.pd_paralleldecomposition }} Activities  </a>) </h3>
 <table >
     <tr>
     <th  width="60%">Learning Outcome</th> 
@@ -67,8 +83,7 @@
 
 <p><br></p>
 
-<h3>Communication and Coordination (1 Core-Tier1 hour, 3 Core-Tier2 Hours)</h3>
-<p><a href="{{ .Site.BaseURL }}cs2013/pd_communicationandcoordination">See All ({{ len .Site.Taxonomies.cs2013.pd_communicationandcoordination }} Activities)  </a> </p>
+<h3>Communication and Coordination (<a href="{{ .Site.BaseURL }}cs2013/pd_communicationandcoordination">{{ len .Site.Taxonomies.cs2013.pd_communicationandcoordination }} Activities  </a>) </h3>
 <table>
     <tr>
     <th width="60%">Learning Outcome</th> <th>Unplugged Activities</th>
@@ -126,8 +141,7 @@
 </table>
 
 <p><br></p>
-<h3>Parallel Algorithms, Analysis, and Programming (3 Core-Tier2 hours)</h3> 
-<a href="{{ .Site.BaseURL }}cs2013/pd_parallelalgorithms">See All ({{ len .Site.Taxonomies.cs2013.pd_parallelalgorithms }} Activities)  </a>
+<h3>Parallel Algorithms, Analysis, &amp; Programming ( <a href="{{ .Site.BaseURL }}cs2013/pd_parallelalgorithms">{{ len .Site.Taxonomies.cs2013.pd_parallelalgorithms }} Activities  </a>) </h3>
 <table>
     <tr>
     <th width = "60%">Learning Outcome</th> 
@@ -168,8 +182,8 @@
 
 <p><br></p>
 
-<h3>Parallel Architecture (1 Core-Tier1 hour, 1 Core-Tier2 hour) </h3>
-<a href="{{ .Site.BaseURL }}cs2013/pd_parallelarchitecture">See All ({{ len .Site.Taxonomies.cs2013.pd_parallelarchitecture }} Activities)  </a>
+<h3>Parallel Architecture (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelarchitecture">{{ len .Site.Taxonomies.cs2013.pd_parallelarchitecture }} Activities  </a>) </h3>
+
 <table>
     <tr>
     <th width="60%">Learning Outcome</th> 
@@ -222,8 +236,8 @@
 <p><br></p>
 
 
-<h3>Parallel Performance (Elective)</h3>
-<a href="{{ .Site.BaseURL }}cs2013/pd_parallelperformance">See All ({{ len .Site.Taxonomies.cs2013.pd_parallelperformance }} Activities)  </a>
+<h3>Parallel Performance (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelperformance">{{ len .Site.Taxonomies.cs2013.pd_parallelperformance }} Activities  </a>
+)</h3>
 
 <table>
     <tr>
@@ -264,8 +278,8 @@
 
 <p><br></p>
 
-<h3>Cloud Computing (Elective)</h3>
-<a href="{{ .Site.BaseURL }}cs2013/pd_cloudcomputing">See All ({{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities)  </a>
+<h3>Cloud Computing (<a href="{{ .Site.BaseURL }}cs2013/pd_cloudcomputing">{{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities  </a>)</h3>
+
 <table>
     <tr>
     <th width="60%">Learning Outcome</th> 
