@@ -41,7 +41,7 @@ googleAnalytics = ""
     weight = 3
 
 [[menu.main]]
-    url = "/cs2013/"
+    url = "/cs2013-overview/"
     name = "CS2013 View"
     weight = 4
 
