@@ -11,6 +11,7 @@ googleAnalytics = ""
     sense = "senses"
     tcpp = "tcpp"
     cs2013 = "cs2013"
+    cs2013detail = "cs2013details"
 
 [params]
     author = "Suzanne J. Matthews (CSinParallel)"

@@ -1,0 +1,57 @@
+{{ partial "header" . }}
+
+
+
+<main align="left">
+
+<h1>CS2013 View</h1>
+<p >This view classifies PDC unplugged activities by their associated Knowledge Units (KU) and Learning Outcomes (LO) as specified by 
+   	the <a href="https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf" target=_blank>ACM/IEEE Computer Science Curricula 2013</a> (CS2013)
+    Parallel and Distributed (PD) knowledge area. For the immediate, our focus is on identifying unplugged activities that satisfy each of the knowledge units that 
+    have Core Tier1 and Tier2 requirements. However, if in the course of curation, unplugged PDC activities that satisfy elective areas are discovered, we will also 
+    list them.</p>
+
+
+<h3 >Parallelism Fundamentals (2 Core Tier1 hours)</h3>
+<table>
+<tr>    <th width="75%">Learning Outcome</th>   <th>Unplugged Activities</th>    </tr>
+  <tr><td>1. Distinguish using computational resources for a faster answer from managing efficient access to a shared resource. [Familiarity]</td> <td></td></tr>
+  <tr><td>2. Distinguish multiple sufficient programming constructs for synchronization that may be inter-implementable but have complementary advantages. [Familiarity]</td> <td></td></tr>
+  <tr><td>3. Distinguish data races from higher level races.  [Familiarity]</td><td></td></tr>
+</table>
+
+<p><br></p>
+
+<h3>Parallel Decomposition (1 Core-Tier1 hour, 3 Core-Tier2 Hours)</h3>
+<p><a href="{{ .Site.BaseURL }}cs2013/pd_paralleldecomposition">See All ({{ len .Site.Taxonomies.cs2013.pd_paralleldecomposition }} Activities)  </a> </p>
+<table >
+    <tr>
+    <th  width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Core Tier 1 </th></tr>
+<tr><td> 1. Explain why synchronization is necessary in a specific parallel program. [Usage] </td><td> <a href="{{ .Site.BaseURL }}cs2013details/pd_1">{{ len .Site.Taxonomies.cs2013details.pd_1 }} Activities </a></td></tr>
+<tr><td> 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</td>
+<td>
+  <!--<a href="{{ .Site.BaseURL }}cs2013details/pd_2">{{ len .Site.Taxonomies.cs2013details.pd_2 }} Activities </a> -->
+  
+    {{ range first 2 .Site.Taxonomies.cs2013details.pd_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_2">See All ({{ len .Site.Taxonomies.cs2013details.pd_2 }}) </a>
+  
+</td>
+
+</tr> 
+<tr><th>Core Tier 2 </th></tr>
+<tr><td> 3. Write a correct and scalable parallel algorithm. [Usage]</td><td></td></tr> 
+<tr><td> 4. Parallelize an algorithm by applying task-based decomposition. [Usage]</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/m&m_sorting/M&M%20Sorting.pdf" target=_blank>M&amp;MSorting</a> (iPDC Module)</td></tr>
+<tr><td> 5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/arrays/Arrays%20in%20Parallel.pdf" target=_blank>FillArray</a> (iPDC Module)</td></tr>
+<tr><td> 6. Write a program using actors and/or reactive processes. [Usage]</td><td></td></tr>
+</table> 
+
+
+
+
+</main>
+
+{{ partial "footer" . }}
