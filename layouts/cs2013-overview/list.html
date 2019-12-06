@@ -28,10 +28,15 @@
     have Core Tier1 and Tier2 requirements. However, unplugged activities that satisfy elective areas are included when discovered.</p>
 
 
-<h3 >Parallelism Fundamentals </h3>
+<h3 >Parallelism Fundamentals (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelfundamentals">{{ len .Site.Taxonomies.cs2013.pd_parallelfundamentals }} Activities  </a>)</h3>
 <table>
 <tr>    <th width="60%">Learning Outcome</th>   <th>Unplugged Activities</th>    </tr>
-  <tr><td>1. Distinguish using computational resources for a faster answer from managing efficient access to a shared resource. [Familiarity]</td> <td></td></tr>
+  <tr><td>1. Distinguish using computational resources for a faster answer from managing efficient access to a shared resource. [Familiarity]</td> <td>
+ {{ range first 2 .Site.Taxonomies.cs2013details.fun_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/fun_1">See All ({{ len .Site.Taxonomies.cs2013details.fun_1 }}) </a>
+</td></tr>
   <tr><td>2. Distinguish multiple sufficient programming constructs for synchronization that may be inter-implementable but have complementary advantages. [Familiarity]</td> <td></td></tr>
   <tr><td>3. Distinguish data races from higher level races.  [Familiarity]</td><td></td></tr>
 </table>
@@ -164,7 +169,13 @@
     {{ end }}
     <a href="{{ $.Site.BaseURL }}cs2013details/algo_4">See All ({{ len .Site.Taxonomies.cs2013details.algo_4 }}) </a>
   </td></tr>
-<tr><td> 5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</td><td></td></tr>
+<tr><td> 5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</td><td>
+ {{ range first 2 .Site.Taxonomies.cs2013details.algo_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_5">See All ({{ len .Site.Taxonomies.cs2013details.algo_5 }}) </a>
+
+</td></tr>
 <tr><td> 6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog. </td><td></td></tr>
 <tr><td> 7. Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.</td><td></td></tr>
 <tr><th>Elective </th></tr>
