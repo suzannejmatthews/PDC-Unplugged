@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelFundamentals", "PD_ParallelDecomposition", "PD_ParallelAlgo
 cs2013details: ["fun_1", "PD_2", "PD_4", "PD_5", "Algo_3", "Algo_4", "Algo_5", "Perf_2"]
 tcpp: ["TCPP_Algorithms", "TCPP_Programming", "TCPP_CrossCutting"]
 courses: ["CS0", "CS1", "CS2", "DSA", "Systems"]
-senses: ["vision", "movement"]
+senses: ["visual", "movement"]
 draft: true
 ---
 
