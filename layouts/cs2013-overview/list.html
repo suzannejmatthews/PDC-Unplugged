@@ -125,9 +125,11 @@
 <tr><td> 6. Use a properly synchronized queue to buffer data passed among activities. [Usage] </td><td>
   
 </td></tr>
-<tr><td> 7. Explain why checks for preconditions, and actions based on these checks, must share the same unit of atomicity to be effective. [Familiarity] </td><td>
-
-</td></tr>
+<tr><td> 7. Explain why checks for preconditions, and actions based on these checks, must share the same unit of atomicity to be effective. [Familiarity] </td>
+  <td>    {{ range first 2 .Site.Taxonomies.cs2013details.cac_7 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_7">See All ({{ len .Site.Taxonomies.cs2013details.cac_7 }}) </a></td></tr>
 <tr><td> 8. Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable. [Usage] </td>
   <td>    {{ range first 2 .Site.Taxonomies.cs2013details.cac_8 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
