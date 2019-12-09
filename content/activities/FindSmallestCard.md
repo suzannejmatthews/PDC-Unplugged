@@ -19,6 +19,10 @@ No link to independent description publicly available. Please see details sectio
 
 [FindOldestPenny]({{<ref "activities/findoldestpenny">}}), [FindYoungestStudent]({{<ref "activities/findyoungeststudentinclass">}})
 
+### Other activities by (Bachelis1994)
+
+[ParallelAddition]({{<ref "activities/paralleladdition">}})
+
 ---
 
 ## Details
