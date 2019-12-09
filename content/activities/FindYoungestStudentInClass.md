@@ -14,6 +14,10 @@ Chitra P ([iPDC Modules](https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modul
 
 * Available in [Word](https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/Find_Youngest/Find_Youngest.docx) and [PDF](https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/Find_Youngest/Find_Youngest.pdf)
 
+### Similar Activities
+
+[FindOldestPenny]({{<ref "activities/findoldestpenny">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}})
+
 ## CS2013 Knowledge Unit Coverage
 
 ### PD/Parallel Decomposition Core Tier 1

@@ -18,6 +18,10 @@ with consultation from Brett A Becker.
 [Paper](https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf) (Srivastava2019) and [slides](https://tcpp.cs.gsu.edu/curriculum/sites/default/files/Srishti_Mary_EduHPC_SC2019_Presentation.pdf) 
 available on-line.
 
+### Similar Activities
+
+[FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [FindYoungestStudent]({{<ref "activities/findyoungeststudentinclass">}})
+
 ---
 
 ## Details
