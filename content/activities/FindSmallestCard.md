@@ -21,7 +21,7 @@ No link to independent description publicly available. Please see details sectio
 
 ### Other activities by (Bachelis1994)
 
-[ParallelAddition]({{<ref "activities/paralleladdition">}})
+[ParallelAddition]({{<ref "activities/paralleladdition">}}). [CardSorting]({{<ref "activities/cardsorting">}})
 
 ---
 
@@ -65,6 +65,43 @@ number of time steps is 1 + 1 + 1 + 1 = 4.
 
 
 The class then should asked to calculate the speedup of the parallel cases over the serial cases. 
+
+
+### Constant Time Case
+
+Another parallel algorithm can be demonstrated (Valiant1975). To find the minimum of _n_ numbers (or _n_ cards with unique numbers) employ _n<sup>2</sup>_ processors.
+
+The case for _n_ = 4 is illustrated below. Arrange the students into a 4 x 4 grid. The students along the diagonal are each handed a card. To do this activity with playing cards, we recommend that oversized 
+cards are used, or that numbers are written on a large piece of paper (front and back). In the example shown below (taken from Bachelis1994), the numbers 5, 1, 9 and 8 are employed. The initial grid is shown. 
+
+```text
+5 : - : - : - :
+- : 1 : - : - :
+- : - : 9 : - :
+- : - : - : 8 :
+```
+
+The students along the diagonal each have a number, which they hold up, so that everyone in their row can see. The `-` denotes other students sitting at their desks. 
+
+* During the first step, the students note holding cards look down their rows and note the the number that they can see.
+* During the second step, the along the diagonal hold their cards up so that it is visible to the other studnets in their column. The students at the column then raise their hand if they number they saw along 
+  their row (the first number) is greater than the number they see along their column (second number). 
+
+For the matrix above, we expect the following students to raise their hands ('denoted with U'):
+
+```text
+5 : U : - : - :
+- : 1 : - : - :
+U : U : 9 : U :
+U : U : - : 8 :
+```
+
+The student whose row has no hands raised is holding the smallest number. In the above scenario, that student is the one holding the number `1`. That is therefore the minimum number.  
+
+From (Bachelis1994): The value of this exercise is that "even though each processor knows very little about the global picture, by acting in concert they can solve the problem at hand".
+
+
+To achieve this with 16 numbers, there can be four contests each with 4 numbers, followed by one final contest with the final four numbers. 
 
 ---
 
@@ -137,3 +174,5 @@ Unknown. However, the related activities have asssessment.
 
 * B. R. Maxim, G. Bachelis, D. James, and Q. Stout, "Introducing parallel algorithms in undergraduate computer science courses (tutorial session)", in _Proceedings of the Twenty-first SIGCSE Technical Symposium 
   on Computer Science Education (SIGCSE'90)_. ACM, 1990, pp. 255. Available: http://doi.acm.org/10.1145/323410.323415
+
+* L. Valiant, "Parallelism in Comparison Problems", in _SIAM Journal of Computing_. vol. 4, no. 3, pp. 348--355. 1975. 

@@ -23,6 +23,12 @@ activity and slides associated with the activity at
 
 See papers (Rifkin1994, Sivilotti2003) for additional details. 
 
+### Similiar Exercises: 
+
+Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}}), [cardsorting]({{<ref "activities/cardsorting">}})
+
+### Other activities by (Rifki1994, Sivilotti2003)
+Rifkin1994: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}})
 
 
 
@@ -39,7 +45,7 @@ numbers.
 The instructor then splits the group into nine teams (of about the same size), 
 with three teams assigned to a separate supervisor. The supervisor will then 
 have one of the three teams perform bubble sort, the second perform 
-odd-even-transposition sort (described in a separate exercise), and the last 
+odd-even-transposition sort (described in a [separate exercise]({{<ref "activities/oddeventranspositionsort">}}) ), and the last 
 perform parallel radix sort.
 
 Each team under the care of supervisor stands in a separate row. 

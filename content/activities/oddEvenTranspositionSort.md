@@ -25,6 +25,14 @@ activity at [his website](http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FE
 
 See papers (Rifkin1994, Moore2000, Sivilotti2003) for additional details.
 
+### Similiar Exercises: 
+
+Sorting: [parallelRadixSort]({{<ref "activities/parallelradixsort">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}}) [cardsorting]({{<ref "activities/cardsorting">}})
+
+### Other activities by (Rifki1994, Moore2000)
+Rifkin1994: [parallelRadixSort]({{<ref "activities/parallelradixsort">}})
+
+
 ---
 
 ## Details
