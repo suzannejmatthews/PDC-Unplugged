@@ -17,7 +17,7 @@ No link to independent description publicly available. Please see details sectio
 
 ### Similiar Exercises: 
 
-Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [ParallelRadixSort]({{<ref "activities/parallelradixsort">}}), [CardSorting]({{<ref "activities/cardSorting">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}})
+Sorting: [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [ParallelRadixSort]({{<ref "activities/parallelradixsort">}}), [CardSorting]({{<ref "activities/cardSorting">}}), [SortingNetwork]({{<ref "activities/sortingnetwork">}})
 
 ### Other activities by authors
 (Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [CardSorting]({{<ref "activities/cardSorting">}})

@@ -4,7 +4,7 @@ date: 2019-12-09T15:43:45-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms"]
 cs2013details: ["PD_2", "PD_4", "Algo_3", "Algo_4", "Algo_6"]
 tcpp: ["TCPP_Architecture", "TCPP_Algorithms", "TCPP_Programming"]
-courses: ["CS1", CS2", "DSA", "Systems"]
+courses: ["CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
 draft: true
 ---
@@ -18,7 +18,7 @@ No link to independent description publicly available. Please see details sectio
 ### Other activities by authors
 
 (Bachelis1994): [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [CardSorting]({{<ref "activities/findsmallestcard">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
-  [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [AddMultiplyLargeNumbers]({{<ref "activities/addmultiplylargenumbers">}})
+  [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [AddLargeNumbers]({{<ref "activities/addlargenumbers">}})
 
 ---
 

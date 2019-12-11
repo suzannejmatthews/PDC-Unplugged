@@ -4,7 +4,7 @@ date: 2019-12-09T14:34:15-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms"]
 cs2013details: ["PD_2", "PD_4", "Algo_3", "Algo_4", "Algo_6"]
 tcpp: ["TCPP_Algorithms", "TCPP_Programming"]
-courses: ["CS1", CS2", "DSA"]
+courses: ["CS1", "CS2", "DSA"]
 senses: ["touch", "visual"]
 draft: true
 ---
