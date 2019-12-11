@@ -19,9 +19,10 @@ No link to independent description publicly available. Please see details sectio
 
 [FindOldestPenny]({{<ref "activities/findoldestpenny">}}), [FindYoungestStudent]({{<ref "activities/findyoungeststudentinclass">}})
 
-### Other activities by (Bachelis1994)
+### Other activities by authors
 
-[ParallelAddition]({{<ref "activities/paralleladdition">}}). [CardSorting]({{<ref "activities/cardsorting">}})
+(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}). [CardSorting]({{<ref "activities/cardsorting">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
+  [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}})
 
 ---
 

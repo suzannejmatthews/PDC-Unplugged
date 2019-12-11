@@ -17,9 +17,9 @@ No web-link to independent description available. See papers (Bachelis1994, Moor
 additional details.
 
 ### Other activities by authors
-(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}})
+(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}})
 
-(Moore2000): [CardSorting]({{<ref "activities/cardsorting">}})
+(Moore2000): [CardSorting]({{<ref "activities/cardsorting">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [MatrixAddition]({{<ref "activities/matrixaddition">}}) 
 
 ---
 
@@ -93,8 +93,9 @@ Students should now be able to clearly see how to extend the activity to find th
 ### Variation
 Moore describes an example exercise that she presents in a parallel processing 
 lab to illustrate data parallelism. Originally, the exercise is meant to 
-distinguish between task parallelism and data parallelism; however, the task 
-parallelism component is a bit weak, and so is not included here.
+distinguish between task parallelism and data parallelism. The "First attempt" in (Bachelis1994)
+is shown as an example of "control" (task) parallelism. The data parallel component of the 
+exercise as shown in (Moore2000) is extrapolated below:
 
 Prior to the start of the exercise, the instructor starts by writing as many 
 integers as possible on the board (1-30 is recommended at the very least). To 

@@ -23,9 +23,9 @@ Variation using a deck of playing cards by (Ghafoor2019):
 Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [ParallelRadixSort]({{<ref "activities/parallelradixsort">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}}),
 
 ### Other activities by authors
-(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}})
+(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
 
-(Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}})
+(Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [MatrixAddition]({{<ref "activities/matrixaddition">}})
 
 (Ghafoor2019):
 

@@ -15,9 +15,10 @@ Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and 
 
 No link to independent description publicly available. Please see details section for a synopsis.
 
-### Other activities by (Bachelis1994)
+### Other activities by authors
 
-[FindSmallestCard]({{<ref "activities/findsmallestcard">}})
+(Bachelis1994): [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [CardSorting]({{<ref "activities/findsmallestcard">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
+  [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}})
 
 ---
 

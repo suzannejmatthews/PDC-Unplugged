@@ -16,6 +16,10 @@ Originally Described by Michelle Moore (Moore2000)
 No web-link to independent description available. See paper (Moore2000) for 
 additional details.
 
+### Other activities by author
+(Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
+  [CardSorting]({{<ref "activities/cardsorting">}})
+
 ---
 
 ## Details

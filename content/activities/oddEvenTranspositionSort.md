@@ -11,8 +11,10 @@ draft: true
 
 ## Original Author/link
 
-Originally Described by Adam Rifkin (1994), with a separate 
-description by Michelle Moore (Moore2000)
+Originally Described by Adam Rifkin (Rifkin1994), with a separate 
+description by Michelle Moore (Moore2000). (Bachelis1994) also presents the 
+sort as a "compare-exchange sort". We extrapolate on (Rifkin1994), since 
+it is well described.
 
 No web-link to independent description available. However, (Sivilotti2003) 
 employed the exercise in a summer workshop for middle school girls, and 
@@ -23,15 +25,19 @@ activity at [his website](http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FE
 * 1 Page Synopsis [PDF](http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/parallel.pdf)
 
 
-See papers (Rifkin1994, Moore2000, Sivilotti2003) for additional details.
+See papers (Rifkin1994, Bachelis1994, Moore2000, Sivilotti2003) for additional details.
 
 ### Similiar Exercises: 
 
-Sorting: [parallelRadixSort]({{<ref "activities/parallelradixsort">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}}) [cardsorting]({{<ref "activities/cardsorting">}})
+Sorting: [parallelRadixSort]({{<ref "activities/parallelradixsort">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}}) [CardSorting]({{<ref "activities/cardsorting">}})
 
-### Other activities by (Rifki1994, Moore2000)
+### Other activities by authors
 Rifkin1994: [parallelRadixSort]({{<ref "activities/parallelradixsort">}})
 
+(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [CardSorting]({{<ref "activities/findsmallestcard">}}),
+  [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}})
+
+(Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [CardSorting]({{<ref "activities/cardsorting">}}), [MatrixAddition]({{<ref "activities/matrixaddition">}})
 
 ---
 
@@ -211,18 +217,19 @@ activities.
 
 ## Citations
 
-* P. A. G. Sivilotti and M. Demirbas, "Introducing middle school girls to 
-  fault tolerant computing", in *Proceedings of the 34th SIGCSE Technical 
-  Symposium on Computer Science Education (SIGCSE ’03)*. New York, NY, USA: 
-  ACM, 2003, pp. 327–331, [Online]: http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/. 
-  Available: http://doi.acm.org/10.1145/611892.611999
-
-* M. Moore, "Introducing parallel processing concepts", *J. Comput. Sci. Coll.,* 
-  vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: http://dl.acm.org/citation.cfm?id=1852563.1852589
-
 * A. Rifkin, "Teaching parallel programming and software engineering concepts 
   to high school students", In *SIGCSE Bulletin*, vol. 26, no. 1. and 
   *Proceedings of the Twenty-fifth SIGCSE Symposium on Computer Science 
   Education*, 1994, pp. 26–30. Available: http://doi.acm.org/10.1145/191033.191044
 
+* G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, "Bringing algorithms to life: Cooperative computing activities using students as processors", _School Science and Mathematics_,
+  vol. 94, no. 4, pp. 176–186, 1994.
 
+* M. Moore, "Introducing parallel processing concepts", *J. Comput. Sci. Coll.,* 
+  vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: http://dl.acm.org/citation.cfm?id=1852563.1852589
+
+* P. A. G. Sivilotti and M. Demirbas, "Introducing middle school girls to 
+  fault tolerant computing", in *Proceedings of the 34th SIGCSE Technical 
+  Symposium on Computer Science Education (SIGCSE ’03)*. New York, NY, USA: 
+  ACM, 2003, pp. 327–331, [Online]: http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/. 
+  Available: http://doi.acm.org/10.1145/611892.611999
