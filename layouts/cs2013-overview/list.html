@@ -188,7 +188,15 @@
 <tr><td> 7. Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.</td><td></td></tr>
 <tr><th>Elective </th></tr>
 <tr><td> 8. Provide an example of a problem that fits the producer-consumer paradigm. [Familiarity]</td><td></td></tr>
-<tr><td> 9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</td><td></td></tr>
+<tr><td> 9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</td>
+<td>
+        {{ range first 2 .Site.Taxonomies.cs2013details.algo_9 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_9">See All ({{ len .Site.Taxonomies.cs2013details.algo_9 }}) </a>
+</td></tr>
+
+
 <tr><td> 10. Implement a parallel matrix algorithm. [Usage]</td>
   <td>
         {{ range first 2 .Site.Taxonomies.cs2013details.algo_10 }}

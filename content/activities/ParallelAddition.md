@@ -18,7 +18,7 @@ No link to independent description publicly available. Please see details sectio
 ### Other activities by authors
 
 (Bachelis1994): [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [CardSorting]({{<ref "activities/findsmallestcard">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
-  [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}})
+  [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [AddMultiplyLargeNumbers]({{<ref "activities/addmultiplylargenumbers">}})
 
 ---
 
@@ -144,14 +144,15 @@ The visual aspect of this activity may make it less accessible for blind student
 
 ## Assessment 
 
-Unknown. However, the related activities have asssessment.
+Unknown. 
 
 ---
 
 ## Citations
 
+* B. R. Maxim, G. Bachelis, D. James, and Q. Stout, "Introducing parallel algorithms in undergraduate computer science courses (tutorial session)", in _Proceedings of the Twenty-first SIGCSE Technical Symposium 
+  on Computer Science Education (SIGCSE'90)_. ACM, 1990, pp. 255. Available: http://doi.acm.org/10.1145/323410.323415
+
 * G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, "Bringing algorithms to life: Cooperative computing activities using students as processors", _School Science and Mathematics_,
   vol. 94, no. 4, pp. 176–186, 1994.
 
-* B. R. Maxim, G. Bachelis, D. James, and Q. Stout, "Introducing parallel algorithms in undergraduate computer science courses (tutorial session)", in _Proceedings of the Twenty-first SIGCSE Technical Symposium 
-  on Computer Science Education (SIGCSE'90)_. ACM, 1990, pp. 255. Available: http://doi.acm.org/10.1145/323410.323415

@@ -4,7 +4,7 @@ date: 2019-11-01T12:39:05-04:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance"]
 cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Algo_6", Perf_1", "Perf_2", "Perf_3"]
 tcpp: ["TCPP_Algorithms"]
-courses: ["CS0", "CS1", "CS2", "DSA"]
+courses: ["K-12", CS0", "CS1", "CS2", "DSA"]
 senses: ["visual", "touch"]
 draft: true
 ---
@@ -20,12 +20,14 @@ Variation using a deck of playing cards by (Ghafoor2019):
 
 ### Similiar Exercises: 
 
-Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [ParallelRadixSort]({{<ref "activities/parallelradixsort">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}}),
+Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [ParallelRadixSort]({{<ref "activities/parallelradixsort">}}), [PipelineSort]({{<ref "activities/pipelinesort">}}),
+         [sortingNetwork]({{<ref "activities/sortingnetwork">}})
 
 ### Other activities by authors
-(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
+(Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}}), [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [PipelineSort]({{<ref "activities/pipelinesort">}})
 
-(Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [MatrixAddition]({{<ref "activities/matrixaddition">}})
+(Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
+             [MatrixAddition]({{<ref "activities/matrixaddition">}})
 
 (Ghafoor2019):
 
@@ -137,6 +139,8 @@ not provided.
 ---
 
 ## Recommended Courses
+
+* **K-12**: (Bachelis1994) recommends introducing concepts to students in a secondary-school mathematics or computer science class.
 
 * **CS0/CS1/CS2** - The authors suggest using the activity in introductory 
   computer science courses. In addition, there is assessment supporting this 
