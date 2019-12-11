@@ -25,7 +25,7 @@ Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort"
 ### Other activities by authors
 (Bachelis1994): [ParallelAddition]({{<ref "activities/paralleladdition">}}), [FindSmallestCard]({{<ref "activities/findsmallestcard">}})
 
-(Moore2000):
+(Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}})
 
 (Ghafoor2019):
 
