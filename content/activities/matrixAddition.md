@@ -11,7 +11,8 @@ draft: true
 
 ## Original Author/link
 
-Originally Described by Michelle Moore (Moore2000)
+Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker 
+is alluded to, but not discussed in depth.
 
 No web-link to independent description available. See paper (Moore2000) for 
 additional details.
@@ -66,9 +67,14 @@ load balancing can be discussed, along with communication overhead:
 * If some students have more work than the others, then the time to complete the 
   computation of matrix C is dependent on the slowest student. 
 
----
+### Kitchen1992
 
-## Variations
+(Kitchen1992) talks about adding values in a matrix (e.g. each process/thread adds a column) 
+as a way to illustrate the Master-Worker pattern. However, the description does not go 
+into further detail.
+
+
+### Variations
 
 The following variations are suggested:
 
@@ -173,6 +179,9 @@ significantly.
 ---
 
 ## Citations
+
+* * A. T. Kitchen, N. C. Schaller, and P. T. Tymann, "Game playing as a technique for teaching parallel computing concepts", _SIGCSE Bulletin_, vol. 24, no. 3, pp. 35–38, Sept. 1992.
+  Available: http://doi.acm.org/10.1145/142040.142064
 
 * M. Moore, "Introducing parallel processing concepts", *J. Comput. Sci. Coll.,* 
   vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: http://dl.acm.org/citation.cfm?id=1852563.1852589

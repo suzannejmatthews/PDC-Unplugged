@@ -3,6 +3,7 @@ title: "CoinFlip"
 date: 2019-12-11T15:00:06-05:00
 cs2013: ["PD_ParallelArchitecture"]
 cs2013details: ["Arch_3", "Arch_4"]
+tcpp: ["TCPP_Architecture"]
 courses: ["systems"]
 senses: ["touch", "visual"]
 draft: true
@@ -85,7 +86,7 @@ This activity may be difficult for students who are visually impaired. To enable
 
 ## Assessment 
 
-In  (Kitchen1992), it is mentioned that a component of this exercise was used at an NSF Undergraduate Faculty Enhancement workshop at Colgate University in the Summer of 1991. A panelist at SuperComputing'91 also mentioned that the SIMD component of this exercise was used successfully in an introductory parallel computing course at Bucknell University. 
+In  (Kitchen1992), it is mentioned that a component of this exercise was used at an NSF Undergraduate Faculty Enhancement workshop at Colgate University in the Summer of 1991. A panelist at SuperComputing'91 also mentioned that the SIMD component of this exercise was used successfully in an introductory parallel computing course at Bucknell University. No formal assessment mentioned.
 
 ---
 
