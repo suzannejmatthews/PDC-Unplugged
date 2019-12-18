@@ -4,7 +4,7 @@ date: 2019-11-05T15:34:13-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_5", "Arch_1", "Arch_3", "Arch_4", "Arch_5", "Arch_8", "Perf_3"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
-tcppdetails: ["C_Taxonomy", "K_Heterogeneous", "K_Hybrid"]
+tcppdetails: ["C_Taxonomy", "K_Heterogeneous", "K_Hybrid", "C_DistributedMemory", "C_SPMD"]
 courses: ["CS2", "DSA", "Systems"]
 senses: ["analogy", "visual", "movement"]
 draft: true

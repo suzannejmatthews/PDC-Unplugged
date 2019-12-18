@@ -4,7 +4,7 @@ date: 2019-12-09T15:43:45-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms"]
 cs2013details: ["PD_2", "PD_4", "Algo_3", "Algo_4", "Algo_6"]
 tcpp: ["TCPP_Architecture", "TCPP_Algorithms", "TCPP_Programming"]
-tcppdetails: ["K_Latency"]
+tcppdetails: ["K_Latency", "C_Speedup", "K_Amdahl"]
 courses: ["CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
 draft: true
@@ -111,8 +111,8 @@ observe the cost of communication overhead.
 
 ### Programming Topics 
 
-* Comprehend Performance Metrics (Speedup): Understand how to compute speedup, and what it means
-* Know Performance Metrics (Amdahl's Law): Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed
+* Comprehend Speedup: Understand how to compute speedup, and what it means
+* Know Amdahl's Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed
 
 
 ### Algorithms Topics

@@ -4,6 +4,7 @@ date: 2019-12-06T14:17:02-05:00
 cs2013: ["PD_ParallelFundamentals", "PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelPerformance"]
 cs2013details: ["fun_1", "PD_2", "PD_4", "PD_5", "Algo_3", "Algo_4", "Algo_5", "Perf_2"]
 tcpp: ["TCPP_Algorithms", "TCPP_Programming", "TCPP_CrossCutting"]
+tcppdetails: ["K_TasksThreads", "C_Decomposition", "C_Speedup", "K_Amdahl"]
 courses: ["CS0", "CS1", "CS2", "DSA", "Systems"]
 senses: ["visual", "movement"]
 draft: true
@@ -61,6 +62,7 @@ and introduces the notion of Amdahl's law and speedup.
 ### PD/Parallel Decomposition
 
 **Core Tier 1***:
+
 1\. Explain why synchronization is necessary in a specific parallel program. [Usage]
 
 2\. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
@@ -91,11 +93,11 @@ and introduces the notion of Amdahl's law and speedup.
 
 * Know Tasks and threads: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that.
 
-* Comprehend Computation (decomposition strategies): Understand different ways to assign computations to threads or processes
+* Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes
 
-* Comprehend Performance Metrics (Speedup): Understand how to compute speedup, and what it means
+* Comprehend Speedup: Understand how to compute speedup, and what it means
 
-* Know Performance Metrics (Amdahl's Law): Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed
+* Know Amdahl's Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed
 
 
 ### Algorithm Topics 

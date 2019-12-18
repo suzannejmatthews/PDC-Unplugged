@@ -4,6 +4,7 @@ date: 2019-12-06T13:09:20-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelPerformance"]
 cs2013details: ["PD_2", "Algo_4", "Perf_1", "Perf_2"]
 tcpp: ["TCPP_Algorithms", "TCPP_Programming"]
+tcppdetails: ["C_decomposition", "C_LoadBalancing", "K_Amdahl"]
 courses: ["CS0", "CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
 
@@ -61,9 +62,9 @@ Chitra P (Chitra2019)
 
 ### Programming Topics
 
-* Comprehend Computation (decomposition strategies): Understand different ways to assign computations to threads or processes.
+* Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes.
 * Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes.
-* Know Performance Metrics (Amdahl's Law): Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed
+* Know Amdahl's Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed
 
 ### Algorithms Topics
 

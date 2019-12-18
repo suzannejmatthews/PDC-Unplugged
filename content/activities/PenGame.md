@@ -4,6 +4,7 @@ date: 2019-11-05T14:30:34-05:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_2"]
 tcpp: ["TCPP_Programming"]
+tcppdetails: ["K_DataRaces"]
 courses: ["K-12", "CS0", "DSA", "Systems"]
 senses: ["visual"]
 draft: true
@@ -44,13 +45,7 @@ than reads (looking at the pen). (Neeman2006).
 
 ### Programming Topics
 
-* Comprehend Concurrency Defects: Understand the notions of deadlock 
-(detection, prevention), **race conditions (definition)**, 
-determinacy/non-determinacy in parallel programs 
-(**e.g., if there is a data race, the output may depend on the 
-order of execution**).
-
-* Know Concurrency Defects (Data Races): Know what a data race is, and how 
+* Know Data Races: Know what a data race is, and how 
 to use synchronization to prevent it.
 
 ---

@@ -4,7 +4,7 @@ date: 2019-11-01T17:02:44-04:00
 cs2013: ["PD_ParallelArchitecture"]
 cs2013details: ["Arch_2"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
-tcppdetails: ["K_MIMD", "K_TasksThreads"]
+tcppdetails: ["K_MIMD", "K_TasksThreads", "C_Decomposition", "C_Static", "C_Dynamic"]
 courses: ["oo_course", "systems"]
 tags: ["analogy", "movement"]
 draft: true
@@ -56,11 +56,9 @@ To introduce static vs dynamic scheduling:
 
 ### Programming Topics
 * Know Tasks and threads: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that (e.g., OpenMP, Intel TBB, etc.) (0.5 hours)
-* Comprehend Computation: Understand the basic notions of static and dynamic scheduling, mapping and impact of load balancing on performance (1.5 hours)
-* Comprehend Computation (decomposition strategies): Understand different ways to assign computations to threads or processes
-* Comprehend Scheduling and mapping: Understand how a programmer or compiler maps and schedules computations to threads/processes, both statically and dynamically (1 hour)
-* Comprehend Scheduling and mapping (Static): Understand how to map and schedule computations before runtime.
-* Comprehend Scheduling and mapping (Dynamic): Understand how to map and schedule computations at runtime.
+* Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes
+* Comprehend Static Scheduling and mapping: Understand how to map and schedule computations before runtime.
+* Comprehend Dynamic Scheduling and mapping: Understand how to map and schedule computations at runtime.
 
 ### Algorithm Topics
 * Comprehend Work: Observe the impact of computational work (e.g., the total number of tasks executed) on complexity measures such as power consumption (0.5 hours)

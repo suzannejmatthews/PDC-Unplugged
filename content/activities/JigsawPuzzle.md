@@ -4,7 +4,7 @@ date: 2019-11-04T13:12:43-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Arch_1", "Arch_8", "Perf_1", "Perf_2", "Perf_3", "Perf_5"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["K_MIMD", "C_Multicore", "K_Latency"]
+tcppdetails: ["K_MIMD", "C_Multicore", "K_Latency", "C_LoadBalancing", "C_Static", "C_Dynamic", "K_Data", "C_Speedup"]
 courses: ["K-12"]
 senses: ["analogy", "visual", "touch"]
 draft: true
@@ -138,10 +138,10 @@ is much faster than the other, then that processor should get additional work
 ### Programming Topics 
 
 * Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes.
-* Comprehend Scheduling and mapping (Static): Understand how to map and schedule computations before runtime	DSA/Systems	
-* Comprehend Scheduling and mapping (Dynamic): Understand how to map and schedule computations at runtime	DSA/Systems	
+* Comprehend Static Scheduling and mapping: Understand how to map and schedule computations before runtime	DSA/Systems	
+* Comprehend Dynamic Scheduling and mapping: Understand how to map and schedule computations at runtime	DSA/Systems	
 * Know Data: Understand impact of data distribution, layout and locality on performance; know false sharing and its impact on performance (e.g., in a cyclic mapping in a parallel loop); notion that transfer of data has fixed cost plus bit rate (irrespective of transfer from memory or inter-processor) (1 hour)
-* Comprehend Performance Metrics (Speedup): Understand how to compute speedup, and what it means.
+* Comprehend Speedup: Understand how to compute speedup, and what it means.
 
 ### Algorithms Topics 
 

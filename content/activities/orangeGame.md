@@ -4,6 +4,7 @@ date: 2019-11-01T10:59:45-04:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_3"]
 tcpp: ["TCPP_Programming"]
+tcppdetails: ["C_Deadlocks"]
 courses: ["K-12", "Systems"]
 senses: ["touch", "visual"]
 draft: false
@@ -22,13 +23,7 @@ draft: false
 
 ### Programming Topics
 
-* Comprehend Concurrency Defects: Understand the notions of deadlock 
-(detection, prevention), race conditions (definition), 
-determinacy/non-determinacy in parallel programs 
-(e.g., if there is a data race, the output may depend on the 
-order of execution) (1 hour)
-
-* Comprehend Concurrency Defects (Deadlocks): Understand what a deadlock is, 
+* Comprehend Deadlocks: Understand what a deadlock is, 
 and methods for detecting and preventing them
 
 ## Recommended Courses

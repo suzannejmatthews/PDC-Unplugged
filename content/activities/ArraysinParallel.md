@@ -4,6 +4,7 @@ date: 2019-11-01T11:58:18-04:00
 cs2013: ["PD_ParallelDecomposition"]
 cs2013details: ["PD_2", "PD_5"]
 tcpp: ["TCPP_Programming"]
+tcppdetails: ["A_DataParallel"]
 courses: ["CS0", "CS1", "CS2", "DSA", "ProgLang"]
 senses: ["movement", "visual"]
 draft: true
