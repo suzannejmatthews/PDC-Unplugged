@@ -1,0 +1,449 @@
+{{ partial "header" . }}
+
+
+
+<main align="left">
+
+<h1>TCPP View</h1>
+
+ <p>This view classifies PDC unplugged activities by their classification according to the <a href="" target=_blank>NSF/IEEE-TCPP Curriculum Initiative on Parallel 
+   and Distributed Computing</a> (TCPP 2012) which aims to articulate the core PDC areas that an undergraduate computer science student should cover in the course 
+   of their undergraduate education. The TCPP report informed the creation of the PD topic area in CS2013, and lists several cross-cutting topics. For the immediate, our 
+   focus is on identifying unplugged activities that satisfy each of topics suggested for Core courses (CS1, CS2, Systems and DS/A); Advanced/Elective courses are not 
+   covered. Bloom's Taxonomy is used by TCPP to help solidify the level of coverage of each topic:</p>
+   <p><ul>
+    <li><b>Know</b>: Know the term (basic literacy)</li>
+    <li><b>Comprehend:</b> Comprehend so as to paraphrase/illustrate</li>
+    <li><b>Apply:</b> Apply it in some way (requires operational command)</li>
+  </ul>
+  </p>
+  <p>Each topic is preceded by one of these terms. Use the Bloom taxonomy classification to gauge the level of topic coverage in a course.</p>
+
+  <h3>Architecture Topics (<a href="{{ .Site.BaseURL }}tcpp/tcpp_architecture">{{ len .Site.Taxonomies.tcpp.tcpp_architecture }} Activities  </a>)</h3>
+
+<table >
+<tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
+<tr><td> <u>Comprehend Parallel Taxonomy</u>: Flynn's taxonomy, data vs. control parallelism, shared/distributed memory (0.5 hours)</td><td>Systems</td>
+<td>
+   {{ range first 2 .Site.Taxonomies.tcppdetails.c_taxonomy }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/c_taxonomy">See All ({{ len .Site.Taxonomies.tcppdetails.c_taxonomy }}) </a> 
+</td></tr>
+
+<tr><td> <u>Know Superscalar (ILP)</u>: Describe opportunities for multiple instruction issue and execution (0.25-1 hours)</td><td>Systems</td><td></td></tr> 
+<tr><td> <u>Know SIMD/Vector (e.g., SSE, Cray)</u>: Describe uses of SIMD/Vector (same operation on multiple data items), e.g., accelerating graphics for games. (0.1-0.5 hours)</td><td>Systems</td>
+<td>
+  {{ range first 2 .Site.Taxonomies.tcppdetails.k_simdvector }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_simdvector">See All ({{ len .Site.Taxonomies.tcppdetails.k_simdvector }}) </a>
+</td></tr>
+<tr><td><u>Know Pipelines (Single vs. multicycle)</u>: Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution (1-2 hours)</td><td>Systems</td><td></td></tr>
+<tr><td><u>Know Streams (e.g., GPU)</u>: Know that stream-based architecture exists in GPUs for graphics (0.1-0.5 hours)</td><td>Systems</td><td></td></tr> 
+<tr><td><u>Know MIMD</u>: Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads (0.1-0.5 hours)</td><td>Systems</td>
+  <td>
+     {{ range first 2 .Site.Taxonomies.tcppdetails.k_mimd }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_mimd">See All ({{ len .Site.Taxonomies.tcppdetails.k_mimd }}) </a>
+
+  </td>
+</tr>
+<tr><td><u>Know Simultaneous MultiThreading</u>: Distinguish SMT from multicore (based on which resources are shared) (0.2-0.5 hours)</td><td>Systems</td><td></td></tr>
+<tr><td><u>Comprehend Multicore</u>: Describe how cores share resources (cache, memory) and resolve conflicts (0.5-1 hours)</td><td>Systems</td>
+<td>
+    {{ range first 2 .Site.Taxonomies.tcppdetails.c_multicore }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/c_multicore">See All ({{ len .Site.Taxonomies.tcppdetails.c_multicore }}) </a>
+
+</td>
+</tr>
+<tr><td> <u>Know Heterogeneous (e.g., Cell,on-chip GPU)</u>: Recognize that multicore may not all be the same kind of core (0.1-0.5 hours)</td><td>Systems</td>
+  <td>
+     {{ range first 2 .Site.Taxonomies.tcppdetails.k_heterogeneous }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_heterogeneous">See All ({{ len .Site.Taxonomies.tcppdetails.k_heterogeneous }}) </a>
+  </td></tr>
+<tr><td> <u>Comprehend Shared vs. distributed memory (SMP Buses)</u>: Systems Single resource, limited bandwidth and latency, snooping, scalability issues (0.5-1 hours)</td><td>Systems</td>
+  <td>
+         {{ range first 2 .Site.Taxonomies.tcppdetails.c_bus }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/c_bus">See All ({{ len .Site.Taxonomies.tcppdetails.c_bus }}) </a>
+
+  </td></tr>
+<tr><td> <u>Know Message Passing Latency</u>: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup (0.2-0.5 hours)</td><td>Systems</td>
+  <td>
+         {{ range first 2 .Site.Taxonomies.tcppdetails.k_latency }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_latency">See All ({{ len .Site.Taxonomies.tcppdetails.k_latency }}) </a>
+  </td></tr>
+<tr><td> <u> Know Message Passing Bandwidth</u>: Know the concept, how it limits sharing, and considerations of data movement cost (0.1-0.5 hours)</td><td>Systems</td>
+  <td>
+         {{ range first 2 .Site.Taxonomies.tcppdetails.k_bandwidth }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_bandwidth">See All ({{ len .Site.Taxonomies.tcppdetails.k_bandwidth }}) </a>
+  </td></tr>
+<tr><td> <u>Comprehend Cache organization</u> Know the cache hierarchies, shared caches (as opposed to private caches) result in coherency and performance issues for software (0.2 to 1 hours) </td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Range</u>: Understand that range is limited, implications of infinities</td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Precision</u>: How single and double precision floating point numbers impact software performance (0.1-0.5 hours)</td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Error Propagation</u>: Understand NaN, Infinity values and how they affect computations and exception handling (0.1-0.5 hours)</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Floating Point IEEE 754 standard</u>: Representation, range, precision, rounding, NaN, infinities, subnormals, comparison, effects of casting to other types (0.5-1 hours)</td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Cycles per Instruction (CPI)</u>: Number of clock cycles for instructions, understand the performance of processor implementation, various pipelined implementations (0.25-1 hours) </td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Performance Benchmark - Spec Mark</u>: Awareness of pitfalls in relying on averages (different averages can alter perception of which architecture is faster) (0.25-0.5 hours)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Peak Performance</u>: Understanding peak performance, how it is rarely valid for estimating real performance, illustrate fallacies (0.1-0.5 hours)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know MIPS/FLOPS</u>: Understand meaning of terms (0.1 hours)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Peak Vs. Sustained Performance</u>: Know difference between peak and sustained performance, how to define, measure, different benchmarks (0.1-0.5 hours)</td><td>Systems</td><td></td></tr>
+</table>
+
+<h3>Programming Topics</h3>
+<p>TCPP's 42 Programming Topics range over four courses: CS2, DSA, Systems and Programming Languages(ProgLang). The list below briefly summarizes what topics are suggested for each course. Please note that there is overlap between the course suggestions.</p>
+<uL>
+  <li><b>CS2:</b>1, 3-6, 10-19, 24-27, 38-42</li>
+  <li><b>DSA:</b> 3-8, 10-42 </li> 
+  <li><b>Systems:</b> 1-2, 7-9, 15-23, 28-31</li>
+  <li><b>ProgLang:</b> 3-6, 13-15, 32-36</li>
+</ul>
+
+<table id="t02">
+    <tr>
+    <th>Topic</th> 
+    <th>Suggested Course</th> 
+    <th>Unplugged Activities</th>
+    </tr>
+<tr><td> 1. Know SIMD: Understand common vector operations including element-by-element operations and reductions (0.5 hours)</td><td>CS2/Systems</td><td></td></tr>
+<tr><td> 2. Know SIMD (Process vector extensions): Know examples - SSE/Altivec macros</td><td>Systems</td><td></td></tr>
+<tr><td> 3. Apply Shared Memory: Be able to write correct thread- based programs (protecting shared data) and understand how to obtain speed up (2 hours).</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> 4. Know Shared Memory (Language Extensions): Know about language extensions for parallel programming. Illustration from Cilk (spawn/join) and Java (Java threads)</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> 5. Comprehend Shared Memory (Compiler Directives): Understand what simple directives, such as those of OpenMP, mean (parallel for, concurrent section), pragmas show examples</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> 6. Comprehend Shared Memory (Libraries): Know one in detail, and know of the existence of some other example libraries such as Pthreads, Pfunc, Intel's TBB (Thread building blocks), Microsoft's TPL (Task Parallel Library), etc.</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+ <tr><td> 7. Comprehend Distributed Memory: Know basic notions of messaging among processes, different ways of message passing, collective operations (1 hour)</td><td>DSA/Systems</td><td></td></tr> 
+ <tr><td> 8. Comprehend Client Server: Know notions of invoking and providing services (e.g., RPC, RMI, web services) - understand these as concurrent processes (1 hour)</td><td>DSA/Systems</td><td></td></tr> 
+ <tr><td> 9. Know Hybrid: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.) (0.5 hours)</td><td>Systems</td><td></td></tr> 
+ <tr><td> 10. Apply Task/thread spawning: Be able to write correct programs with threads, synchronize (fork-join, producer/consumer, etc.), use dynamic threads (in number and possibly
+recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on shared memory topic above (1 hour)</td><td>CS2/DSA</td><td></td></tr> 
+<tr><td> 11. Comprehend SPMD: Understand how SPMD program is written and how it executes (1 hour)</td><td>CS2/DSA</td><td></td></tr> 
+<tr><td> 12. Comprehend SPMD (Notations): Know the existence of highly threaded data parallel notations (e.g., CUDA, OpenCL), message passing (e.g, MPI), and some others (e.g., Global Arrays, BSP library)</td><td>CS2/DSA</td><td></td></tr> 
+<tr><td> 13. Apply Data parallel: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise. Understand relation between different notations for data parallel: Array notations, SPMD, and parallel loops. Builds on shared memory topic above. (1 hour)</td><td>CS2/DSA/ProgLang</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/arrays/Arrays%20in%20Parallel.pdf" target=_blank>FillArray</a> (iPDC Module)</td></tr>
+<tr><td> 14. Apply Parallel loops for shared memory: Know, through an example, one way to implement parallel loops, understand collision/dependencies across iterations (e.g., OpenMP, Intel's TBB) for shared memory</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> 15. Know Tasks and threads: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that (e.g., OpenMP, Intel TBB, etc.) (0.5 hours)</td><td>CS2/DSA/Systems/ProgLang</td><td></td></tr>
+<tr><td> 16. Apply Synchronization: Be able to write shared memory programs with critical regions, producer-consumer communication, and get speedup; know the notions of mechanisms for concurrency (monitors, semaphores, etc.) (1.5 hours)</td><td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> 17. Apply Synchronization (Critical regions): Be able to write shared memory programs that use critical regions for synchronization</td><td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> 18. Apply Synchronization (Producer-consumer): Be able to write shared memory programs that use the producer-consumer pattern to share data and synchronize threads</td><td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> 19. Know Synchronization (Monitors): Understand how to use monitors for synchronization</td><td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> 20. Comprehend Concurrency Defects: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a data race, the output may depend on the order of execution) (1 hour)</td><td>DSA/Systems</td><td><a href="https://classic.csunplugged.org/routing-and-deadlock/" target=_blank>Orange Game</a> (CSUnplugged.org)</td></tr>
+<tr><td> 21. Comprehend Concurrency Defects (Deadlocks): Understand what a deadlock is, and methods for detecting and preventing them</td><td>DSA/Systems</td><td><a href="https://classic.csunplugged.org/routing-and-deadlock/" target=_blank>Orange Game</a> (CSUnplugged.org)</td></tr>
+<tr><td> 22. Know Concurrency Defects (Data Races):  Know what a data race is, and how to use synchronization to prevent it</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> 23. Know Concurrency Defects (Tools to detect concurrency defects): Know the existence of tools to detect race conditions (e.g., Eraser) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> 24. Comprehend Computation: Understand the basic notions of static and dynamic scheduling, mapping and impact of load balancing on performance (1.5 hours)</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 25. Comprehend Computation (decomposition strategies): Understand different ways to assign computations to threads or processes</td><td>CS2/DSA</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/m&m_sorting/M&M%20Sorting.pdf" target=_blank>M&amp;MSorting</a> (iPDC Module)</td></tr>
+<tr><td> 26. Comprehend Computation Decomposition (Owner computes rule): Understand how to assign loop iterations to threads based on which thread/process owns the data element(s) written in an iteration</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 27. Comprehend Computation Decomposition (Decomposition into atomic tasks): Understand how to decompose computations into tasks with communication only at the beginning and end of each task, and assign them to threads/processes</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 28. Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes (1 hour)</td><td>DSA/Systems</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/m&m_sorting/M&M%20Sorting.pdf" target=_blank>M&amp;MSorting</a> (iPDC Module)</td></tr>
+<tr><td> 29. Comprehend Scheduling and mapping: Understand how a programmer or compiler maps and schedules computations to threads/processes, both statically and dynamically (1 hour)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> 30. Comprehend Scheduling and mapping (Static): Understand how to map and schedule computations before runtime</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> 31. Comprehend Scheduling and mapping (Dynamic): Understand how to map and schedule computations at runtime</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> 32. Know Data: Understand impact of data distribution, layout and locality on performance; know false sharing and its impact on performance (e.g., in a cyclic mapping in a parallel loop); notion that transfer of data has fixed cost plus bit rate (irrespective of transfer from memory or inter-processor) (1 hour)</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> 33. Know Data Distribution: Know what block, cyclic, and block-cyclic data distributions are, and what it means to distribute data across multiple threads/processes</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> 34. Know Data layout: Know how to lay out data in memory to get improve performance (memory hierarchy)</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> 35. Know Data locality: Know what spatial and temporal locality are, and how to organize data to take advantage of them</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> 36. Know False sharing: Know that for cache coherent shared memory systems, data is kept coherent in blocks, not individual words, and how to avoid false sharing across threads of data for a block</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> 37. Know Performance: Know of tools for runtime monitoring (e.g., gprof, monitoring tools Vtune) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> 38. Comprehend Performance Metrics: Know the basic definitions of performance metrics (speedup, efficiency, work, cost), Amdahl's law; know the notions of scalability (1 hour)</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 39. Comprehend Performance Metrics (Speedup): Understand how to compute speedup, and what it means</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 40. Comprehend Performance Metrics (Efficiency): Understand how to compute efficiency, and why it matters</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 41. Know Performance Metrics (Amdahl's Law): Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 42. Know Performance Metrics (Gustafson’s Law): Understand the idea of weak scaling, where problem size increases as the number of processes/threads increases</td><td>CS2/DSA</td><td></td></tr>
+</table>
+
+
+<p><br></p>
+  <!--<a href="{{ .Site.BaseURL }}cs2013details/pd_2">{{ len .Site.Taxonomies.cs2013details.pd_2 }} Activities </a> -->
+<h3>Parallel Decomposition (<a href="{{ .Site.BaseURL }}cs2013/pd_paralleldecomposition">{{ len .Site.Taxonomies.cs2013.pd_paralleldecomposition }} Activities  </a>) </h3>
+<table >
+    <tr>
+    <th  width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Core Tier 1 </th></tr>
+<tr><td> 1. Explain why synchronization is necessary in a specific parallel program. [Usage] </td><td>   {{ range first 2 .Site.Taxonomies.cs2013details.pd_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_1">See All ({{ len .Site.Taxonomies.cs2013details.pd_1 }}) </a>
+  </td></tr>
+<tr><td> 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</td>
+<td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.pd_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_2">See All ({{ len .Site.Taxonomies.cs2013details.pd_2 }}) </a>
+</td>
+
+</tr> 
+<tr><th>Core Tier 2 </th></tr>
+<tr><td> 3. Write a correct and scalable parallel algorithm. [Usage]</td>
+  <td>
+
+  </td>
+</tr> 
+
+<tr><td> 4. Parallelize an algorithm by applying task-based decomposition. [Usage]</td><td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.pd_4 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_4">See All ({{ len .Site.Taxonomies.cs2013details.pd_4 }}) </a>
+  </td></tr>
+
+<tr><td> 5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</td><td>
+{{ range first 2 .Site.Taxonomies.cs2013details.pd_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/pd_5">See All ({{ len .Site.Taxonomies.cs2013details.pd_5 }}) </a>
+</td></tr>
+<tr><td> 6. Write a program using actors and/or reactive processes. [Usage]</td><td></td></tr>
+</table> 
+
+<p><br></p>
+
+<h3>Communication and Coordination (<a href="{{ .Site.BaseURL }}cs2013/pd_communicationandcoordination">{{ len .Site.Taxonomies.cs2013.pd_communicationandcoordination }} Activities  </a>) </h3>
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> <th>Unplugged Activities</th>
+<tr><th>Core Tier 1 </th></tr>
+<tr><td> 1. Use mutual exclusion to avoid a given race condition. [Usage] </td>
+  <td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.cac_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_1">See All ({{ len .Site.Taxonomies.cs2013details.cac_1 }}) </a>
+  </td></tr>
+<tr><td> 2. Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity] </td>
+  <td>  {{ range first 2 .Site.Taxonomies.cs2013details.cac_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_2">See All ({{ len .Site.Taxonomies.cs2013details.cac_2 }}) </a></td></tr>
+<tr><th>Core Tier 2 </th></tr>
+<tr><td> 3. Give an example of a scenario in which blocking message sends can deadlock. [Usage]</td>
+  <td>
+      {{ range first 2 .Site.Taxonomies.cs2013details.cac_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_3">See All ({{ len .Site.Taxonomies.cs2013details.cac_3 }}) </a></td></tr>
+<tr><td> 4. Explain when and why multicast or event-based messaging can be preferable to alternatives. [Familiarity] </td>
+  <td>
+  
+  </td></tr>
+<tr><td> 5. Write a program that correctly terminates when all of a set of concurrent tasks have completed. [Usage] </td><td>
+      {{ range first 2 .Site.Taxonomies.cs2013details.cac_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_5">See All ({{ len .Site.Taxonomies.cs2013details.cac_5 }}) </a>
+</td></tr>
+<tr><td> 6. Use a properly synchronized queue to buffer data passed among activities. [Usage] </td><td>
+  
+</td></tr>
+<tr><td> 7. Explain why checks for preconditions, and actions based on these checks, must share the same unit of atomicity to be effective. [Familiarity] </td>
+  <td>    {{ range first 2 .Site.Taxonomies.cs2013details.cac_7 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_7">See All ({{ len .Site.Taxonomies.cs2013details.cac_7 }}) </a></td></tr>
+<tr><td> 8. Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable. [Usage] </td>
+  <td>    {{ range first 2 .Site.Taxonomies.cs2013details.cac_8 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cac_8">See All ({{ len .Site.Taxonomies.cs2013details.cac_8 }}) </a></td></tr>
+<tr><td> 9. Describe at least one design technique for avoiding liveness failures in programs using multiple locks or semaphores. [Familiarity] </td>
+
+<tr><td> 10. Describe the relative merits of optimistic versus conservative concurrency control under different rates of contention among updates. [Familiarity] </td>
+  <td>
+  <td>    
+  </td></tr>
+<tr><td> 11. Give an example of a scenario in which an attempted optimistic update may never complete. [Familiarity] </td><td>
+
+ </td></tr>
+</td></tr>
+</table>
+
+<p><br></p>
+<h3>Parallel Algorithms, Analysis, &amp; Programming ( <a href="{{ .Site.BaseURL }}cs2013/pd_parallelalgorithms">{{ len .Site.Taxonomies.cs2013.pd_parallelalgorithms }} Activities  </a>) </h3>
+<table>
+    <tr>
+    <th width = "60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Core Tier 2 </th></tr>
+<tr><td> 1. Define "critical path", "work", and "span". [Familiarity] </td><td></td></tr>
+<tr><td> 2. Compute the work and span, and determine the critical path with respect to a parallel execution diagram. [Usage] </td><td></td></tr>
+<tr><td> 3. Define "speed-up" and explain the notion of an algorithm's scalability in this regard. [Familiarity] </td>
+  <td>
+      {{ range first 2 .Site.Taxonomies.cs2013details.algo_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_3">See All ({{ len .Site.Taxonomies.cs2013details.algo_3 }}) </a>
+  </td>
+</tr>
+<tr><td> 4. Identify independent tasks in a program that may be parallelized. [Usage] </td>
+  <td>
+       {{ range first 2 .Site.Taxonomies.cs2013details.algo_4 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_4">See All ({{ len .Site.Taxonomies.cs2013details.algo_4 }}) </a>
+  </td></tr>
+<tr><td> 5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</td><td>
+ {{ range first 2 .Site.Taxonomies.cs2013details.algo_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_5">See All ({{ len .Site.Taxonomies.cs2013details.algo_5 }}) </a>
+
+</td></tr>
+<tr><td> 6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog. </td>
+<td>
+ {{ range first 2 .Site.Taxonomies.cs2013details.algo_6 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_6">See All ({{ len .Site.Taxonomies.cs2013details.algo_6 }}) </a>
+</td></tr>
+<tr><td> 7. Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.</td><td></td></tr>
+<tr><th>Elective </th></tr>
+<tr><td> 8. Provide an example of a problem that fits the producer-consumer paradigm. [Familiarity]</td><td></td></tr>
+<tr><td> 9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</td>
+<td>
+        {{ range first 2 .Site.Taxonomies.cs2013details.algo_9 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_9">See All ({{ len .Site.Taxonomies.cs2013details.algo_9 }}) </a>
+</td></tr>
+
+
+<tr><td> 10. Implement a parallel matrix algorithm. [Usage]</td>
+  <td>
+        {{ range first 2 .Site.Taxonomies.cs2013details.algo_10 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/algo_10">See All ({{ len .Site.Taxonomies.cs2013details.algo_10 }}) </a>
+  </td></tr>
+<tr><td> 11. Identify issues that arise in producer-consumer algorithms and mechanisms that may be used for addressing them. [Familiarity]</td><td></td></tr>
+</table>
+
+<p><br></p>
+
+<h3>Parallel Architecture (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelarchitecture">{{ len .Site.Taxonomies.cs2013.pd_parallelarchitecture }} Activities  </a>) </h3>
+
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Core Tier 1 </th></tr>
+<tr><td> 1. Explain the differences between shared and distributed memory. [Familiarity] [Core-Tier2] </td><td>
+   {{ range first 2 .Site.Taxonomies.cs2013details.arch_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_1">See All ({{ len .Site.Taxonomies.cs2013details.arch_1 }}) </a>
+</td></tr>
+ <tr><th>Core Tier 2 </th></tr>
+<tr><td> 2. Describe the SMP architecture and note its key features. [Familiarity] </td>
+  <td>
+       {{ range first 2 .Site.Taxonomies.cs2013details.arch_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_2">See All ({{ len .Site.Taxonomies.cs2013details.arch_2 }}) </a>
+  </td></tr>
+<tr><td> 3. Characterize the kinds of tasks that are a natural match for SIMD machines. [Familiarity]</td>
+  <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_3">See All ({{ len .Site.Taxonomies.cs2013details.arch_3 }}) </a></td></tr>
+ <tr><th>Elective </th></tr>
+<tr><td>4. Describe the advantages and limitations of GPUs vs. CPUs. [Familiarity]</td>
+  <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_4 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_4">See All ({{ len .Site.Taxonomies.cs2013details.arch_4 }}) </a></td></tr>
+<tr><td>5. Explain the features of each classification in Flynn's taxonomy. [Familiarity]</td><td>
+     {{ range first 2 .Site.Taxonomies.cs2013details.arch_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_5">See All ({{ len .Site.Taxonomies.cs2013details.arch_5 }}) </a>
+</td></tr>
+<tr><td>6. Describe assembly-level support for atomic operations. [Familiarity]</td>
+  <td>   </td></tr>
+<tr><td>7. Describe the challenges in maintaining cache coherence. [Familiarity]</td><td>
+
+</td></tr>
+<tr><td>8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</td><td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.arch_8 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/arch_8">See All ({{ len .Site.Taxonomies.cs2013details.arch_8 }}) </a>
+</td></tr>
+</table>
+
+<p><br></p>
+
+
+<h3>Parallel Performance (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelperformance">{{ len .Site.Taxonomies.cs2013.pd_parallelperformance }} Activities  </a>
+)</h3>
+
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Elective </th></tr>
+<tr><td>1. Detect and correct a load imbalance. [Usage]</td><td>
+{{ range first 2 .Site.Taxonomies.cs2013details.perf_1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_1">See All ({{ len .Site.Taxonomies.cs2013details.perf_1 }}) </a>
+</td></tr>
+<tr><td>2. Calculate the implications of Amdahl's law for a particular parallel algorithm (cross-reference SF/Evaluation for Amdahl's Law). [Usage]</td>
+  <td>
+    {{ range first 2 .Site.Taxonomies.cs2013details.perf_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_2">See All ({{ len .Site.Taxonomies.cs2013details.perf_2 }}) </a></td></tr>
+<tr><td>3. Describe how data distribution/layout can affect an algorithm's communication costs. [Familiarity]</td>
+  <td>{{ range first 2 .Site.Taxonomies.cs2013details.perf_3 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_3">See All ({{ len .Site.Taxonomies.cs2013details.perf_3 }}) </a></td></tr>
+<tr><td>4. Detect and correct an instance of false sharing. [Usage]</td>
+  <td></td></tr>
+<tr><td>5. Explain the impact of scheduling on parallel performance. [Familiarity]</td><td>
+  {{ range first 2 .Site.Taxonomies.cs2013details.perf_5 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/perf_5">See All ({{ len .Site.Taxonomies.cs2013details.perf_5 }}) </a>
+</td></tr>
+<tr><td>6. Explain performance impacts of data locality. [Familiarity]</td><td>
+
+</td></tr>
+<tr><td>7. Explain the impact and trade-off related to power usage on parallel performance. [Familiarity]</td><td>
+</td></tr>
+</table>
+
+<p><br></p>
+
+<h3>Cloud Computing (<a href="{{ .Site.BaseURL }}cs2013/pd_cloudcomputing">{{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities  </a>)</h3>
+
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Elective </th></tr>
+<tr><td>1. Discuss the importance of elasticity and resource management in cloud computing. [Familiarity]</td><td></td></tr>
+<tr><td>2. Explain strategies to synchronize a common view of shared data across a collection of devices.[Familiarity]</td><td>
+   {{ range first 2 .Site.Taxonomies.cs2013details.cc_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}cs2013details/cc_2">See All ({{ len .Site.Taxonomies.cs2013details.cc_2 }}) </a>
+</td></tr>
+<tr><td>3. Explain the advantages and disadvantages of using virtualized infrastructure. [Familiarity]</td><td></td></tr>
+<tr><td>4. Deploy an application that uses cloud infrastructure for computing and/or data resources. [Usage]</td><td></td></tr>
+<tr><td>5. Appropriately partition an application between a client and resources. [Usage]</td><td></td></tr>
+</table>
+</main>
+
+{{ partial "footer" . }}

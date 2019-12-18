@@ -12,6 +12,7 @@ googleAnalytics = ""
     tcpp = "tcpp"
     cs2013 = "cs2013"
     cs2013detail = "cs2013details"
+    tcppdetail = "tcppdetails"
 
 [params]
     author = "Suzanne J. Matthews (CSinParallel)"
@@ -46,7 +47,7 @@ googleAnalytics = ""
     weight = 4
 
 [[menu.main]]
-    url = "/tcpp/"
+    url = "/tcpp-overview/"
     name = "TCPP View"
     weight = 4
 
