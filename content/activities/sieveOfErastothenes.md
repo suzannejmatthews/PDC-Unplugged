@@ -4,6 +4,7 @@ date: 2019-11-04T10:56:26-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_5", "Arch_1", Perf_1"]
 tcpp: ["TCPP_Programming", "TCPP_Architecture"]
+tcppdetails: ["C_Taxonomy"]
 courses: ["CS2", "DSA", "Systems", ProgLang"]
 senses: ["movement", "visual"]
 draft: true

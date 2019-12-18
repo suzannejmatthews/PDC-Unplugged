@@ -4,6 +4,7 @@ date: 2019-12-11T15:00:06-05:00
 cs2013: ["PD_ParallelArchitecture"]
 cs2013details: ["Arch_3", "Arch_4"]
 tcpp: ["TCPP_Architecture"]
+tcppdetails: ["K_SIMDVector", "K_MIMD"]
 courses: ["systems"]
 senses: ["touch", "visual"]
 draft: true

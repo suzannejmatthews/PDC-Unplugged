@@ -4,6 +4,7 @@ date: 2019-11-04T09:38:59-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_2", "Algo_4", "Algo_10", "Arch_1", "Perf_3"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
+tcppdetails: ["K_MIMD", "C_Multicore", "C_Bus"]
 courses: ["CS2", "DSA", "Systems"]
 senses: ["movement", "visual"]
 draft: true
@@ -129,7 +130,7 @@ continues as normal.
 
 ### Architecture Topics
 
-* MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads.
+* Know MIMD: Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads.
 * Comprehend Multicore: Describe how cores share resources (cache, memory) and resolve conflicts.
 * Comprehend Shared vs. distributed memory (SMP Buses): Systems Single resource, limited bandwidth and latency, snooping, scalability issues.
 

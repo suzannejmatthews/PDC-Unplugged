@@ -4,6 +4,7 @@ date: 2019-11-04T13:12:43-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Arch_1", "Arch_8", "Perf_1", "Perf_2", "Perf_3", "Perf_5"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
+tcppdetails: ["K_MIMD", "C_Multicore", "K_Latency"]
 courses: ["K-12"]
 senses: ["analogy", "visual", "touch"]
 draft: true
@@ -130,9 +131,9 @@ is much faster than the other, then that processor should get additional work
 
 * Know MIMD:Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads.
 
-*  Comprehend Multicore: Describe how cores share resources (cache, memory) and resolve conflicts.
+* Comprehend Multicore: Describe how cores share resources (cache, memory) and resolve conflicts.
 
-* Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.
+* Know Message passing Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.
 
 ### Programming Topics 
 

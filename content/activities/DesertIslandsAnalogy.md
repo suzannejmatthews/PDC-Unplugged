@@ -4,6 +4,7 @@ date: 2019-11-05T15:34:13-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_5", "Arch_1", "Arch_3", "Arch_4", "Arch_5", "Arch_8", "Perf_3"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
+tcppdetails: ["C_Taxonomy", "K_Heterogeneous", "K_Hybrid"]
 courses: ["CS2", "DSA", "Systems"]
 senses: ["analogy", "visual", "movement"]
 draft: true
@@ -102,14 +103,14 @@ MIMD (distributed, multicore) architectures, and SIMD (GPU) architectures.
 
 * Comprehend Parallel Taxonomy: Flynn's taxonomy, data vs. control parallelism, shared/distributed memory.
 * Know Heterogeneous (e.g., Cell,on-chip GPU): Recognize that multicore may not all be the same kind of core.
-* Know Hybrid: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.)
+
 
 
 ### Programming Topics
 
 * Comprehend SPMD: Understand how SPMD program is written and how it executes.
 * Comprehend Distributed Memory: Know basic notions of messaging among processes, different ways of message passing, collective operations.
-
+* Know Hybrid: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.)
 ---
 
 ## Recommended Courses
