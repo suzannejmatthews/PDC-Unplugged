@@ -6,7 +6,7 @@
 
 <h1>TCPP View</h1>
 
- <p>This view classifies PDC unplugged activities by their classification according to the <a href="" target=_blank>NSF/IEEE-TCPP Curriculum Initiative on Parallel 
+ <p>This view classifies PDC unplugged activities by their classification according to the <a href="https://tcpp.cs.gsu.edu/curriculum/" target=_blank>NSF/IEEE-TCPP Curriculum Initiative on Parallel 
    and Distributed Computing</a> (TCPP 2012) which aims to articulate the core PDC areas that an undergraduate computer science student should cover in the course 
    of their undergraduate education. The TCPP report informed the creation of the PD topic area in CS2013, and lists several cross-cutting topics. For the immediate, our 
    focus is on identifying unplugged activities that satisfy each of topics suggested for Core courses (CS1, CS2, Systems and DS/A); Advanced/Elective courses are not 
@@ -241,186 +241,61 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <p><br></p>
 
 
-
-
-
-
-<p><br></p>
-<h3>Parallel Algorithms, Analysis, &amp; Programming ( <a href="{{ .Site.BaseURL }}cs2013/pd_parallelalgorithms">{{ len .Site.Taxonomies.cs2013.pd_parallelalgorithms }} Activities  </a>) </h3>
-<table>
-    <tr>
-    <th width = "60%">Learning Outcome</th> 
-    <th>Unplugged Activities</th>
-    <tr><th>Core Tier 2 </th></tr>
-<tr><td> 1. Define "critical path", "work", and "span". [Familiarity] </td><td></td></tr>
-<tr><td> 2. Compute the work and span, and determine the critical path with respect to a parallel execution diagram. [Usage] </td><td></td></tr>
-<tr><td> 3. Define "speed-up" and explain the notion of an algorithm's scalability in this regard. [Familiarity] </td>
-  <td>
-      {{ range first 2 .Site.Taxonomies.cs2013details.algo_3 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_3">See All ({{ len .Site.Taxonomies.cs2013details.algo_3 }}) </a>
-  </td>
-</tr>
-<tr><td> 4. Identify independent tasks in a program that may be parallelized. [Usage] </td>
-  <td>
-       {{ range first 2 .Site.Taxonomies.cs2013details.algo_4 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_4">See All ({{ len .Site.Taxonomies.cs2013details.algo_4 }}) </a>
-  </td></tr>
-<tr><td> 5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</td><td>
- {{ range first 2 .Site.Taxonomies.cs2013details.algo_5 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_5">See All ({{ len .Site.Taxonomies.cs2013details.algo_5 }}) </a>
-
-</td></tr>
-<tr><td> 6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog. </td>
-<td>
- {{ range first 2 .Site.Taxonomies.cs2013details.algo_6 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_6">See All ({{ len .Site.Taxonomies.cs2013details.algo_6 }}) </a>
-</td></tr>
-<tr><td> 7. Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.</td><td></td></tr>
-<tr><th>Elective </th></tr>
-<tr><td> 8. Provide an example of a problem that fits the producer-consumer paradigm. [Familiarity]</td><td></td></tr>
-<tr><td> 9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</td>
-<td>
-        {{ range first 2 .Site.Taxonomies.cs2013details.algo_9 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_9">See All ({{ len .Site.Taxonomies.cs2013details.algo_9 }}) </a>
-</td></tr>
-
-
-<tr><td> 10. Implement a parallel matrix algorithm. [Usage]</td>
-  <td>
-        {{ range first 2 .Site.Taxonomies.cs2013details.algo_10 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_10">See All ({{ len .Site.Taxonomies.cs2013details.algo_10 }}) </a>
-  </td></tr>
-<tr><td> 11. Identify issues that arise in producer-consumer algorithms and mechanisms that may be used for addressing them. [Familiarity]</td><td></td></tr>
-</table>
-
-<p><br></p>
-
-<h3>Parallel Architecture (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelarchitecture">{{ len .Site.Taxonomies.cs2013.pd_parallelarchitecture }} Activities  </a>) </h3>
+<h3>Algorithms Topics (<a href="{{ .Site.BaseURL }}tcpp/tcpp_algorithms">{{ len .Site.Taxonomies.tcpp.tcpp_algorithms }} Activities </a>)</h3>
 
 <table>
-    <tr>
-    <th width="60%">Learning Outcome</th> 
-    <th>Unplugged Activities</th>
-    <tr><th>Core Tier 1 </th></tr>
-<tr><td> 1. Explain the differences between shared and distributed memory. [Familiarity] [Core-Tier2] </td><td>
-   {{ range first 2 .Site.Taxonomies.cs2013details.arch_1 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_1">See All ({{ len .Site.Taxonomies.cs2013details.arch_1 }}) </a>
-</td></tr>
- <tr><th>Core Tier 2 </th></tr>
-<tr><td> 2. Describe the SMP architecture and note its key features. [Familiarity] </td>
-  <td>
-       {{ range first 2 .Site.Taxonomies.cs2013details.arch_2 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_2">See All ({{ len .Site.Taxonomies.cs2013details.arch_2 }}) </a>
-  </td></tr>
-<tr><td> 3. Characterize the kinds of tasks that are a natural match for SIMD machines. [Familiarity]</td>
-  <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_3 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_3">See All ({{ len .Site.Taxonomies.cs2013details.arch_3 }}) </a></td></tr>
- <tr><th>Elective </th></tr>
-<tr><td>4. Describe the advantages and limitations of GPUs vs. CPUs. [Familiarity]</td>
-  <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_4 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_4">See All ({{ len .Site.Taxonomies.cs2013details.arch_4 }}) </a></td></tr>
-<tr><td>5. Explain the features of each classification in Flynn's taxonomy. [Familiarity]</td><td>
-     {{ range first 2 .Site.Taxonomies.cs2013details.arch_5 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_5">See All ({{ len .Site.Taxonomies.cs2013details.arch_5 }}) </a>
-</td></tr>
-<tr><td>6. Describe assembly-level support for atomic operations. [Familiarity]</td>
-  <td>   </td></tr>
-<tr><td>7. Describe the challenges in maintaining cache coherence. [Familiarity]</td><td>
-
-</td></tr>
-<tr><td>8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</td><td>
-    {{ range first 2 .Site.Taxonomies.cs2013details.arch_8 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_8">See All ({{ len .Site.Taxonomies.cs2013details.arch_8 }}) </a>
-</td></tr>
+<tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
+<tr><td> <u>Comprehend Asymptotics</u>: Understand upper (big-O) and lower bounds (big- Omega,); follow elementary big-O analyses, e.g., the O(log n) tree-depth argument for mergesort with unbounded parallelism. (1 hour)</td> <td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Time</u>: Recognize time as a fundamental computational resource that can be influenced by parallelism (0.33 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Space/Memory</u>: Recognize space/memory in the same manner as time (0.33 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> 4. Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> 5. Comprehend/Know Scalability in algorithms and architectures: Comprehend via several examples that having access more processors does not guarantee faster execution --- the notion of inherent sequentiality (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> 6. Know Complexity Theory (PRAM): Recognize the PRAM as embodying the simplest forms of parallel computation: Embarrassingly parallel problems can be sped up easily just by employing many processors (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> 7. Know Complexity Theory (BSP/CILK): Be exposed to higher-level algorithmic abstractions that encapsulate more aspects of real architectures. Either BSP or CILK would be a good option to introduce a higher level programming model and higher-level notions. Remark that both of these abstractions have led to programming models. (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> 8. Apply Scheduling (Dependencies): Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures (0.5 hours)</td><td>CS1/CS2/DSA</td><td></td></tr>
+<tr><td> 9. Comprehend Scheduling (Task Graphs): See multiple examples of this concrete algorithmic abstraction as a mechanism for exposing inter-task dependencies. These graphs, which are used also in compiler analyses, form the level at which parallelism is exposed and exploited (0.5 hours)</td><td>DSA/SWEng</td><td></td></tr>
+<tr><td> 10. Comprehend Work: Observe the impact of computational work (e.g., the total number of tasks executed) on complexity measures such as power consumption. (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> 11. Know Make/Span: Observe analyses in which makespan is identified with parallel time (basically, time to completion) (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> 12. Comprehend  Divide & conquer (parallel aspects): Observe, via tree-structured examples such as mergesort or numerical integration (trapezoid rule, Simpson's rule) or (at a more advanced level) Strassen's matrix-multiply, how the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation (1 hour) <td>CS2/DSA/Algo2</td><td></td></tr>
+<tr><td> 13. Comprehend Recursion (parallel aspects): Recognize algorithms that, via unfolding, yield tree structures whose subtrees can be computed independently, in parallel (0.5 hours)</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> 14. Know/Comprehend Reduction (map-reduce): Recognize, and use, the tree structure implicit in scalar product or mergesort or histogram (equivalent apps) (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> 15. Know Dependencies: Understand the impacts of dependencies (0.5 hours)<td>Systems</td><td></td></tr>
+<tr><td> 16. Comprehend/Know Series-parallel composition: Understand how "barrier synchronizations" can be used to enable a simple thread-based abstraction for parallel programming. Understand the
+possible penalties (in parallelism) that this transformation incurs Graph embedding as an algorithmic tool<td>CS2(K)/Systems(C)</td><td></td></tr>
+<tr><td> 17. Comprehend/Apply Communication: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. (2 hours)</td> <td> -- </td><td></td></tr>
+<tr><td> 18. Comprehend/Apply Broadcast: Use this important mode of global communication; observe enabling algorithms for various platforms (e.g., recursive doubling) (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> 19. Know/Comprehend Multicast: Recognize other modalities of global communication on a variety of platforms: e.g., rings, 2D-meshes, hypercubes, trees (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> 20. Comprehend/Apply Scatter/gather: Recognize these informational analogues of Map and reduce (0.5 hours)<td>DSA</td><td></td></tr>
+<tr><td> 21. Know Asynchrony: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td></td></tr>
+<tr><td> 22. Know Synchronization: Be aware of methods for controlling race conditions (1 hour)</td> <td>CS2/DSA</td><td></td></tr>
+<tr><td> 23. Know Sorting: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)</td><td>CS2/DSA</td><td><a href="https://csunplugged.org/en/topics/sorting-networks/unit-plan/" target_blank>Sorting Network</a> (CSUnplugged.org); <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/card_sorting/Card%20Sorting.pdf">CardSorting</a> (iPDC module)</td></tr>
+<tr><td> 24. Know Selection:Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. 0.5 hours)</td><td>CS2/DSA</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/Find_Youngest/Find_Youngest.pdf" target=_blank>FindYoungestStudent</a> (iPDC Module)</td></tr>
+<tr><td> 25. Comprehend Graph algorithms (Search): Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td><td></td></tr>
+<tr><td> 26. Apply Specialized computations: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems. (2 hours)</td><td>CS2/DSA</td><td></td></tr>
 </table>
-
 <p><br></p>
 
 
-<h3>Parallel Performance (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelperformance">{{ len .Site.Taxonomies.cs2013.pd_parallelperformance }} Activities  </a>
-)</h3>
-
-<table>
-    <tr>
-    <th width="60%">Learning Outcome</th> 
-    <th>Unplugged Activities</th>
-    <tr><th>Elective </th></tr>
-<tr><td>1. Detect and correct a load imbalance. [Usage]</td><td>
-{{ range first 2 .Site.Taxonomies.cs2013details.perf_1 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_1">See All ({{ len .Site.Taxonomies.cs2013details.perf_1 }}) </a>
-</td></tr>
-<tr><td>2. Calculate the implications of Amdahl's law for a particular parallel algorithm (cross-reference SF/Evaluation for Amdahl's Law). [Usage]</td>
-  <td>
-    {{ range first 2 .Site.Taxonomies.cs2013details.perf_2 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_2">See All ({{ len .Site.Taxonomies.cs2013details.perf_2 }}) </a></td></tr>
-<tr><td>3. Describe how data distribution/layout can affect an algorithm's communication costs. [Familiarity]</td>
-  <td>{{ range first 2 .Site.Taxonomies.cs2013details.perf_3 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_3">See All ({{ len .Site.Taxonomies.cs2013details.perf_3 }}) </a></td></tr>
-<tr><td>4. Detect and correct an instance of false sharing. [Usage]</td>
-  <td></td></tr>
-<tr><td>5. Explain the impact of scheduling on parallel performance. [Familiarity]</td><td>
-  {{ range first 2 .Site.Taxonomies.cs2013details.perf_5 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_5">See All ({{ len .Site.Taxonomies.cs2013details.perf_5 }}) </a>
-</td></tr>
-<tr><td>6. Explain performance impacts of data locality. [Familiarity]</td><td>
-
-</td></tr>
-<tr><td>7. Explain the impact and trade-off related to power usage on parallel performance. [Familiarity]</td><td>
-</td></tr>
-</table>
-
 <p><br></p>
 
-<h3>Cloud Computing (<a href="{{ .Site.BaseURL }}cs2013/pd_cloudcomputing">{{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities  </a>)</h3>
+<h3>Cross Cutting and Advanced Topics (<a href="{{ .Site.BaseURL }}tcpp/tcpp_crosscutting">{{ len .Site.Taxonomies.tcpp.tcpp_crosscutting }} Activities </a>)</h3>
 
-<table>
-    <tr>
-    <th width="60%">Learning Outcome</th> 
-    <th>Unplugged Activities</th>
-    <tr><th>Elective </th></tr>
-<tr><td>1. Discuss the importance of elasticity and resource management in cloud computing. [Familiarity]</td><td></td></tr>
-<tr><td>2. Explain strategies to synchronize a common view of shared data across a collection of devices.[Familiarity]</td><td>
-   {{ range first 2 .Site.Taxonomies.cs2013details.cc_2 }}
-    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
-    {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cc_2">See All ({{ len .Site.Taxonomies.cs2013details.cc_2 }}) </a>
-</td></tr>
-<tr><td>3. Explain the advantages and disadvantages of using virtualized infrastructure. [Familiarity]</td><td></td></tr>
-<tr><td>4. Deploy an application that uses cloud infrastructure for computing and/or data resources. [Usage]</td><td></td></tr>
-<tr><td>5. Appropriately partition an application between a client and resources. [Usage]</td><td></td></tr>
+<table id="t02">
+<tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
+<tr><td> 1. Know why and what is parallel/distributed computing? Know the common issues and differences between parallel and distributed computing; history and applications. Microscopic level to macroscopic level parallelism in current architectures. (0.5 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> 2. Comprehend Locality: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication. (1 hour)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> 3. Know Concurrency: The degree of inherent parallelism in an algorithm, independent of how it is executed on a machine (0.5 hours)</td> <td>CS2/DSA</td><td></td></tr>
+<tr><td> 4. Know Non-determinism: Different execution sequences can lead to different results hence algorithm design either be tolerant to such phenomena or be able to take advantage of this. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> 5. Know Power Consumption: Know that power consumption is a metric of growing importance, its impact on architectural evolution, and design of algorithms and software. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> 6. Know Fault tolerance: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)</td> <td>Systems</td><td></td></tr>
+<tr><td> 7. Know Cluster Computing:  Be able to describe a cluster as a popular local-memory architecture with commodity compute nodes and a high-performance interconnection network. (0.25 hours)</td> <td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> 8. Know Cloud/grid Computing: Recognize cloud and grid as shared distributed resources - cloud is distinguished by ondemand, virtualized, service-oriented software and hardware resources. (0.25 hours)</td> <td>Systems</td><td></td></tr>
+<tr><td> 9. Know Peer to Peer Computing: Be able to describe a peer to peer system and the roles of server and client nodes with distributed data. Recognize existing peer to peer systems. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> 10. Know Consistency in Distributed Transactions: Recognize classic consistency problems. Know that consistency maintenance is a primary issue in transactions issued concurrently by multiple agents. (0.25 hours)</td> <td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> 11. Know Web search: Recognize popular search engines as large distributed processing systems for information gathering that employ distributed hardware to support efficient response to user searches. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> 12. Know Security in Distributed Systems: Know that distributed systems are more vulnerable to privacy and security threats; distributed attacks modes; inherent tension between privacy and security. (0.5 hours)</td> <td>Systems</td><td></td></tr>
 </table>
+
 </main>
 
 {{ partial "footer" . }}
