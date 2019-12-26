@@ -339,5 +339,26 @@ CS2013 Knowledge Unit Coverage N/A
 TCPP Coverage Algorithms:  Know Sorting: Observe several sorting algorithms for varied platforms &amp;mdash; together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity. CS1/CS2/DSA: The activity can be used to introduce students to parallel sorting concepts in undergraduate courses, but is inappropriate for large classes.</description>
     </item>
     
+    <item>
+      <title>About PDC Unplugged</title>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/about/</guid>
+      <description>What is PDC Unplugged? PDC Unplugged is a free resource for educators looking to integrate more PDC into their classrooms. We curate a collection of unplugged activities from the literature and around the web. Educators are free to use whichever activities they please, provided that they cite the source papers and PDC Unplugged.
+How to Contribute To contribute, please follow instructions on the contribute page.
+Other free resources for PDC There are many other great free resources for PDC Education.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to PDC Unplugged</title>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/contribute/</guid>
+      <description>How to Contribute Everyone is welcome to contribute to PDC Unplugged! Please consider contributing if:
+ If you have a great PDC unplugged activity that you created. If you know of a great PDC unplugged activity (be sure to provide links and/or citations). If you have assessed an existing listed unplugged activity. If you see typos or other need to correct an existing activity.  All submissions to PDC Unplugged are reviewed by the repository administrators.</description>
+    </item>
+    
   </channel>
 </rss>
