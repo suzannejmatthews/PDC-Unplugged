@@ -78,6 +78,7 @@ In this example, each student gets assigned 3 digit columns (thus the `_` on the
 
 
 **Core Tier 2**
+
 4\. Parallelize an algorithm by applying task-based decomposition. [Usage]
 
 ### PD/Parallel Algorithms
