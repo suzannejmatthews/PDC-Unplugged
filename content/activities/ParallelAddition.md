@@ -4,7 +4,7 @@ date: 2019-12-09T15:43:45-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms"]
 cs2013details: ["PD_2", "PD_4", "Algo_3", "Algo_4", "Algo_6"]
 tcpp: ["TCPP_Architecture", "TCPP_Algorithms", "TCPP_Programming"]
-tcppdetails: ["K_Latency", "C_Speedup", "K_Amdahl"]
+tcppdetails: ["K_Latency", "C_Speedup", "K_Amdahl", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer", "K_Selection", "CA_Communication"]
 courses: ["CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
 draft: true
@@ -119,7 +119,7 @@ observe the cost of communication overhead.
 
 * Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism
 * Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) 
-* Apply Scheduling (Dependencies): Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex 
+* Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex 
   computational structures
 * Comprehend Divide & conquer (parallel aspects): Observe, via tree-structured examples such as mergesort . . . how the same structure that enables divide and conquer (sequential) algorithms 
   exposes opportunities for parallel computation

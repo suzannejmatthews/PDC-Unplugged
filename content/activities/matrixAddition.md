@@ -4,7 +4,7 @@ date: 2019-11-04T09:38:59-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_2", "Algo_4", "Algo_10", "Arch_1", "Perf_3"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["K_MIMD", "C_Multicore", "C_Bus", "C_DistributedMemory", "K_Hybrid"]
+tcppdetails: ["K_MIMD", "C_Multicore", "C_Bus", "C_DistributedMemory", "K_Hybrid", "C_Scaling", "CA_Communication", "A_SpecializedComputations"]
 courses: ["CS2", "DSA", "Systems"]
 senses: ["movement", "visual"]
 draft: true
@@ -142,7 +142,7 @@ continues as normal.
 
 ### Algorithms Topics
 * Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)
-* Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC.
+* Comprehend/Apply Communication: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC.
 * Apply Specialized computations: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems.
 
 ---

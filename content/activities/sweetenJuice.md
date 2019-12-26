@@ -4,7 +4,7 @@ date: 2019-11-07T11:07:01-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination"]
 cs2013details: ["PD_1", "CAC_1","CAC_2","CAC_5","CAC_8"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
-tcppdetails: ["A_CriticalRegions", "K_DataRaces"]
+tcppdetails: ["A_CriticalRegions", "K_DataRaces", "K_Synchronization", "K_NonDeterminism"]
 courses: ["K-12", "CS2", "DSA", "Systems"]
 senses: ["movement"]
 draft: true

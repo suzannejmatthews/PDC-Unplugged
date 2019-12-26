@@ -4,7 +4,7 @@ date: 2019-11-01T16:19:09-04:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_2"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["C_Deadlocks", "K_DataRaces"]
+tcppdetails: ["C_Deadlocks", "K_DataRaces", "K_Synchronization"]
 courses: ["CS0", "CS1", "CS2", "Systems", "OS"]
 senses: ["movement", "touch"]
 draft: true

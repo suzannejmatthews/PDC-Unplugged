@@ -5,6 +5,7 @@ cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_1"]
 courses: ["K-12", "Systems"]
 tcpp: ["TCPP_Algorithms", "TCPP_CrossCutting"]
+tcppdetails: ["CA_Communication", "K_FaultTolerance"]
 senses: ["visual", "auditory"]
 
 draft: true

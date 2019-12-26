@@ -246,32 +246,99 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
 <tr><td> <u>Comprehend Asymptotics</u>: Understand upper (big-O) and lower bounds (big- Omega,); follow elementary big-O analyses, e.g., the O(log n) tree-depth argument for mergesort with unbounded parallelism. (1 hour)</td> <td>DSA</td><td></td></tr>
-<tr><td> <u>Comprehend Time</u>: Recognize time as a fundamental computational resource that can be influenced by parallelism (0.33 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Time</u>: Recognize time as a fundamental computational resource that can be influenced by parallelism (0.33 hours)</td><td>DSA</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.c_time }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/c_time">See All ({{ len .Site.Taxonomies.tcppdetails.c_time }}) </a>
+	</td></tr>
 <tr><td> <u>Comprehend Space/Memory</u>: Recognize space/memory in the same manner as time (0.33 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> 4. Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> 5. Comprehend/Know Scalability in algorithms and architectures: Comprehend via several examples that having access more processors does not guarantee faster execution --- the notion of inherent sequentiality (0.5 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> 6. Know Complexity Theory (PRAM): Recognize the PRAM as embodying the simplest forms of parallel computation: Embarrassingly parallel problems can be sped up easily just by employing many processors (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> 7. Know Complexity Theory (BSP/CILK): Be exposed to higher-level algorithmic abstractions that encapsulate more aspects of real architectures. Either BSP or CILK would be a good option to introduce a higher level programming model and higher-level notions. Remark that both of these abstractions have led to programming models. (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> 8. Apply Scheduling (Dependencies): Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures (0.5 hours)</td><td>CS1/CS2/DSA</td><td></td></tr>
-<tr><td> 9. Comprehend Scheduling (Task Graphs): See multiple examples of this concrete algorithmic abstraction as a mechanism for exposing inter-task dependencies. These graphs, which are used also in compiler analyses, form the level at which parallelism is exposed and exploited (0.5 hours)</td><td>DSA/SWEng</td><td></td></tr>
-<tr><td> 10. Comprehend Work: Observe the impact of computational work (e.g., the total number of tasks executed) on complexity measures such as power consumption. (0.5 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> 11. Know Make/Span: Observe analyses in which makespan is identified with parallel time (basically, time to completion) (0.5 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> 12. Comprehend  Divide & conquer (parallel aspects): Observe, via tree-structured examples such as mergesort or numerical integration (trapezoid rule, Simpson's rule) or (at a more advanced level) Strassen's matrix-multiply, how the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation (1 hour) <td>CS2/DSA/Algo2</td><td></td></tr>
-<tr><td> 13. Comprehend Recursion (parallel aspects): Recognize algorithms that, via unfolding, yield tree structures whose subtrees can be computed independently, in parallel (0.5 hours)</td><td>CS2/DSA</td><td></td></tr>
-<tr><td> 14. Know/Comprehend Reduction (map-reduce): Recognize, and use, the tree structure implicit in scalar product or mergesort or histogram (equivalent apps) (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> 15. Know Dependencies: Understand the impacts of dependencies (0.5 hours)<td>Systems</td><td></td></tr>
-<tr><td> 16. Comprehend/Know Series-parallel composition: Understand how "barrier synchronizations" can be used to enable a simple thread-based abstraction for parallel programming. Understand the
+<tr><td> <u>Comprehend Scaling</u>: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) (1 hour)</td><td>DSA</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.c_scaling }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/c_scaling">See All ({{ len .Site.Taxonomies.tcppdetails.c_scaling }}) </a>
+	</td></tr>
+<tr><td> <u>Comprehend/Know Scalability in Algorithms and Architectures</u>: Comprehend via several examples that having access more processors does not guarantee faster execution --- the notion of inherent sequentiality (0.5 hours)</td><td>DSA</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.ck_scalability }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/ck_scalability">See All ({{ len .Site.Taxonomies.tcppdetails.ck_scalability }}) </a>
+	</td></tr>
+<tr><td> <u>Know PRAM</u>: Recognize the PRAM as embodying the simplest forms of parallel computation: Embarrassingly parallel problems can be sped up easily just by employing many processors (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know BSP/CILK</u>: Be exposed to higher-level algorithmic abstractions that encapsulate more aspects of real architectures. Either BSP or CILK would be a good option to introduce a higher level programming model and higher-level notions. Remark that both of these abstractions have led to programming models. (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Apply Dependencies</u>: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures (0.5 hours)</td><td>CS1/CS2/DSA</td>
+	<td>   {{ range first 2 .Site.Taxonomies.tcppdetails.a_dependencies }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/a_dependencies">See All ({{ len .Site.Taxonomies.tcppdetails.a_dependencies }}) </a></td></tr>
+<tr><td> <u>Comprehend Task Graphs</u>: See multiple examples of this concrete algorithmic abstraction as a mechanism for exposing inter-task dependencies. These graphs, which are used also in compiler analyses, form the level at which parallelism is exposed and exploited (0.5 hours)</td><td>DSA/SWEng</td>
+	<td>
+	
+	</td></tr>
+<tr><td> <u>Comprehend Work</u>: Observe the impact of computational work (e.g., the total number of tasks executed) on complexity measures such as power consumption. (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Make/Span</u>: Observe analyses in which makespan is identified with parallel time (basically, time to completion) (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend  Divide & Conquer (parallel aspects)</u>: Observe, via tree-structured examples such as mergesort or numerical integration (trapezoid rule, Simpson's rule) or (at a more advanced level) Strassen's matrix-multiply, how the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation (1 hour) <td>CS2/DSA/Algo2</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.c_divideandconquer }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/c_divideandconquer">See All ({{ len .Site.Taxonomies.tcppdetails.c_divideandconquer }}) </a>
+	</td></tr>
+<tr><td> <u>Comprehend Recursion (parallel aspects)</u>: Recognize algorithms that, via unfolding, yield tree structures whose subtrees can be computed independently, in parallel (0.5 hours)</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u>Know/Comprehend Reduction (map-reduce)</u>: Recognize, and use, the tree structure implicit in scalar product or mergesort or histogram (equivalent apps) (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Dependencies</u>: Understand the impacts of dependencies (0.5 hours)<td>Systems</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_dependencies }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_dependencies">See All ({{ len .Site.Taxonomies.tcppdetails.k_dependencies }}) </a>
+	</td></tr>
+<tr><td> <u> Comprehend/Know Series-parallel composition</u>: Understand how "barrier synchronizations" can be used to enable a simple thread-based abstraction for parallel programming. Understand the
 possible penalties (in parallelism) that this transformation incurs Graph embedding as an algorithmic tool<td>CS2(K)/Systems(C)</td><td></td></tr>
-<tr><td> 17. Comprehend/Apply Communication: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. (2 hours)</td> <td> -- </td><td></td></tr>
-<tr><td> 18. Comprehend/Apply Broadcast: Use this important mode of global communication; observe enabling algorithms for various platforms (e.g., recursive doubling) (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> 19. Know/Comprehend Multicast: Recognize other modalities of global communication on a variety of platforms: e.g., rings, 2D-meshes, hypercubes, trees (0.5 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> 20. Comprehend/Apply Scatter/gather: Recognize these informational analogues of Map and reduce (0.5 hours)<td>DSA</td><td></td></tr>
-<tr><td> 21. Know Asynchrony: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td></td></tr>
-<tr><td> 22. Know Synchronization: Be aware of methods for controlling race conditions (1 hour)</td> <td>CS2/DSA</td><td></td></tr>
-<tr><td> 23. Know Sorting: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)</td><td>CS2/DSA</td><td><a href="https://csunplugged.org/en/topics/sorting-networks/unit-plan/" target_blank>Sorting Network</a> (CSUnplugged.org); <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/card_sorting/Card%20Sorting.pdf">CardSorting</a> (iPDC module)</td></tr>
-<tr><td> 24. Know Selection:Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. 0.5 hours)</td><td>CS2/DSA</td><td><a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/Find_Youngest/Find_Youngest.pdf" target=_blank>FindYoungestStudent</a> (iPDC Module)</td></tr>
-<tr><td> 25. Comprehend Graph algorithms (Search): Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td><td></td></tr>
-<tr><td> 26. Apply Specialized computations: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems. (2 hours)</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u>Comprehend/Apply Communication</u>: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. (2 hours)</td> <td> -- </td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.ca_communication }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/ca_communication">See All ({{ len .Site.Taxonomies.tcppdetails.ca_communication }}) </a>
+	</td></tr>
+<tr><td> <u>Comprehend/Apply Broadcast</u>: Use this important mode of global communication; observe enabling algorithms for various platforms (e.g., recursive doubling) (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know/Comprehend Multicast</u>: Recognize other modalities of global communication on a variety of platforms: e.g., rings, 2D-meshes, hypercubes, trees (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend/Apply Scatter/gather</u>: Recognize these informational analogues of Map and reduce (0.5 hours)<td>DSA</td><td></td></tr>
+<tr><td> <u>Know Asynchrony</u>: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Synchronization</u>: Be aware of methods for controlling race conditions (1 hour)</td> <td>CS2/DSA</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_synchronization }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_synchronization">See All ({{ len .Site.Taxonomies.tcppdetails.k_synchronization }}) </a>
+	</td></tr>
+<tr><td> <u>Know Sorting</u>: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)</td><td>CS2/DSA</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_sorting }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_sorting">See All ({{ len .Site.Taxonomies.tcppdetails.k_sorting }}) </a>
+	</td></tr>
+<tr><td> <u>Know Selection</u>: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. 0.5 hours)</td><td>CS2/DSA</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_selection }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_selection">See All ({{ len .Site.Taxonomies.tcppdetails.k_selection }}) </a>
+	</td></tr>
+<tr><td> <u>Comprehend Graph Search Algorithms</u>: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td><td></td></tr>
+<tr><td> <u>Apply Specialized computations</u>: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems. (2 hours)</td><td>CS2/DSA</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.a_specializedcomputations }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/a_specializedcomputations">See All ({{ len .Site.Taxonomies.tcppdetails.a_specializedcomputations }}) </a>
+	</td></tr>
 </table>
 <p><br></p>
 
@@ -282,18 +349,53 @@ possible penalties (in parallelism) that this transformation incurs Graph embedd
 
 <table id="t02">
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
-<tr><td> 1. Know why and what is parallel/distributed computing? Know the common issues and differences between parallel and distributed computing; history and applications. Microscopic level to macroscopic level parallelism in current architectures. (0.5 hours)</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> 2. Comprehend Locality: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication. (1 hour)</td> <td>DSA/Systems</td><td></td></tr>
-<tr><td> 3. Know Concurrency: The degree of inherent parallelism in an algorithm, independent of how it is executed on a machine (0.5 hours)</td> <td>CS2/DSA</td><td></td></tr>
-<tr><td> 4. Know Non-determinism: Different execution sequences can lead to different results hence algorithm design either be tolerant to such phenomena or be able to take advantage of this. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
-<tr><td> 5. Know Power Consumption: Know that power consumption is a metric of growing importance, its impact on architectural evolution, and design of algorithms and software. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
-<tr><td> 6. Know Fault tolerance: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)</td> <td>Systems</td><td></td></tr>
-<tr><td> 7. Know Cluster Computing:  Be able to describe a cluster as a popular local-memory architecture with commodity compute nodes and a high-performance interconnection network. (0.25 hours)</td> <td>CS2/DSA/Systems</td><td></td></tr>
-<tr><td> 8. Know Cloud/grid Computing: Recognize cloud and grid as shared distributed resources - cloud is distinguished by ondemand, virtualized, service-oriented software and hardware resources. (0.25 hours)</td> <td>Systems</td><td></td></tr>
-<tr><td> 9. Know Peer to Peer Computing: Be able to describe a peer to peer system and the roles of server and client nodes with distributed data. Recognize existing peer to peer systems. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> 10. Know Consistency in Distributed Transactions: Recognize classic consistency problems. Know that consistency maintenance is a primary issue in transactions issued concurrently by multiple agents. (0.25 hours)</td> <td>CS1/CS2/Systems</td><td></td></tr>
-<tr><td> 11. Know Web search: Recognize popular search engines as large distributed processing systems for information gathering that employ distributed hardware to support efficient response to user searches. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> 12. Know Security in Distributed Systems: Know that distributed systems are more vulnerable to privacy and security threats; distributed attacks modes; inherent tension between privacy and security. (0.5 hours)</td> <td>Systems</td><td></td></tr>
+<tr><td> <u>Know why and what is parallel/distributed computing</u>: Know the common issues and differences between parallel and distributed computing; history and applications. Microscopic level to macroscopic level parallelism in current architectures. (0.5 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> <u>Comprehend Locality</u>: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication. (1 hour)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Know Concurrency</u>: The degree of inherent parallelism in an algorithm, independent of how it is executed on a machine (0.5 hours)</td> <td>CS2/DSA</td><td>
+	   {{ range first 2 .Site.Taxonomies.tcppdetails.k_concurrency }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_concurrency">See All ({{ len .Site.Taxonomies.tcppdetails.k_concurrency }}) </a>
+</td></tr>
+<tr><td> <u>Know Non-determinism</u>: Different execution sequences can lead to different results hence algorithm design either be tolerant to such phenomena or be able to take advantage of this. (0.5 hours)</td> <td>DSA/Systems</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_nondeterminism }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_nondeterminism">See All ({{ len .Site.Taxonomies.tcppdetails.k_nondeterminism }}) </a>
+	</td></tr>
+<tr><td> <u>Know Power Consumption</u>: Know that power consumption is a metric of growing importance, its impact on architectural evolution, and design of algorithms and software. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Know Fault tolerance</u>: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)</td> <td>Systems</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_faulttolerance }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_faulttolerance">See All ({{ len .Site.Taxonomies.tcppdetails.k_faulttolerance }}) </a>
+	</td></tr>
+<tr><td> <u>Know Cluster Computing</u>: Be able to describe a cluster as a popular local-memory architecture with commodity compute nodes and a high-performance interconnection network. (0.25 hours)</td> <td>CS2/DSA/Systems</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_clustercomputing }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_clustercomputing">See All ({{ len .Site.Taxonomies.tcppdetails.k_clustercomputing }}) </a>
+	</td></tr>
+<tr><td> <u>Know Cloud/grid Computing</u>: Recognize cloud and grid as shared distributed resources - cloud is distinguished by ondemand, virtualized, service-oriented software and hardware resources. (0.25 hours)</td> <td>Systems</td><td></td></tr>
+<tr><td> <u>Know Peer to Peer Computing</u>: Be able to describe a peer to peer system and the roles of server and client nodes with distributed data. Recognize existing peer to peer systems. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> <u>Know Consistency in Distributed Transactions</u>: Recognize classic consistency problems. Know that consistency maintenance is a primary issue in transactions issued concurrently by multiple agents. (0.25 hours)</td> <td>CS1/CS2/Systems</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_consistency }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_consistency">See All ({{ len .Site.Taxonomies.tcppdetails.k_consistency }}) </a>
+	</td></tr>
+<tr><td> <u>Know Web search</u>: Recognize popular search engines as large distributed processing systems for information gathering that employ distributed hardware to support efficient response to user searches. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> <u>Know Security in Distributed Systems</u>: Know that distributed systems are more vulnerable to privacy and security threats; distributed attacks modes; inherent tension between privacy and security. (0.5 hours)</td> <td>Systems</td>
+	<td>
+		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_security }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}tcppdetails/k_security">See All ({{ len .Site.Taxonomies.tcppdetails.k_security }}) </a>
+	</td></tr>
 </table>
 
 </main>
