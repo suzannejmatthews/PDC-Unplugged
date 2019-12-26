@@ -37,6 +37,11 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.main]]
+    url = "/contribute/"
+    name = "Contribute"
+    weight = 2
+
+[[menu.main]]
     url = "/activities/"
     name = "All Activities"
     weight = 3
