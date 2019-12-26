@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tcpp Overview</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+            <link href="/PDC-Unplugged/tcpp-overview/index.xml" rel="alternate" type="application/rss&#43;xml" title="PDC Unplugged" />
+            <link href="/PDC-Unplugged/tcpp-overview/index.xml" rel="feed" type="application/rss&#43;xml" title="PDC Unplugged" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Tcpp Overview</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+
+
+<main align="left">
+
+<h1>TCPP View</h1>
+
+ <p>This view classifies PDC unplugged activities by their classification according to the <a href="https://tcpp.cs.gsu.edu/curriculum/" target=_blank>NSF/IEEE-TCPP Curriculum Initiative on Parallel 
+   and Distributed Computing</a> (TCPP 2012) which aims to articulate the core PDC areas that an undergraduate computer science student should cover in the course 
+   of their undergraduate education. The TCPP report informed the creation of the PD topic area in CS2013, and lists several cross-cutting topics. For the immediate, our 
+   focus is on identifying unplugged activities that satisfy each of topics suggested for Core courses (CS1, CS2, Systems and DS/A); Advanced/Elective courses are not 
+   covered. Bloom's Taxonomy is used by TCPP to help solidify the level of coverage of each topic:</p>
+   <p><ul>
+    <li><b>Know</b>: Know the term (basic literacy)</li>
+    <li><b>Comprehend:</b> Comprehend so as to paraphrase/illustrate</li>
+    <li><b>Apply:</b> Apply it in some way (requires operational command)</li>
+  </ul>
+  </p>
+  <p>Each topic is preceded by one of these terms. Use the Bloom taxonomy classification to gauge the level of topic coverage in a course.</p>
+
+  <h3>Architecture Topics (<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_architecture">8 Activities  </a>)</h3>
+
+<table >
+<tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
+<tr><td> <u>Comprehend Parallel Taxonomy</u>: Flynn's taxonomy, data vs. control parallelism, shared/distributed memory (0.5 hours)</td><td>Systems</td>
+<td>
+   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_taxonomy">See All (2) </a> 
+</td></tr>
+
+<tr><td> <u>Know Superscalar (ILP)</u>: Describe opportunities for multiple instruction issue and execution (0.25-1 hours)</td><td>Systems</td><td></td></tr> 
+<tr><td> <u>Know SIMD/Vector (e.g., SSE, Cray)</u>: Describe uses of SIMD/Vector (same operation on multiple data items), e.g., accelerating graphics for games. (0.1-0.5 hours)</td><td>Systems</td>
+<td>
+  
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/">CoinFlip</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_simdvector">See All (1) </a>
+</td></tr>
+<tr><td><u>Know Pipelines (Single vs. multicycle)</u>: Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution (1-2 hours)</td><td>Systems</td><td></td></tr>
+<tr><td><u>Know Streams (e.g., GPU)</u>: Know that stream-based architecture exists in GPUs for graphics (0.1-0.5 hours)</td><td>Systems</td><td></td></tr> 
+<tr><td><u>Know MIMD</u>: Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads (0.1-0.5 hours)</td><td>Systems</td>
+  <td>
+     
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/">CoinFlip</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/">JigsawPuzzle</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_mimd">See All (4) </a>
+
+  </td>
+</tr>
+<tr><td><u>Know Simultaneous MultiThreading</u>: Distinguish SMT from multicore (based on which resources are shared) (0.2-0.5 hours)</td><td>Systems</td><td></td></tr>
+<tr><td><u>Comprehend Multicore</u>: Describe how cores share resources (cache, memory) and resolve conflicts (0.5-1 hours)</td><td>Systems</td>
+<td>
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/">JigsawPuzzle</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/">MatrixAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_multicore">See All (2) </a>
+
+</td>
+</tr>
+<tr><td> <u>Know Heterogeneous (e.g., Cell,on-chip GPU)</u>: Recognize that multicore may not all be the same kind of core (0.1-0.5 hours)</td><td>Systems</td>
+  <td>
+     
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_heterogeneous">See All (1) </a>
+  </td></tr>
+<tr><td> <u>Comprehend Shared vs. distributed memory (SMP Buses)</u>: Systems Single resource, limited bandwidth and latency, snooping, scalability issues (0.5-1 hours)</td><td>Systems</td>
+  <td>
+         
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/">MatrixAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_bus">See All (1) </a>
+
+  </td></tr>
+<tr><td> <u>Know Message Passing Latency</u>: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup (0.2-0.5 hours)</td><td>Systems</td>
+  <td>
+         
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/longdistancephonecall/">LongDistancePhoneCall</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_latency">See All (3) </a>
+  </td></tr>
+<tr><td> <u> Know Message Passing Bandwidth</u>: Know the concept, how it limits sharing, and considerations of data movement cost (0.1-0.5 hours)</td><td>Systems</td>
+  <td>
+         
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/longdistancephonecall/">LongDistancePhoneCall</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_bandwidth">See All (1) </a>
+  </td></tr>
+<tr><td> <u>Comprehend Cache organization</u> Know the cache hierarchies, shared caches (as opposed to private caches) result in coherency and performance issues for software (0.2 to 1 hours) </td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Range</u>: Understand that range is limited, implications of infinities</td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Precision</u>: How single and double precision floating point numbers impact software performance (0.1-0.5 hours)</td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Error Propagation</u>: Understand NaN, Infinity values and how they affect computations and exception handling (0.1-0.5 hours)</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Floating Point IEEE 754 standard</u>: Representation, range, precision, rounding, NaN, infinities, subnormals, comparison, effects of casting to other types (0.5-1 hours)</td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Cycles per Instruction (CPI)</u>: Number of clock cycles for instructions, understand the performance of processor implementation, various pipelined implementations (0.25-1 hours) </td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Performance Benchmark - Spec Mark</u>: Awareness of pitfalls in relying on averages (different averages can alter perception of which architecture is faster) (0.25-0.5 hours)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Peak Performance</u>: Understanding peak performance, how it is rarely valid for estimating real performance, illustrate fallacies (0.1-0.5 hours)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know MIPS/FLOPS</u>: Understand meaning of terms (0.1 hours)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Peak Vs. Sustained Performance</u>: Know difference between peak and sustained performance, how to define, measure, different benchmarks (0.1-0.5 hours)</td><td>Systems</td><td></td></tr>
+</table>
+
+
+<p><br></p>
+
+
+<h3>Programming Topics (<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming">18 Activities </a>) </h3>
+
+<table>
+<tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
+<tr><td> <u>Know SIMD</u>: Understand common vector operations including element-by-element operations and reductions (0.5 hours)</td><td>CS2/Systems</td><td></td></tr>
+<tr><td> <u>Know SIMD  (Process vector extensions)</u> : Know examples - SSE/Altivec macros</td><td>Systems</td><td></td></tr>
+<tr><td> <u> Apply Shared Memory</u>: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up (2 hours).</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> <u>Know Shared Memory Language Extensions</u>: Know about language extensions for parallel programming. Illustration from Cilk (spawn/join) and Java (Java threads)</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> <u>Comprehend Shared Memory Compiler Directives</u>: Understand what simple directives, such as those of OpenMP, mean (parallel for, concurrent section), pragmas show examples</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> <u> Comprehend Shared Memory Libraries</u>: Know one in detail, and know of the existence of some other example libraries such as Pthreads, Pfunc, Intel's TBB (Thread building blocks), Microsoft's TPL (Task Parallel Library), etc.</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+ <tr><td> <u>Comprehend Distributed Memory</u>: Know basic notions of messaging among processes, different ways of message passing, collective operations (1 hour)</td><td>DSA/Systems</td>
+  <td>
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/">ByzantineGenerals</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_distributedmemory">See All (4) </a>
+  </td></tr> 
+ <tr><td> <u>Comprehend Client Server</u>: Know notions of invoking and providing services (e.g., RPC, RMI, web services) - understand these as concurrent processes (1 hour)</td><td>DSA/Systems</td><td></td></tr> 
+ <tr><td> <u>Know Hybrid</u>: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.) (0.5 hours)</td><td>Systems</td>
+  <td>
+          
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/">MatrixAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_hybrid">See All (2) </a>
+  </td></tr> 
+ <tr><td> <u>Apply Task/thread spawning</u>: Be able to write correct programs with threads, synchronize (fork-join, producer/consumer, etc.), use dynamic threads (in number and possibly
+recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on shared memory topic above (1 hour)</td><td>CS2/DSA</td><td></td></tr> 
+<tr><td> <u>Comprehend SPMD</u>: Understand how SPMD program is written and how it executes (1 hour)</td><td>CS2/DSA</td>
+  <td>
+   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_spmd">See All (1) </a>
+  </td></tr> 
+<tr><td> <u>Comprehend SPMD Notations</u>: Know the existence of highly threaded data parallel notations (e.g., CUDA, OpenCL), message passing (e.g, MPI), and some others (e.g., Global Arrays, BSP library)</td><td>CS2/DSA</td><td></td></tr> 
+<tr><td> <u>Apply Data parallel</u>: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise. Understand relation between different notations for data parallel: Array notations, SPMD, and parallel loops. Builds on shared memory topic above. (1 hour)</td><td>CS2/DSA/ProgLang</td>
+  <td>
+      
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/">ArraysinParallel</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/a_dataparallel">See All (2) </a>
+  </td></tr>
+<tr><td> <u>Apply Parallel loops for shared memory</u>: Know, through an example, one way to implement parallel loops, understand collision/dependencies across iterations (e.g., OpenMP, Intel's TBB) for shared memory</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> <u>Know Tasks and threads</u>: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that (e.g., OpenMP, Intel TBB, etc.) (0.5 hours)</td><td>CS2/DSA/Systems/ProgLang</td><td>
+      
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/">CompanyAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_tasksthreads">See All (2) </a>
+</td></tr>
+<tr><td> <u>Apply Critical regions</u>: Be able to write shared memory programs that use critical regions for synchronization</td><td>CS2/DSA/Systems</td>
+  <td>
+      
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/">SweetenJuice</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/a_criticalregions">See All (1) </a>
+  </td></tr>
+<tr><td> <u>Apply Producer-consumer</u>: Be able to write shared memory programs that use the producer-consumer pattern to share data and synchronize threads</td><td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> <u>Know Monitors</u>: Understand how to use monitors for synchronization</td><td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Deadlocks</u>: Understand what a deadlock is, and methods for detecting and preventing them</td><td>DSA/Systems</td>
+  <td>
+      
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/">PBJinParallel</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/orangegame/">OrangeGame</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_deadlocks">See All (2) </a>
+  </td></tr>
+<tr><td> <u>Know Data Races</u>:  Know what a data race is, and how to use synchronization to prevent it</td><td>DSA/Systems</td>
+  <td>
+          
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/">ConcertTickets</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/">SweetenJuice</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_dataraces">See All (4) </a>
+  </td></tr>
+<tr><td> <u>Know Tools to detect concurrency defects</u>: Know the existence of tools to detect race conditions (e.g., Eraser) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Computation Decomposition Strategies</u>: Understand different ways to assign computations to threads or processes</td><td>CS2/DSA</td>
+<td>
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/">AddLargeNumbers</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_decomposition">See All (5) </a>
+</td></tr>
+<tr><td> <u>Comprehend Owner Computes Rule</u>: Understand how to assign loop iterations to threads based on which thread/process owns the data element(s) written in an iteration</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Decomposition into Atomic Tasks</u>: Understand how to decompose computations into tasks with communication only at the beginning and end of each task, and assign them to threads/processes</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Load balancing</u>: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes (1 hour)</td><td>DSA/Systems</td>
+  <td>
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/">FindOldestPenny</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/">JigsawPuzzle</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_loadbalancing">See All (4) </a>
+  </td></tr>
+<tr><td> <u> Comprehend Static Scheduling and mapping</u>: Understand how to map and schedule computations before runtime</td><td>DSA/Systems</td><td>
+        
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/">JigsawPuzzle</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/">CompanyAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_static">See All (2) </a>
+</td></tr>
+<tr><td> <u> Comprehend Dynamic Scheduling and mapping</u>: Understand how to map and schedule computations at runtime</td><td>DSA/Systems</td>
+  <td>
+          
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/">JigsawPuzzle</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/">CompanyAnalogy</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_dynamic">See All (2) </a>
+  </td></tr>
+<tr><td> <u> Know Data</u>: Understand impact of data distribution, layout and locality on performance; know false sharing and its impact on performance (e.g., in a cyclic mapping in a parallel loop); notion that transfer of data has fixed cost plus bit rate (irrespective of transfer from memory or inter-processor) (1 hour)</td><td>DSA/ProgLang</td>
+  <td>
+          
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/">JigsawPuzzle</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_data">See All (1) </a>
+  </td></tr>
+<tr><td> <u> Know Data Distribution</u>: Know what block, cyclic, and block-cyclic data distributions are, and what it means to distribute data across multiple threads/processes</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> <u> Know Data layout</u>: Know how to lay out data in memory to get improve performance (memory hierarchy)</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> <u> Know Data locality</u>: Know what spatial and temporal locality are, and how to organize data to take advantage of them</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> <u> Know False sharing</u>: Know that for cache coherent shared memory systems, data is kept coherent in blocks, not individual words, and how to avoid false sharing across threads of data for a block</td><td>DSA/ProgLang</td><td></td></tr>
+<tr><td> <u> Know Performance Tools</u>: Know of tools for runtime monitoring (e.g., gprof, monitoring tools Vtune) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> <u> Comprehend Speedup</u>: Understand how to compute speedup, and what it means</td><td>CS2/DSA</td>
+  <td>
+          
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_speedup">See All (4) </a>
+  </td></tr>
+<tr><td> <u> Comprehend Efficiency</u>: Understand how to compute efficiency, and why it matters</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u> Know Amdahl's Law</u>: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</td><td>CS2/DSA</td>
+  <td>
+          
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_amdahl">See All (3) </a>
+  </td></tr>
+<tr><td> <u> Know Gustafson’s Law</u>: Understand the idea of weak scaling, where problem size increases as the number of processes/threads increases</td><td>CS2/DSA</td><td></td></tr>
+</table>
+
+
+<p><br></p>
+
+
+<h3>Algorithms Topics (<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms">15 Activities </a>)</h3>
+
+<table>
+<tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
+<tr><td> <u>Comprehend Asymptotics</u>: Understand upper (big-O) and lower bounds (big- Omega,); follow elementary big-O analyses, e.g., the O(log n) tree-depth argument for mergesort with unbounded parallelism. (1 hour)</td> <td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Time</u>: Recognize time as a fundamental computational resource that can be influenced by parallelism (0.33 hours)</td><td>DSA</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_time">See All (5) </a>
+	</td></tr>
+<tr><td> <u>Comprehend Space/Memory</u>: Recognize space/memory in the same manner as time (0.33 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Scaling</u>: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) (1 hour)</td><td>DSA</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_scaling">See All (8) </a>
+	</td></tr>
+<tr><td> <u>Comprehend/Know Scalability in Algorithms and Architectures</u>: Comprehend via several examples that having access more processors does not guarantee faster execution --- the notion of inherent sequentiality (0.5 hours)</td><td>DSA</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/ck_scalability">See All (1) </a>
+	</td></tr>
+<tr><td> <u>Know PRAM</u>: Recognize the PRAM as embodying the simplest forms of parallel computation: Embarrassingly parallel problems can be sped up easily just by employing many processors (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know BSP/CILK</u>: Be exposed to higher-level algorithmic abstractions that encapsulate more aspects of real architectures. Either BSP or CILK would be a good option to introduce a higher level programming model and higher-level notions. Remark that both of these abstractions have led to programming models. (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Apply Dependencies</u>: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures (0.5 hours)</td><td>CS1/CS2/DSA</td>
+	<td>   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/a_dependencies">See All (4) </a></td></tr>
+<tr><td> <u>Comprehend Task Graphs</u>: See multiple examples of this concrete algorithmic abstraction as a mechanism for exposing inter-task dependencies. These graphs, which are used also in compiler analyses, form the level at which parallelism is exposed and exploited (0.5 hours)</td><td>DSA/SWEng</td>
+	<td>
+	
+	</td></tr>
+<tr><td> <u>Comprehend Work</u>: Observe the impact of computational work (e.g., the total number of tasks executed) on complexity measures such as power consumption. (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Make/Span</u>: Observe analyses in which makespan is identified with parallel time (basically, time to completion) (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend  Divide & Conquer (parallel aspects)</u>: Observe, via tree-structured examples such as mergesort or numerical integration (trapezoid rule, Simpson's rule) or (at a more advanced level) Strassen's matrix-multiply, how the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation (1 hour) <td>CS2/DSA/Algo2</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/c_divideandconquer">See All (3) </a>
+	</td></tr>
+<tr><td> <u>Comprehend Recursion (parallel aspects)</u>: Recognize algorithms that, via unfolding, yield tree structures whose subtrees can be computed independently, in parallel (0.5 hours)</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u>Know/Comprehend Reduction (map-reduce)</u>: Recognize, and use, the tree structure implicit in scalar product or mergesort or histogram (equivalent apps) (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Dependencies</u>: Understand the impacts of dependencies (0.5 hours)<td>Systems</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_dependencies">See All (1) </a>
+	</td></tr>
+<tr><td> <u> Comprehend/Know Series-parallel composition</u>: Understand how "barrier synchronizations" can be used to enable a simple thread-based abstraction for parallel programming. Understand the
+possible penalties (in parallelism) that this transformation incurs Graph embedding as an algorithmic tool<td>CS2(K)/Systems(C)</td><td></td></tr>
+<tr><td> <u>Comprehend/Apply Communication</u>: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. (2 hours)</td> <td> -- </td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/">FaultTolerantTokenRing</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/ca_communication">See All (5) </a>
+	</td></tr>
+<tr><td> <u>Comprehend/Apply Broadcast</u>: Use this important mode of global communication; observe enabling algorithms for various platforms (e.g., recursive doubling) (1 hour)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know/Comprehend Multicast</u>: Recognize other modalities of global communication on a variety of platforms: e.g., rings, 2D-meshes, hypercubes, trees (0.5 hours)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend/Apply Scatter/gather</u>: Recognize these informational analogues of Map and reduce (0.5 hours)<td>DSA</td><td></td></tr>
+<tr><td> <u>Know Asynchrony</u>: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Synchronization</u>: Be aware of methods for controlling race conditions (1 hour)</td> <td>CS2/DSA</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/">SweetenJuice</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/">PBJinParallel</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_synchronization">See All (2) </a>
+	</td></tr>
+<tr><td> <u>Know Sorting</u>: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)</td><td>CS2/DSA</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/">CardSorting</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_sorting">See All (3) </a>
+	</td></tr>
+<tr><td> <u>Know Selection</u>: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. 0.5 hours)</td><td>CS2/DSA</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_selection">See All (4) </a>
+	</td></tr>
+<tr><td> <u>Comprehend Graph Search Algorithms</u>: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td><td></td></tr>
+<tr><td> <u>Apply Specialized computations</u>: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems. (2 hours)</td><td>CS2/DSA</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/">MatrixAddition</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/a_specializedcomputations">See All (1) </a>
+	</td></tr>
+</table>
+<p><br></p>
+
+
+<p><br></p>
+
+<h3>Cross Cutting and Advanced Topics (<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_crosscutting">5 Activities </a>)</h3>
+
+<table id="t02">
+<tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
+<tr><td> <u>Know why and what is parallel/distributed computing</u>: Know the common issues and differences between parallel and distributed computing; history and applications. Microscopic level to macroscopic level parallelism in current architectures. (0.5 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> <u>Comprehend Locality</u>: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication. (1 hour)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Know Concurrency</u>: The degree of inherent parallelism in an algorithm, independent of how it is executed on a machine (0.5 hours)</td> <td>CS2/DSA</td><td>
+	   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_concurrency">See All (1) </a>
+</td></tr>
+<tr><td> <u>Know Non-determinism</u>: Different execution sequences can lead to different results hence algorithm design either be tolerant to such phenomena or be able to take advantage of this. (0.5 hours)</td> <td>DSA/Systems</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/">SweetenJuice</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_nondeterminism">See All (1) </a>
+	</td></tr>
+<tr><td> <u>Know Power Consumption</u>: Know that power consumption is a metric of growing importance, its impact on architectural evolution, and design of algorithms and software. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Know Fault tolerance</u>: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)</td> <td>Systems</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/">FaultTolerantTokenRing</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/">ByzantineGenerals</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_faulttolerance">See All (2) </a>
+	</td></tr>
+<tr><td> <u>Know Cluster Computing</u>: Be able to describe a cluster as a popular local-memory architecture with commodity compute nodes and a high-performance interconnection network. (0.25 hours)</td> <td>CS2/DSA/Systems</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/">ByzantineGenerals</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_clustercomputing">See All (1) </a>
+	</td></tr>
+<tr><td> <u>Know Cloud/grid Computing</u>: Recognize cloud and grid as shared distributed resources - cloud is distinguished by ondemand, virtualized, service-oriented software and hardware resources. (0.25 hours)</td> <td>Systems</td><td></td></tr>
+<tr><td> <u>Know Peer to Peer Computing</u>: Be able to describe a peer to peer system and the roles of server and client nodes with distributed data. Recognize existing peer to peer systems. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> <u>Know Consistency in Distributed Transactions</u>: Recognize classic consistency problems. Know that consistency maintenance is a primary issue in transactions issued concurrently by multiple agents. (0.25 hours)</td> <td>CS1/CS2/Systems</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/">ConcertTickets</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/">ByzantineGenerals</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_consistency">See All (2) </a>
+	</td></tr>
+<tr><td> <u>Know Web search</u>: Recognize popular search engines as large distributed processing systems for information gathering that employ distributed hardware to support efficient response to user searches. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> <u>Know Security in Distributed Systems</u>: Know that distributed systems are more vulnerable to privacy and security threats; distributed attacks modes; inherent tension between privacy and security. (0.5 hours)</td> <td>Systems</td>
+	<td>
+		   
+    <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/">ByzantineGenerals</a>;
+    
+    <a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcppdetails/k_security">See All (1) </a>
+	</td></tr>
+</table>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

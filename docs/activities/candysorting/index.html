@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CandySorting</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">CandySorting</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>CandySorting</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelperformance"><kbd class="item-cs2013">PD_ParallelPerformance</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs0"><kbd class="item-course">CS0</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p><a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">iPDC Modules</a></p>
+
+<ul>
+<li>Available in <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/m&amp;m_sorting/M&amp;M%20Sorting.docx">Word</a> and <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/m&amp;m_sorting/M&amp;M%20Sorting.pdf">PDF</a></li>
+</ul>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="parallel-decomposition-core-tier-1-core-tier-2">Parallel Decomposition (Core Tier 1, Core Tier 2)</h3>
+
+<p>1. <strong>Core Tier 1</strong>: Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
+
+<p>2. <strong>Core Tier 1</strong>: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<p>4. <strong>Core Tier 2</strong>: Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
+
+<h3 id="parallel-performance-elective">Parallel Performance (Elective)</h3>
+
+<p>1. Detect and correct a load imbalance. [Usage]</p>
+
+<p>3. Describe how data distribution/layout can affect an algorithm&rsquo;s communication costs. [Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li><p>Comprehend Computation (decomposition strategies): Understand different ways to assign computations to threads or processes.</p></li>
+
+<li><p>Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes (1 hour).</p></li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><strong>CS0/CS1/CS2</strong>: The authors recommend using this activity in introductory
+computing course. This activity has been assessed in a CS1/CS2 course.</li>
+<li><strong>DSA</strong>: In addition to CS2, TCPP suggests DSA as an appropriate place to cover task decomposition and load balancing topics.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>May be difficult for color-blind students. In the case that there are
+color-blind students, we recommend using a range of treats that are
+differentiated by shape rather than color. This will also help students
+who are Blind with the sorting.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Yes. In (Ghafoor2019), the candy sorting exercise was used to introduce
+parallel programming concepts in CS1 and CS2. The evaluation performed by
+the authors suggest that the use of unplugged activities make it easier to
+learn parallel computing concepts.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>S. K. Ghafoor, D. W. Brown, M. Rogers, and T. Hines, &ldquo;Unplugged activities
+to introduce parallel computing in introductory programming classes: An
+experience report&rdquo;, in <em>Proceedings of the 2019 ACM Conference on Innovation
+and Technology in Computer Science Education (ITiCSE&rsquo;19)</em>. New York, NY,
+USA: ACM, 2019, pp. 309–309. [Online]. Available:
+<a href="http://doi.acm.org/10.1145/3304221.3325573">http://doi.acm.org/10.1145/3304221.3325573</a></p></li>
+
+<li><p>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
+last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

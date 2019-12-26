@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MatrixAddition</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">MatrixAddition</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>MatrixAddition</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelalgorithms"><kbd class="item-cs2013">PD_ParallelAlgorithms</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelarchitecture"><kbd class="item-cs2013">PD_ParallelArchitecture</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelperformance"><kbd class="item-cs2013">PD_ParallelPerformance</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_architecture"><kbd class="item-tcpp">TCPP_Architecture</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/systems"><kbd class="item-course">Systems</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/movement"><kbd class="item-sense">movement</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker
+is alluded to, but not discussed in depth.</p>
+
+<p>No web-link to independent description available. See paper (Moore2000) for
+additional details.</p>
+
+<h3 id="other-activities-by-author">Other activities by author</h3>
+
+<p>(Moore2000): <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
+  <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/">CardSorting</a></p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>Moore describes how to use Matrix Addition to describe the differences
+between shared memory vs distributed memory systems. Prior to the start
+of the exercise, the instructor writes <em>N</em> x <em>M</em> matrices A and B on the board,
+along with an empty matrix C of the same dimensions.</p>
+
+<p><strong>Shared Memory</strong>:</p>
+
+<ul>
+<li>One student is designated as the master. He or she picks a team of students to
+help and splits up the <em>N</em><sup>2</sup> cells between them.</li>
+<li>Each student is responsible to add up their corresponding cells in A and B and
+write the result in C.<br /></li>
+</ul>
+
+<p>Here, each student represents a thread, with the board representing shared
+memory. If there are too many students up on the board, many will start
+bumping into each other, signifying resource contention. Assigning fewer
+students (say one student per row) will likely lead to less contention.</p>
+
+<p><strong>Distributed Memory</strong>:</p>
+
+<ul>
+<li>One student is designated as the master process and stands at the front of
+the classroom next to the board. He or she picks a subset of students at
+their desks to help; these student helpers remain at their desk.</li>
+<li>The student representing the master process splits up the matrix and hands
+each student helper the set of calculation to perform, including giving
+themselves some work.</li>
+<li>Once each student finishes their work, they hand their computations to the
+master. The master then writes the result in the corresponding cell in
+matrix C on the board.<br /></li>
+</ul>
+
+<p>Here, each student represents a process (sitting at a separate node), and the
+master-worker pattern is illustrated. The board is the memory of the master
+node.</p>
+
+<p>Once students are used to the exercise, issues like task granularity and
+load balancing can be discussed, along with communication overhead:</p>
+
+<ul>
+<li>If too many students are picked, too many students get up and move around,<br />
+and the master has to work extra to send and receive all the extra messages.</li>
+<li>If too few students helpers are picked, it may take a long time to compute the matrix.</li>
+<li>If some students have more work than the others, then the time to complete the
+computation of matrix C is dependent on the slowest student.</li>
+</ul>
+
+<h3 id="kitchen1992">Kitchen1992</h3>
+
+<p>(Kitchen1992) talks about adding values in a matrix (e.g. each process/thread adds a column)
+as a way to illustrate the Master-Worker pattern. However, the description does not go
+into further detail.</p>
+
+<h3 id="variations">Variations</h3>
+
+<p>The following variations are suggested:</p>
+
+<p><strong>Matrix Multiplication</strong>: The above activity can easily be used to illustrate
+matrix multiplication by having the master assign each row to a separate
+student helper. To ensure that students can complete the multiplication in a
+reasonable about of time, reduce the range of values in matrices A and B (say
+to 1..5).</p>
+
+<p><strong>Heterogeneous Distributed Architectures</strong>: For heterogeneous architectures,
+push desks together to form &ldquo;multicore&rdquo; nodes. Each group of desks has a large
+piece of paper on it, signfying shared memory.</p>
+
+<p>When the master sends a message, it is sent to the &ldquo;team leader&rdquo; at the desk,
+who then splits the work to his or her team at adjacent desks
+(representing individual threads). Each person in the team fills out the cells
+in the matrix assigned to them. Once the paper is completely filled in, the
+team leader takes the paper, and gives it to the master at the front of the
+class, who fills in the associated cells in matrix C.</p>
+
+<p>To illustrate a multicore master node, simply have the student playing the master node select a set of
+&ldquo;mini-masters&rdquo; to stand in front with them, and do an initial split of
+the matrix (i.e. one row to a &ldquo;master&rdquo;). Then each master will send a subset
+of their assigned cells to student team leaders at desks; the activity then
+continues as normal.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="parallel-decomposition-core-tier-1">Parallel Decomposition (Core Tier 1)</h3>
+
+<p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<h3 id="parallel-algorithms-core-tier-2-elective">Parallel Algorithms (Core Tier 2, Elective)</h3>
+
+<p>4. <strong>Core Tier 2</strong>: Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<p>10. <strong>Elective</strong>: Implement a parallel matrix algorithm. [Usage]</p>
+
+<h3 id="parallel-architecture-core-tier-1">Parallel Architecture (Core Tier 1)</h3>
+
+<p>1. Explain the differences between shared and distributed memory. [Familiarity]</p>
+
+<h3 id="parallel-performance-elective">Parallel Performance (Elective)</h3>
+
+<p>3. Describe how data distribution/layout can affect an algorithm&rsquo;s communication costs. [Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="architecture-topics">Architecture Topics</h3>
+
+<ul>
+<li>Know MIMD: Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads.</li>
+<li>Comprehend Multicore: Describe how cores share resources (cache, memory) and resolve conflicts.</li>
+<li>Comprehend Shared vs. distributed memory (SMP Buses): Systems Single resource, limited bandwidth and latency, snooping, scalability issues.</li>
+</ul>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li>Comprehend Distributed Memory: Know basic notions of messaging among processes, different ways of message passing, collective operations.</li>
+<li>Know Hybrid: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.).</li>
+</ul>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
+<li>Comprehend/Apply Communication: Understand &mdash; via hands-on experience &mdash; that inter-processor communication is one of the most challenging aspects of PDC.</li>
+<li>Apply Specialized computations: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems.</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p>Moore covers the concept in a parallel processing lab, though it is not
+clear which course the lab was used in.</p></li>
+
+<li><p><strong>CS2/DSA/Systems</strong> While TCPP recommends that concepts such as matrix
+multiplicaton can be introduced as early as CS2, they recommend that several
+of the programming and algorithmic topics be covered in DSA. Architecture
+topics (and the notion of hybrid programming) are suggested for a systems course.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This exercise requires movement. and may be difficult for students who are
+mobility impaired. However, these students can be included in the distributed
+portion of the exercise, as they can remain at their desk. Blind students
+will need Braille cards associated with the numbers that they need add/multiply
+handed to them. Teammates at the desk can hand them the appropriate cards.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Assessment of this particular exercise is unknown; (Moore2000) discusses the
+impact of the parallel computing labs in her course. In general, students
+responded to the labs positively, and felt that labs increased their knowledge
+significantly.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><ul>
+<li>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.
+Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org/10.1145/142040.142064</a></li>
+</ul></li>
+
+<li><p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
+vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS1 on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/courses/cs1/</link>
+    <description>Recent content in CS1 on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2019 15:43:45 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/courses/cs1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ParallelAddition</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
+No link to independent description publicly available. Please see details section for a synopsis.
+Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
+Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
+    </item>
+    
+    <item>
+      <title>FindSmallestCard</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/</link>
+      <pubDate>Mon, 09 Dec 2019 14:34:15 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
+No link to independent description publicly available. Please see details section for a synopsis.
+Similar Activites FindOldestPenny, FindYoungestStudent
+Other activities by authors (Bachelis1994): ParallelAddition. CardSorting, OddEvenTranspositionSort, SieveOfErastothenes
+Details From (Bachelis1994): The goal is to find the smallest card (e.g. lowest value card) in a collection of 16 cards. The notion of a &amp;ldquo;two-card comparator&amp;rdquo; is discussed as part of the process (e.</description>
+    </item>
+    
+    <item>
+      <title>ConcertTickets</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/</link>
+      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/</guid>
+      <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
+No on-line resources available. See details for description.
+Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best avaiable seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
+    </item>
+    
+    <item>
+      <title>MoreProcessorsNotAlwaysBetter</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</guid>
+      <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
+Paper (Srivastava2019) and slides available on-line.
+Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+ Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+    </item>
+    
+    <item>
+      <title>FindOldestPenny</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</link>
+      <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</guid>
+      <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
+Paper (Srivastava2019) and slides available on-line.
+Similar Activities FindSmallestCard, FindYoungestStudent
+Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
+    </item>
+    
+    <item>
+      <title>ByzantineGenerals</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</link>
+      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</guid>
+      <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
+No web-link to independent description available. See paper (Lloyd1994) for additional details.
+Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
+    </item>
+    
+    <item>
+      <title>PBJinParallel</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</link>
+      <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</guid>
+      <description>Original Author/link iPDC Modules
+ Available in Word and PDF  CS2013 Knowledge Unit Coverage Communication and Coordination (Core Tier 1) 2. Core Tier 1: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]
+TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
+ Know Data Races: Know what a data race is, and how to use synchronization to prevent it.</description>
+    </item>
+    
+    <item>
+      <title>CandySorting</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</link>
+      <pubDate>Fri, 01 Nov 2019 14:23:28 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</guid>
+      <description>Original Author/link iPDC Modules
+ Available in Word and PDF  CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
+2. Core Tier 1: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
+4. Core Tier 2: Parallelize an algorithm by applying task-based decomposition. [Usage]
+Parallel Performance (Elective) 1.</description>
+    </item>
+    
+    <item>
+      <title>CardSorting</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</link>
+      <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
+Variation using a deck of playing cards by (Ghafoor2019):
+iPDC Modules
+ Available in Word and PDF  Similiar Exercises: Sorting: oddEvenTranspositionSort, ParallelRadixSort, PipelineSort, sortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, PipelineSort
+(Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, MatrixAddition
+(Ghafoor2019):
+Details From (Bachelis1994): The goal is to sort a deck of 16 cards (it is assumed that there are unique numbers) using parallel selection sort.</description>
+    </item>
+    
+    <item>
+      <title>ArraysinParallel</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</link>
+      <pubDate>Fri, 01 Nov 2019 11:58:18 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</guid>
+      <description>Original Author/link iPDC Modules
+ Available in Word and PDF  CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier1, Core Tier2 2. Core Tier 1:Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
+5.\ Core Tier 2:Parallelize an algorithm by applying data-parallel decomposition. [Usage]
+TCPP Coverage Programming Topics  Apply Data parallel: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise.</description>
+    </item>
+    
+    <item>
+      <title>FindYoungestStudentInClass</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</link>
+      <pubDate>Fri, 01 Nov 2019 11:20:35 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</guid>
+      <description>Original Author/link Chitra P (iPDC Modules)
+ Available in Word and PDF  Similar Activities FindOldestPenny, FindSmallestCard
+CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier 1 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
+TCPP Topics Coverage Algorithms Topics  Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.</description>
+    </item>
+    
+    <item>
+      <title>SortingNetwork</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sortingnetwork/</link>
+      <pubDate>Fri, 01 Nov 2019 10:31:08 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sortingnetwork/</guid>
+      <description>Original Author/link CSUnplugged.Org
+CS2013 Knowledge Unit Coverage N/A
+TCPP Coverage Algorithms:  Know Sorting: Observe several sorting algorithms for varied platforms &amp;mdash; together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity. CS1/CS2/DSA: The activity can be used to introduce students to parallel sorting concepts in undergraduate courses, but is inappropriate for large classes.</description>
+    </item>
+    
+  </channel>
+</rss>

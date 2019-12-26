@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PBJinParallel</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">PBJinParallel</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>PBJinParallel</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_communicationandcoordination"><kbd class="item-cs2013">PD_CommunicationAndCoordination</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs0"><kbd class="item-course">CS0</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/systems"><kbd class="item-course">Systems</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/os"><kbd class="item-course">OS</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/movement"><kbd class="item-sense">movement</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/touch"><kbd class="item-sense">touch</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p><a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">iPDC Modules</a></p>
+
+<ul>
+<li>Available in <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/pb&amp;j_making/PBJ%20in%20Parallel.docx">Word</a> and <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/pb&amp;j_making/PBJ%20in%20Parallel.pdf">PDF</a></li>
+</ul>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="communication-and-coordination-core-tier-1">Communication and Coordination (Core Tier 1)</h3>
+
+<p>2. <strong>Core Tier 1</strong>: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li><p>Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them</p></li>
+
+<li><p>Know Data Races: Know what a data race is, and how to use synchronization to prevent it.</p></li>
+</ul>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Know Synchronization: Be aware of methods for controlling race conditions (1 hour)</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p><strong>CS0/CS1/CS2</strong>: The authors recommend that the concepts are appropriate for
+all these levels. Might be challenging to do with large classrooms (and
+perhaps too messy).</p></li>
+
+<li><p><strong>DSA/Systems</strong>: In addition to CS2, TCPP recommends that DSA and Systems
+courses may be appropriate places to cover synchronization, race conditions,
+and deadlock.</p></li>
+
+<li><p><strong>OS</strong>: Concepts may also be appropriate in an OS course
+where concurrency issues such as deadlock and race conditions are being
+discussed.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>The &ldquo;sandwich&rdquo; concept can be extended to other cheap ingredients, in case
+particular students have nut allergies or other food-related allergies. The
+most important part is to have a limited set of &ldquo;ingredient&rdquo; resources, and
+multiple people trying to access those resources.</p>
+
+<p>There is a lot of movement involved in this exercise; we recommend that
+mobility-impaired students be encouraged to take on the role of a
+single student making sandwiches.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Unknown.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
+last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

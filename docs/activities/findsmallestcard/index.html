@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FindSmallestCard</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">FindSmallestCard</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>FindSmallestCard</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelalgorithms"><kbd class="item-cs2013">PD_ParallelAlgorithms</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/touch"><kbd class="item-sense">touch</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)</p>
+
+<p>No link to independent description publicly available. Please see details section for a synopsis.</p>
+
+<h3 id="similar-activites">Similar Activites</h3>
+
+<p><a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/">FindOldestPenny</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/">FindYoungestStudent</a></p>
+
+<h3 id="other-activities-by-authors">Other activities by authors</h3>
+
+<p>(Bachelis1994): <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>. <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/">CardSorting</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
+  <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a></p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>From (Bachelis1994):
+The goal is to find the smallest card (e.g. lowest value card) in a collection of 16 cards. The notion of a &ldquo;two-card comparator&rdquo; is discussed as part of the process (e.g. input is two cards, outputs the smaller of the two cards). The processor therefore employs a series of &ldquo;two-card comparators&rdquo; to sort the set of cards.</p>
+
+<h3 id="serial-case">Serial case:</h3>
+
+<ul>
+<li>Students recognize that to find the smallest card in a collection of 16 cards, it should take 15 comparisons.</li>
+<li>Ask the students: <em>how to make the process faster?</em></li>
+<li>The answer is to to use several processors and a &ldquo;divide and conquer&rdquo; methodology.</li>
+</ul>
+
+<h3 id="parallel-case">Parallel Case</h3>
+
+<p><strong>Two Students</strong>:</p>
+
+<ul>
+<li>Each student is given 8 cards</li>
+<li>Each student finds the minimum of the 8; then a &ldquo;global&rdquo; comparison is made between the two students to determine the global minimum.</li>
+<li>Ask the students: <em>how many time steps did this require?</em></li>
+<li>Answer: To find the minimum of 8 cards, a total of 7 comparisons are required. Since each student performed their comparisons simultaneously and in parallel (and assuming that each comparison takes a time step), a total of 7 time steps are required. The final global comparison requires an additional time step. Therefore 8 total time steps are required.</li>
+</ul>
+
+<p><strong>Four Students</strong>:</p>
+
+<ul>
+<li>Each student is assigned a number (1..4) and is given a subset of 4 cards.</li>
+<li>Each student finds the minimum of their 4 cards. At the end, students 1 and 2 compare their minimums, with student 2 receiving the minimum. Likewise, students 3 and 4 compare their minimums, with student 4<br />
+receiving the minimum. Lastly, student 2 and 4 compare their minimum cards to determine the global minimum.</li>
+<li>Ask the students: <em>how many time steps did this require?</em></li>
+<li>Answer: Each student initially takes 3 comparisons to find the minimum of 4 cards. Since the students performed their comparisons simultaneous and in parallel (and assuming that each comparison takes a time step), a total of three time steps are needed for this step. Next, the comparison between students 1 and 2 happen independently from the comparison of students 3 and 4, and therefore can occur in parallel. This
+additional comparison takes 1 time step. The final comparison between students 2 and 4 takes one additional time step. Therefore, the total number of time steps is 3 + 1 + 1 = 5.</li>
+</ul>
+
+<p><strong>Eight students</strong></p>
+
+<ul>
+<li>Each student is assigned a number (1..8) and given a subset of two cards.</li>
+<li>Each student finds the minimum of their two cards. Then: Students 1 and 2 compare their minimums with student 2 receiving the miniumum; Students 3 and 4 compare their minimums, with student 4 receiving the minimum; Students 5 and 6 compare their minimums, with student 6 receiving the minimum; Students 7 and 8 compare their minimums, wtih student 8 receiving the minimum. Next, students 2 and 4 compare their minimums, with student 4 receiving the result; students 6 and 8 compare their minimums, with stduent 8 receiving the result. Lastly, students 4 and 8 compare their final minimums, to output the global minimum.</li>
+<li>Ask the students: <em>how many time steps does this require?</em></li>
+<li>Answer: Each student requires one time step to find the minimum of 2 cards. Since the students performed their comparisons simultaneous and in parallel (and assuming that each comparison takes a time step), a total of 1 time step is needed for this initial step. Next, note that the comparisons between students 1 and 2 happen independently from the comparison of students 3 and 4, and students 5 and 6, and students 7 and 8. These comparisons can therefore all happen in parallel, and take an additional time step. Next, observe that the comparison between students 2 and 4 happen independently from the comparison between students 6 and 8. These comparisons can therefore happen in parallel, and take an additional time step. The final comparison between sudents 4 and 8 requires one additional time step. Therefore, the total
+number of time steps is 1 + 1 + 1 + 1 = 4.</li>
+</ul>
+
+<p>The class then should asked to calculate the speedup of the parallel cases over the serial cases.</p>
+
+<h3 id="constant-time-case">Constant Time Case</h3>
+
+<p>Another parallel algorithm can be demonstrated (Valiant1975). To find the minimum of <em>n</em> numbers (or <em>n</em> cards with unique numbers) employ <em>n<sup>2</sup></em> processors.</p>
+
+<p>The case for <em>n</em> = 4 is illustrated below. Arrange the students into a 4 x 4 grid. The students along the diagonal are each handed a card. To do this activity with playing cards, we recommend that oversized
+cards are used, or that numbers are written on a large piece of paper (front and back). In the example shown below (taken from Bachelis1994), the numbers 5, 1, 9 and 8 are employed. The initial grid is shown.</p>
+
+<pre><code class="language-text">5 : - : - : - :
+- : 1 : - : - :
+- : - : 9 : - :
+- : - : - : 8 :
+</code></pre>
+
+<p>The students along the diagonal each have a number, which they hold up, so that everyone in their row can see. The <code>-</code> denotes other students sitting at their desks.</p>
+
+<ul>
+<li>During the first step, the students note holding cards look down their rows and note the the number that they can see.</li>
+<li>During the second step, the along the diagonal hold their cards up so that it is visible to the other studnets in their column. The students at the column then raise their hand if they number they saw along
+their row (the first number) is greater than the number they see along their column (second number).</li>
+</ul>
+
+<p>For the matrix above, we expect the following students to raise their hands (&lsquo;denoted with U&rsquo;):</p>
+
+<pre><code class="language-text">5 : U : - : - :
+- : 1 : - : - :
+U : U : 9 : U :
+U : U : - : 8 :
+</code></pre>
+
+<p>The student whose row has no hands raised is holding the smallest number. In the above scenario, that student is the one holding the number <code>1</code>. That is therefore the minimum number.</p>
+
+<p>From (Bachelis1994): The value of this exercise is that &ldquo;even though each processor knows very little about the global picture, by acting in concert they can solve the problem at hand&rdquo;.</p>
+
+<p>To achieve this with 16 numbers, there can be four contests each with 4 numbers, followed by one final contest with the final four numbers.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-decomposition">PD/Parallel Decomposition</h3>
+
+<p><strong>Core Tier 1:</strong></p>
+
+<p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<p><strong>Core Tier 2:</strong></p>
+
+<p>4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
+
+<h3 id="pd-parallel-algorithms-analysis-programming-core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
+
+<p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
+
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li>Comprehend Performance Metrics (Speedup): Understand how to compute speedup, and what it means</li>
+</ul>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism</li>
+<li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
+<li>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex
+computational structures</li>
+<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as mergesort &hellip; how the same structure that enables divide and conquer (sequential) algorithms
+exposes opportunities for parallel computation</li>
+<li>Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><strong>CS1</strong>: TCPP recommends that the notion of dependencies be covered as early as CS1.</li>
+<li><strong>CS2/DSA</strong>: TCPP recommends that concepts of speedup, divide-and-conquer and selection be covered in either CS2 or DSA.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>The visual aspect of this activity may make it less accessible for blind students. However, there are special decks of cards that have Braille printed on them. This will allow blind students to participate equally in this exercise.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Unknown. However, the related activities have asssessment.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p></li>
+
+<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
+
+<li><p>L. Valiant, &ldquo;Parallelism in Comparison Problems&rdquo;, in <em>SIAM Journal of Computing</em>. vol. 4, no. 3, pp. 348&ndash;355. 1975.</p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

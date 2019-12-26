@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>OddEvenTranspositionSort</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">OddEvenTranspositionSort</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>OddEvenTranspositionSort</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/k-12"><kbd class="item-course">K-12</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/movement"><kbd class="item-sense">movement</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally Described by Adam Rifkin (Rifkin1994), with a separate
+description by Michelle Moore (Moore2000). (Bachelis1994) also presents the
+sort as a &ldquo;compare-exchange sort&rdquo;. We extrapolate on (Rifkin1994), since
+it is well described.</p>
+
+<p>No web-link to independent description available. However, (Sivilotti2003)
+employed the exercise in a summer workshop for middle school girls, and
+provided a write-up of the activity and slides associated with the
+activity at <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/">his website</a>:</p>
+
+<ul>
+<li>Slides (includes other activities) <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/fesc.ppt">PPT</a><br /></li>
+<li>1 Page Synopsis <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/parallel.pdf">PDF</a></li>
+</ul>
+
+<p>See papers (Rifkin1994, Bachelis1994, Moore2000, Sivilotti2003) for additional details.</p>
+
+<h3 id="similiar-exercises">Similiar Exercises:</h3>
+
+<p>Sorting: <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/parallelradixsort/">parallelRadixSort</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sortingnetwork/">sortingNetwork</a> <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/">CardSorting</a></p>
+
+<h3 id="other-activities-by-authors">Other activities by authors</h3>
+
+<p>Rifkin1994: <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/parallelradixsort/">parallelRadixSort</a></p>
+
+<p>(Bachelis1994): <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">CardSorting</a>,
+  <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a></p>
+
+<p>(Moore2000): <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/">CardSorting</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/">MatrixAddition</a></p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>(Rifkin1994) designed the activity to take place in the course of the hour,
+and was introduced to high school minority students in a workshop format.<br />
+Prior to the exercise, students are given an overview of the concept of
+sorting, and try to come up with ways to sort a collection of six random
+numbers.</p>
+
+<p>The instructor then splits the group into nine teams (of about the same size),
+with three teams assigned to a separate supervisor. The supervisor will
+then have one of the three teams perform bubble sort, the second perform
+odd-even-transposition sort, and the last perform parallel radix sort
+(described in a separate exercise).</p>
+
+<p>Each group under the care of supervisor stands in three rows. Each row has
+indices noted on the ground, indicating where students should stand, numbered
+from 0 &hellip; <em>n</em>-1 where <em>n</em> is the number of students in each row. For
+odd-even-transposition sort, even spots are marked in one color, while odd
+spots are marked in another.</p>
+
+<p>Each student at index <em>i</em> is handed a random number that corresponds to
+the same index in a separate row.  Each row is then given its own set of
+instructions, and they are instructed to follow the instructions specifically
+(without talking) to sort the numbers.</p>
+
+<p>The row in charge of odd-even-transposition sort performs the following set of
+steps:
+* During the &ldquo;even&rdquo; phase, neighbors standing on the same colored spaces
+  denoting &ldquo;even&rdquo; compare their numbers to their neighbors on the left. If
+  their neighbor is less than them, they swap spaces with their neighbor.</p>
+
+<ul>
+<li>During the &ldquo;odd&rdquo; phase, neighbors standing on the same colored spaces denoting
+&ldquo;odd&rdquo; compare their numbers with their neighbor to the left. If their
+neighbor&rsquo;s number is less than them, they swap places with their neighbor.</li>
+</ul>
+
+<p>Students are asked note that the round does not need to be coordinated by
+group leaders, and to observe that that the list was becoming &ldquo;more sorted&rdquo;
+with each phase. At the end of the exercise, students were asked to consider
+the strengths and weaknesses of Odd-even-transposition sort, and why it was
+ a parallel algorithm, and how it compares to bubble sort.</p>
+
+<h3 id="variants">Variants</h3>
+
+<h4 id="moore2000">(Moore2000)</h4>
+
+<p>(Moore2000) describes an example exercise that she presents in a parallel processing
+lab. It is assumed that students know about the Bubble Sort algorithm ahead of
+time. Odd Even Transposition Sort is a &ldquo;parallel&rdquo; version of bubble sort. In
+this exercise, students are asked to physically simulate the multiple processors
+performing the sort. The main difference from (Rifkin1994) is that students
+stay <em>stationary</em>, while <em>cards</em> move around. This variant may be better for
+classrooms with students with impaired mobility.</p>
+
+<ul>
+<li><p>A subset of students stand in line at the front of classroom, and count off to determine
+if they are odd or even. Each student who is even is marked with a sticker to
+indicate that they belong to the &ldquo;even&rdquo; group. (Note that two colors of
+stickers can be used in order to ensure that there are no hurt feelings). It
+is important that &ldquo;even&rdquo; and &ldquo;odd&rdquo; alternate in the line.</p></li>
+
+<li><p>Each student is handed an index card with a unique random number written on
+it.</p></li>
+
+<li><p>During the even phase, all the Evens turn to the left and compare their card
+with their neighbor. If the neighbor&rsquo;s card number is smaller than the card they are
+holding, they swap cards.</p></li>
+
+<li><p>During the odd phase, all the Odds turn to their left and comapre their card
+with their neighbors. If the neighbor&rsquo;s card number is smaller than the card
+they are holding, they swap cards.</p></li>
+
+<li><p>The above two phases are repeated until the numbers are in order.</p></li>
+
+<li><p>A separate student (not in line) is responsible for tallying the number of
+times the odd phases and even phases occur.</p></li>
+</ul>
+
+<p>The class then has a discussion that Odd-Even Transposition Sort has a parallel
+time complexity O(<em>n</em>) when <em>n</em> students are used for sorting. In
+contrast, the serial algorithm (bubble sort) has a time complexity of
+O(<em>n</em><sup>2</sup>).</p>
+
+<h4 id="sivilotti2003">Sivilotti2003</h4>
+
+<p>Sivilotti performed the activity exactly as described in (Rifkin1994). However,
+prior to introducing the activity, used an analogy to describe computers as
+&ldquo;chefs&rdquo; and programs to &ldquo;recipes&rdquo;. Like programs, recipes are characterized
+by what their ingredients (input) and the final product (output). A software
+engineer is thus described as a &ldquo;recipe-engineer&rdquo;.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="parallel-decomposition">Parallel Decomposition</h3>
+
+<p>2.  Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="tcpp-algorithms">TCPP algorithms</h3>
+
+<ul>
+<li><p>Comprehend Asymptotics: Understand upper (big-O) and lower bounds
+(big-Omega,); follow elementary big-O analyses, e.g., the O(log n)
+tree-depth argument for mergesort with unbounded parallelism.</p></li>
+
+<li><p>Comprehend Time: Recognize time as a fundamental computational resource
+that can be influenced by parallelism.</p></li>
+
+<li><p>Comprehend Speedup: Recognize the use of parallelism either to solve
+a given problem instance faster or to solve larger instance in the same
+time (strong and weak scaling).</p></li>
+
+<li><p>Know Sorting: Observe several sorting algorithms for varied platforms &mdash;
+together with analyses. Parallel merge sort is the simplest example, but
+equally simple alternatives for rings and meshes might be covered also;
+more sophisticated algorithms might be covered in more advanced courses.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p>Moore covers the concept in a parallel processing lab, though it is not
+clear which course the lab was used in.</p></li>
+
+<li><p><strong>K-12</strong>: (Rifkin1994) successfully introduced sorting concepts to minority
+high school students in a sumemr workshop. (Sivilotti2003) successfully
+introduced sorting concepts to middle school girls.</p></li>
+
+<li><p><strong>CS2/DSA</strong>: TCPP recommends that topics of sorting can be covered as
+early as CS2, and that both sorting and algorithmic complexity topics are
+appropriate for DSA.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This exercise appears fairly accesible to everyone. For students who are blind,
+the Braille cards are recommended so students can read the number on them.
+For Deaf students the &ldquo;Odd&rdquo; &ldquo;Even&rdquo; phases can be signified by holding up a
+large sign. We do not anticipate any mobility issues, as students can sit in
+chairs for this exercise, and perform the variant described in (Moore2000).
+However, some groups may choose to use original description in (Rifkin1994)
+to engage higher energy, able students.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>(Rifkin1994) gives a general overview of assessment; 81 students completed
+surveys, in which they overwhelmingly responded that the workshop
+as a whole was a positive experience, and that respondents &ldquo;learned something,
+had fun, and had a better impression of computer science&rdquo; (Rifkin1994).
+However, specific assessment of odd-even-transposition sort was not provided.</p>
+
+<p>(Moore2000) discusses the impact of the parallel computing labs in her course. In general, students
+responded to the labs positively, and felt that labs increased their knowledge
+significantly.</p>
+
+<p>(Sivilotti2003) reported the sorting activity could be completed in a 45 minute
+period. Students were asked a number of questions, including rating the
+exercises. On a scale from 1 (low) to 5 (high) students rated the parallel
+sorting exercise as a 4.4. Students also made statements such as &ldquo;the more
+&lsquo;chefs&rsquo;[processors] you use, the faster the program will finish&rdquo; and &ldquo;sequential programs
+are slow&rdquo; (Sivilotti1999). Students were also asked to evaluate the overall
+quality of the computer science module on scale of 1 (low) to 5 (high), and
+rated the cs component of the workshop as 4.6. Note that this includes other
+activities.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>A. Rifkin, &ldquo;Teaching parallel programming and software engineering concepts
+to high school students&rdquo;, In <em>SIGCSE Bulletin</em>, vol. 26, no. 1. and
+<em>Proceedings of the Twenty-fifth SIGCSE Symposium on Computer Science
+Education</em>, 1994, pp. 26–30. Available: <a href="http://doi.acm.org/10.1145/191033.191044">http://doi.acm.org/10.1145/191033.191044</a></p></li>
+
+<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p></li>
+
+<li><p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
+vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p></li>
+
+<li><p>P. A. G. Sivilotti and M. Demirbas, &ldquo;Introducing middle school girls to
+fault tolerant computing&rdquo;, in <em>Proceedings of the 34th SIGCSE Technical
+Symposium on Computer Science Education (SIGCSE ’03)</em>. New York, NY, USA:
+ACM, 2003, pp. 327–331, [Online]: <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/">http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/</a>.
+Available: <a href="http://doi.acm.org/10.1145/611892.611999">http://doi.acm.org/10.1145/611892.611999</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

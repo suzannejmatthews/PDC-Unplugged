@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PD_5 on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/pd_5/</link>
+    <description>Recent content in PD_5 on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Dec 2019 14:17:02 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/pd_5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MoreProcessorsNotAlwaysBetter</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</guid>
+      <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
+Paper (Srivastava2019) and slides available on-line.
+Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+ Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+    </item>
+    
+    <item>
+      <title>DesertIslandsAnalogy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
+ Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
+ Suppose that each student is on his or her own island far away from everyone else. Are any of them aware of anyone else? Do they know who is at the other end of the phone line?</description>
+    </item>
+    
+    <item>
+      <title>SieveOfErastothenes</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</link>
+      <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Maxim1990, Bachelis1994). Also described by Michelle Moore (Moore2000) and (Kitchen1992).
+No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
+(Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
+Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+    </item>
+    
+    <item>
+      <title>ArraysinParallel</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</link>
+      <pubDate>Fri, 01 Nov 2019 11:58:18 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</guid>
+      <description>Original Author/link iPDC Modules
+ Available in Word and PDF  CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier1, Core Tier2 2. Core Tier 1:Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
+5.\ Core Tier 2:Parallelize an algorithm by applying data-parallel decomposition. [Usage]
+TCPP Coverage Programming Topics  Apply Data parallel: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ConcertTickets</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">ConcertTickets</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>ConcertTickets</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_communicationandcoordination"><kbd class="item-cs2013">PD_CommunicationAndCoordination</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_cloudcomputing"><kbd class="item-cs2013">PD_CloudComputing</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_crosscutting"><kbd class="item-tcpp">TCPP_CrossCutting</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/analogy"><kbd class="item-sense">analogy</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a
+CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)</p>
+
+<p>No on-line resources available. See details for description.</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<h3 id="cs1-use-case">CS1 Use-Case</h3>
+
+<p>The following scenario is presented to students entering CS1 on their first
+day (Lewandowski2010):</p>
+
+<blockquote>
+<p>Suppose a Ticket Sale Company sells concert tickets in the following way:
+When a customer calls and asks for a <em>n</em> seats, the seller (1) finds the <em>n</em>
+best avaiable seats; (2) marks those <em>n</em> seats as unavailable; and  (3) deals with customer payment options and either e-mails ticket receipt
+or sends tickets to the Will Call Box Office (lets customer pick up tickets
+day of show). Now suppose there are two sellers working at the same time.
+What problems could arise, and how can we avoid them?</p>
+</blockquote>
+
+<p>Students should be allowed to answer in whatever long-form way they choose.
+This could be done electronically (through a text-box) or written down and
+submitted.</p>
+
+<p>If done in class, the authors suggest that instructors choose a subset of
+student-generated solutions for further discussion. For example,</p>
+
+<ul>
+<li><p>What is the key problem? (a seat gets accidentally sold to multiple people).
+This is called a &ldquo;race condition&rdquo;.</p></li>
+
+<li><p>Even in &ldquo;fast&rdquo; systems (blazingly fast sellers), it is possible to have
+race conditions. It should be emphasized to students that race conditions
+can occur despite speed.</p></li>
+
+<li><p>Instructors can use responses that &ldquo;pass the buck&rdquo; (vendors can mark a seat
+as unavailable and sell it instaneously). For these responses, let students
+know that there can be delay that could occur between the time seats are
+marked as unavailable and when they are sold. This is a good starting
+point on a discussion of atomic operations.</p></li>
+
+<li><p>Also ask students what would happen if a credit card payment did not go
+through, or if the customer changes their mind (i.e. what if marking a seat
+as reserved and purchasing it was not atomic)?</p></li>
+
+<li><p>Instructors should use centralized solutions (sellers pass the
+responsibility of making seat assignments to some centralized resource like
+a database or where each seller had their own private set of seats that only
+they sell) to discuss interleving instructions (e.g. how will one seller know
+that another seller has reserved the seats?) or serializing the process.</p></li>
+
+<li><p>Instructors should use solutions that do not scale well to discuss scaling
+issues (e.g. only one vendor on a cell-phone is allowed in the concert hall
+at any given time; at that point they get the &ldquo;best&rdquo; seats for their
+customer, marks them as &ldquo;taken&rdquo; and leaves. The scaling issue arises as this
+is not tenable for larger concert halls).</p></li>
+
+<li><p>Instructors should stress the real-world applicability of this problem.
+Ask the students where they have seen this in the real world.</p></li>
+</ul>
+
+<h3 id="original-proposed-by-kolikant">Original Proposed by Kolikant</h3>
+
+<p>The original was provided as an assignment by (Kolikant2001) to her students
+on the first day of class in an upper-level concurrency course. The following
+is reproduced from (Lewandowski2007) as a summary of what was proposed by
+(Kolikant2001):</p>
+
+<p>A ticket office sells movie tickets for a certain play. The next client always
+gets the best avaialable ticket (each client can only purchase one ticket).
+The vendor runs computer software that determines what is the next best
+available seat, and prints the ticket for the client. This is equivalent to a
+buttom push.</p>
+
+<p>The following procedures are defined in the software:</p>
+
+<pre><code class="language-c">
+// returns index of best available seat in hall
+// returns -1 if no seats are available
+int bestAvailableSeat(Array Hall); 
+
+//marks seat noted by the index as being &quot;taken&quot;. 
+//once function completes, the seat is marked as being taken with customer's name.
+void markAvailableSeat(int seat, string customer);
+
+//prints a ticket associated with the index (has customer's name on it) 
+void printTicket(int seat);
+</code></pre>
+
+<p>The software handles a client using the following set of steps:</p>
+
+<pre><code class="language-c">
+int seat = bestAvailableSeat(Hall);
+if (seat != -1) {
+    markAvailableSeat(seat);
+    printTicket(seat);
+}
+</code></pre>
+
+<p>The owners of the play decide to add another ticket office. Each ticket office
+open at the same time and sell tickets for the same play. Each office has its
+own printer for printing tickets.</p>
+
+<p>Develop a system according to the following steps:</p>
+
+<ol>
+<li><p>What is the required hardware? (screens, printers, keyboards, etc.). Specify
+how the hardware is distributed in the system.</p></li>
+
+<li><p>Write pseudocode for the software of the required system (where tickets are
+being sold in two offices for the same play). You may use the procedures
+defined above.</p></li>
+</ol>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-decomposition-core-tier-1">PD/Parallel Decomposition Core Tier 1</h3>
+
+<p>1. Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
+
+<h3 id="pd-communication-and-coordination">PD/Communication and Coordination</h3>
+
+<p><strong>Core Tier 1</strong></p>
+
+<p>2. Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]</p>
+
+<p><strong>Core Tier 2</strong></p>
+
+<p>5. Write a program that correctly terminates when all of a set of concurrent tasks have completed. [Usage]</p>
+
+<p>7. Explain why checks for preconditions, and actions based on these checks, must share the same unit of atomicity to be effective. [Familiarity]</p>
+
+<p>8. Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable. [Usage]</p>
+
+<h3 id="pd-cloud-computing">PD/Cloud Computing</h3>
+
+<p>2. Explain strategies to synchronize a common view of shared data across a collection of devices. [Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li>Know Concurrency Defects (Data Races): Know what a data race is, and how to use synchronization to prevent it.</li>
+</ul>
+
+<h3 id="cross-cutting-and-advanced-topics">Cross Cutting and Advanced Topics</h3>
+
+<ul>
+<li>Know Consistency in Distributed Transactions: Recognize classic consistency problems. Know that consistency maintenance is a primary issue in transactions issued concurrently by multiple agents.</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<p>(Kolikant2001) presented the original exercise in an upper-level
+course on concurrency.</p>
+
+<ul>
+<li><strong>CS1</strong>: (Lewandowski2007) taught the concepts in a CS1 course.</li>
+<li><strong>CS2/Systems</strong>: TCPP recommends that consistency in distributed
+transactions can be covered in CS2 and/or systems.</li>
+<li><strong>DSA</strong>: In addition to systems, TCPP recommends that data races can be
+covered in DSA.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This assignment seems generally accessible. For students who are blind, the
+prompt needs to be made available in Braille or through a screen reader so that
+students can give their answers.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>(Kolikant2001) presented the problem as the first assignment in an upper-level
+course on concurrency. Despite the differences in the solutions, Kolikant found
+that she could classify all the responses into five main categories, including
+three centralized solutions, and two decentralized solutions. Found that while
+many students proposed centralized solutions, most failed to recognize the
+race condition component.</p>
+
+<p>(Lewandowski2007, Lewandowski2010) created a simpler, less programming specific
+version which they presented to CS1 students as an open prompt. Students submitted
+long form english-sentence paragraph answers, rather than psuedo-code. Unlike
+(Kolikant2001), students in this populace submitted multiple solutions.
+(Lewandowski2010) reports that with the more open-ended responses, 71% of students
+came up with at least one &ldquo;reasonable&rdquo; response, and most students (97%)
+identified the main problem of interest (it may be possible to give a
+a particular seat to more than one person). Both studies support the notion
+of constructivism, which operates under the assumption that students learn by
+refining and extending their own existing knowledge. Both sets of researchers
+argue thatt &ldquo;real-world&rdquo; scenarios like the ticket system is preferable to
+clever stories (Dining Philosophers, Sleeping Barbers, etc.).</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>G. Lewandowski, D. J. Bouvier, T.-Y. Chen, R. McCartney, K. Sanders,
+B. Simon, and T. VanDeGrift, &ldquo;Commonsense understanding of concurrency:
+Computing students and concert tickets&rdquo;, <em>Communications of the ACM</em>, vol.
+53(7), pp. 60–70, July 2010. Available: <a href="http://doi.acm.org/10.1145/1785414.1785438">http://doi.acm.org/10.1145/1785414.1785438</a></p></li>
+
+<li><p>G. Lewandowski, D. J. Bouvier, R. McCartney, K. Sanders, and B. Simon,
+&ldquo;Commonsense computing (episode 3): Concurrency and concert tickets&rdquo;, in
+<em>Proceedings of the Third International Workshop on Computing Education
+Research (ICER&rsquo;07)</em>. 2007, pp. 133–144. Available: <a href="http://doi.acm.org/10.1145/1288580.1288598">http://doi.acm.org/10.1145/1288580.1288598</a></p></li>
+
+<li><p>Y. B.-D. Kolikant, &ldquo;Gardeners and cinema tickets: High school students&rsquo;
+preconceptions of concurrency&rdquo;, <em>Computer Science Education</em>, 11(3),
+pp. 221–245, 2001. Available: <a href="https://doi.org/10.1076/csed.11.3.221.3831">https://doi.org/10.1076/csed.11.3.221.3831</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

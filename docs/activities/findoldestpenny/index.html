@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FindOldestPenny</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">FindOldestPenny</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>FindOldestPenny</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelalgorithms"><kbd class="item-cs2013">PD_ParallelAlgorithms</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelperformance"><kbd class="item-cs2013">PD_ParallelPerformance</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs0"><kbd class="item-course">CS0</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/systems"><kbd class="item-course">Systems</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/touch"><kbd class="item-sense">touch</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>This activity was originally proposed by Mary Smith and Srishti Srivastava,
+with consultation from Brett A Becker.</p>
+
+<p><a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">Paper</a> (Srivastava2019) and <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/Srishti_Mary_EduHPC_SC2019_Presentation.pdf">slides</a>
+available on-line.</p>
+
+<h3 id="similar-activities">Similar Activities</h3>
+
+<p><a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/">FindYoungestStudent</a></p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>See paper for details. In summary, the goal is to find the oldest penny in a
+pile of pennies. This is first done sequentially, with one student trying
+to determine the oldest penny in a group of 50 pennies. Next, two students are
+employed, with each student getting a bag of 25 pennies. Lastly, four
+students get two pennies each, while a fifth student gets 42 pennies. This
+last scenario indicates the importance of load-balancing, and Amdahl&rsquo;s Law.</p>
+
+<p>This activity is very similar to FindYoungestStudentinClass proposed by
+Chitra P (Chitra2019)</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-decomposition-core-tier-1">PD/Parallel Decomposition Core Tier 1</h3>
+
+<p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<h3 id="pd-parallel-algorithms-core-tier-2">PD/Parallel Algorithms Core Tier 2</h3>
+
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<h3 id="pd-parallel-performance">PD/Parallel Performance</h3>
+
+<p>1. Detect and correct a load imbalance. [Usage]</p>
+
+<p>2. Calculate the implications of Amdahl&rsquo;s law for a particular parallel algorithm [Usage]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li>Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes.</li>
+<li>Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes.</li>
+<li>Know Amdahl&rsquo;s Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</li>
+</ul>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
+<li>Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. (0.5 hours)</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><strong>CS0/CS1/CS2</strong>: The authors of the activity presented the activity to
+students in CS0, CS1, and CS2 at several institutions.<br /></li>
+<li><strong>DSA</strong>: In addition to CS2, TCPP recommends that computation, performance and selection topics
+be covered in DSA.</li>
+<li><strong>Systems</strong>: In addition to DSA, TCPP recommends that load balancing be covered in Systems.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This activity may be difficult for students who are blind. For those students,
+the similar activity by Chitra P (Chitra2019) may be a better choice.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Paper (Srivastava2019) performs assessment on this activity and another
+activity (MoreProcessorsNotAlwaysBetter). For this particular activity,
+assessment was performed on 98 students (73 male, 25 female) over four
+institutions. The vast majority (81.6%) were aged 18-22. In addition,
+38 students were Freshmen, 18 were sophomores, 25 were juniors, and 17
+were seniors. Students were given the ASPECT survey that measures student
+engagement related to three constructs (value of activity, instructor
+contribution, and personal effort). Statistial significance was measured
+using a combination of one-way and two-way ANOVA tests. While no statistical
+difference was discovered for any of the three constructs over gender or year
+in college, 23-27 year-olds had a statistically greater value of the activity and sense
+of instructor contribution than 18-22 year olds. The authors suggest that
+that younger students may be more used to active learning strategies
+from K-12, while it may be more novel for older college students.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>S. Srivastava, M. Smith, A. Ghimire, and S. Gao, &ldquo;Assessing the integration of
+parallel and distributed computing in early undergraduate computer science
+curriculum using unplugged activities&rdquo;, in <em>Proceedings of the Workshop on
+Education for High Performance Computing (EduHPC&rsquo;19)</em>, 2019, <em>to appear</em>.
+[Online]. Available: <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf</a></p></li>
+
+<li><p>M. Smith and S. Srivastava, &ldquo;Evaluating student engagement towards
+integrating parallel and distributed computing (PDC) topics in undergraduate
+level computer science curriculum&rdquo;, in <em>Proceedings of the 50th ACM
+Technical Symposium on Computer Science Education (SIGCSE&rsquo;19)</em>. 2019,
+pp. 1269–1269. [Online, Abstract Only]. Available: <a href="http://doi.acm.org/10.1145/3287324.3293854">http://doi.acm.org/10.1145/3287324.3293854</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

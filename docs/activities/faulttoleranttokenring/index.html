@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FaultTolerantTokenRing</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">FaultTolerantTokenRing</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>FaultTolerantTokenRing</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_communicationandcoordination"><kbd class="item-cs2013">PD_CommunicationAndCoordination</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_crosscutting"><kbd class="item-tcpp">TCPP_CrossCutting</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/k-12"><kbd class="item-course">K-12</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/systems"><kbd class="item-course">Systems</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/auditory"><kbd class="item-sense">auditory</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to
+illustrate Dijkstra&rsquo;s stabalizing token ring algorithm.</p>
+
+<p><a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/sigcse_paper.pdf">Paper</a> and <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/">materials</a> available online:</p>
+
+<ul>
+<li>Middle School Slides (includes other activities) <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/fesc.ppt">PPT</a></li>
+<li>High School Slides <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/starturn.ppt">PPT</a></li>
+<li>1 Page Synopsis <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/fault_tol.pdf">PDF</a></li>
+<li>Token ring algorithm handout <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/state.pdf">PDF</a></li>
+</ul>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="communication-and-coordination">Communication and Coordination</h3>
+
+<ol>
+<li>Use mutual exclusion to avoid a given race condition. [Usage]</li>
+</ol>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Comprehend/Apply Communication: Understand &mdash; via hands-on experience &mdash;
+that inter-processor communication is one of the most challenging aspects
+of PDC.</li>
+</ul>
+
+<h3 id="cross-cutting-and-advanced-topics">Cross Cutting and Advanced Topics</h3>
+
+<ul>
+<li>Know Fault tolerance: Large-scale parallel/distributed hardware/software
+systems are prone to components failing but system as a whole needs to work.</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p><strong>K-12</strong>: (Sivilotti2003) successfully introduced the activity to
+middle school girls in a 45-minute format. He later introduced the
+same activity to high school students.</p></li>
+
+<li><p><strong>Systems</strong>: TCPP recommends discussing fault tolerance in systems courses.</p></li>
+
+<li><p>(Sivilotti2010) that concepts of self-stabalizing mutual exclusion can be
+introduced to senior undergraduate students or graduate students.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>To make the activity accessible to blind students, it is recommended that
+Braille cards representing 0 and 1 are used. The auditory component of the
+one-bar xylophone may be inappropriate for students who are hearing impaired.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>(Sivilotti2003) reported the activity could be completed in a 45 minute
+period. Students were asked a number of questions, including rating the
+exercises. On a scale from 1 (low) to 5 (high) students rated the fault tolerant
+exercise as a 4.6, the highest of the three exercises. Students also made
+statements such as &ldquo;I learned that computers have &lsquo;faults&rsquo; that can be fixed&rdquo;
+and &ldquo;[i learned] how to make a program recover itself&rdquo; (Sivilotti1999).
+Students were also asked to evaluate the overall quality of the computer
+science module on scale of 1 (low) to 5 (high), and rated the CS component
+of the workshop as 4.6. Note that this includes other activities.</p>
+
+<p>(Sivilotti2003) also notes that the impact of musical element of the exercise
+&ldquo;cannot be overstated&rdquo;, and that tones made it very obvious that when faults
+occurred. Students were gratified when the algorithm stabilized and a melody
+emerged.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>P. A. G. Sivilotti, &ldquo;Kinesthetic learning activities in an upper-division
+computer science course&rdquo;, in <em>National Academy of Engineering Frontiers of
+Engineering Education symposium</em>, 2010, poster; <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf</a></p></li>
+
+<li><p>P. A. G. Sivilotti and M. Demirbas, &ldquo;Introducing middle school girls to
+fault tolerant computing&rdquo;, in <em>Proceedings of the 34th SIGCSE Technical
+Symposium on Computer Science Education (SIGCSE ’03)</em>. New York, NY, USA:
+ACM, 2003, pp. 327–331, [Online]: <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/">http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/</a>
+Available: <a href="http://doi.acm.org/10.1145/611892.611999">http://doi.acm.org/10.1145/611892.611999</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

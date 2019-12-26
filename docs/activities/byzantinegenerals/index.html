@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ByzantineGenerals</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">ByzantineGenerals</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>ByzantineGenerals</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_cloudcomputing"><kbd class="item-cs2013">PD_CloudComputing</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_crosscutting"><kbd class="item-tcpp">TCPP_CrossCutting</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/k-12"><kbd class="item-course">K-12</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/systems"><kbd class="item-course">Systems</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/movement"><kbd class="item-sense">movement</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by William S. Lloyd (Lloyd1994)</p>
+
+<p>No web-link to independent description available. See paper (Lloyd1994)
+for additional details.</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>Students learn of the classic Byzantine Generals problem by acting out
+scenarios.</p>
+
+<p>The Byzantine Generals problem is a classic description of the consensus
+problem in distributed computing, where many independent processes must agree
+on a &ldquo;true&rdquo; value for a particular measurement (especially in the case where
+some processes become unreliable due to faults). Byzantine Fault Tolerance (BFT)
+describes fault tolerance to &ldquo;Byzantine&rdquo; faults, where a rogue process may
+(instead of gracefully failing) continue to generate arbitrary data, making it
+difficult to detect as a faulty process.</p>
+
+<p>Today, the Byzantine General problem and BFT has its most well-known application
+in the creation of the Bitcon, where the Byzantine-tolerant blockchain enables
+the generation of a consensus of the system&rsquo;s state at any given time.</p>
+
+<p>Prior to the activity, students are familiarized with the conspiracies of
+the Byzantine Empire. (Lloyd1994) suggests telling the story of Empress Irene
+of Athens, who ruled in stead of her underage son, Constantine VI from 780-790 AD.
+When Constatine assumed power, Irene was deposed and exiled. Through a
+conspiracy, Irene re-seized the throne in 797 AD, gouging out her son&rsquo;s eyes to
+prevent him from retaking the throne (he succumed to his wounds days later).
+Irene herself was overthrown by conspiracy in 802 AD.</p>
+
+<h3 id="introducing-the-problem">Introducing the Problem</h3>
+
+<p>The Byzantine generals problem is then introduced through the following
+scenario. It is midnight, and the Byzantine army is preparing to attack
+an enemy fort at dawn. The armed forces are split into several brigades,
+each led by its own general and occupying separate hills surrounding the fort.
+Each general must remain with his or her troops, and communicates with other
+generals by utilizing messengers that run from camp to camp. The generals
+must come to agreement on whether to attack at first light or retreat. The
+enemy&rsquo;s strength is such that unless a majority of the brigades attack,
+it will be a total rout and the Byzantine army will suffer a major defeat. The
+generals have agreed to abide by the vote of the majority, and will retreat
+if a majority decision cannot be reached.</p>
+
+<p>While the army&rsquo;s lines of communication are secure (the messengers carry
+unforgeable messages stamped with the seal of the sender), there is a very
+real possibility that one or more of the Byzantine generals are traitors to the
+realm. For example, the traitors may trick a few of the loyal generals in
+attacking when the general consensus is to retreat, leading to a major
+military defeat. The problem is this: how can a loyal general ensure that
+his or her decision is the same as the majority of generals? What plan can
+be devised to ensure that the honest general will be joined by all loyal brigades
+to attack?</p>
+
+<h3 id="the-activity">The Activity</h3>
+
+<p>The instructor should start by choosing three students to play generals, and
+have them stand in different corners of the classroom. A separate student is
+picked to act as a runner carrying messages between generals.</p>
+
+<p>Ask the class:</p>
+
+<ul>
+<li>Why can&rsquo;t a general make a decision on a single message received from
+the others?</li>
+</ul>
+
+<p>Consider the case where students A and B are loyal and C is a traitor. A
+wants to attack, and B wants to retreat. In a simple &ldquo;majority vote&rdquo; situation,
+all C needs to do is send an attack message to A to trick A into attacking,
+and a retreat message to B (or no message) to trick B into retreating. It may
+be helpful to write the messages received by each general on the board in
+separate columns (for example, A&rsquo;s column will read: A - Attack, B - retreat,
+C-attack, consensus - Attack).</p>
+
+<p>Next, the students are asked to consider the scenario where a fourth general
+(D) is added (pick a new student to play this part, and have them stand in a fourth
+corner of the room). Like general A, suppose general D also favors an attack.</p>
+
+<p>Ask the class:</p>
+
+<ul>
+<li>Suppose the new general D is loyal. Is it possible for general C to succeed
+in his or her treachery?</li>
+</ul>
+
+<p>The answer is yes. All C needs to do is send A an attack message, and B and
+D to retreat. A will receive three attack messages (from A and D), and, having
+three of the four generals in agreement, prepare to attack. B and D however,
+will receive two votes for attack (from A and/or D) and two votes for retreat
+(from B and C). As a reminder, the decision is to retreat in the case of ties.
+Therefore, come morning, general A will attack alone while B, C, and D retreat.</p>
+
+<p>Next, ask the students:</p>
+
+<ul>
+<li>The majority method fails. What is the best way to foil the traitors plans?</li>
+</ul>
+
+<p>With some guidance, students should come up with the solution that generals
+should circulate another round of messages, comparing notes to ensure that
+each general voted the same way in all messages. Thus, in the next round, all
+the generals send out the votes received by all the other generals.</p>
+
+<p>Each loyal general determines the &ldquo;true&rdquo; vote of another general by seeing how
+the general voted to everyone else. So, A may write the following:
+(A): A - Attack, B - Retreat, C - Attack, D - Retreat; (B): A- Attack, B -
+Retreat, C - Retreat, D - Retreat; (<notextile>C</notextile>) A- Attack, B- Retreat C-(Attack or Retreat), D - Retreat;
+(D) A - Attack, B - Retreat, C - Retreat, D - Retreat.</p>
+
+<p>Based on this, general A can see that generals B and D always indicates retreat,
+while C either indicates attack (50%) of the time, or retreat (75%) of the time.
+Therefore C&rsquo;s vote is recorded as retreat. General A can then note one attack
+vote (from A) and three retreat votes (from B, C, and D), and determine that
+it is best to retreat.</p>
+
+<p>Next ask the students:</p>
+
+<ul>
+<li>Suppose there are <em>two</em> traitors  (a conspiracy!), and that D is also a
+traitor just like C. Can general A still be tricked? Is there a way to foil
+the attack?</li>
+</ul>
+
+<p>With two traitors, it is even easier to fool A into attacking, and B into
+retreating. A can be sent the messages from C and D saying to attack, while
+sending B messages to retreat. However, the exchanging of messages does
+not work this time. Consider the following scenario where C and D send
+A the message attack, and send B the message to retreat. A will therefore
+write the following:</p>
+
+<p>(A): A - Attack, B - Retreat, C - Attack, D - Attack; (B): A- Attack, B -
+Retreat, C - Retreat, D - Retreat; (<notextile>C</notextile>) A- Attack, B- Retreat C-Attack, D - Attack;
+(D) A - Attack, B - Retreat, C - Attack, D - Attack.</p>
+
+<p>From this set of messages, it will appear to A that C and D are indicating that
+they will attack (even though B correctly reports that C and D sent a message
+indicating that they are retreating). So, A will attack.</p>
+
+<p>In contrast, B may write the following:</p>
+
+<p>(A): A - Attack, B - Retreat, C - Attack, D - Attack; (B): A - Attack, B - Retreat,
+C - Retreat, D-Retreat. (<notextile>C</notextile>) A - Attack, B - Retreat, C - Retreat D - Retreat,
+(D) A - Attack, B - Retreat, C - Retreat, D-Retreat.</p>
+
+<p>In this case, B is fooled into thinking that C and D are in agreement of
+retreating, and will retreat. In the case of two traitors, it is impossible
+for them to be overcome.</p>
+
+<p>Lastly, ask general D to sit down. Ask the class:</p>
+
+<ul>
+<li>What about the original scenario with three generals (A, B, and C) and only
+one disloyal general. Can the traitor still be detected?</li>
+</ul>
+
+<p>In the first round of messages, C can tell A to attack and B to retreat. In
+the second round however, C can forward seperate messages to A and B.</p>
+
+<p>A could then write the following:
+(A): A - Attack, B - Retreat, C - Attack; (B): A - Attack, B - Retreat,
+C - Retreat; (<notextile>C</notextile>) A - Attack, B - Retreat, C - Attack.</p>
+
+<p>In this scenario, while B correctly reports that C told them to retreat, the
+majority decision for C is two attacks and one retreat. So, A will interpret
+C&rsquo;s decision as &ldquo;attack&rdquo;, and will attack.</p>
+
+<p>Likewise, B can write the following:
+(A): A - Attack, B - Retreat, C - Attack; (B): A - Attack, B - Retreat,
+C - Retreat; (<notextile>C</notextile>) A - Attack, B - Retreat, C - Retreat.</p>
+
+<p>In this case, while A correctly reports that C reported to attack, the majority
+of B&rsquo;s messages indicate that C indicates to retreat. Therefore, B will
+interpret C&rsquo;s decision as &ldquo;retreat&rdquo;, and will retreat.</p>
+
+<p>Conclude with the fact that in order for loyal generals to defeat traitors,
+there must be at least over three times as many loyal generals as traitors (i.e.
+3<em>t</em> +1, where <em>t</em> is the number of traitors). (Lloyd1994) also recommends
+telling students that while the above dramatization is useful for exploring
+the problem, formal proof methods are necessary to make the argument
+correctly to computer scientists.</p>
+
+<h3 id="relating-it-to-distributed-computing">Relating it to Distributed Computing</h3>
+
+<p>Each general represents a process executing on a separate distributed
+processor. A traitor represents an unpredictably faulty processor. The entire
+army represents a distributed computer system in which separate elements
+cooperate to achieve a task. Prime questions for discussion include:</p>
+
+<ul>
+<li><p>The generals work <em>concurrently</em> to make their decisions. When is <em>concurrency</em>
+useful in computing?</p></li>
+
+<li><p>The generals cooperate through they are in different camps. How to
+processes executing on different processors form a distributed computing
+system?</p></li>
+
+<li><p>Generals communicate through runners. How do distributed processes
+communicate? What are the effects of interprocess communication on security?</p></li>
+
+<li><p>The Byzantine army can be effective even though some generals are traitors.
+How can distributed systems increase reliability?</p></li>
+
+<li><p>Suppose instead that the enemy captures/corrupts a runner. What kinds of
+failures can occur in distributed computing systems?</p></li>
+</ul>
+
+<p>Lastly, the instructor can guide discussions on more advanced issues related
+to viruses, hacking, and encryption. For example, message passing amongst
+generals can be used to illustrate encryption techniques. Lastly, the
+instructor can relate the Byzantine General problem to the construction of the
+blockchain.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="cloud-computing-elective">Cloud Computing (Elective)</h3>
+
+<p>2. Explain strategies to synchronize a common view of shared data across a collection of devices. [Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li>Comprehend Distributed Memory: Know basic notions of messaging among processes, different ways of message passing, collective operations.</li>
+</ul>
+
+<h3 id="algorithm-topics">Algorithm Topics</h3>
+
+<ul>
+<li>Comprehend/Apply Communication: Understand &mdash; via hands-on experience &mdash; that inter-processor communication is one of the most challenging aspects of PDC.</li>
+</ul>
+
+<h3 id="cross-cutting-and-advanced-topics">Cross Cutting and Advanced Topics</h3>
+
+<ul>
+<li>Know Fault tolerance: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work.</li>
+<li>Know Cluster Computing: Be able to describe a cluster as a popular local-memory architecture with commodity compute nodes and a high-performance interconnection network.</li>
+<li>Know Consistency in Distributed Transactions: Recognize classic consistency problems. Know that consistency maintenance is a primary issue in transactions issued concurrently by multiple agents.</li>
+<li>Know Security in Distributed Systems: Know that distributed systems are more vulnerable to privacy and security threats; distributed attacks modes; inherent tension between privacy and security.</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p><strong>K-12/CS1</strong>: Author reports exploring the Byzantine Generals problem in
+CS1 at West Georgia College, and with 9-12th greaters in a mathematics
+enrichment program (Lloyd1994). In addition TCPP recommends that the topic
+of consistency in distributed systems can be introduced as early as CS1.</p></li>
+
+<li><p><strong>DSA/Systems</strong> - TCPP recommends that distributed systems topics such as message
+passing can be covered in DSA or systems courses.In addition, issues such as
+fault tolerance, consistency and security are appropriate for Systems courses.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>Blind students may have issues with this activity (playing the role of generals,
+unless Braille (attack/retreat) cards are provided in advance for them to receive.</p>
+
+<p>We don&rsquo;t anticipate this study to be difficult for mobility impaired students,
+since they can sit in a corner of the classroom.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>While formal assessment is not provided, the author reports that they &ldquo;have
+found it to be one of the most popular topics covered&rdquo; in the high school and
+CS1 environments (Lloyd1994).</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li>W. S. Lloyd, &ldquo;Exploring the byzantine generals problem with beginning
+computer science students&rdquo;, SIGCSE Bull., vol. 26, no. 4, pp. 21–24,
+Dec. 1994. Available: <a href="http://doi.acm.org/10.1145/190650.190656">http://doi.acm.org/10.1145/190650.190656</a></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

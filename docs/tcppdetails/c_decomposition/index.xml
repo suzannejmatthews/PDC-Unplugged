@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C_Decomposition on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_decomposition/</link>
+    <description>Recent content in C_Decomposition on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 10:46:11 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_decomposition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AddLargeNumbers</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/</link>
+      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
+No link to independent description publicly available. Please see details section for a synopsis.
+Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, ParallelAddition
+Details From (Bachelis1994): The goal is to introduce students to how large pairs of numbers in parallel.
+Suppose the goal is to add two large numbers (in this example, 534,789,213 and 495,378,388).</description>
+    </item>
+    
+    <item>
+      <title>MoreProcessorsNotAlwaysBetter</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</guid>
+      <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
+Paper (Srivastava2019) and slides available on-line.
+Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+ Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+    </item>
+    
+    <item>
+      <title>FindOldestPenny</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</link>
+      <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</guid>
+      <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
+Paper (Srivastava2019) and slides available on-line.
+Similar Activities FindSmallestCard, FindYoungestStudent
+Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
+    </item>
+    
+    <item>
+      <title>CompanyAnalogy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</link>
+      <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</guid>
+      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
+No web-link to independent description available. See paper (Giacaman2012) for details.
+Details The company analogy is used to introduce multicore systems:
+ The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.
+  To illustrate (under)utilization and resource contention/context switching:</description>
+    </item>
+    
+    <item>
+      <title>CandySorting</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</link>
+      <pubDate>Fri, 01 Nov 2019 14:23:28 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</guid>
+      <description>Original Author/link iPDC Modules
+ Available in Word and PDF  CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
+2. Core Tier 1: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
+4. Core Tier 2: Parallelize an algorithm by applying task-based decomposition. [Usage]
+Parallel Performance (Elective) 1.</description>
+    </item>
+    
+  </channel>
+</rss>

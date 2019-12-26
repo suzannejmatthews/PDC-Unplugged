@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Senses on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/senses/</link>
+    <description>Recent content in Senses on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/senses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>touch</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/senses/touch/</link>
+      <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/senses/touch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/senses/visual/</link>
+      <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/senses/visual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analogy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/senses/analogy/</link>
+      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/senses/analogy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>movement</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/senses/movement/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/senses/movement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>auditory</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/senses/auditory/</link>
+      <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/senses/auditory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

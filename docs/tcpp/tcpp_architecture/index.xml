@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TCPP_Architecture on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_architecture/</link>
+    <description>Recent content in TCPP_Architecture on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CoinFlip</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</link>
+      <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</guid>
+      <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
+No link to independent description available. See Details for a synopsis.
+Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
+They are presented wtih the following algorithm:
+1. flip coin. 2. check if heads.</description>
+    </item>
+    
+    <item>
+      <title>ParallelAddition</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
+No link to independent description publicly available. Please see details section for a synopsis.
+Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
+Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
+    </item>
+    
+    <item>
+      <title>LongDistancePhoneCall</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/longdistancephonecall/</link>
+      <pubDate>Tue, 05 Nov 2019 17:46:25 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/longdistancephonecall/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slide 26.
+ Available in: PPT and PDF Also described in (Neeman2006)  CS2013 Knowledge Unit Coverage Parallel Architecture (Elective) 8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]
+TCPP Topics Coverage Architecture Topics  Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</description>
+    </item>
+    
+    <item>
+      <title>DesertIslandsAnalogy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
+ Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
+ Suppose that each student is on his or her own island far away from everyone else. Are any of them aware of anyone else? Do they know who is at the other end of the phone line?</description>
+    </item>
+    
+    <item>
+      <title>JigsawPuzzle</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
+ Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+    </item>
+    
+    <item>
+      <title>SieveOfErastothenes</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</link>
+      <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Maxim1990, Bachelis1994). Also described by Michelle Moore (Moore2000) and (Kitchen1992).
+No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
+(Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
+Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+    </item>
+    
+    <item>
+      <title>MatrixAddition</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
+No web-link to independent description available. See paper (Moore2000) for additional details.
+Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
+Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+    </item>
+    
+    <item>
+      <title>CompanyAnalogy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</link>
+      <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</guid>
+      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
+No web-link to independent description available. See paper (Giacaman2012) for details.
+Details The company analogy is used to introduce multicore systems:
+ The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.
+  To illustrate (under)utilization and resource contention/context switching:</description>
+    </item>
+    
+  </channel>
+</rss>

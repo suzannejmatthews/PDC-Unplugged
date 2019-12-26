@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K-12 on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/courses/k-12/</link>
+    <description>Recent content in K-12 on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 12:38:56 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/courses/k-12/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PipelineSort</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/</link>
+      <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). It was also mentioned in (Kitche1992), but (Maxim1990) is listed as a reference.
+No link to independent description publicly available. Please see details section for a synopsis.
+Similiar Exercises: Sorting: OddEvenTranspositionSort, ParallelRadixSort, CardSorting, SortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
+Details From (Bachelis1994): The goal of this exercise is to illustrate how sorting can occur in a stream/pipeline.</description>
+    </item>
+    
+    <item>
+      <title>AddLargeNumbers</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/</link>
+      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
+No link to independent description publicly available. Please see details section for a synopsis.
+Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, ParallelAddition
+Details From (Bachelis1994): The goal is to introduce students to how large pairs of numbers in parallel.
+Suppose the goal is to add two large numbers (in this example, 534,789,213 and 495,378,388).</description>
+    </item>
+    
+    <item>
+      <title>FaultTolerantTokenRing</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</link>
+      <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</guid>
+      <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
+Paper and materials available online:
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+    </item>
+    
+    <item>
+      <title>ParallelRadixSort</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/parallelradixsort/</link>
+      <pubDate>Thu, 14 Nov 2019 10:30:47 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/parallelradixsort/</guid>
+      <description>Original Author/link Originally Described by Adam Rifkin (1994). No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website
+ Slides (includes other activities) PPT 1 Page Synopsis PDF  See papers (Rifkin1994, Sivilotti2003) for additional details.
+Similiar Exercises: Sorting: oddEvenTranspositionSort, sortingNetwork, cardsorting
+Other activities by (Rifki1994, Sivilotti2003) Rifkin1994: oddEvenTranspositionSort</description>
+    </item>
+    
+    <item>
+      <title>ByzantineGenerals</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</link>
+      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</guid>
+      <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
+No web-link to independent description available. See paper (Lloyd1994) for additional details.
+Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
+    </item>
+    
+    <item>
+      <title>SweetenJuice</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</link>
+      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</guid>
+      <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
+No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
+Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summar of the exercise in (Ben-Ari1999):
+Two students volunteer to be robots. A drinking glass is placed at a visible point in the classroom, purporting to contain &amp;ldquo;juice&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>PenGame</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pengame/</link>
+      <pubDate>Tue, 05 Nov 2019 14:30:34 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pengame/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Shared Memory, Slides 103-104.
+ Available in: PPT and PDF Also described in (Neeman2006)  After the first game (Take the Pen), students are asked &amp;ldquo;Can the outcome be predicted in advance?&amp;rdquo; They are led to the answer &amp;ldquo;no&amp;rdquo;, and to understand this is situation represents a race condition (Neeman2006).
+The question is repeated after the second game (Look at the Pen).</description>
+    </item>
+    
+    <item>
+      <title>JigsawPuzzle</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
+ Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+    </item>
+    
+    <item>
+      <title>OddEvenTranspositionSort</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/</link>
+      <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/</guid>
+      <description>Original Author/link Originally Described by Adam Rifkin (Rifkin1994), with a separate description by Michelle Moore (Moore2000). (Bachelis1994) also presents the sort as a &amp;ldquo;compare-exchange sort&amp;rdquo;. We extrapolate on (Rifkin1994), since it is well described.
+No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website:</description>
+    </item>
+    
+    <item>
+      <title>CardSorting</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</link>
+      <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
+Variation using a deck of playing cards by (Ghafoor2019):
+iPDC Modules
+ Available in Word and PDF  Similiar Exercises: Sorting: oddEvenTranspositionSort, ParallelRadixSort, PipelineSort, sortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, PipelineSort
+(Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, MatrixAddition
+(Ghafoor2019):
+Details From (Bachelis1994): The goal is to sort a deck of 16 cards (it is assumed that there are unique numbers) using parallel selection sort.</description>
+    </item>
+    
+    <item>
+      <title>FindYoungestStudentInClass</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</link>
+      <pubDate>Fri, 01 Nov 2019 11:20:35 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</guid>
+      <description>Original Author/link Chitra P (iPDC Modules)
+ Available in Word and PDF  Similar Activities FindOldestPenny, FindSmallestCard
+CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier 1 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
+TCPP Topics Coverage Algorithms Topics  Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.</description>
+    </item>
+    
+    <item>
+      <title>OrangeGame</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/orangegame/</link>
+      <pubDate>Fri, 01 Nov 2019 10:59:45 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/orangegame/</guid>
+      <description>Original Author/link CSUnplugged.Org
+CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2  Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
+    </item>
+    
+    <item>
+      <title>SortingNetwork</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sortingnetwork/</link>
+      <pubDate>Fri, 01 Nov 2019 10:31:08 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sortingnetwork/</guid>
+      <description>Original Author/link CSUnplugged.Org
+CS2013 Knowledge Unit Coverage N/A
+TCPP Coverage Algorithms:  Know Sorting: Observe several sorting algorithms for varied platforms &amp;mdash; together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity. CS1/CS2/DSA: The activity can be used to introduce students to parallel sorting concepts in undergraduate courses, but is inappropriate for large classes.</description>
+    </item>
+    
+  </channel>
+</rss>

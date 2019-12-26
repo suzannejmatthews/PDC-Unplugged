@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CoinFlip</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">CoinFlip</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>CoinFlip</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelarchitecture"><kbd class="item-cs2013">PD_ParallelArchitecture</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_architecture"><kbd class="item-tcpp">TCPP_Architecture</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/systems"><kbd class="item-course">systems</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/touch"><kbd class="item-sense">touch</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).</p>
+
+<p>No link to independent description available. See Details for a synopsis.</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.</p>
+
+<p>They are presented wtih the following algorithm:</p>
+
+<pre><code class="language-text">1. flip coin.
+2. check if heads.
+2. If so, raise hand.
+</code></pre>
+
+<p>The goal is to determine the total number of heads over all the coin flips.</p>
+
+<h3 id="illustrating-mimd">Illustrating MIMD</h3>
+
+<p>When the instructor says &ldquo;go&rdquo;, each executes the algorithm and raises their hand if they receive heads. The instructor counts the number of raised hands to determine the final result.  It should be emphasized to students watching the exercise that each student acts independently and executes the algorithm at their own pace.</p>
+
+<h3 id="illustrating-simd">Illustrating SIMD</h3>
+
+<p>The instructor reads the instructions out loud step by step. As the instructor reads each instruction, the student processors perform the instruction in lock step fashion. Students can only perform their instruction when the instructor reads it aloud. Thus,</p>
+
+<ul>
+<li>When the instructor says &ldquo;flip coin&rdquo;, all the students flip coins.</li>
+<li>When the instructor says &ldquo;check if heads&rdquo;, all the students look down to see if they got heads on their coin flip.</li>
+<li>When the instructor says &ldquo;raise hand if heads&rdquo;, all the students who got heads raise their hands.</li>
+</ul>
+
+<p>At the end, the instructor counts off the number of raised hands to determine the number of heads. This exercise emphasizes to students that SIMD instructions are executed in lock-step fashion, in comparison
+to MIMD, where each thread has more autonomy to execute their instructions.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-architecture">PD/Parallel Architecture</h3>
+
+<p><strong>Core Tier 2</strong></p>
+
+<p>3. Characterize the kinds of tasks that are a natural match for SIMD machines.</p>
+
+<p><strong>Elective</strong>:
+4. Describe the advantages and limitations of GPUs vs. CPUs.</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="architecture-topics">Architecture Topics</h3>
+
+<ul>
+<li>Know SIMD/Vector (e.g., SSE, Cray): Describe uses of SIMD/Vector (same operation on multiple data items)</li>
+<li>Know MIMD: Identify MIMD instances in practice (multicore, cluster, etc.)</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><strong>Systems</strong>: TCPP recommends that architecture topics be covered in a systems course.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This activity may be difficult for students who are visually impaired. To enable those students to participate in the exercise, we suggest giving students a larger coin or tile (say a dominos tile or mahjong tile), where the difference between the two sides can be clearly distinguished.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>In  (Kitchen1992), it is mentioned that a component of this exercise was used at an NSF Undergraduate Faculty Enhancement workshop at Colgate University in the Summer of 1991. A panelist at SuperComputing&rsquo;91 also mentioned that the SIMD component of this exercise was used successfully in an introductory parallel computing course at Bucknell University. No formal assessment mentioned.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.
+Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org/10.1145/142040.142064</a></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

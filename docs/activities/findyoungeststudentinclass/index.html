@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FindYoungestStudentInClass</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">FindYoungestStudentInClass</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>FindYoungestStudentInClass</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs0"><kbd class="item-course">CS0</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/k-12"><kbd class="item-course">K-12</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/auditory"><kbd class="item-sense">auditory</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Chitra P (<a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">iPDC Modules</a>)</p>
+
+<ul>
+<li>Available in <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/Find_Youngest/Find_Youngest.docx">Word</a> and <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/Find_Youngest/Find_Youngest.pdf">PDF</a></li>
+</ul>
+
+<h3 id="similar-activities">Similar Activities</h3>
+
+<p><a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/">FindOldestPenny</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a></p>
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-decomposition-core-tier-1">PD/Parallel Decomposition Core Tier 1</h3>
+
+<p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Know Selection: Observe algorithms for finding order statistics,
+notably min and max. Understand that selection can always be accomplished
+by sorting but that direct algorithms may be simpler. (0.5 hours)</li>
+</ul>
+
+<h2 id="recommend-courses">Recommend Courses</h2>
+
+<ul>
+<li><strong>K-12</strong>: This is an activity that can easily be done with K-12 students.</li>
+<li><strong>CS0/CS1/CS2</strong>: The authors recommend introduction of the topic in these
+undergraduate courses. The activity is easily scaled for large undergraduate
+classrooms.</li>
+<li><strong>DSA</strong>: TCPP recommends that DSA is a good place to introduce the concept
+of selection.</li>
+</ul>
+
+<h2 id="accessibility">Accessibility:</h2>
+
+<p>This activity seems appropriate for most populations.</p>
+
+<ul>
+<li><p>Deaf students can participate by signing the their age to their partner or
+assistant.</p></li>
+
+<li><p>Blind students can participate by calling out their age.</p></li>
+
+<li><p>Students can stay in their seats, making it appropriate for students who are
+mobility-impaired.</p></li>
+
+<li><p>Students who are deaf and blind may have issues with this activity. Braile
+readers can be given a description of the prompt &ldquo;state your age&rdquo;; the
+response can then be communicated to the people next to them.</p></li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Yes. This activity was assessed in an undergraduate PDC course in India (Chitra 2019),
+and CS1 and CS2 classes at Tennessee Tech (Ghafoor2019). In all cases, the
+unplugged activities were used to introduce students to the parallel concepts
+prior to &ldquo;hands-on&rdquo; programming exercises. The assessment results in both papers
+sugges that unplugged activities are a successful first start to teaching PDC
+computing concepts.</p>
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li>P. Chitra and S. K. Ghafoor, &ldquo;Activity based approach for teaching parallel
+computing: An indian experience&rdquo;, in <em>2019 IEEE International Parallel and
+Distributed Processing Symposium Workshops (IPDPSW)</em>, May 2019, pp. 290–295.</li>
+<li>S. K. Ghafoor, D. W. Brown, M. Rogers, and T. Hines, &ldquo;Unplugged activities
+to introduce parallel computing in introductory programming classes: An
+experience report&rdquo;, in <em>Proceedings of the 2019 ACM Conference on Innovation
+and Technology in Computer Science Education (ITiCSE&rsquo;19)</em>. New York, NY,
+USA: ACM, 2019, pp. 309–309. [Online]. Available:
+<a href="http://doi.acm.org/10.1145/3304221.3325573">http://doi.acm.org/10.1145/3304221.3325573</a></li>
+<li>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
+last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

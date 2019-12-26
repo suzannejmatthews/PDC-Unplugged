@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CardSorting</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">CardSorting</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>CardSorting</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelperformance"><kbd class="item-cs2013">PD_ParallelPerformance</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/k-12"><kbd class="item-course">K-12</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs0"><kbd class="item-course">CS0&#34;</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/touch"><kbd class="item-sense">touch</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).</p>
+
+<p>Variation using a deck of playing cards by (Ghafoor2019):</p>
+
+<p><a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">iPDC Modules</a></p>
+
+<ul>
+<li>Available in <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/card_sorting/Card%20Sorting.docx">Word</a> and <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/card_sorting/Card%20Sorting.pdf">PDF</a></li>
+</ul>
+
+<h3 id="similiar-exercises">Similiar Exercises:</h3>
+
+<p>Sorting: <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/">oddEvenTranspositionSort</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/parallelradixsort/">ParallelRadixSort</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/">PipelineSort</a>,
+         <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sortingnetwork/">sortingNetwork</a></p>
+
+<h3 id="other-activities-by-authors">Other activities by authors</h3>
+
+<p>(Bachelis1994): <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/">ParallelAddition</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/">PipelineSort</a></p>
+
+<p>(Moore2000): <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
+             <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/">MatrixAddition</a></p>
+
+<p>(Ghafoor2019):</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>From (Bachelis1994):
+The goal is to sort a deck of 16 cards (it is assumed that there are unique numbers) using parallel selection sort. The notion of a &ldquo;two-card comparator&rdquo; is discussed as part of the process (e.g. input is two cards, outputs the smaller of the two cards). The processor therefore employs a series of &ldquo;two-card comparators&rdquo; to sort the set of cards. (Bechelis1994) recommends that students are first introduced to the <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a> activity.</p>
+
+<h3 id="serial-case">Serial case:</h3>
+
+<ul>
+<li>Students recognize that to find the smallest card in a collection of 16 cards, it should take 15 comparisons. Therefore, to find the next smallest it takes 14 comparisons, then 13, and so on. Therefore
+<em>sorting</em> 16 cards takes (using Guass&rsquo; formula) (15 x 16)/2 comparisons. Assuming that each comparison takes 1 unit time, then sorting 16 cards serially requires 120 time steps.</li>
+<li>Ask the students: <em>how to make the process faster?</em></li>
+<li>The answer is to to use several processors and a &ldquo;divide and conquer&rdquo; methodology.</li>
+</ul>
+
+<h3 id="parallel-case">Parallel Case</h3>
+
+<p><strong>Two Students</strong>:</p>
+
+<ul>
+<li>Each student is given 8 cards, and asked to sort using selection sort. (i.e. Find the smallest, then the next smallest, etc.). At the end, the smallest card should be at the top of the deck, and the largest
+should be at the bottom of the deck.</li>
+<li>The merge step: Once each student has a deck of sorting cards, each student holds up their top most (i.e. &ldquo;smallest card&rdquo;). The smaller card then gets put down (face up) in a pile between the two students.
+The students continue the process, each time with the student with the smaller card putting their card face up on the common pile. At the end, we have one sorted deck of 16 cards.</li>
+<li>Ask the students: <em>how many time steps did this require?</em></li>
+<li>Answer: To sort 8 cards, a total of (8 x 7)/2 = 28 comparisons are required. Since each student performed their comparisons simultaneously and in parallel; thus a total of 28 time steps are required.
+The final merge takes at most 15 comparison steps, for a total of 28 + 15 = 43 time steps.</li>
+</ul>
+
+<p><strong>Four Students</strong>:</p>
+
+<ul>
+<li>Each student is assigned a number (1..4) and is given a subset of 4 cards.</li>
+<li>Each student sorts their four cards. At the end, students 1 and 2 merge their decks, with student 2 receiving the new deck. Likewise, students 3 and 4 merge their decks, with student 4<br />
+receiving the deck. Lastly, student 2 and 4 merge their decks to create final sorted deck.</li>
+<li>Ask the students: <em>how many time steps did this require?</em></li>
+<li>Answer: Each student initially takes (3 x 4) / 2 = 6 comparisons to sort their decks of four cards. Since the students performed their comparisons simultaneous and in parallel, a total of 6 time steps
+are needed for this step. Next, the merges between students 1 and 2 happen independently from the merges of students 3 and 4, and therefore can occur in parallel. To merge to a total of 8 cards, 7 comparisons
+(and thus 7 time steps are needed). Lastly, for the final round of merging between students 2 and 4, 15 time steps are needed. Therefore, the total number of time steps is 6 + 7 + 15 = 28 time steps.</li>
+</ul>
+
+<p><strong>Eight students</strong></p>
+
+<ul>
+<li>Each student is assigned a number (1..8) and given a subset of two cards.</li>
+<li>Each student sorts their two cards. Then: Students 1 and 2 merge their decks with student 2 receiving the new deck; Students 3 and 4 merge their decks, with student 4 receiving the new deck; Students 5 and 6
+merge their decks, with student 6 receiving the new deck; Students 7 and 8 merge their decks, with student 8 receiving the new deck. In the second round of merging, students 2 and 4 merge their decks, with student 4 receiving the deck; students 6 and 8 merge their decks, with stduent 8 receiving the resulting deck. Lastly, students 4 and 8 merge their decks together to produce the final sorted deck.</li>
+<li>Ask the students: <em>how many time steps does this require?</em></li>
+<li>Answer: Each student requires one time step to sort their cards. All the time is now in the merge step. The first round of merging occurs in parallel and produces four decks of four cards. Producing a deck
+of four cards takes 3 comparisons, and thus this first merge step requires 3 time steps. The second round of merging produces two decks of eight cards; producing a deck of eight cards requires 7 comparisons,
+and thus the second round of merging requires 7 time steps. The final round of merging 15 steps. Thus, the total time is 1 + 3 + 7 + 15 = 26 time steps.</li>
+</ul>
+
+<p>The class then should asked to calculate the speedup of the parallel cases over the serial cases. They should be able to recognize that as more processors are added, the merge step starts to require the
+majority of the time.</p>
+
+<h3 id="variations">Variations</h3>
+
+<p>(Ghafoor2019) describes a variation using two standard decks of playing cards, rather than the 16 numbered cards that (Bachelis1994) recommends. There is also no specified sorting algorithm in this variant.</p>
+
+<p>The concept of card sorting is described by (Moore2000). In a parallel
+processing lab, students form groups to develop card sorting algorithms to
+illustrate data parallelism in shared memory, data parallelism in message passing, and task parallelism for message
+passing. However, additional details on <em>how</em> exactly this is accomplished is
+not provided.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="parallel-decomposition-core-tier-1">Parallel Decomposition (Core Tier 1)</h3>
+
+<ol>
+<li><p>Explain why synchronization is necessary in a specific parallel program. [Usage]</p></li>
+
+<li><p>Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p></li>
+</ol>
+
+<h3 id="pd-parallel-algorithms-analysis-programming-core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
+
+<p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
+
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.</p>
+
+<h3 id="parallel-performance-elective">Parallel Performance (Elective)</h3>
+
+<ol>
+<li>Detect and correct a load imbalance. [Usage]</li>
+<li>Calculate the implications of Amdahl&rsquo;s law for a particular parallel algorithm (cross-reference SF/Evaluation for Amdahl&rsquo;s Law). [Usage]</li>
+<li>Describe how data distribution/layout can affect an algorithm&rsquo;s communication costs. [Familiarity]</li>
+</ol>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Know Sorting: Observe several sorting algorithms for varied platforms &mdash;
+together with analyses. Parallel merge sort is the simplest example,
+but equally simple alternatives for rings and meshes might be covered also;
+more sophisticated algorithms might be covered in more advanced courses
+(1 hour)</li>
+<li>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism</li>
+<li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
+<li>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex
+computational structures</li>
+<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as mergesort &hellip; how the same structure that enables divide and conquer (sequential) algorithms
+exposes opportunities for parallel computation
+&mdash;</li>
+</ul>
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p><strong>K-12</strong>: (Bachelis1994) recommends introducing concepts to students in a secondary-school mathematics or computer science class.</p></li>
+
+<li><p><strong>CS0/CS1/CS2</strong> - The authors suggest using the activity in introductory
+computer science courses. In addition, there is assessment supporting this
+approach.</p></li>
+
+<li><p><strong>DSA</strong> - In addition to CS2, TCPP recommends that DSA may be an appropriate
+place to cover sorting topics.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>Yes. This activity should be accessible to a wide range of students. The
+activity can easily be done at a table. Blind students can also participate
+in the exercise if Braille playing cards were used.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Unknown. (Moore2000) discusses the impact of the parallel computing labs in
+her course. In general, students responded to the labs positively, and felt
+that labs increased their knowledge significantly.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p></li>
+
+<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
+
+<li><p>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
+last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></p></li>
+
+<li><p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
+vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/courses/os/</link>
+    <description>Recent content in OS on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Nov 2019 16:19:09 -0400</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/courses/os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PBJinParallel</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</link>
+      <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</guid>
+      <description>Original Author/link iPDC Modules
+ Available in Word and PDF  CS2013 Knowledge Unit Coverage Communication and Coordination (Core Tier 1) 2. Core Tier 1: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]
+TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
+ Know Data Races: Know what a data race is, and how to use synchronization to prevent it.</description>
+    </item>
+    
+  </channel>
+</rss>

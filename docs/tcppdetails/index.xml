@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tcppdetails on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/</link>
+    <description>Recent content in Tcppdetails on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>K_MIMD</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_mimd/</link>
+      <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_mimd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_SIMDVector</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_simdvector/</link>
+      <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_simdvector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Decomposition</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_decomposition/</link>
+      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A_Dependencies</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_dependencies/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_dependencies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_DivideAndConquer</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_divideandconquer/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_divideandconquer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Scaling</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_scaling/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_scaling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Speedup</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_speedup/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_speedup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Time</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_time/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CA_Communication</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ca_communication/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ca_communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Amdahl</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_amdahl/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_amdahl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Latency</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_latency/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_latency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Selection</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_selection/</link>
+      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Consistency</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_consistency/</link>
+      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_consistency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_DataRaces</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_dataraces/</link>
+      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_dataraces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CK_Scalability</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ck_scalability/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ck_scalability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Concurrency</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_concurrency/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Dependencies</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_dependencies/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_dependencies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_TasksThreads</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_tasksthreads/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_tasksthreads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_LoadBalancing</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_loadbalancing/</link>
+      <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_loadbalancing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_FaultTolerance</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_faulttolerance/</link>
+      <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_faulttolerance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_DistributedMemory</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_distributedmemory/</link>
+      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_distributedmemory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_ClusterComputing</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_clustercomputing/</link>
+      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_clustercomputing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Security</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_security/</link>
+      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A_CriticalRegions</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_criticalregions/</link>
+      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_criticalregions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_NonDeterminism</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_nondeterminism/</link>
+      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_nondeterminism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Synchronization</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_synchronization/</link>
+      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_synchronization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Bandwidth</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_bandwidth/</link>
+      <pubDate>Tue, 05 Nov 2019 17:46:25 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_bandwidth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_SPMD</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_spmd/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_spmd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Taxonomy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_taxonomy/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_taxonomy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Heterogeneous</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_heterogeneous/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_heterogeneous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Hybrid</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_hybrid/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_hybrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Dynamic</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_dynamic/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Multicore</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_multicore/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_multicore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Static</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_static/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_static/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Data</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_data/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A_DataParallel</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_dataparallel/</link>
+      <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_dataparallel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A_SpecializedComputations</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_specializedcomputations/</link>
+      <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_specializedcomputations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Bus</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_bus/</link>
+      <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_bus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Asymptotics</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_asymptotics/</link>
+      <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_asymptotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Sorting</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_sorting/</link>
+      <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_sorting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Deadlocks</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_deadlocks/</link>
+      <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_deadlocks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C_Asymptotics on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_asymptotics/</link>
+    <description>Recent content in C_Asymptotics on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Nov 2019 08:25:13 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_asymptotics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OddEvenTranspositionSort</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/</link>
+      <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/</guid>
+      <description>Original Author/link Originally Described by Adam Rifkin (Rifkin1994), with a separate description by Michelle Moore (Moore2000). (Bachelis1994) also presents the sort as a &amp;ldquo;compare-exchange sort&amp;rdquo;. We extrapolate on (Rifkin1994), since it is well described.
+No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website:</description>
+    </item>
+    
+  </channel>
+</rss>

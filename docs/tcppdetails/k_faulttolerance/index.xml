@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K_FaultTolerance on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_faulttolerance/</link>
+    <description>Recent content in K_FaultTolerance on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Nov 2019 12:37:23 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_faulttolerance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FaultTolerantTokenRing</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</link>
+      <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</guid>
+      <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
+Paper and materials available online:
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+    </item>
+    
+    <item>
+      <title>ByzantineGenerals</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</link>
+      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</guid>
+      <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
+No web-link to independent description available. See paper (Lloyd1994) for additional details.
+Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
+    </item>
+    
+  </channel>
+</rss>

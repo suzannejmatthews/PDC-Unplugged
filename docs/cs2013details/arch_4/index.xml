@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch_4 on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/arch_4/</link>
+    <description>Recent content in Arch_4 on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/arch_4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CoinFlip</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</link>
+      <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</guid>
+      <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
+No link to independent description available. See Details for a synopsis.
+Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
+They are presented wtih the following algorithm:
+1. flip coin. 2. check if heads.</description>
+    </item>
+    
+    <item>
+      <title>DesertIslandsAnalogy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
+ Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
+ Suppose that each student is on his or her own island far away from everyone else. Are any of them aware of anyone else? Do they know who is at the other end of the phone line?</description>
+    </item>
+    
+  </channel>
+</rss>

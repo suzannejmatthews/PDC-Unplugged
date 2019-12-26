@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algo_9 on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/algo_9/</link>
+    <description>Recent content in Algo_9 on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 12:38:56 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/algo_9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PipelineSort</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/</link>
+      <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). It was also mentioned in (Kitche1992), but (Maxim1990) is listed as a reference.
+No link to independent description publicly available. Please see details section for a synopsis.
+Similiar Exercises: Sorting: OddEvenTranspositionSort, ParallelRadixSort, CardSorting, SortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
+Details From (Bachelis1994): The goal of this exercise is to illustrate how sorting can occur in a stream/pipeline.</description>
+    </item>
+    
+  </channel>
+</rss>

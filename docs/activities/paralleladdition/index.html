@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ParallelAddition</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://suzannejmatthews.github.io/PDC-Unplugged/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">ParallelAddition</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/PDC-Unplugged/">Home</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/about/">About</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/activities/">All Activities</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/courses/">Course View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/PDC-Unplugged/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>ParallelAddition</h2>
+        <h5></h5>
+        
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcs2013/pd_parallelalgorithms"><kbd class="item-cs2013">PD_ParallelAlgorithms</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_architecture"><kbd class="item-tcpp">TCPP_Architecture</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedtcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedcourses/systems"><kbd class="item-course">Systems</kbd></a>
+
+
+        
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/touch"><kbd class="item-sense">touch</kbd></a>
+
+<a href="http://suzannejmatthews.github.io/PDC-Unpluggedsenses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)</p>
+
+<p>No link to independent description publicly available. Please see details section for a synopsis.</p>
+
+<h3 id="other-activities-by-authors">Other activities by authors</h3>
+
+<p>(Bachelis1994): <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">FindSmallestCard</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/">CardSorting</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
+  <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="http://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/">AddLargeNumbers</a></p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>From (Bachelis1994):
+The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to. Addition can only be performed between two numbers at any given time, and it assumed that it takes the same amount of time to add any two numbers. Thus, one addition operation takes one time step. The processor therefore employs a series of addition operations to
+to add the collection of numbers. Each number is written down on a separate card. Note cards are also provided for &ldquo;message passing&rdquo;.</p>
+
+<h3 id="serial-case">Serial case:</h3>
+
+<ul>
+<li>One student is given the set of 16 random numbers and is asked to add them up.</li>
+<li>Student should recognize that to add 16 numbers, it takes a total of 15 addition operations.</li>
+<li>Ask the students: <em>how to make the process faster?</em></li>
+<li>The answer is to to use several processors and a &ldquo;divide and conquer&rdquo; methodology.</li>
+</ul>
+
+<h3 id="parallel-case">Parallel Case</h3>
+
+<p><strong>Two Students</strong>:</p>
+
+<ul>
+<li>Each student is given a subset of 8 numbers.</li>
+<li>Each student adds their 8 numbers together on their own piece of paper. Student 1 then writes their total on a notecard and hands it to student 2. Student 2 then adds their total with the total they received<br />
+from student 1 to yield the final total. The class should note that this total is equal to total achieved during the serial run.</li>
+<li>Ask the students: <em>how many time steps did this require?</em></li>
+<li>Answer: To add 8 numbers, a total of 7 addition operations are required. Since each student performed their additions simultaneously and in parallel, a total of 7 time steps are required. The final global
+sum requires an additional time step. Therefore 8 total time steps are required, plus any overhead for the message by student 1 to student 2.</li>
+</ul>
+
+<p><strong>Four Students</strong>:</p>
+
+<ul>
+<li>Each student is assigned a number (1..4) and is given a subset of 4 numbers to add up.</li>
+<li>Each student adds up thier 4 numbers (using their piece of paper). At the end, students 1 writes their total on an index card and hands it to student 2, who computes a new total using their total and the
+total received from student 1. Likewise, student 3 writes down their computed total won an index card and hands it student 4, who computes a new total by adding their total to the one received from student 3.
+Lastly, student 2 writes their new total on another index card and hands it to student 4, who computes the final total. The class should note that this amount is the same as the total value achieved before.</li>
+<li>Ask the students: <em>how many time steps did this require?</em></li>
+<li>Answer: Each student initially takes 3 addition operations to add 4 numbers. Since the students performed their comparisons simultaneous and in parallel, a total of three time steps are needed for this step.
+Next, the communication of the sum from student 1 to 2 happen independently from the communication of the sum from student 3 to student 4, and students 2 and 4 compute their sums independently. Therefore, this step can also happen in parallel, and takes an additional time step (exclusive of communication costs). The final sum between students 2 and 4 requires on last time step. Therefore, the total number of time steps is 3 + 1 + 1 = 5, not including the overhead of message communication. Students should recognize that the number of &ldquo;messages&rdquo; sent by students have grown.</li>
+</ul>
+
+<p><strong>Eight students</strong></p>
+
+<ul>
+<li>Each student is assigned a number (1..8) and given a subset of two cards.</li>
+<li>Each student adds their two numbers together. Then: Student 1 sends their total to Student 2, Student 3 sends their total to Student 4, Student 5 sents their total to Student 6, Student 7 sends their total to
+Student 8.</li>
+<li>During the next time step, Students 2, 4, 6, and 8 adds the number they receive with their total to produce new totals. Then, Student 2 sends their new total to Student 4, and Studet 6 sends their
+total to Student 8.</li>
+<li>During the next time step, Students 4 and 8 add the numbers they receive to their totals to produce new totals. Then, Student 4 sents their new total to Student 8.</li>
+<li>During teh last time step, Student 8 adds their total with the number they received from Student 4. This is the final total. Students should note that this total matches the totals computed in the 1, 2, and 4
+processor scenarios.</li>
+<li>Ask the students: <em>how many time steps does this require?</em></li>
+<li>Answer: Each student requires one time add 2 numbers. Since the students performed their comparisons simultaneous and in parallel, a total of 1 time step is needed for this initial step. Next, the  addition
+of student 1 and 2&rsquo;s totals happen independantly from the sums of students 3 and 4&rsquo;s totals, and student 5 and 6&rsquo;s totals, and students 7 and 8&rsquo;s totals. These additions all happen in parallel, and take an additional time step. Next, the summing of the totals for students 2 and 4 happen independently from the summing of the totals of students 6 and 8. These additions therefore happen in parallel, and take an
+additional time step. The final addition of the totals of students 4 and 8 requires one additional time step. Therefore, the total number of time steps is 1 + 1 + 1 + 1 = 4, excluding communication costs.</li>
+</ul>
+
+<p>The class then should asked to calculate the speedup of the parallel cases over the serial cases. The students should see that speedup is not linear, and that the addition of more processors does incur heavier
+communication cost. To make the example more concrete, assign a cost to each communication component (0.5 time step). Then ask students to recompute time steps and speedup. This should help students clearly
+observe the cost of communication overhead.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-decomposition">PD/Parallel Decomposition</h3>
+
+<p><strong>Core Tier 1:</strong></p>
+
+<p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<p><strong>Core Tier 2:</strong></p>
+
+<p>4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
+
+<h3 id="pd-parallel-algorithms-analysis-programming-core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
+
+<p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
+
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="architecture-topics">Architecture Topics</h3>
+
+<ul>
+<li>Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup</li>
+</ul>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li>Comprehend Speedup: Understand how to compute speedup, and what it means</li>
+<li>Know Amdahl&rsquo;s Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</li>
+</ul>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism</li>
+<li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
+<li>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex
+computational structures</li>
+<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as mergesort &hellip; how the same structure that enables divide and conquer (sequential) algorithms
+exposes opportunities for parallel computation</li>
+<li>Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.</li>
+<li>Comprehend/Apply Communication: Understand &mdash; via hands-on experience &mdash; that inter-processor communication is one of the most challenging aspects of PDC.</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><strong>CS1</strong>: TCPP recommends that the notion of dependencies be covered as early as CS1.</li>
+<li><strong>CS2/DSA</strong>: TCPP recommends that concepts of speedup, divide-and-conquer and selection be covered in either CS2 or DSA.</li>
+<li><strong>Systems</strong>: TCPP recommends that topics related to communicaton could be covered in Systems.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>The visual aspect of this activity may make it less accessible for blind students. However. students communicating a message to a blind partner can read their total aloud. The instructor can facillitate passing the total to the next student as necessary.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Unknown.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
+
+<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K_Heterogeneous on PDC Unplugged</title>
+    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_heterogeneous/</link>
+    <description>Recent content in K_Heterogeneous on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 15:34:13 -0500</lastBuildDate>
+    
+	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_heterogeneous/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DesertIslandsAnalogy</title>
+      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
+ Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
+ Suppose that each student is on his or her own island far away from everyone else. Are any of them aware of anyone else? Do they know who is at the other end of the phone line?</description>
+    </item>
+    
+  </channel>
+</rss>
