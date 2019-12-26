@@ -4,6 +4,7 @@ title = "PDC Unplugged"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
+publishDir = "docs"
 
 [taxonomies]
     tag="tags"
