@@ -7,7 +7,7 @@ tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["C_Asymptotics", "C_Time", "C_Scaling", "K_Sorting"]
 courses: ["K-12", "DSA", "CS2"]
 senses: ["visual", "movement" ]
-draft: true
+
 ---
 
 ## Original Author/link

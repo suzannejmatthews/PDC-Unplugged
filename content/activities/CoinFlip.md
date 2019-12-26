@@ -7,7 +7,7 @@ tcpp: ["TCPP_Architecture"]
 tcppdetails: ["K_SIMDVector", "K_MIMD"]
 courses: ["systems"]
 senses: ["touch", "visual"]
-draft: true
+
 ---
 
 ## Original Author/link

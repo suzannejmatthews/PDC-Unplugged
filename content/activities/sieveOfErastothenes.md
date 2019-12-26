@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming", "TCPP_Architecture"]
 tcppdetails: ["C_Taxonomy", "A_DataParallel", "C_LoadBalancing", "C_DistributedMemory"]
 courses: ["CS2", "DSA", "Systems", ProgLang"]
 senses: ["movement", "visual"]
-draft: true
+
 ---
 
 ## Original Author/link

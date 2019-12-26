@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["C_Deadlocks"]
 courses: ["K-12", "Systems"]
 senses: ["touch", "visual"]
-draft: false
+
 ---
 
 ## Original Author/link

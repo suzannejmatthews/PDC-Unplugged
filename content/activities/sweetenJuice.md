@@ -7,7 +7,6 @@ tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["A_CriticalRegions", "K_DataRaces", "K_Synchronization", "K_NonDeterminism"]
 courses: ["K-12", "CS2", "DSA", "Systems"]
 senses: ["movement"]
-draft: true
 ---
 
 ## Original Author/link

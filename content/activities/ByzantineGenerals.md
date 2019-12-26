@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["C_DistributedMemory", "CA_Communication", "K_FaultTolerance", "K_ClusterComputing", "K_Consistency", "K_Security"]
 courses: ["K-12", "CS1", "DSA", "Systems"]
 senses: ["visual", "movement"]
-draft: true
+
 ---
 
 ## Original Author/link

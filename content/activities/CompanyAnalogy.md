@@ -7,7 +7,7 @@ tcpp: ["TCPP_Architecture", "TCPP_Programming"]
 tcppdetails: ["K_MIMD", "K_TasksThreads", "C_Decomposition", "C_Static", "C_Dynamic"]
 courses: ["oo_course", "systems"]
 tags: ["analogy", "movement"]
-draft: true
+
 ---
 
 ## Original Author/link

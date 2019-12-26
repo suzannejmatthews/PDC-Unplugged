@@ -7,7 +7,7 @@ tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
 tcppdetails: ["K_MIMD", "C_Multicore", "C_Bus", "C_DistributedMemory", "K_Hybrid", "C_Scaling", "CA_Communication", "A_SpecializedComputations"]
 courses: ["CS2", "DSA", "Systems"]
 senses: ["movement", "visual"]
-draft: true
+
 ---
 
 ## Original Author/link

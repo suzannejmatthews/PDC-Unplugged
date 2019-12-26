@@ -6,7 +6,7 @@ cs2013details: ["PD_2"]
 tcpp: ["TCPP_Algorithms"]
 courses: ["K-12", "CS2", "DSA"]
 senses: ["visual", "movement"]
-draft: true
+
 ---
 
 ## Original Author/link

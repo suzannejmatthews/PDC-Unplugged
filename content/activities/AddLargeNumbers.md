@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["C_Decomposition"]
 courses: ["K-12", "CS2", "DSA"]
 senses: ["visual"]
-draft: true
+
 ---
 
 ## Original Author/link

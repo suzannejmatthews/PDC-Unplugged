@@ -8,7 +8,6 @@ tcppdetails: ["C_decomposition", "C_LoadBalancing", "K_Amdahl", "C_Scaling", "K_
 courses: ["CS0", "CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
 
-draft: true
 ---
 
 ## Original Author/link

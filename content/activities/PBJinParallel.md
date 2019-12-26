@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
 tcppdetails: ["C_Deadlocks", "K_DataRaces", "K_Synchronization"]
 courses: ["CS0", "CS1", "CS2", "Systems", "OS"]
 senses: ["movement", "touch"]
-draft: true
+
 ---
 
 ## Original Author/link

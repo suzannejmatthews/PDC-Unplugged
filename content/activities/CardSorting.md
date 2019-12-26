@@ -7,7 +7,7 @@ tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Sorting", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer"]
 courses: ["K-12", CS0", "CS1", "CS2", "DSA"]
 senses: ["visual", "touch"]
-draft: true
+
 ---
 
 ## Original Author/link

@@ -7,7 +7,7 @@ tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Selection"]
 courses: ["CS0", "CS1", "CS2", "K-12", "DSA"]
 senses: ["auditory"]
-draft: true
+
 ---
 
 ## Original Author/link

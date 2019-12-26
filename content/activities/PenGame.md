@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["K_DataRaces"]
 courses: ["K-12", "CS0", "DSA", "Systems"]
 senses: ["visual"]
-draft: true
+
 ---
 
 ## Original Author/link

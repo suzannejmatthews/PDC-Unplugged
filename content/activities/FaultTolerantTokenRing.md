@@ -8,7 +8,6 @@ tcpp: ["TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["CA_Communication", "K_FaultTolerance"]
 senses: ["visual", "auditory"]
 
-draft: true
 ---
 
 ## Original Author/link

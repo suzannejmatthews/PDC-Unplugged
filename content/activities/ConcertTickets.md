@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming", "TCPP_CrossCutting"]
 tcppdetails: ["K_DataRaces", "K_Consistency"]
 courses: ["CS1"]
 senses: ["analogy"]
-draft: true
+
 ---
 
 ## Original Author/link

@@ -5,7 +5,6 @@ tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Sorting"]
 courses: ["K-12", "CS1", "CS2", "DSA"]
 senses: ["movement", "visual"]
-draft: true
 ---
 
 ## Original Author/link

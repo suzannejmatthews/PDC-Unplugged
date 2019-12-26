@@ -7,7 +7,7 @@ tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
 tcppdetails: ["K_MIMD", "C_Multicore", "K_Latency", "C_LoadBalancing", "C_Static", "C_Dynamic", "K_Data", "C_Speedup", "C_Scaling", "CA_Communication"]
 courses: ["K-12"]
 senses: ["analogy", "visual", "touch"]
-draft: true
+
 ---
 
 ## Original Author/link

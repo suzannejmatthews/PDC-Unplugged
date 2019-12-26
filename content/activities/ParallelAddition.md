@@ -7,7 +7,7 @@ tcpp: ["TCPP_Architecture", "TCPP_Algorithms", "TCPP_Programming"]
 tcppdetails: ["K_Latency", "C_Speedup", "K_Amdahl", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer", "K_Selection", "CA_Communication"]
 courses: ["CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
-draft: true
+
 ---
 
 ## Original Author/link

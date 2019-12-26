@@ -7,7 +7,7 @@ tcpp: ["TCPP_Architecture", "TCPP_Programming"]
 tcppdetails: ["C_Taxonomy", "K_Heterogeneous", "K_Hybrid", "C_DistributedMemory", "C_SPMD"]
 courses: ["CS2", "DSA", "Systems"]
 senses: ["analogy", "visual", "movement"]
-draft: true
+
 ---
 
 ## Original Author/link

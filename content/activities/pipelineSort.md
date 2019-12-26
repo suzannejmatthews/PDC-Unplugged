@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelAlgorithms"]
 cs2013details: ["Algo_9"]
 courses: ["K-12"]
 senses: ["touch", "visual"]
-draft: true
+
 ---
 
 ## Original Author/link
