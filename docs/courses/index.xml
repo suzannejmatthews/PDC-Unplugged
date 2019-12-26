@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/</link>
+    <link>https://www.pdcunplugged.org/courses/</link>
     <description>Recent content in Courses on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/courses/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/courses/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Systems</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/systems/</link>
+      <link>https://www.pdcunplugged.org/courses/systems/</link>
       <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/systems/</guid>
+      <guid>https://www.pdcunplugged.org/courses/systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>K-12</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/k-12/</link>
+      <link>https://www.pdcunplugged.org/courses/k-12/</link>
       <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/k-12/</guid>
+      <guid>https://www.pdcunplugged.org/courses/k-12/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CS2</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs2/</link>
+      <link>https://www.pdcunplugged.org/courses/cs2/</link>
       <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs2/</guid>
+      <guid>https://www.pdcunplugged.org/courses/cs2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DSA</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/dsa/</link>
+      <link>https://www.pdcunplugged.org/courses/dsa/</link>
       <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/dsa/</guid>
+      <guid>https://www.pdcunplugged.org/courses/dsa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CS1</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs1/</link>
+      <link>https://www.pdcunplugged.org/courses/cs1/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs1/</guid>
+      <guid>https://www.pdcunplugged.org/courses/cs1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CS0</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs0/</link>
+      <link>https://www.pdcunplugged.org/courses/cs0/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs0/</guid>
+      <guid>https://www.pdcunplugged.org/courses/cs0/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ProgLang</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/proglang/</link>
+      <title>ProgLang&#34;</title>
+      <link>https://www.pdcunplugged.org/courses/proglang/</link>
       <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/proglang/</guid>
+      <guid>https://www.pdcunplugged.org/courses/proglang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oo_course</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/oo_course/</link>
+      <link>https://www.pdcunplugged.org/courses/oo_course/</link>
       <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/oo_course/</guid>
+      <guid>https://www.pdcunplugged.org/courses/oo_course/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OS</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/os/</link>
+      <link>https://www.pdcunplugged.org/courses/os/</link>
       <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/courses/os/</guid>
+      <guid>https://www.pdcunplugged.org/courses/os/</guid>
       <description></description>
     </item>
     

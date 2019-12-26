@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PD_2 on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/pd_2/</link>
+    <link>https://www.pdcunplugged.org/cs2013details/pd_2/</link>
     <description>Recent content in PD_2 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Dec 2019 15:43:45 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/pd_2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/cs2013details/pd_2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ParallelAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</link>
+      <link>https://www.pdcunplugged.org/activities/paralleladdition/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/paralleladdition/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
@@ -25,10 +25,10 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
     
     <item>
       <title>FindSmallestCard</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/</link>
+      <link>https://www.pdcunplugged.org/activities/findsmallestcard/</link>
       <pubDate>Mon, 09 Dec 2019 14:34:15 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findsmallestcard/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Similar Activites FindOldestPenny, FindYoungestStudent
@@ -38,10 +38,10 @@ Details From (Bachelis1994): The goal is to find the smallest card (e.g. lowest 
     
     <item>
       <title>MoreProcessorsNotAlwaysBetter</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</link>
+      <link>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</guid>
+      <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
 Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
@@ -50,10 +50,10 @@ Details See paper for details. In summary, the goal is to write the statement &a
     
     <item>
       <title>FindOldestPenny</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</link>
+      <link>https://www.pdcunplugged.org/activities/findoldestpenny/</link>
       <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findoldestpenny/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
@@ -62,10 +62,10 @@ Details See paper for details. In summary, the goal is to find the oldest penny 
     
     <item>
       <title>ParallelRadixSort</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/parallelradixsort/</link>
+      <link>https://www.pdcunplugged.org/activities/parallelradixsort/</link>
       <pubDate>Thu, 14 Nov 2019 10:30:47 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/parallelradixsort/</guid>
+      <guid>https://www.pdcunplugged.org/activities/parallelradixsort/</guid>
       <description>Original Author/link Originally Described by Adam Rifkin (1994). No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website
  Slides (includes other activities) PPT 1 Page Synopsis PDF  See papers (Rifkin1994, Sivilotti2003) for additional details.
 Similiar Exercises: Sorting: oddEvenTranspositionSort, sortingNetwork, cardsorting
@@ -74,10 +74,10 @@ Other activities by (Rifki1994, Sivilotti2003) Rifkin1994: oddEvenTranspositionS
     
     <item>
       <title>JigsawPuzzle</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
+      <link>https://www.pdcunplugged.org/activities/jigsawpuzzle/</link>
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
+      <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
  Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
@@ -85,10 +85,10 @@ Other activities by (Rifki1994, Sivilotti2003) Rifkin1994: oddEvenTranspositionS
     
     <item>
       <title>MatrixAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <link>https://www.pdcunplugged.org/activities/matrixaddition/</link>
       <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/matrixaddition/</guid>
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
@@ -97,20 +97,20 @@ Details Moore describes how to use Matrix Addition to describe the differences b
     
     <item>
       <title>OddEvenTranspositionSort</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/</link>
+      <link>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</link>
       <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/oddeventranspositionsort/</guid>
+      <guid>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</guid>
       <description>Original Author/link Originally Described by Adam Rifkin (Rifkin1994), with a separate description by Michelle Moore (Moore2000). (Bachelis1994) also presents the sort as a &amp;ldquo;compare-exchange sort&amp;rdquo;. We extrapolate on (Rifkin1994), since it is well described.
 No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website:</description>
     </item>
     
     <item>
       <title>CandySorting</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</link>
+      <link>https://www.pdcunplugged.org/activities/candysorting/</link>
       <pubDate>Fri, 01 Nov 2019 14:23:28 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</guid>
+      <guid>https://www.pdcunplugged.org/activities/candysorting/</guid>
       <description>Original Author/link iPDC Modules
  Available in Word and PDF  CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
 2. Core Tier 1: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
@@ -120,10 +120,10 @@ Parallel Performance (Elective) 1.</description>
     
     <item>
       <title>CardSorting</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</link>
+      <link>https://www.pdcunplugged.org/activities/cardsorting/</link>
       <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</guid>
+      <guid>https://www.pdcunplugged.org/activities/cardsorting/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
 Variation using a deck of playing cards by (Ghafoor2019):
 iPDC Modules
@@ -136,10 +136,10 @@ Details From (Bachelis1994): The goal is to sort a deck of 16 cards (it is assum
     
     <item>
       <title>ArraysinParallel</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</link>
+      <link>https://www.pdcunplugged.org/activities/arraysinparallel/</link>
       <pubDate>Fri, 01 Nov 2019 11:58:18 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</guid>
+      <guid>https://www.pdcunplugged.org/activities/arraysinparallel/</guid>
       <description>Original Author/link iPDC Modules
  Available in Word and PDF  CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier1, Core Tier2 2. Core Tier 1:Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
 5.\ Core Tier 2:Parallelize an algorithm by applying data-parallel decomposition. [Usage]
@@ -148,10 +148,10 @@ TCPP Coverage Programming Topics  Apply Data parallel: Be able to write a correc
     
     <item>
       <title>FindYoungestStudentInClass</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</link>
+      <link>https://www.pdcunplugged.org/activities/findyoungeststudentinclass/</link>
       <pubDate>Fri, 01 Nov 2019 11:20:35 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findyoungeststudentinclass/</guid>
       <description>Original Author/link Chitra P (iPDC Modules)
  Available in Word and PDF  Similar Activities FindOldestPenny, FindSmallestCard
 CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier 1 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C_DistributedMemory on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_distributedmemory/</link>
+    <link>https://www.pdcunplugged.org/tcppdetails/c_distributedmemory/</link>
     <description>Recent content in C_DistributedMemory on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Nov 2019 14:02:06 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_distributedmemory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/tcppdetails/c_distributedmemory/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ByzantineGenerals</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</link>
+      <link>https://www.pdcunplugged.org/activities/byzantinegenerals/</link>
       <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</guid>
+      <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
 Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
@@ -25,10 +25,10 @@ The Byzantine Generals problem is a classic description of the consensus problem
     
     <item>
       <title>DesertIslandsAnalogy</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <link>https://www.pdcunplugged.org/activities/desertislandsanalogy/</link>
       <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <guid>https://www.pdcunplugged.org/activities/desertislandsanalogy/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
  Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
@@ -37,10 +37,10 @@ The Byzantine Generals problem is a classic description of the consensus problem
     
     <item>
       <title>SieveOfErastothenes</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</link>
+      <link>https://www.pdcunplugged.org/activities/sieveoferastothenes/</link>
       <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</guid>
+      <guid>https://www.pdcunplugged.org/activities/sieveoferastothenes/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Maxim1990, Bachelis1994). Also described by Michelle Moore (Moore2000) and (Kitchen1992).
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
@@ -50,10 +50,10 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
     
     <item>
       <title>MatrixAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <link>https://www.pdcunplugged.org/activities/matrixaddition/</link>
       <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/matrixaddition/</guid>
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting

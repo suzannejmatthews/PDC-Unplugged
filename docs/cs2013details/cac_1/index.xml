@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CAC_1 on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/cac_1/</link>
+    <link>https://www.pdcunplugged.org/cs2013details/cac_1/</link>
     <description>Recent content in CAC_1 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Nov 2019 12:37:23 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/cac_1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/cs2013details/cac_1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FaultTolerantTokenRing</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</link>
+      <link>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</link>
       <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</guid>
+      <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
  Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
@@ -24,10 +24,10 @@ Paper and materials available online:
     
     <item>
       <title>SweetenJuice</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</link>
+      <link>https://www.pdcunplugged.org/activities/sweetenjuice/</link>
       <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</guid>
+      <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
 Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summar of the exercise in (Ben-Ari1999):

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>K_Bandwidth on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_bandwidth/</link>
+    <link>https://www.pdcunplugged.org/tcppdetails/k_bandwidth/</link>
     <description>Recent content in K_Bandwidth on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2019 17:46:25 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_bandwidth/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/tcppdetails/k_bandwidth/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LongDistancePhoneCall</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/longdistancephonecall/</link>
+      <link>https://www.pdcunplugged.org/activities/longdistancephonecall/</link>
       <pubDate>Tue, 05 Nov 2019 17:46:25 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/longdistancephonecall/</guid>
+      <guid>https://www.pdcunplugged.org/activities/longdistancephonecall/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slide 26.
  Available in: PPT and PDF Also described in (Neeman2006)  CS2013 Knowledge Unit Coverage Parallel Architecture (Elective) 8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]

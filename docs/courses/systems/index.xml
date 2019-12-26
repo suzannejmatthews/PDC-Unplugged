@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Systems on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/systems/</link>
+    <link>https://www.pdcunplugged.org/courses/systems/</link>
     <description>Recent content in Systems on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/courses/systems/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/courses/systems/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CoinFlip</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</link>
+      <link>https://www.pdcunplugged.org/activities/coinflip/</link>
       <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</guid>
+      <guid>https://www.pdcunplugged.org/activities/coinflip/</guid>
       <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
 No link to independent description available. See Details for a synopsis.
 Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
@@ -26,10 +26,10 @@ They are presented wtih the following algorithm:
     
     <item>
       <title>ParallelAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</link>
+      <link>https://www.pdcunplugged.org/activities/paralleladdition/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/paralleladdition/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
@@ -38,10 +38,10 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
     
     <item>
       <title>MoreProcessorsNotAlwaysBetter</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</link>
+      <link>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</guid>
+      <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
 Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
@@ -50,10 +50,10 @@ Details See paper for details. In summary, the goal is to write the statement &a
     
     <item>
       <title>FindOldestPenny</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</link>
+      <link>https://www.pdcunplugged.org/activities/findoldestpenny/</link>
       <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findoldestpenny/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
@@ -62,10 +62,10 @@ Details See paper for details. In summary, the goal is to find the oldest penny 
     
     <item>
       <title>FaultTolerantTokenRing</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</link>
+      <link>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</link>
       <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</guid>
+      <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
  Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
@@ -73,10 +73,10 @@ Paper and materials available online:
     
     <item>
       <title>ByzantineGenerals</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</link>
+      <link>https://www.pdcunplugged.org/activities/byzantinegenerals/</link>
       <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</guid>
+      <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
 Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
@@ -85,10 +85,10 @@ The Byzantine Generals problem is a classic description of the consensus problem
     
     <item>
       <title>SweetenJuice</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</link>
+      <link>https://www.pdcunplugged.org/activities/sweetenjuice/</link>
       <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</guid>
+      <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
 Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summar of the exercise in (Ben-Ari1999):
@@ -97,10 +97,10 @@ Two students volunteer to be robots. A drinking glass is placed at a visible poi
     
     <item>
       <title>DesertIslandsAnalogy</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <link>https://www.pdcunplugged.org/activities/desertislandsanalogy/</link>
       <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <guid>https://www.pdcunplugged.org/activities/desertislandsanalogy/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
  Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
@@ -109,10 +109,10 @@ Two students volunteer to be robots. A drinking glass is placed at a visible poi
     
     <item>
       <title>PenGame</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pengame/</link>
+      <link>https://www.pdcunplugged.org/activities/pengame/</link>
       <pubDate>Tue, 05 Nov 2019 14:30:34 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pengame/</guid>
+      <guid>https://www.pdcunplugged.org/activities/pengame/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Shared Memory, Slides 103-104.
  Available in: PPT and PDF Also described in (Neeman2006)  After the first game (Take the Pen), students are asked &amp;ldquo;Can the outcome be predicted in advance?&amp;rdquo; They are led to the answer &amp;ldquo;no&amp;rdquo;, and to understand this is situation represents a race condition (Neeman2006).
@@ -121,10 +121,10 @@ The question is repeated after the second game (Look at the Pen).</description>
     
     <item>
       <title>SieveOfErastothenes</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</link>
+      <link>https://www.pdcunplugged.org/activities/sieveoferastothenes/</link>
       <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</guid>
+      <guid>https://www.pdcunplugged.org/activities/sieveoferastothenes/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Maxim1990, Bachelis1994). Also described by Michelle Moore (Moore2000) and (Kitchen1992).
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
@@ -134,10 +134,10 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
     
     <item>
       <title>MatrixAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <link>https://www.pdcunplugged.org/activities/matrixaddition/</link>
       <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/matrixaddition/</guid>
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
@@ -146,10 +146,10 @@ Details Moore describes how to use Matrix Addition to describe the differences b
     
     <item>
       <title>CompanyAnalogy</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</link>
+      <link>https://www.pdcunplugged.org/activities/companyanalogy/</link>
       <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</guid>
+      <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
       <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
 No web-link to independent description available. See paper (Giacaman2012) for details.
 Details The company analogy is used to introduce multicore systems:
@@ -159,10 +159,10 @@ Details The company analogy is used to introduce multicore systems:
     
     <item>
       <title>PBJinParallel</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</link>
+      <link>https://www.pdcunplugged.org/activities/pbjinparallel/</link>
       <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</guid>
+      <guid>https://www.pdcunplugged.org/activities/pbjinparallel/</guid>
       <description>Original Author/link iPDC Modules
  Available in Word and PDF  CS2013 Knowledge Unit Coverage Communication and Coordination (Core Tier 1) 2. Core Tier 1: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]
 TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
@@ -171,10 +171,10 @@ TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a
     
     <item>
       <title>OrangeGame</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/orangegame/</link>
+      <link>https://www.pdcunplugged.org/activities/orangegame/</link>
       <pubDate>Fri, 01 Nov 2019 10:59:45 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/orangegame/</guid>
+      <guid>https://www.pdcunplugged.org/activities/orangegame/</guid>
       <description>Original Author/link CSUnplugged.Org
 CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2  Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
     </item>

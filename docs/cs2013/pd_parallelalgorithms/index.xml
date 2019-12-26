@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PD_ParallelAlgorithms on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/cs2013/pd_parallelalgorithms/</link>
+    <link>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</link>
     <description>Recent content in PD_ParallelAlgorithms on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2019 12:38:56 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/cs2013/pd_parallelalgorithms/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PipelineSort</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/</link>
+      <link>https://www.pdcunplugged.org/activities/pipelinesort/</link>
       <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pipelinesort/</guid>
+      <guid>https://www.pdcunplugged.org/activities/pipelinesort/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). It was also mentioned in (Kitche1992), but (Maxim1990) is listed as a reference.
 No link to independent description publicly available. Please see details section for a synopsis.
 Similiar Exercises: Sorting: OddEvenTranspositionSort, ParallelRadixSort, CardSorting, SortingNetwork
@@ -26,10 +26,10 @@ Details From (Bachelis1994): The goal of this exercise is to illustrate how sort
     
     <item>
       <title>AddLargeNumbers</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/</link>
+      <link>https://www.pdcunplugged.org/activities/addlargenumbers/</link>
       <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/addlargenumbers/</guid>
+      <guid>https://www.pdcunplugged.org/activities/addlargenumbers/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, ParallelAddition
@@ -39,10 +39,10 @@ Suppose the goal is to add two large numbers (in this example, 534,789,213 and 4
     
     <item>
       <title>ParallelAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</link>
+      <link>https://www.pdcunplugged.org/activities/paralleladdition/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/paralleladdition/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
@@ -51,10 +51,10 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
     
     <item>
       <title>FindSmallestCard</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/</link>
+      <link>https://www.pdcunplugged.org/activities/findsmallestcard/</link>
       <pubDate>Mon, 09 Dec 2019 14:34:15 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findsmallestcard/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findsmallestcard/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Similar Activites FindOldestPenny, FindYoungestStudent
@@ -64,10 +64,10 @@ Details From (Bachelis1994): The goal is to find the smallest card (e.g. lowest 
     
     <item>
       <title>MoreProcessorsNotAlwaysBetter</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</link>
+      <link>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</guid>
+      <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
 Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
@@ -76,10 +76,10 @@ Details See paper for details. In summary, the goal is to write the statement &a
     
     <item>
       <title>FindOldestPenny</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</link>
+      <link>https://www.pdcunplugged.org/activities/findoldestpenny/</link>
       <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findoldestpenny/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
@@ -88,10 +88,10 @@ Details See paper for details. In summary, the goal is to find the oldest penny 
     
     <item>
       <title>JigsawPuzzle</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
+      <link>https://www.pdcunplugged.org/activities/jigsawpuzzle/</link>
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
+      <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
  Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
@@ -99,10 +99,10 @@ Details See paper for details. In summary, the goal is to find the oldest penny 
     
     <item>
       <title>MatrixAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <link>https://www.pdcunplugged.org/activities/matrixaddition/</link>
       <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/matrixaddition/</guid>
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting

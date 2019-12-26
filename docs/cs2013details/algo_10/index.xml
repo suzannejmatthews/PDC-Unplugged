@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algo_10 on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/algo_10/</link>
+    <link>https://www.pdcunplugged.org/cs2013details/algo_10/</link>
     <description>Recent content in Algo_10 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Nov 2019 09:38:59 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/algo_10/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/cs2013details/algo_10/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MatrixAddition</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <link>https://www.pdcunplugged.org/activities/matrixaddition/</link>
       <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <guid>https://www.pdcunplugged.org/activities/matrixaddition/</guid>
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting

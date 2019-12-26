@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CS0 on PDC Unplugged</title>
-    <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs0/</link>
+    <link>https://www.pdcunplugged.org/courses/cs0/</link>
     <description>Recent content in CS0 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2019 14:17:02 -0500</lastBuildDate>
     
-	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/courses/cs0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.pdcunplugged.org/courses/cs0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MoreProcessorsNotAlwaysBetter</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</link>
+      <link>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/moreprocessorsnotalwaysbetter/</guid>
+      <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
 Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
@@ -25,10 +25,10 @@ Details See paper for details. In summary, the goal is to write the statement &a
     
     <item>
       <title>FindOldestPenny</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</link>
+      <link>https://www.pdcunplugged.org/activities/findoldestpenny/</link>
       <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findoldestpenny/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findoldestpenny/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
@@ -37,10 +37,10 @@ Details See paper for details. In summary, the goal is to find the oldest penny 
     
     <item>
       <title>PenGame</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pengame/</link>
+      <link>https://www.pdcunplugged.org/activities/pengame/</link>
       <pubDate>Tue, 05 Nov 2019 14:30:34 -0500</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pengame/</guid>
+      <guid>https://www.pdcunplugged.org/activities/pengame/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Shared Memory, Slides 103-104.
  Available in: PPT and PDF Also described in (Neeman2006)  After the first game (Take the Pen), students are asked &amp;ldquo;Can the outcome be predicted in advance?&amp;rdquo; They are led to the answer &amp;ldquo;no&amp;rdquo;, and to understand this is situation represents a race condition (Neeman2006).
@@ -49,10 +49,10 @@ The question is repeated after the second game (Look at the Pen).</description>
     
     <item>
       <title>PBJinParallel</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</link>
+      <link>https://www.pdcunplugged.org/activities/pbjinparallel/</link>
       <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/pbjinparallel/</guid>
+      <guid>https://www.pdcunplugged.org/activities/pbjinparallel/</guid>
       <description>Original Author/link iPDC Modules
  Available in Word and PDF  CS2013 Knowledge Unit Coverage Communication and Coordination (Core Tier 1) 2. Core Tier 1: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]
 TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
@@ -61,10 +61,10 @@ TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a
     
     <item>
       <title>CandySorting</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</link>
+      <link>https://www.pdcunplugged.org/activities/candysorting/</link>
       <pubDate>Fri, 01 Nov 2019 14:23:28 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</guid>
+      <guid>https://www.pdcunplugged.org/activities/candysorting/</guid>
       <description>Original Author/link iPDC Modules
  Available in Word and PDF  CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
 2. Core Tier 1: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
@@ -74,10 +74,10 @@ Parallel Performance (Elective) 1.</description>
     
     <item>
       <title>CardSorting</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</link>
+      <link>https://www.pdcunplugged.org/activities/cardsorting/</link>
       <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</guid>
+      <guid>https://www.pdcunplugged.org/activities/cardsorting/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
 Variation using a deck of playing cards by (Ghafoor2019):
 iPDC Modules
@@ -90,10 +90,10 @@ Details From (Bachelis1994): The goal is to sort a deck of 16 cards (it is assum
     
     <item>
       <title>ArraysinParallel</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</link>
+      <link>https://www.pdcunplugged.org/activities/arraysinparallel/</link>
       <pubDate>Fri, 01 Nov 2019 11:58:18 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/arraysinparallel/</guid>
+      <guid>https://www.pdcunplugged.org/activities/arraysinparallel/</guid>
       <description>Original Author/link iPDC Modules
  Available in Word and PDF  CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier1, Core Tier2 2. Core Tier 1:Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
 5.\ Core Tier 2:Parallelize an algorithm by applying data-parallel decomposition. [Usage]
@@ -102,10 +102,10 @@ TCPP Coverage Programming Topics  Apply Data parallel: Be able to write a correc
     
     <item>
       <title>FindYoungestStudentInClass</title>
-      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</link>
+      <link>https://www.pdcunplugged.org/activities/findyoungeststudentinclass/</link>
       <pubDate>Fri, 01 Nov 2019 11:20:35 -0400</pubDate>
       
-      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/findyoungeststudentinclass/</guid>
+      <guid>https://www.pdcunplugged.org/activities/findyoungeststudentinclass/</guid>
       <description>Original Author/link Chitra P (iPDC Modules)
  Available in Word and PDF  Similar Activities FindOldestPenny, FindSmallestCard
 CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier 1 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
