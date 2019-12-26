@@ -1,6 +1,5 @@
 ---
 title: "Contributing to PDC Unplugged"
-draft: true
 ---
 
 ### How to Contribute

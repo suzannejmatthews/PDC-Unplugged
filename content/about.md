@@ -1,6 +1,5 @@
 ---
 title: "About PDC Unplugged"
-draft: true
 ---
 
 ### What is PDC Unplugged?
