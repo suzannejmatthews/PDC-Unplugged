@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CA_Communication on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ca_communication/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ca_communication/</link>
     <description>Recent content in CA_Communication on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Dec 2019 15:43:45 -0500</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ca_communication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/ca_communication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ParallelAddition</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/paralleladdition/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
@@ -25,10 +25,10 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
     
     <item>
       <title>FaultTolerantTokenRing</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</link>
       <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
  Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
@@ -36,10 +36,10 @@ Paper and materials available online:
     
     <item>
       <title>ByzantineGenerals</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</link>
       <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
 Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
@@ -48,10 +48,10 @@ The Byzantine Generals problem is a classic description of the consensus problem
     
     <item>
       <title>JigsawPuzzle</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
  Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
@@ -59,10 +59,10 @@ The Byzantine Generals problem is a classic description of the consensus problem
     
     <item>
       <title>MatrixAddition</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
       <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CAC_7 on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/cac_7/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/cac_7/</link>
     <description>Recent content in CAC_7 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2019 17:54:13 -0500</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/cac_7/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/cac_7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ConcertTickets</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/</link>
       <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/concerttickets/</guid>
       <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
 No on-line resources available. See details for description.
 Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):

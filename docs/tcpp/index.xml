@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tcpp on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/</link>
     <description>Recent content in Tcpp on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TCPP_Architecture</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_architecture/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_architecture/</link>
       <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_architecture/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TCPP_Programming</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_programming/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_programming/</link>
       <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_programming/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TCPP_Algorithms</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_algorithms/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_algorithms/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_algorithms/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TCPP_CrossCutting</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_crosscutting/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_crosscutting/</link>
       <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_crosscutting/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/tcpp/tcpp_crosscutting/</guid>
       <description></description>
     </item>
     

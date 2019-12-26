@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A_CriticalRegions on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_criticalregions/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_criticalregions/</link>
     <description>Recent content in A_CriticalRegions on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Nov 2019 11:07:01 -0500</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_criticalregions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/a_criticalregions/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SweetenJuice</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</link>
       <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
 Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summar of the exercise in (Ben-Ari1999):

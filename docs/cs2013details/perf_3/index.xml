@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Perf_3 on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/perf_3/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/perf_3/</link>
     <description>Recent content in Perf_3 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2019 15:34:13 -0500</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/perf_3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/cs2013details/perf_3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DesertIslandsAnalogy</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
       <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
  Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
@@ -25,10 +25,10 @@
     
     <item>
       <title>JigsawPuzzle</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</link>
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
  Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
@@ -36,10 +36,10 @@
     
     <item>
       <title>MatrixAddition</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</link>
       <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/matrixaddition/</guid>
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
@@ -48,10 +48,10 @@ Details Moore describes how to use Matrix Addition to describe the differences b
     
     <item>
       <title>CandySorting</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</link>
       <pubDate>Fri, 01 Nov 2019 14:23:28 -0400</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/candysorting/</guid>
       <description>Original Author/link iPDC Modules
  Available in Word and PDF  CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
 2. Core Tier 1: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
@@ -61,10 +61,10 @@ Parallel Performance (Elective) 1.</description>
     
     <item>
       <title>CardSorting</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</link>
       <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/cardsorting/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
 Variation using a deck of playing cards by (Ghafoor2019):
 iPDC Modules

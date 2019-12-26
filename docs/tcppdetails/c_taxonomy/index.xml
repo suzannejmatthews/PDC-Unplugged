@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C_Taxonomy on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_taxonomy/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_taxonomy/</link>
     <description>Recent content in C_Taxonomy on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2019 15:34:13 -0500</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_taxonomy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/c_taxonomy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DesertIslandsAnalogy</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</link>
       <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/desertislandsanalogy/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
  Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
@@ -25,10 +25,10 @@
     
     <item>
       <title>SieveOfErastothenes</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</link>
       <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/sieveoferastothenes/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Maxim1990, Bachelis1994). Also described by Michelle Moore (Moore2000) and (Kitchen1992).
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort

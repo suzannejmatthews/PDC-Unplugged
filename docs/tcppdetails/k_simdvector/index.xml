@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>K_SIMDVector on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_simdvector/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_simdvector/</link>
     <description>Recent content in K_SIMDVector on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_simdvector/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/tcppdetails/k_simdvector/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CoinFlip</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</link>
       <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/coinflip/</guid>
       <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
 No link to independent description available. See Details for a synopsis.
 Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.

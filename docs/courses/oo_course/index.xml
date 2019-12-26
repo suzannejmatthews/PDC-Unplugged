@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>oo_course on PDC Unplugged</title>
-    <link>http://suzannejmatthews.github.io/PDC-Unplugged/courses/oo_course/</link>
+    <link>https://suzannejmatthews.github.io/PDC-Unplugged/courses/oo_course/</link>
     <description>Recent content in oo_course on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Nov 2019 17:02:44 -0400</lastBuildDate>
     
-	<atom:link href="http://suzannejmatthews.github.io/PDC-Unplugged/courses/oo_course/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suzannejmatthews.github.io/PDC-Unplugged/courses/oo_course/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CompanyAnalogy</title>
-      <link>http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</link>
+      <link>https://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</link>
       <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
       
-      <guid>http://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</guid>
+      <guid>https://suzannejmatthews.github.io/PDC-Unplugged/activities/companyanalogy/</guid>
       <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
 No web-link to independent description available. See paper (Giacaman2012) for details.
 Details The company analogy is used to introduce multicore systems:
