@@ -28,22 +28,22 @@
     have Core Tier1 and Tier2 requirements. However, unplugged activities that satisfy elective areas are included when discovered.</p>
 
 
-<h3 >Parallelism Fundamentals (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelfundamentals">{{ len .Site.Taxonomies.cs2013.pd_parallelfundamentals }} Activities  </a>)</h3>
+<h3 >Parallelism Fundamentals (<a href="{{ .Site.BaseURL }}/cs2013/pd_parallelfundamentals">{{ len .Site.Taxonomies.cs2013.pd_parallelfundamentals }} Activities  </a>)</h3>
 <table>
 <tr>    <th width="60%">Learning Outcome</th>   <th>Unplugged Activities</th>    </tr>
   <tr><td>1. Distinguish using computational resources for a faster answer from managing efficient access to a shared resource. [Familiarity]</td> <td>
  {{ range first 2 .Site.Taxonomies.cs2013details.fun_1 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/fun_1">See All ({{ len .Site.Taxonomies.cs2013details.fun_1 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/fun_1">See All ({{ len .Site.Taxonomies.cs2013details.fun_1 }}) </a>
 </td></tr>
   <tr><td>2. Distinguish multiple sufficient programming constructs for synchronization that may be inter-implementable but have complementary advantages. [Familiarity]</td> <td></td></tr>
   <tr><td>3. Distinguish data races from higher level races.  [Familiarity]</td><td></td></tr>
 </table>
 
 <p><br></p>
-  <!--<a href="{{ .Site.BaseURL }}cs2013details/pd_2">{{ len .Site.Taxonomies.cs2013details.pd_2 }} Activities </a> -->
-<h3>Parallel Decomposition (<a href="{{ .Site.BaseURL }}cs2013/pd_paralleldecomposition">{{ len .Site.Taxonomies.cs2013.pd_paralleldecomposition }} Activities  </a>) </h3>
+  <!--<a href="{{ .Site.BaseURL }}/cs2013details/pd_2">{{ len .Site.Taxonomies.cs2013details.pd_2 }} Activities </a> -->
+<h3>Parallel Decomposition (<a href="{{ .Site.BaseURL }}/cs2013/pd_paralleldecomposition">{{ len .Site.Taxonomies.cs2013.pd_paralleldecomposition }} Activities  </a>) </h3>
 <table >
     <tr>
     <th  width="60%">Learning Outcome</th> 
@@ -52,14 +52,14 @@
 <tr><td> 1. Explain why synchronization is necessary in a specific parallel program. [Usage] </td><td>   {{ range first 2 .Site.Taxonomies.cs2013details.pd_1 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/pd_1">See All ({{ len .Site.Taxonomies.cs2013details.pd_1 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/pd_1">See All ({{ len .Site.Taxonomies.cs2013details.pd_1 }}) </a>
   </td></tr>
 <tr><td> 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</td>
 <td>
     {{ range first 2 .Site.Taxonomies.cs2013details.pd_2 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/pd_2">See All ({{ len .Site.Taxonomies.cs2013details.pd_2 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/pd_2">See All ({{ len .Site.Taxonomies.cs2013details.pd_2 }}) </a>
 </td>
 
 </tr> 
@@ -74,21 +74,21 @@
     {{ range first 2 .Site.Taxonomies.cs2013details.pd_4 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/pd_4">See All ({{ len .Site.Taxonomies.cs2013details.pd_4 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/pd_4">See All ({{ len .Site.Taxonomies.cs2013details.pd_4 }}) </a>
   </td></tr>
 
 <tr><td> 5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</td><td>
 {{ range first 2 .Site.Taxonomies.cs2013details.pd_5 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/pd_5">See All ({{ len .Site.Taxonomies.cs2013details.pd_5 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/pd_5">See All ({{ len .Site.Taxonomies.cs2013details.pd_5 }}) </a>
 </td></tr>
 <tr><td> 6. Write a program using actors and/or reactive processes. [Usage]</td><td></td></tr>
 </table> 
 
 <p><br></p>
 
-<h3>Communication and Coordination (<a href="{{ .Site.BaseURL }}cs2013/pd_communicationandcoordination">{{ len .Site.Taxonomies.cs2013.pd_communicationandcoordination }} Activities  </a>) </h3>
+<h3>Communication and Coordination (<a href="{{ .Site.BaseURL }}/cs2013/pd_communicationandcoordination">{{ len .Site.Taxonomies.cs2013.pd_communicationandcoordination }} Activities  </a>) </h3>
 <table>
     <tr>
     <th width="60%">Learning Outcome</th> <th>Unplugged Activities</th>
@@ -98,20 +98,20 @@
     {{ range first 2 .Site.Taxonomies.cs2013details.cac_1 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cac_1">See All ({{ len .Site.Taxonomies.cs2013details.cac_1 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/cac_1">See All ({{ len .Site.Taxonomies.cs2013details.cac_1 }}) </a>
   </td></tr>
 <tr><td> 2. Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity] </td>
   <td>  {{ range first 2 .Site.Taxonomies.cs2013details.cac_2 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cac_2">See All ({{ len .Site.Taxonomies.cs2013details.cac_2 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/cac_2">See All ({{ len .Site.Taxonomies.cs2013details.cac_2 }}) </a></td></tr>
 <tr><th>Core Tier 2 </th></tr>
 <tr><td> 3. Give an example of a scenario in which blocking message sends can deadlock. [Usage]</td>
   <td>
       {{ range first 2 .Site.Taxonomies.cs2013details.cac_3 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cac_3">See All ({{ len .Site.Taxonomies.cs2013details.cac_3 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/cac_3">See All ({{ len .Site.Taxonomies.cs2013details.cac_3 }}) </a></td></tr>
 <tr><td> 4. Explain when and why multicast or event-based messaging can be preferable to alternatives. [Familiarity] </td>
   <td>
   
@@ -120,7 +120,7 @@
       {{ range first 2 .Site.Taxonomies.cs2013details.cac_5 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cac_5">See All ({{ len .Site.Taxonomies.cs2013details.cac_5 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/cac_5">See All ({{ len .Site.Taxonomies.cs2013details.cac_5 }}) </a>
 </td></tr>
 <tr><td> 6. Use a properly synchronized queue to buffer data passed among activities. [Usage] </td><td>
   
@@ -129,12 +129,12 @@
   <td>    {{ range first 2 .Site.Taxonomies.cs2013details.cac_7 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cac_7">See All ({{ len .Site.Taxonomies.cs2013details.cac_7 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/cac_7">See All ({{ len .Site.Taxonomies.cs2013details.cac_7 }}) </a></td></tr>
 <tr><td> 8. Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable. [Usage] </td>
   <td>    {{ range first 2 .Site.Taxonomies.cs2013details.cac_8 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cac_8">See All ({{ len .Site.Taxonomies.cs2013details.cac_8 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/cac_8">See All ({{ len .Site.Taxonomies.cs2013details.cac_8 }}) </a></td></tr>
 <tr><td> 9. Describe at least one design technique for avoiding liveness failures in programs using multiple locks or semaphores. [Familiarity] </td>
 
 <tr><td> 10. Describe the relative merits of optimistic versus conservative concurrency control under different rates of contention among updates. [Familiarity] </td>
@@ -148,7 +148,7 @@
 </table>
 
 <p><br></p>
-<h3>Parallel Algorithms, Analysis, &amp; Programming ( <a href="{{ .Site.BaseURL }}cs2013/pd_parallelalgorithms">{{ len .Site.Taxonomies.cs2013.pd_parallelalgorithms }} Activities  </a>) </h3>
+<h3>Parallel Algorithms, Analysis, &amp; Programming ( <a href="{{ .Site.BaseURL }}/cs2013/pd_parallelalgorithms">{{ len .Site.Taxonomies.cs2013.pd_parallelalgorithms }} Activities  </a>) </h3>
 <table>
     <tr>
     <th width = "60%">Learning Outcome</th> 
@@ -161,7 +161,7 @@
       {{ range first 2 .Site.Taxonomies.cs2013details.algo_3 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_3">See All ({{ len .Site.Taxonomies.cs2013details.algo_3 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/algo_3">See All ({{ len .Site.Taxonomies.cs2013details.algo_3 }}) </a>
   </td>
 </tr>
 <tr><td> 4. Identify independent tasks in a program that may be parallelized. [Usage] </td>
@@ -169,13 +169,13 @@
        {{ range first 2 .Site.Taxonomies.cs2013details.algo_4 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_4">See All ({{ len .Site.Taxonomies.cs2013details.algo_4 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/algo_4">See All ({{ len .Site.Taxonomies.cs2013details.algo_4 }}) </a>
   </td></tr>
 <tr><td> 5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</td><td>
  {{ range first 2 .Site.Taxonomies.cs2013details.algo_5 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_5">See All ({{ len .Site.Taxonomies.cs2013details.algo_5 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/algo_5">See All ({{ len .Site.Taxonomies.cs2013details.algo_5 }}) </a>
 
 </td></tr>
 <tr><td> 6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog. </td>
@@ -183,7 +183,7 @@
  {{ range first 2 .Site.Taxonomies.cs2013details.algo_6 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_6">See All ({{ len .Site.Taxonomies.cs2013details.algo_6 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/algo_6">See All ({{ len .Site.Taxonomies.cs2013details.algo_6 }}) </a>
 </td></tr>
 <tr><td> 7. Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.</td><td></td></tr>
 <tr><th>Elective </th></tr>
@@ -193,7 +193,7 @@
         {{ range first 2 .Site.Taxonomies.cs2013details.algo_9 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_9">See All ({{ len .Site.Taxonomies.cs2013details.algo_9 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/algo_9">See All ({{ len .Site.Taxonomies.cs2013details.algo_9 }}) </a>
 </td></tr>
 
 
@@ -202,14 +202,14 @@
         {{ range first 2 .Site.Taxonomies.cs2013details.algo_10 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/algo_10">See All ({{ len .Site.Taxonomies.cs2013details.algo_10 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/algo_10">See All ({{ len .Site.Taxonomies.cs2013details.algo_10 }}) </a>
   </td></tr>
 <tr><td> 11. Identify issues that arise in producer-consumer algorithms and mechanisms that may be used for addressing them. [Familiarity]</td><td></td></tr>
 </table>
 
 <p><br></p>
 
-<h3>Parallel Architecture (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelarchitecture">{{ len .Site.Taxonomies.cs2013.pd_parallelarchitecture }} Activities  </a>) </h3>
+<h3>Parallel Architecture (<a href="{{ .Site.BaseURL }}/cs2013/pd_parallelarchitecture">{{ len .Site.Taxonomies.cs2013.pd_parallelarchitecture }} Activities  </a>) </h3>
 
 <table>
     <tr>
@@ -220,7 +220,7 @@
    {{ range first 2 .Site.Taxonomies.cs2013details.arch_1 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_1">See All ({{ len .Site.Taxonomies.cs2013details.arch_1 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/arch_1">See All ({{ len .Site.Taxonomies.cs2013details.arch_1 }}) </a>
 </td></tr>
  <tr><th>Core Tier 2 </th></tr>
 <tr><td> 2. Describe the SMP architecture and note its key features. [Familiarity] </td>
@@ -228,24 +228,24 @@
        {{ range first 2 .Site.Taxonomies.cs2013details.arch_2 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_2">See All ({{ len .Site.Taxonomies.cs2013details.arch_2 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/arch_2">See All ({{ len .Site.Taxonomies.cs2013details.arch_2 }}) </a>
   </td></tr>
 <tr><td> 3. Characterize the kinds of tasks that are a natural match for SIMD machines. [Familiarity]</td>
   <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_3 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_3">See All ({{ len .Site.Taxonomies.cs2013details.arch_3 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/arch_3">See All ({{ len .Site.Taxonomies.cs2013details.arch_3 }}) </a></td></tr>
  <tr><th>Elective </th></tr>
 <tr><td>4. Describe the advantages and limitations of GPUs vs. CPUs. [Familiarity]</td>
   <td>   {{ range first 2 .Site.Taxonomies.cs2013details.arch_4 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_4">See All ({{ len .Site.Taxonomies.cs2013details.arch_4 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/arch_4">See All ({{ len .Site.Taxonomies.cs2013details.arch_4 }}) </a></td></tr>
 <tr><td>5. Explain the features of each classification in Flynn's taxonomy. [Familiarity]</td><td>
      {{ range first 2 .Site.Taxonomies.cs2013details.arch_5 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_5">See All ({{ len .Site.Taxonomies.cs2013details.arch_5 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/arch_5">See All ({{ len .Site.Taxonomies.cs2013details.arch_5 }}) </a>
 </td></tr>
 <tr><td>6. Describe assembly-level support for atomic operations. [Familiarity]</td>
   <td>   </td></tr>
@@ -256,14 +256,14 @@
     {{ range first 2 .Site.Taxonomies.cs2013details.arch_8 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/arch_8">See All ({{ len .Site.Taxonomies.cs2013details.arch_8 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/arch_8">See All ({{ len .Site.Taxonomies.cs2013details.arch_8 }}) </a>
 </td></tr>
 </table>
 
 <p><br></p>
 
 
-<h3>Parallel Performance (<a href="{{ .Site.BaseURL }}cs2013/pd_parallelperformance">{{ len .Site.Taxonomies.cs2013.pd_parallelperformance }} Activities  </a>
+<h3>Parallel Performance (<a href="{{ .Site.BaseURL }}/cs2013/pd_parallelperformance">{{ len .Site.Taxonomies.cs2013.pd_parallelperformance }} Activities  </a>
 )</h3>
 
 <table>
@@ -275,26 +275,26 @@
 {{ range first 2 .Site.Taxonomies.cs2013details.perf_1 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_1">See All ({{ len .Site.Taxonomies.cs2013details.perf_1 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/perf_1">See All ({{ len .Site.Taxonomies.cs2013details.perf_1 }}) </a>
 </td></tr>
 <tr><td>2. Calculate the implications of Amdahl's law for a particular parallel algorithm (cross-reference SF/Evaluation for Amdahl's Law). [Usage]</td>
   <td>
     {{ range first 2 .Site.Taxonomies.cs2013details.perf_2 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_2">See All ({{ len .Site.Taxonomies.cs2013details.perf_2 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/perf_2">See All ({{ len .Site.Taxonomies.cs2013details.perf_2 }}) </a></td></tr>
 <tr><td>3. Describe how data distribution/layout can affect an algorithm's communication costs. [Familiarity]</td>
   <td>{{ range first 2 .Site.Taxonomies.cs2013details.perf_3 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_3">See All ({{ len .Site.Taxonomies.cs2013details.perf_3 }}) </a></td></tr>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/perf_3">See All ({{ len .Site.Taxonomies.cs2013details.perf_3 }}) </a></td></tr>
 <tr><td>4. Detect and correct an instance of false sharing. [Usage]</td>
   <td></td></tr>
 <tr><td>5. Explain the impact of scheduling on parallel performance. [Familiarity]</td><td>
   {{ range first 2 .Site.Taxonomies.cs2013details.perf_5 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/perf_5">See All ({{ len .Site.Taxonomies.cs2013details.perf_5 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/perf_5">See All ({{ len .Site.Taxonomies.cs2013details.perf_5 }}) </a>
 </td></tr>
 <tr><td>6. Explain performance impacts of data locality. [Familiarity]</td><td>
 
@@ -305,7 +305,7 @@
 
 <p><br></p>
 
-<h3>Cloud Computing (<a href="{{ .Site.BaseURL }}cs2013/pd_cloudcomputing">{{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities  </a>)</h3>
+<h3>Cloud Computing (<a href="{{ .Site.BaseURL }}/cs2013/pd_cloudcomputing">{{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities  </a>)</h3>
 
 <table>
     <tr>
@@ -317,7 +317,7 @@
    {{ range first 2 .Site.Taxonomies.cs2013details.cc_2 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}cs2013details/cc_2">See All ({{ len .Site.Taxonomies.cs2013details.cc_2 }}) </a>
+    <a href="{{ $.Site.BaseURL }}/cs2013details/cc_2">See All ({{ len .Site.Taxonomies.cs2013details.cc_2 }}) </a>
 </td></tr>
 <tr><td>3. Explain the advantages and disadvantages of using virtualized infrastructure. [Familiarity]</td><td></td></tr>
 <tr><td>4. Deploy an application that uses cloud infrastructure for computing and/or data resources. [Usage]</td><td></td></tr>

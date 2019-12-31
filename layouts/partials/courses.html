@@ -1,3 +1,3 @@
 {{ range .Params.courses }}
-<a href="{{ $.Site.BaseURL }}courses/{{ . | urlize }}"><kbd class="item-course">{{ . }}</kbd></a>
+<a href="{{ $.Site.BaseURL }}/courses/{{ . | urlize }}"><kbd class="item-course">{{ . }}</kbd></a>
 {{ end }}
