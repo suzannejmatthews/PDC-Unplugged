@@ -31,6 +31,14 @@ There are many other great free resources for PDC Education. Here are a few:
 
 ---
 
+### Acknowledgements
+
+Special thanks to Joel Adams, Elizabeth Shoop and Richard Brown of 
+CSinParallel for offering advice as this work was put together. Funding for 
+this work is provided by the National Science Foundation (NSF) Collaborative 
+Research Grant _CSinParallel: Experiential Learning of Parallel and Distributed 
+Computing through Sight, Sound, and Touch_. 
+
 ## Funding
 
 <img src="../images/nsf.png" width="70" height="70" align="left"> This work is sponsored by National Science Foundation (NSF) Collaborative Research Grant DUE-1855761. _Collaborative Research: CSinParallel: Experiential Learning of Parallel and Distributed Computing through Sight, Sound, and Touch_. 

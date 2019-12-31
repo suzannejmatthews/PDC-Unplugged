@@ -26,7 +26,6 @@ Activities in the PDC Unplugged repository are created using MarkDown, a markup 
 title: 
 date: 
 tags:
-draft: true
 ---
 
 ## Original Author/link
