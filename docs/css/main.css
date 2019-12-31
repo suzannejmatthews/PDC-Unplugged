@@ -122,7 +122,3 @@ a:hover {
 footer {
     border-bottom: var(--border-width) solid var(--accent);
 }
-
-td, th {
-     padding: 10px;
-}
