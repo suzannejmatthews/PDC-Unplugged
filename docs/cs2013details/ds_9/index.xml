@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DS_9 on PDC Unplugged</title>
+    <link>https://www.pdcunplugged.org/cs2013details/ds_9/</link>
+    <description>Recent content in DS_9 on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Nov 2019 14:02:06 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.pdcunplugged.org/cs2013details/ds_9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ByzantineGenerals</title>
+      <link>https://www.pdcunplugged.org/activities/byzantinegenerals/</link>
+      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
+      <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
+No web-link to independent description available. See paper (Lloyd1994) for additional details.
+Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
+    </item>
+    
+  </channel>
+</rss>
