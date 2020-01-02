@@ -1,8 +1,8 @@
 ---
 title: "ByzantineGenerals"
 date: 2019-11-13T14:02:06-05:00
-cs2013: ["PD_CloudComputing"]
-cs2013details: ["CC_2"]
+cs2013: ["PD_DistributedSystems", "PD_CloudComputing"]
+cs2013details: ["CC_2", "DS_9"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["C_DistributedMemory", "CA_Communication", "K_FaultTolerance", "K_ClusterComputing", "K_Consistency", "K_Security"]
 courses: ["K-12", "CS1", "DSA", "Systems"]
@@ -217,6 +217,10 @@ blockchain.
 ---
 
 ## CS2013 Knowledge Unit Coverage
+
+### Distributed Systems (Elective)
+
+9\. Give examples of problems for which consensus algorithms such as leader election are required. [Usage]
 
 ### Cloud Computing (Elective)
 

@@ -7,8 +7,8 @@
 <h1>CS2013 View</h1>
 <p >This view classifies PDC unplugged activities by their associated Knowledge Units (KU) and Learning Outcomes (LO) as specified by 
    	the <a href="https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf" target=_blank>ACM/IEEE Computer Science Curricula 2013</a> (CS2013)
-    Parallel and Distributed (PD) knowledge area. CS2013 recommends coverage of all LOs in Core Tier 1, and 80% of coverage of LOs in Core Tier 2. The following 
-    table from CS2013 gives an outline of topic coverage over the different KUs:</p>
+    Parallel and Distributed (PD) knowledge area. CS2013 recommends coverage of all LOs in Core Tier 1, and at least 80% of coverage of LOs in Core Tier 2, and a "significant" 
+    level of cover of elective LOs. The following table from CS2013 gives an outline of topic coverage over the different KUs:</p>
 
 <table border="1">
 <tr><th width="40%"></th><th>Core-Tier1 hours</th> <th>Core-Tier2 hours </th> <th>Electives?</th></tr>
@@ -20,12 +20,11 @@
 <tr><td>PD/Parallel Performance</td><td></td><td></td><td>Y</td></tr>
 <tr><td>PD/Distributed Systems</td><td></td><td></td><td>Y</td></tr>
 <tr><td>PD/Cloud Computing</td><td></td><td></td><td>Y</td></tr>
-<!--PD/Formal Models and Semantics Y-->
+<tr><td>PD/Formal Models and Semantics</td><td></td><td></td><td>Y</td></tr>
 </table>
 
 <p><br></p>
-<p>For the immediate, the focus is on identifying unplugged activities that satisfy each of the knowledge units that 
-    have Core Tier1 and Tier2 requirements. However, unplugged activities that satisfy elective areas are included when discovered.</p>
+
 
 
 <h3 >Parallelism Fundamentals (<a href="{{ .Site.BaseURL }}/cs2013/pd_parallelfundamentals">{{ len .Site.Taxonomies.cs2013.pd_parallelfundamentals }} Activities  </a>)</h3>
@@ -305,6 +304,31 @@
 
 <p><br></p>
 
+<h3>Distributed Systems (<a href="{{ .Site.BaseURL }}/cs2013/pd_distributedsystems">{{ len .Site.Taxonomies.cs2013.pd_distributedsystems }} Activities  </a>) </h3>
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Elective </th></tr>
+<tr><td>1. Distinguish network faults from other kinds of failures. [Familiarity]</td><td></td></tr>
+<tr><td>2. Explain why synchronization constructs such as simple locks are not useful in the presence of distributed faults. [Familiarity]</td><td></td></tr>
+<tr><td>3. Write a program that performs any required marshaling and conversion into message units, such as packets, to communicate interesting data between two hosts. [Usage]</td><td></td></tr>
+<tr><td>4. Measure the observed throughput and response latency across hosts in a given network. [Usage]</td><td></td></tr>
+<tr><td>5. Explain why no distributed system can be simultaneously consistent, available, and partition tolerant. [Familiarity]</td><td></td></tr>
+<tr><td>6. Implement a simple server -- for example, a spell checking service. [Usage]</td><td></td></tr>
+<tr><td>7. Explain the tradeoffs among overhead, scalability, and fault tolerance when choosing a stateful v. stateless design for a given service. [Familiarity]</td><td></td></tr>
+<tr><td>8. Describe the scalability challenges associated with a service growing to accommodate many clients, as well as those associated with a service only transiently having many clients. [Familiarity]</td><td></td></tr>
+<tr><td>9. Give examples of problems for which consensus algorithms such as leader election are required. [Usage] </td><td>
+  {{ range first 2 .Site.Taxonomies.cs2013details.ds_9 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/cs2013details/ds_9">See All ({{ len .Site.Taxonomies.cs2013details.ds_9 }}) </a>
+</td></tr>
+</table>
+
+<p><br></p>
+
+
 <h3>Cloud Computing (<a href="{{ .Site.BaseURL }}/cs2013/pd_cloudcomputing">{{ len .Site.Taxonomies.cs2013.pd_cloudcomputing }} Activities  </a>)</h3>
 
 <table>
@@ -323,6 +347,23 @@
 <tr><td>4. Deploy an application that uses cloud infrastructure for computing and/or data resources. [Usage]</td><td></td></tr>
 <tr><td>5. Appropriately partition an application between a client and resources. [Usage]</td><td></td></tr>
 </table>
+
+<p><br></p>
+
+<h3>Formal Models and Semantics</h3>
+<table>
+    <tr>
+    <th width="60%">Learning Outcome</th> 
+    <th>Unplugged Activities</th>
+    <tr><th>Elective </th></tr>
+<tr><td>1. Model a concurrent process using a formal model, such as pi-calculus. [Usage]</td><td></td></tr>
+<tr><td>2. Explain the characteristics of a particular formal parallel model. [Familiarity]</td><td></td></tr>
+<tr><td>3. Formally model a shared memory system to show if it is consistent. [Usage]</td><td></td></tr>
+<tr><td>4. Use a model to show progress guarantees in a parallel algorithm. [Usage]</td><td></td></tr>
+<tr><td>5. Use formal techniques to show that a parallel algorithm is correct with respect to a safety or liveness property. [Usage]</td><td></td></tr>
+<tr><td>6. Decide if a specific execution is linearizable or not. [Usage]</td><td></td></tr>
+</table>
+
 </main>
 
 {{ partial "footer" . }}
