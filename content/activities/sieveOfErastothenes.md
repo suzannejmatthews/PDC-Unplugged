@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelDecomposition", "PD_ParallelArchitecture", "PD_ParallelPerf
 cs2013details: ["PD_5", "Arch_1", Perf_1"]
 tcpp: ["TCPP_Programming", "TCPP_Architecture"]
 tcppdetails: ["C_Taxonomy", "A_DataParallel", "C_LoadBalancing", "C_DistributedMemory"]
-courses: ["CS2", "DSA", "Systems", ProgLang"]
+courses: ["CS2", "DSA", "Systems", "ProgLang"]
 senses: ["movement", "visual"]
 
 ---
