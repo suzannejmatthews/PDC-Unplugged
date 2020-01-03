@@ -58,7 +58,7 @@ publishDir = "docs"
     weight = 4
 
 [[menu.main]]
-    url = "/courses/"
+    url = "/course-overview/"
     name = "Course View"
     weight = 4
 
@@ -66,6 +66,7 @@ publishDir = "docs"
     url = "/senses/"
     name = "Accesibility View"
     weight = 4
+
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
