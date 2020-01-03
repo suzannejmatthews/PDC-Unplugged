@@ -1,0 +1,77 @@
+{{ partial "header" . }}
+
+
+
+<main align="left">
+
+<h1>Accessibility View</h1>
+<p>Accessibility is a broadly-used term in computing that can refer to increasing the <i>equity</i> in representation in computing disciplines or the making computer science more accessible to people with disabilities. 
+In this view, we classify PDC unplugged activities by senses they employ and the medium in which they are typically communicated. Instructors looking to inject diversity into the way they present their pedagogy or who have 
+students with disabilities may find this view particularly helpful.</p>
+
+
+
+
+
+<h3 >Senses <!--(<a href="{{ .Site.BaseURL }}/courses/k_12">{{ len .Site.Taxonomies.courses.k_12 }} Activities  </a>)--></h3>
+
+
+<p>The sensory categories are as follows: Sight, Touch, Sound, and Movement. Note that several unplugged activities can overlap several categories. This classification may be specifically useful for educators who have 
+students with disabilities.</p>
+
+<table>
+<tr> <th width="40%">Sense</th>   <th>Unplugged Activities</th>    </tr>
+  <tr><td>Sight</td> <td>
+ {{ range first 2 .Site.Taxonomies.senses.visual }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/senses/visual">See All ({{ len .Site.Taxonomies.senses.visual }}) </a>
+</td></tr>
+  <tr><td>Touch </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.senses.touch }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/senses/touch">See All ({{ len .Site.Taxonomies.senses.touch }}) </a>
+  	</td></tr>
+ <tr><td>Sound </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.senses.auditory }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/senses/auditory">See All ({{ len .Site.Taxonomies.senses.auditory }}) </a>
+  	</td></tr>  
+  <tr><td>Movement </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.senses.movement }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/senses/movement">See All ({{ len .Site.Taxonomies.senses.movement }}) </a>
+  	</td></tr>  
+</table>
+
+<p><br></p>
+
+<h3 >Medium </h3>
+<p>Students learn in a variety of ways, and some students prefer different mediums of communication than others. This section classifies unplugged activities by the medium of communication.
+
+<table>
+<tr> <th width="40%">Medium</th>   <th>Unplugged Activities</th>    </tr>
+  <tr><td>Analogy</td> <td>
+ {{ range first 2 .Site.Taxonomies.senses.analogy }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/senses/analogy">See All ({{ len .Site.Taxonomies.senses.analogy }}) </a>
+</td></tr>
+</table>
+
+
+
+
+
+
+
+
+</main>
+
+{{ partial "footer" . }}

@@ -63,8 +63,8 @@ publishDir = "docs"
     weight = 4
 
 [[menu.main]]
-    url = "/senses/"
-    name = "Accesibility View"
+    url = "/access-overview/"
+    name = "Accessibility View"
     weight = 4
 
 
