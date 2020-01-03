@@ -7,6 +7,7 @@ tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["A_CriticalRegions", "K_DataRaces", "K_Synchronization", "K_NonDeterminism"]
 courses: ["K_12", "CS2", "DSA", "Systems"]
 senses: ["movement"]
+medium: ["roleplay", "food"]
 ---
 
 ## Original Author/link
@@ -22,7 +23,7 @@ additional details.
 
 The paper uses dramatizations to help students understand algorithmic execution.
 The paper only describes one such lesson, which is used to introduce the 
-concept of mutual exclusion. The following is a rough summar of the exercise 
+concept of mutual exclusion. The following is a rough summary of the exercise 
 in (Ben-Ari1999):
 
 Two students volunteer to be robots. A drinking glass is placed at a visible 
@@ -68,7 +69,7 @@ current tools they have, they cannot create a "correct" algorithm.
 
 Mutual exclusion can then be introduced. 
 
-**Suggeted Variation:**
+**Suggested Variation:**
 
 To introduce mutual exclusion, we suggest introducing a wooden block (or box) 
 as a new prop. The block is originally on a chair near the table which the 
@@ -135,7 +136,7 @@ algorithm.
 
 
 * **K-12**: The authors used dramatizations in a high school course, which 
-  suggests that the acitivity is appropriate for K-12 students.
+  suggests that the activity is appropriate for K-12 students.
 
 * **CS2/DSA/Systems** TCPP recommends that programming topics such as 
   synchronization can be taught as early as CS2, and is also appropriate for 
@@ -158,11 +159,11 @@ difficult for students with diabetes or other metabolic issues to participate.
 ## Assessment 
 
 (Ben-Ari1999) ran the dramatizations with high school students. The authors 
-note that while students were originally "embarassed" by the dramatizations 
-and thought htey were "stupid", they eventually came to regard them as 
+note that while students were originally "embarrassed" by the dramatizations 
+and thought they were "stupid", they eventually came to regard them as 
 being central to their understanding of algorithms. Main result is that 
 over the course of term, students began to appreciate the importance of 
-correctness and its essentiality in algorithm design.
+correctness and its essentially in algorithm design.
 
 ---
 

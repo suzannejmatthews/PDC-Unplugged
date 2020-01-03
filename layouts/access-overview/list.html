@@ -58,10 +58,58 @@ students with disabilities.</p>
 <table>
 <tr> <th width="40%">Medium</th>   <th>Unplugged Activities</th>    </tr>
   <tr><td>Analogy</td> <td>
- {{ range first 2 .Site.Taxonomies.senses.analogy }}
+ {{ range first 2 .Site.Taxonomies.medium.analogy }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
     {{ end }}
-    <a href="{{ $.Site.BaseURL }}/senses/analogy">See All ({{ len .Site.Taxonomies.senses.analogy }}) </a>
+    <a href="{{ $.Site.BaseURL }}/medium/analogy">See All ({{ len .Site.Taxonomies.medium.analogy }}) </a>
+</td></tr>
+  <tr><td>Role-Play/Dramatization</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.roleplay }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/roleplay">See All ({{ len .Site.Taxonomies.medium.roleplay }}) </a>
+</td></tr>
+  <tr><td>Game</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.game }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/game">See All ({{ len .Site.Taxonomies.medium.game }}) </a>
+</td></tr>
+  <tr><td>Chalk/White-Board</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.boardwork }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/boardwork">See All ({{ len .Site.Taxonomies.medium.boardwork }}) </a>
+</td></tr>
+  <tr><td>Paper</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.paper }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/paper">See All ({{ len .Site.Taxonomies.medium.paper }}) </a>
+</td></tr>
+  <tr><td>Cards</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.cards }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/cards">See All ({{ len .Site.Taxonomies.medium.cards }}) </a>
+</td></tr>
+  <tr><td>Coins</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.coins }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/coins">See All ({{ len .Site.Taxonomies.medium.coins }}) </a>
+</td></tr>
+  <tr><td>Food</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.food }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/food">See All ({{ len .Site.Taxonomies.medium.food }}) </a>
+</td></tr>
+  <tr><td>Musical Instruments</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.instruments }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/instruments">See All ({{ len .Site.Taxonomies.medium.instruments }}) </a>
 </td></tr>
 </table>
 

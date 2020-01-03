@@ -6,8 +6,8 @@ cs2013details: ["PD_5", "Arch_1", "Arch_3", "Arch_4", "Arch_5", "Arch_8", "Perf_
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
 tcppdetails: ["C_Taxonomy", "K_Heterogeneous", "K_Hybrid", "C_DistributedMemory", "C_SPMD"]
 courses: ["CS2", "DSA", "Systems"]
-senses: ["analogy", "visual", "movement"]
-
+senses: ["visual", "movement"]
+medium: ["paper", "analogy"]
 ---
 
 ## Original Author/link
@@ -52,7 +52,7 @@ It is possible to act this out.
 
 **GPUs:**
 The analogy can also be extended to describe processes on GPUs. To act out 
-this analaogy, have a collection of chairs organized in a row (no desks), 
+this analogy, have a collection of chairs organized in a row (no desks), 
 to represent an "archipelago" of smaller islands. Have a person sit in each 
 chair. Each person in a chair represents a GPU core. 
 Next to the row of chairs is a person at a desk (representing the much larger CPU).

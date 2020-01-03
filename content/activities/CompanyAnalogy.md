@@ -6,8 +6,8 @@ cs2013details: ["Arch_2"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
 tcppdetails: ["K_MIMD", "K_TasksThreads", "C_Decomposition", "C_Static", "C_Dynamic"]
 courses: ["oo_course", "systems"]
-tags: ["analogy", "movement"]
-
+senses: ["movement"]
+medium: ["analogy"]
 ---
 
 ## Original Author/link
@@ -38,6 +38,7 @@ To introduce static vs dynamic scheduling:
 * **Static scheduling**: Each employee gets a subset of the job cards and sits at their desk until they are done.
 * **Dynamic scheduling**: The cards start in a large pile in front of the room. When an employee is done processing their card, they request another card to process.
 
+Alternatively, the activity can be actually acted out with job cards, desks, and students.
 
 ---
 

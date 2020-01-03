@@ -7,7 +7,7 @@ tcpp: ["TCPP_Algorithms", "TCPP_Programming"]
 tcppdetails: ["C_decomposition", "C_LoadBalancing", "K_Amdahl", "C_Scaling", "K_Selection"]
 courses: ["CS0", "CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
-
+medium: ["coins"]
 ---
 
 ## Original Author/link
@@ -85,7 +85,7 @@ Chitra P (Chitra2019)
 ## Accessibility
 
 This activity may be difficult for students who are blind. For those students, 
-the similar activity by Chitra P (Chitra2019) may be a better choice.
+the similar activity by Chitra P ([FindYoungestStudent]({{<ref "activities/findyoungeststudentinclass">}})) may be a better choice.
 
 ---
 
@@ -93,7 +93,7 @@ the similar activity by Chitra P (Chitra2019) may be a better choice.
 ## Assessment 
 
 Paper (Srivastava2019) performs assessment on this activity and another 
-activity (MoreProcessorsNotAlwaysBetter). For this particular activity, 
+activity ([MoreProcessorsNotAlwaysBetter]({{<ref "activities/moreprocessorsnotalwaysbetter">}})). For this particular activity, 
 assessment was performed on 98 students (73 male, 25 female) over four 
 institutions. The vast majority (81.6%) were aged 18-22. In addition, 
 38 students were Freshmen, 18 were sophomores, 25 were juniors, and 17 

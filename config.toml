@@ -14,6 +14,7 @@ publishDir = "docs"
     cs2013 = "cs2013"
     cs2013detail = "cs2013details"
     tcppdetail = "tcppdetails"
+    medium = "medium"
 
 [params]
     author = "Suzanne J. Matthews (CSinParallel)"

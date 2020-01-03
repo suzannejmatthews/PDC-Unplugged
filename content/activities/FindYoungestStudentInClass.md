@@ -6,7 +6,8 @@ cs2013details: ["PD_2"]
 tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Selection"]
 courses: ["K_12", "CS0", "CS1", "CS2", "DSA"]
-senses: ["auditory"]
+senses: ["auditory", "accessible"]
+medium: ["roleplay"]
 
 ---
 
@@ -53,7 +54,7 @@ This activity seems appropriate for most populations.
 * Students can stay in their seats, making it appropriate for students who are 
   mobility-impaired.
 
-* Students who are deaf and blind may have issues with this activity. Braile 
+* Students who are deaf and blind may have issues with this activity. Braille 
   readers can be given a description of the prompt "state your age"; the 
   response can then be communicated to the people next to them.
 
@@ -63,7 +64,7 @@ Yes. This activity was assessed in an undergraduate PDC course in India (Chitra 
 and CS1 and CS2 classes at Tennessee Tech (Ghafoor2019). In all cases, the 
 unplugged activities were used to introduce students to the parallel concepts 
 prior to "hands-on" programming exercises. The assessment results in both papers 
-sugges that unplugged activities are a successful first start to teaching PDC 
+suggest that unplugged activities are a successful first start to teaching PDC 
 computing concepts.
 
 
@@ -71,7 +72,7 @@ computing concepts.
 ## Citations
 
 * P. Chitra and S. K. Ghafoor, "Activity based approach for teaching parallel 
-  computing: An indian experience", in *2019 IEEE International Parallel and 
+  computing: An Indian experience", in *2019 IEEE International Parallel and 
   Distributed Processing Symposium Workshops (IPDPSW)*, May 2019, pp. 290–295.
 * S. K. Ghafoor, D. W. Brown, M. Rogers, and T. Hines, "Unplugged activities 
   to introduce parallel computing in introductory programming classes: An 

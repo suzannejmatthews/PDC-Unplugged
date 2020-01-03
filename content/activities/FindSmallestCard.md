@@ -7,7 +7,7 @@ tcpp: ["TCPP_Algorithms", "TCPP_Programming"]
 tcppdetails: ["C_Speedup", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer", "K_Selection"]
 courses: ["CS1", "CS2", "DSA"]
 senses: ["touch", "visual"]
-
+medium: ["cards", "game"]
 ---
 
 ## Original Author/link
@@ -60,9 +60,9 @@ additional comparison takes 1 time step. The final comparison between students 2
 **Eight students**
 
 * Each student is assigned a number (1..8) and given a subset of two cards.
-* Each student finds the minimum of their two cards. Then: Students 1 and 2 compare their minimums with student 2 receiving the miniumum; Students 3 and 4 compare their minimums, with student 4 receiving the minimum; Students 5 and 6 compare their minimums, with student 6 receiving the minimum; Students 7 and 8 compare their minimums, wtih student 8 receiving the minimum. Next, students 2 and 4 compare their minimums, with student 4 receiving the result; students 6 and 8 compare their minimums, with stduent 8 receiving the result. Lastly, students 4 and 8 compare their final minimums, to output the global minimum.
+* Each student finds the minimum of their two cards. Then: Students 1 and 2 compare their minimums with student 2 receiving the minimum; Students 3 and 4 compare their minimums, with student 4 receiving the minimum; Students 5 and 6 compare their minimums, with student 6 receiving the minimum; Students 7 and 8 compare their minimums, with student 8 receiving the minimum. Next, students 2 and 4 compare their minimums, with student 4 receiving the result; students 6 and 8 compare their minimums, with student 8 receiving the result. Lastly, students 4 and 8 compare their final minimums, to output the global minimum.
 * Ask the students: _how many time steps does this require?_
-* Answer: Each student requires one time step to find the minimum of 2 cards. Since the students performed their comparisons simultaneous and in parallel (and assuming that each comparison takes a time step), a total of 1 time step is needed for this initial step. Next, note that the comparisons between students 1 and 2 happen independently from the comparison of students 3 and 4, and students 5 and 6, and students 7 and 8. These comparisons can therefore all happen in parallel, and take an additional time step. Next, observe that the comparison between students 2 and 4 happen independently from the comparison between students 6 and 8. These comparisons can therefore happen in parallel, and take an additional time step. The final comparison between sudents 4 and 8 requires one additional time step. Therefore, the total 
+* Answer: Each student requires one time step to find the minimum of 2 cards. Since the students performed their comparisons simultaneous and in parallel (and assuming that each comparison takes a time step), a total of 1 time step is needed for this initial step. Next, note that the comparisons between students 1 and 2 happen independently from the comparison of students 3 and 4, and students 5 and 6, and students 7 and 8. These comparisons can therefore all happen in parallel, and take an additional time step. Next, observe that the comparison between students 2 and 4 happen independently from the comparison between students 6 and 8. These comparisons can therefore happen in parallel, and take an additional time step. The final comparison between students 4 and 8 requires one additional time step. Therefore, the total 
 number of time steps is 1 + 1 + 1 + 1 = 4. 
 
 
@@ -73,7 +73,7 @@ The class then should asked to calculate the speedup of the parallel cases over 
 
 Another parallel algorithm can be demonstrated (Valiant1975). To find the minimum of _n_ numbers (or _n_ cards with unique numbers) employ _n<sup>2</sup>_ processors.
 
-The case for _n_ = 4 is illustrated below. Arrange the students into a 4 x 4 grid. The students along the diagonal are each handed a card. To do this activity with playing cards, we recommend that oversized 
+The case for _n_ = 4 is illustrated below. Arrange the students into a 4 x 4 grid. The students along the diagonal are each handed a card. To do this activity with playing cards, we recommend that over-sized 
 cards are used, or that numbers are written on a large piece of paper (front and back). In the example shown below (taken from Bachelis1994), the numbers 5, 1, 9 and 8 are employed. The initial grid is shown. 
 
 ```text
@@ -86,7 +86,7 @@ cards are used, or that numbers are written on a large piece of paper (front and
 The students along the diagonal each have a number, which they hold up, so that everyone in their row can see. The `-` denotes other students sitting at their desks. 
 
 * During the first step, the students note holding cards look down their rows and note the the number that they can see.
-* During the second step, the along the diagonal hold their cards up so that it is visible to the other studnets in their column. The students at the column then raise their hand if they number they saw along 
+* During the second step, the along the diagonal hold their cards up so that it is visible to the other students in their column. The students at the column then raise their hand if they number they saw along 
   their row (the first number) is greater than the number they see along their column (second number). 
 
 For the matrix above, we expect the following students to raise their hands ('denoted with U'):
@@ -142,7 +142,7 @@ To achieve this with 16 numbers, there can be four contests each with 4 numbers,
 * Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) 
 * Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex 
   computational structures
-* Comprehend Divide & conquer (parallel aspects): Observe, via tree-structured examples such as mergesort . . . how the same structure that enables divide and conquer (sequential) algorithms 
+* Comprehend Divide & conquer (parallel aspects): Observe, via tree-structured examples such as merge-sort . . . how the same structure that enables divide and conquer (sequential) algorithms 
   exposes opportunities for parallel computation
 * Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.
 
@@ -164,7 +164,7 @@ The visual aspect of this activity may make it less accessible for blind student
 
 ## Assessment 
 
-Unknown. However, the related activities have asssessment.
+Unknown. However, the related activities have assessment.
 
 
 ---

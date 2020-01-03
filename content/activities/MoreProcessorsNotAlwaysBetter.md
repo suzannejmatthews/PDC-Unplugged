@@ -7,7 +7,7 @@ tcpp: ["TCPP_Algorithms", "TCPP_Programming", "TCPP_CrossCutting"]
 tcppdetails: ["K_TasksThreads", "C_Decomposition", "C_Speedup", "K_Amdahl", "C_Time", "C_Scaling", "CK_Scalability", "A_Dependencies", "K_Dependencies", "K_Concurrency"]
 courses: ["CS0", "CS1", "CS2", "DSA", "Systems"]
 senses: ["visual", "movement"]
-
+medium: ["boardwork"]
 ---
 
 ## Original Author/link

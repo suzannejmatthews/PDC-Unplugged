@@ -6,6 +6,7 @@ cs2013details: ["PD_2"]
 tcpp: ["TCPP_Algorithms"]
 courses: ["K_12", "CS2", "DSA"]
 senses: ["visual", "movement"]
+medium: ["roleplay"]
 
 ---
 
@@ -23,7 +24,7 @@ activity and slides associated with the activity at
 
 See papers (Rifkin1994, Sivilotti2003) for additional details. 
 
-### Similiar Exercises: 
+### Similar Exercises: 
 
 Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), [sortingNetwork]({{<ref "activities/sortingnetwork">}}), [cardsorting]({{<ref "activities/cardsorting">}})
 
@@ -66,13 +67,13 @@ leader walks down the line with the student at space 0.
   walk  pass that is _less_ than their number, they increment their counter by 
   one. 
 * As  the roving student passes by each stationary student, the stationary 
-  student "acknowledges" the fact that they've seen the number by rasiing 
+  student "acknowledges" the fact that they've seen the number by raising 
   their hand, enabling the roving student to go to the next spot. 
 * Once the roving student reaches the end of line, he or she returns to space 0. 
   The student at space 1 then becomes the roving student, while all other 
   students remain stationary. Starting at space 0, they walk down the line, 
   revealing their numbers to each stationary student, who raises their hand 
-  in acknowledgement, and updates their private counters as needed. 
+  in acknowledgment, and updates their private counters as needed. 
 * The process continues until every student had an opportunity to walk down 
   the line. 
 * Once everyone had the opportunity to walk down the line, the group leader 
@@ -109,7 +110,7 @@ engineer is thus described as a "recipe-engineer".
 
 * Comprehend Asymptotics: Understand upper (big-O) and lower bounds 
   (big-Omega,); follow elementary big-O analyses, e.g., the O(log n) 
-  tree-depth argument for mergesort with unbounded parallelism.
+  tree-depth argument for merge-sort with unbounded parallelism.
 
 * Comprehend Time: Recognize time as a fundamental computational resource that 
   can be influenced by parallelism.
@@ -128,7 +129,7 @@ engineer is thus described as a "recipe-engineer".
 ## Recommended Courses
 
 * **K-12**: (Rifkin1994) successfully introduced sorting concepts to minority 
-  high school students in a sumemr workshop. (Sivilotti2003) successfully 
+  high school students in a summer workshop. (Sivilotti2003) successfully 
   introduced the activity to middle school girls in a 45-minute format.
 
 * **CS2/DSA**: TCPP recommends that topics of sorting can be covered as early 
@@ -142,9 +143,9 @@ engineer is thus described as a "recipe-engineer".
 The exercise may be difficult for students who are mobility-impaired, or have 
 trouble with visual. Cards can have Braille on them, so when a blind student 
 plays the stationary student role, he or she can reach out and touch the card 
-to read the value. Verbal acknowledgements may be most appropriate when the 
+to read the value. Verbal acknowledgments may be most appropriate when the 
 blind student acts as the roving student in the exercise. Verbal 
-acknowledgements may also be preferable to students who have trouble raising 
+acknowledgments may also be preferable to students who have trouble raising 
 their hands.
  
 ---
@@ -162,7 +163,7 @@ specific assessment of parallel radix sort was not provided.
 period. Students were asked a number of questions, including rating the
 exercises. On a scale from 1 (low) to 5 (high) students rated the parallel
 sorting exercise as a 4.4. Students also made statements such as "the more
-'chefs'[processors] you use, the faster the program will finish" and "sequentia$
+'chefs'[processors] you use, the faster the program will finish" and "sequential
 are slow" (Sivilotti1999). Students were also asked to evaluate the overall
 quality of the computer science module on scale of 1 (low) to 5 (high), and
 rated the cs component of the workshop as 4.6. Note that this includes other

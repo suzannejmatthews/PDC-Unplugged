@@ -6,8 +6,8 @@ cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Arch_1", "Arch_8", "Perf_1"
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
 tcppdetails: ["K_MIMD", "C_Multicore", "K_Latency", "C_LoadBalancing", "C_Static", "C_Dynamic", "K_Data", "C_Speedup", "C_Scaling", "CA_Communication"]
 courses: ["K_12"]
-senses: ["analogy", "visual", "touch"]
-
+senses: ["visual", "touch"]
+medium: ["game", "analogy"]
 ---
 
 ## Original Author/link

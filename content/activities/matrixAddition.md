@@ -7,6 +7,7 @@ tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_Algorithms"]
 tcppdetails: ["K_MIMD", "C_Multicore", "C_Bus", "C_DistributedMemory", "K_Hybrid", "C_Scaling", "CA_Communication", "A_SpecializedComputations"]
 courses: ["CS2", "DSA", "Systems"]
 senses: ["movement", "visual"]
+medium: ["boardwork", "paper"]
 
 ---
 
@@ -28,13 +29,14 @@ additional details.
 
 Moore describes how to use Matrix Addition to describe the differences 
 between shared memory vs distributed memory systems. Prior to the start 
-of the exercise, the instructor writes *N* x *M* matrices A and B on the board, 
+of the exercise, the instructor writes *N* x *N* matrices A and B on the board, 
 along with an empty matrix C of the same dimensions. 
 
 **Shared Memory**:
 
 * One student is designated as the master. He or she picks a team of students to 
-  help and splits up the *N*<sup>2</sup> cells between them.
+  help and splits up the *N*<sup>2</sup> cells of matrix A between them. The cells 
+  the students are assigned in A are the same cells they are assigned in B.
 * Each student is responsible to add up their corresponding cells in A and B and 
   write the result in C.  
 
@@ -79,15 +81,21 @@ into further detail.
 
 The following variations are suggested:
 
+**Matrix-Vector Multiplication**: The above activity can easily be used to illustrate 
+matrix-vector multiplication by having the master assign each cell to a separate student helper 
+(or subset of cells) along with the common vector. To ensure that students can complete the multiplication in a 
+reasonable about of time, reduce the range of values in matrices A and B (say 
+to 1..5). 
+
 **Matrix Multiplication**: The above activity can easily be used to illustrate 
-matrix multiplication by having the master assign each row to a separate 
+matrix multiplication by having the master assign rows in matrix A and B to a separate 
 student helper. To ensure that students can complete the multiplication in a 
 reasonable about of time, reduce the range of values in matrices A and B (say 
 to 1..5). 
 
 **Heterogeneous Distributed Architectures**: For heterogeneous architectures, 
-push desks together to form "multicore" nodes. Each group of desks has a large 
-piece of paper on it, signfying shared memory. 
+push desks together to form "multi-core" nodes. Each group of desks has a large 
+piece of paper on it, signifying shared memory. 
 
 When the master sends a message, it is sent to the "team leader" at the desk, 
 who then splits the work to his or her team at adjacent desks 
@@ -96,7 +104,7 @@ in the matrix assigned to them. Once the paper is completely filled in, the
 team leader takes the paper, and gives it to the master at the front of the 
 class, who fills in the associated cells in matrix C. 
 
-To illustrate a multicore master node, simply have the student playing the master node select a set of 
+To illustrate a multi-core master node, simply have the student playing the master node select a set of 
 "mini-masters" to stand in front with them, and do an initial split of 
 the matrix (i.e. one row to a "master"). Then each master will send a subset 
 of their assigned cells to student team leaders at desks; the activity then 
@@ -153,7 +161,7 @@ continues as normal.
   clear which course the lab was used in.
 
 * **CS2/DSA/Systems** While TCPP recommends that concepts such as matrix 
-  multiplicaton can be introduced as early as CS2, they recommend that several 
+  multiplication can be introduced as early as CS2, they recommend that several 
   of the programming and algorithmic topics be covered in DSA. Architecture 
   topics (and the notion of hybrid programming) are suggested for a systems course.
 

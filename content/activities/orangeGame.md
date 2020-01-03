@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["C_Deadlocks"]
 courses: ["K_12", "Systems"]
 senses: ["touch", "visual"]
-
+medium: ["roleplay", "food"]
 ---
 
 ## Original Author/link
@@ -37,8 +37,7 @@ and methods for detecting and preventing them
 
 ## Accessibility:
 
-This exercise requires visuals. It is certainly appropriate for students who 
-are mobility-impaired. However, it is not friendly to blind students.
+This exercise requires visuals, and may not be friendly to blind students.
 
 ## Citation
 

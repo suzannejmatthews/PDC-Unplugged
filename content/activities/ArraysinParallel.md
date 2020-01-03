@@ -7,6 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["A_DataParallel"]
 courses: ["CS0", "CS1", "CS2", "DSA", "ProgLang"]
 senses: ["movement", "visual"]
+medium: ["boardwork"]
 ---
 
 ## Original Author/link

@@ -7,6 +7,7 @@ tcpp: ["TCPP_Architecture"]
 tcppdetails: ["K_SIMDVector", "K_MIMD"]
 courses: ["systems"]
 senses: ["touch", "visual"]
+medium: ["coins"]
 
 ---
 
@@ -21,7 +22,7 @@ No link to independent description available. See Details for a synopsis.
 ## Details
 The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin. 
 
-They are presented wtih the following algorithm:
+They are presented with the following algorithm:
 
 ```text
 1. flip coin.

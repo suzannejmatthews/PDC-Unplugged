@@ -7,6 +7,7 @@ tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["C_DistributedMemory", "CA_Communication", "K_FaultTolerance", "K_ClusterComputing", "K_Consistency", "K_Security"]
 courses: ["K_12", "CS1", "DSA", "Systems"]
 senses: ["visual", "movement"]
+medium: ["roleplay"]
 
 ---
 
@@ -33,15 +34,15 @@ describes fault tolerance to "Byzantine" faults, where a rogue process may
 difficult to detect as a faulty process. 
 
 Today, the Byzantine General problem and BFT has its most well-known application 
-in the creation of the Bitcon, where the Byzantine-tolerant blockchain enables 
+in the creation of the Bitcoin, where the Byzantine-tolerant block-chain enables 
 the generation of a consensus of the system's state at any given time. 
 
 Prior to the activity, students are familiarized with the conspiracies of 
 the Byzantine Empire. (Lloyd1994) suggests telling the story of Empress Irene
 of Athens, who ruled in stead of her underage son, Constantine VI from 780-790 AD. 
-When Constatine assumed power, Irene was deposed and exiled. Through a 
+When Constantine assumed power, Irene was deposed and exiled. Through a 
 conspiracy, Irene re-seized the throne in 797 AD, gouging out her son's eyes to 
-prevent him from retaking the throne (he succumed to his wounds days later). 
+prevent him from retaking the throne (he succumbed to his wounds days later). 
 Irene herself was overthrown by conspiracy in 802 AD.
 
 ### Introducing the Problem
@@ -211,7 +212,7 @@ Lastly, the instructor can guide discussions on more advanced issues related
 to viruses, hacking, and encryption. For example, message passing amongst 
 generals can be used to illustrate encryption techniques. Lastly, the 
 instructor can relate the Byzantine General problem to the construction of the 
-blockchain.
+block-chain.
 
 
 ---

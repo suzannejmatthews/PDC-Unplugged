@@ -6,8 +6,8 @@ cs2013details: ["PD_2"]
 tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["C_Asymptotics", "C_Time", "C_Scaling", "K_Sorting"]
 courses: ["K_12", "DSA", "CS2"]
-senses: ["visual", "movement" ]
-
+senses: ["visual", "accessible" ]
+medium: ["roleplay"]
 ---
 
 ## Original Author/link
@@ -107,7 +107,7 @@ classrooms with students with impaired mobility.
   with their neighbor. If the neighbor's card number is smaller than the card they are 
   holding, they swap cards.
 
-* During the odd phase, all the Odds turn to their left and comapre their card 
+* During the odd phase, all the Odds turn to their left and compare their card 
   with their neighbors. If the neighbor's card number is smaller than the card 
   they are holding, they swap cards.
 
@@ -146,7 +146,7 @@ engineer is thus described as a "recipe-engineer".
 
 * Comprehend Asymptotics: Understand upper (big-O) and lower bounds
   (big-Omega,); follow elementary big-O analyses, e.g., the O(log n) 
-  tree-depth argument for mergesort with unbounded parallelism.
+  tree-depth argument for merge-sort with unbounded parallelism.
 
 *  Comprehend Time: Recognize time as a fundamental computational resource 
    that can be influenced by parallelism.
@@ -168,7 +168,7 @@ engineer is thus described as a "recipe-engineer".
   clear which course the lab was used in.
 
 * **K-12**: (Rifkin1994) successfully introduced sorting concepts to minority 
-  high school students in a sumemr workshop. (Sivilotti2003) successfully 
+  high school students in a summer workshop. (Sivilotti2003) successfully 
   introduced sorting concepts to middle school girls.
 
 * **CS2/DSA**: TCPP recommends that topics of sorting can be covered as 
@@ -181,7 +181,7 @@ engineer is thus described as a "recipe-engineer".
 
 ## Accessibility
 
-This exercise appears fairly accesible to everyone. For students who are blind, 
+This exercise appears fairly accessible to everyone. For students who are blind, 
 the Braille cards are recommended so students can read the number on them. 
 For Deaf students the "Odd" "Even" phases can be signified by holding up a 
 large sign. We do not anticipate any mobility issues, as students can sit in 

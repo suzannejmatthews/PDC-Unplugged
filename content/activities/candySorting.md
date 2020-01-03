@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["C_Decomposition", "C_LoadBalancing"]
 courses: ["CS0", "CS1", "CS2", "DSA"]
 senses: ["visual"]
-
+medium: ["food"]
 ---
 
 ## Original Author/link

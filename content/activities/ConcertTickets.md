@@ -6,7 +6,7 @@ cs2013details: ["PD_1", "CAC_2", "CAC_5", "CAC_7", "CAC_8", "CC_2"]
 tcpp: ["TCPP_Programming", "TCPP_CrossCutting"]
 tcppdetails: ["K_DataRaces", "K_Consistency"]
 courses: ["CS1"]
-senses: ["analogy"]
+medium: ["analogy"]
 
 ---
 
@@ -27,7 +27,7 @@ day (Lewandowski2010):
 
 > Suppose a Ticket Sale Company sells concert tickets in the following way:
 > When a customer calls and asks for a _n_ seats, the seller (1) finds the _n_ 
-> best avaiable seats; (2) marks those _n_ seats as unavailable; and  (3) deals with customer payment options and either e-mails ticket receipt 
+> best available seats; (2) marks those _n_ seats as unavailable; and  (3) deals with customer payment options and either e-mails ticket receipt 
 > or sends tickets to the Will Call Box Office (lets customer pick up tickets 
 > day of show). Now suppose there are two sellers working at the same time. 
 > What problems could arise, and how can we avoid them?
@@ -47,7 +47,7 @@ student-generated solutions for further discussion. For example,
   can occur despite speed.
 
 * Instructors can use responses that "pass the buck" (vendors can mark a seat 
-  as unavailable and sell it instaneously). For these responses, let students 
+  as unavailable and sell it instantaneously). For these responses, let students 
   know that there can be delay that could occur between the time seats are 
   marked as unavailable and when they are sold. This is a good starting 
   point on a discussion of atomic operations. 
@@ -59,7 +59,7 @@ student-generated solutions for further discussion. For example,
 * Instructors should use centralized solutions (sellers pass the 
   responsibility of making seat assignments to some centralized resource like 
   a database or where each seller had their own private set of seats that only 
-  they sell) to discuss interleving instructions (e.g. how will one seller know 
+  they sell) to discuss interleaving instructions (e.g. how will one seller know 
   that another seller has reserved the seats?) or serializing the process. 
 
 * Instructors should use solutions that do not scale well to discuss scaling 
@@ -79,10 +79,10 @@ is reproduced from (Lewandowski2007) as a summary of what was proposed by
 (Kolikant2001):
 
 A ticket office sells movie tickets for a certain play. The next client always 
-gets the best avaialable ticket (each client can only purchase one ticket).
+gets the best available ticket (each client can only purchase one ticket).
 The vendor runs computer software that determines what is the next best 
 available seat, and prints the ticket for the client. This is equivalent to a 
-buttom push.
+button push.
 
 The following procedures are defined in the software:
 
@@ -120,7 +120,7 @@ Develop a system according to the following steps:
 1. What is the required hardware? (screens, printers, keyboards, etc.). Specify 
    how the hardware is distributed in the system.
 
-2. Write pseudocode for the software of the required system (where tickets are 
+2. Write pseudo-code for the software of the required system (where tickets are 
    being sold in two offices for the same play). You may use the procedures 
    defined above.
 
@@ -200,7 +200,7 @@ race condition component.
 
 (Lewandowski2007, Lewandowski2010) created a simpler, less programming specific 
 version which they presented to CS1 students as an open prompt. Students submitted 
-long form english-sentence paragraph answers, rather than psuedo-code. Unlike 
+long form english-sentence paragraph answers, rather than pseudo-code. Unlike 
 (Kolikant2001), students in this populace submitted multiple solutions. 
 (Lewandowski2010) reports that with the more open-ended responses, 71% of students 
 came up with at least one "reasonable" response, and most students (97%) 
@@ -208,7 +208,7 @@ identified the main problem of interest (it may be possible to give a
 a particular seat to more than one person). Both studies support the notion 
 of constructivism, which operates under the assumption that students learn by 
 refining and extending their own existing knowledge. Both sets of researchers 
-argue thatt "real-world" scenarios like the ticket system is preferable to 
+argue that "real-world" scenarios like the ticket system is preferable to 
 clever stories (Dining Philosophers, Sleeping Barbers, etc.). 
 
 

@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["C_Decomposition"]
 courses: ["K_12", "CS2", "DSA"]
 senses: ["visual"]
-
+medium: ["boardwork"]
 ---
 
 ## Original Author/link
@@ -65,7 +65,7 @@ In this example, each student gets assigned 3 digit columns (thus the `_` on the
 
  The instructor then writes the total on the board: `1,030,167,601`. Since student 2 said carry, the instructor knows to put a leading 1 to the total.
 
- The exercise can then be repeated with more students or larger numbers. We note that this exercise can be used to demonstrate overflow (to do so, the instructor just does not place the leading number on the board).
+ The exercise can then be repeated with more students or larger numbers. Note that this exercise can be used to demonstrate overflow (to do so, the instructor just does not place the leading number on the board).
 
  Students should recognize that in the parallel case, the fact that one person is sending a carry is independent of whether or not a carry is received. A more complex algorithm is also presented in (Bachelis1994), but we omit it here.
 
@@ -105,7 +105,7 @@ In this example, each student gets assigned 3 digit columns (thus the `_` on the
 
 ## Accessibility
 
-The visual aspect of this activity may make it less accessible for blind students. However. students communicating a message to a blind partner can read their total aloud. The instructor can facillitate passing the total to the next student as necessary.
+The visual aspect of this activity may make it less accessible for blind students. However. students communicating a message to a blind partner can read their total aloud. The instructor can facilitate passing the total to the next student as necessary.
 
 ---
 

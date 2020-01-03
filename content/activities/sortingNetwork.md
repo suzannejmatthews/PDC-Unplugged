@@ -5,6 +5,7 @@ tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Sorting"]
 courses: ["K_12", "CS1", "CS2", "DSA"]
 senses: ["movement", "visual"]
+medium: ["roleplay", "paper"]
 ---
 
 ## Original Author/link

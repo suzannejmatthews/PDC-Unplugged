@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelArchitecture"]
 cs2013details: ["Arch_8"]
 tcpp: ["TCPP_Architecture"]
 tcppdetails: ["K_Latency", "K_Bandwidth"]
-senses: ["analogy"]
+medium: ["analogy"]
 
 ---
 

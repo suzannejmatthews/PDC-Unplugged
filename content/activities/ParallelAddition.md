@@ -7,6 +7,7 @@ tcpp: ["TCPP_Architecture", "TCPP_Algorithms", "TCPP_Programming"]
 tcppdetails: ["K_Latency", "C_Speedup", "K_Amdahl", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer", "K_Selection", "CA_Communication"]
 courses: ["CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
+medium: ["paper", "cards"]
 
 ---
 
@@ -43,7 +44,7 @@ to add the collection of numbers. Each number is written down on a separate card
 **Two Students**:
 
 * Each student is given a subset of 8 numbers. 
-* Each student adds their 8 numbers together on their own piece of paper. Student 1 then writes their total on a notecard and hands it to student 2. Student 2 then adds their total with the total they received  
+* Each student adds their 8 numbers together on their own piece of paper. Student 1 then writes their total on a note-card and hands it to student 2. Student 2 then adds their total with the total they received  
   from student 1 to yield the final total. The class should note that this total is equal to total achieved during the serial run.
 * Ask the students: _how many time steps did this require?_ 
 * Answer: To add 8 numbers, a total of 7 addition operations are required. Since each student performed their additions simultaneously and in parallel, a total of 7 time steps are required. The final global 
@@ -52,7 +53,7 @@ to add the collection of numbers. Each number is written down on a separate card
 **Four Students**:
 
 * Each student is assigned a number (1..4) and is given a subset of 4 numbers to add up.
-* Each student adds up thier 4 numbers (using their piece of paper). At the end, students 1 writes their total on an index card and hands it to student 2, who computes a new total using their total and the
+* Each student adds up their 4 numbers (using their piece of paper). At the end, students 1 writes their total on an index card and hands it to student 2, who computes a new total using their total and the
   total received from student 1. Likewise, student 3 writes down their computed total won an index card and hands it student 4, who computes a new total by adding their total to the one received from student 3.
   Lastly, student 2 writes their new total on another index card and hands it to student 4, who computes the final total. The class should note that this amount is the same as the total value achieved before. 
 * Ask the students: _how many time steps did this require?_
@@ -62,16 +63,16 @@ to add the collection of numbers. Each number is written down on a separate card
 **Eight students**
 
 * Each student is assigned a number (1..8) and given a subset of two cards.
-* Each student adds their two numbers together. Then: Student 1 sends their total to Student 2, Student 3 sends their total to Student 4, Student 5 sents their total to Student 6, Student 7 sends their total to 
+* Each student adds their two numbers together. Then: Student 1 sends their total to Student 2, Student 3 sends their total to Student 4, Student 5 sends their total to Student 6, Student 7 sends their total to 
   Student 8. 
-* During the next time step, Students 2, 4, 6, and 8 adds the number they receive with their total to produce new totals. Then, Student 2 sends their new total to Student 4, and Studet 6 sends their 
+* During the next time step, Students 2, 4, 6, and 8 adds the number they receive with their total to produce new totals. Then, Student 2 sends their new total to Student 4, and Student 6 sends their 
   total to Student 8. 
-* During the next time step, Students 4 and 8 add the numbers they receive to their totals to produce new totals. Then, Student 4 sents their new total to Student 8.
-* During teh last time step, Student 8 adds their total with the number they received from Student 4. This is the final total. Students should note that this total matches the totals computed in the 1, 2, and 4 
+* During the next time step, Students 4 and 8 add the numbers they receive to their totals to produce new totals. Then, Student 4 sends their new total to Student 8.
+* During the last time step, Student 8 adds their total with the number they received from Student 4. This is the final total. Students should note that this total matches the totals computed in the 1, 2, and 4 
   processor scenarios. 
 * Ask the students: _how many time steps does this require?_
 * Answer: Each student requires one time add 2 numbers. Since the students performed their comparisons simultaneous and in parallel, a total of 1 time step is needed for this initial step. Next, the  addition 
-  of student 1 and 2's totals happen independantly from the sums of students 3 and 4's totals, and student 5 and 6's totals, and students 7 and 8's totals. These additions all happen in parallel, and take an additional time step. Next, the summing of the totals for students 2 and 4 happen independently from the summing of the totals of students 6 and 8. These additions therefore happen in parallel, and take an
+  of student 1 and 2's totals happen independently from the sums of students 3 and 4's totals, and student 5 and 6's totals, and students 7 and 8's totals. These additions all happen in parallel, and take an additional time step. Next, the summing of the totals for students 2 and 4 happen independently from the summing of the totals of students 6 and 8. These additions therefore happen in parallel, and take an
   additional time step. The final addition of the totals of students 4 and 8 requires one additional time step. Therefore, the total number of time steps is 1 + 1 + 1 + 1 = 4, excluding communication costs.
 
 
@@ -121,7 +122,7 @@ observe the cost of communication overhead.
 * Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) 
 * Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex 
   computational structures
-* Comprehend Divide & conquer (parallel aspects): Observe, via tree-structured examples such as mergesort . . . how the same structure that enables divide and conquer (sequential) algorithms 
+* Comprehend Divide & conquer (parallel aspects): Observe, via tree-structured examples such as merge-sort . . . how the same structure that enables divide and conquer (sequential) algorithms 
   exposes opportunities for parallel computation
 * Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.
 * Comprehend/Apply Communication: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. 
@@ -132,13 +133,13 @@ observe the cost of communication overhead.
 
 * **CS1**: TCPP recommends that the notion of dependencies be covered as early as CS1.
 * **CS2/DSA**: TCPP recommends that concepts of speedup, divide-and-conquer and selection be covered in either CS2 or DSA.
-* **Systems**: TCPP recommends that topics related to communicaton could be covered in Systems.
+* **Systems**: TCPP recommends that topics related to communication could be covered in Systems.
 
 ---
 
 ## Accessibility
 
-The visual aspect of this activity may make it less accessible for blind students. However. students communicating a message to a blind partner can read their total aloud. The instructor can facillitate passing the total to the next student as necessary.
+The visual aspect of this activity may make it less accessible for blind students. However. students communicating a message to a blind partner can read their total aloud. The instructor can facilitate passing the total to the next student as necessary.
 
 ---
 
