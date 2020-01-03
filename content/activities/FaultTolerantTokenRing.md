@@ -3,7 +3,7 @@ title: "FaultTolerantTokenRing"
 date: 2019-11-14T12:37:23-05:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_1"]
-courses: ["K-12", "Systems"]
+courses: ["K_12", "Systems"]
 tcpp: ["TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["CA_Communication", "K_FaultTolerance"]
 senses: ["visual", "auditory"]

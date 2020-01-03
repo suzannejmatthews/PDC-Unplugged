@@ -5,7 +5,7 @@ cs2013: ["PD_DistributedSystems", "PD_CloudComputing"]
 cs2013details: ["CC_2", "DS_9"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["C_DistributedMemory", "CA_Communication", "K_FaultTolerance", "K_ClusterComputing", "K_Consistency", "K_Security"]
-courses: ["K-12", "CS1", "DSA", "Systems"]
+courses: ["K_12", "CS1", "DSA", "Systems"]
 senses: ["visual", "movement"]
 
 ---

@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelDecomposition"]
 cs2013details: ["PD_2"]
 tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["C_Asymptotics", "C_Time", "C_Scaling", "K_Sorting"]
-courses: ["K-12", "DSA", "CS2"]
+courses: ["K_12", "DSA", "CS2"]
 senses: ["visual", "movement" ]
 
 ---

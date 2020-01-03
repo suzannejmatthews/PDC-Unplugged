@@ -5,7 +5,7 @@ cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_3"]
 tcpp: ["TCPP_Programming"]
 tcppdetails: ["C_Deadlocks"]
-courses: ["K-12", "Systems"]
+courses: ["K_12", "Systems"]
 senses: ["touch", "visual"]
 
 ---

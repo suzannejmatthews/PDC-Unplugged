@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelDecomposition"]
 cs2013details: ["PD_2"]
 tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Selection"]
-courses: ["CS0", "CS1", "CS2", "K-12", "DSA"]
+courses: ["K_12", "CS0", "CS1", "CS2", "DSA"]
 senses: ["auditory"]
 
 ---

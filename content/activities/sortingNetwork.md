@@ -3,7 +3,7 @@ title: "SortingNetwork"
 date: 2019-11-01T10:31:08-04:00
 tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Sorting"]
-courses: ["K-12", "CS1", "CS2", "DSA"]
+courses: ["K_12", "CS1", "CS2", "DSA"]
 senses: ["movement", "visual"]
 ---
 

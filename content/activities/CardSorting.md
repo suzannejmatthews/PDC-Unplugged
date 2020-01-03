@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance"]
 cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Algo_6", Perf_1", "Perf_2", "Perf_3"]
 tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Sorting", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer"]
-courses: ["K-12", CS0", "CS1", "CS2", "DSA"]
+courses: ["K_12", CS0", "CS1", "CS2", "DSA"]
 senses: ["visual", "touch"]
 
 ---

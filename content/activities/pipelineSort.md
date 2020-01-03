@@ -3,7 +3,7 @@ title: "PipelineSort"
 date: 2019-12-11T12:38:56-05:00
 cs2013: ["PD_ParallelAlgorithms"]
 cs2013details: ["Algo_9"]
-courses: ["K-12"]
+courses: ["K_12"]
 senses: ["touch", "visual"]
 
 ---

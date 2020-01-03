@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms"]
 cs2013details: ["PD_4", "Algo_4"]
 tcpp: ["TCPP_Programming"]
 tcppdetails: ["C_Decomposition"]
-courses: ["K-12", "CS2", "DSA"]
+courses: ["K_12", "CS2", "DSA"]
 senses: ["visual"]
 
 ---

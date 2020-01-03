@@ -5,7 +5,7 @@ cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_2"]
 tcpp: ["TCPP_Programming"]
 tcppdetails: ["K_DataRaces"]
-courses: ["K-12", "CS0", "DSA", "Systems"]
+courses: ["K_12", "CS0", "DSA", "Systems"]
 senses: ["visual"]
 
 ---

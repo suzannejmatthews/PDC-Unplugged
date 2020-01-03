@@ -1,0 +1,170 @@
+{{ partial "header" . }}
+
+
+
+<main align="left">
+
+<h1>Course View</h1>
+<p >This view classifies PDC unplugged activities by their recommended implementation in courses. Course recommendations are made by authors or derived from the TCPP Curriculum Initiative. 
+All of the listed courses (unless specified) are for undergraduate students, unless otherwise specified. Definitions for CS1, CS2, and DSA are derived from the TCPP Curriculum Initiative. 
+It should also be noted that CS1, CS2, DSA and Systems are designated by TCPP as "core" undergraduate courses where it is strongly recommended to introduce parallelism.</p>
+
+
+
+
+
+<h3 >K-12 <!--(<a href="{{ .Site.BaseURL }}/courses/k_12">{{ len .Site.Taxonomies.courses.k_12 }} Activities  </a>)--></h3>
+<p>The following activities have been used or recommended for K-12 students. Most do not assume any background in computing. 
+<ul>
+ {{ range first 2 .Site.Taxonomies.courses.k_12}}
+ <li> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+ <li>   <a href="{{ $.Site.BaseURL }}/courses/k_12">See All ({{ len .Site.Taxonomies.courses.k_12 }}) </a></li>
+</ul>
+<p><br></p>
+
+<!-- <table>
+<tr> <th width="60%">Category</th>   <th>Unplugged Activities</th>    </tr>
+  <tr><td><u>K-12</u>: Taught to elementary, middle school or high school students.</td> <td>
+ {{ range first 2 .Site.Taxonomies.courses.k_12 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/k_12">See All ({{ len .Site.Taxonomies.courses.k_12 }}) </a>
+</td></tr>
+  <tr><td><u>CS0</u>: Course for undergraduate non-majors </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.courses.cs0 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/cs0">See All ({{ len .Site.Taxonomies.courses.cs0 }}) </a>
+  	</td></tr>
+  
+</table>
+-->
+
+<h3 >CS0 </h3>
+<p>A CS0 course is a computing course that usually has no pre-requisites. While all CS0 courses have some level of programming, no prior background in computing is assumed. CS0 is frequently taken by 
+	non-computing majors at the undergraduate level. 
+<ul>
+ {{ range first 2 .Site.Taxonomies.courses.cs0 }}
+ <li> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+ <li>   <a href="{{ $.Site.BaseURL }}/courses/cs0">See All ({{ len .Site.Taxonomies.courses.cs0 }}) </a></li>
+</ul>
+<p><br></p>
+
+<!--
+<h3>Core Introductory Courses</h3>
+The following courses are considered by TCPP as "core" introductory courses for undergraduates where it is essential to incorporate introductory parallel computing concepts.
+
+<table>
+<tr> <th width="60%">Course</th>   <th>Unplugged Activities</th>    </tr>
+  <tr><td><u>CS1</u>: First programming course in major.</td0> <td>
+ {{ range first 2 .Site.Taxonomies.courses.cs1 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/cs1">See All ({{ len .Site.Taxonomies.courses.cs1 }}) </a>
+</td></tr>
+  <tr><td><u>CS2</u>: Second programming course in introductory sequence </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.courses.cs2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/cs2">See All ({{ len .Site.Taxonomies.courses.cs2 }}) </a>
+  	</td></tr>
+  <tr><td><u>DSA</u>: Data Structures and Algorithms </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.courses.dsa }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/dsa">See All ({{ len .Site.Taxonomies.courses.dsa }}) </a>
+  	</td></tr>
+  <tr><td><u>Systems</u>: Introductory treatment of computer systems/organization topics </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.courses.systems }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/systems">See All ({{ len .Site.Taxonomies.courses.systems }}) </a>
+  	</td></tr>
+</table>
+
+
+-->
+
+<h3 >CS1 </h3>
+<p>A CS1 course is usually the first programming course in the major. 
+<ul>
+ {{ range first 2 .Site.Taxonomies.courses.cs1 }}
+ <li> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+ <li>   <a href="{{ $.Site.BaseURL }}/courses/cs1">See All ({{ len .Site.Taxonomies.courses.cs1 }}) </a></li>
+</ul>
+<p><br></p>
+
+<h3 >CS2 </h3>
+<p>A CS2 is the second programming course in the introductory programming sequence in the major. Sometimes called "Data Structures" at some institutions.</p>
+<ul>
+ {{ range first 2 .Site.Taxonomies.courses.cs2 }}
+ <li> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+ <li>   <a href="{{ $.Site.BaseURL }}/courses/cs2">See All ({{ len .Site.Taxonomies.courses.cs2 }}) </a></li>
+</ul>
+<p><br></p>
+
+<h3 >Data Structures and Algorithms <!--(<a href="{{ .Site.BaseURL }}/courses/dsa">{{ len .Site.Taxonomies.courses.dsa }} Activities  </a>)--></h3>
+<p>Data Structure and Algorithms (DSA) is a third programming course in the introductory programming sequence at some institutions, which focuses on data structures and basic 
+algorithmic theory.</p> 
+<ul>
+ {{ range first 2 .Site.Taxonomies.courses.dsa }}
+ <li> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+ <li>   <a href="{{ $.Site.BaseURL }}/courses/dsa">See All ({{ len .Site.Taxonomies.courses.dsa }}) </a></li>
+</ul>
+<p><br></p>
+
+<h3> Systems <!-- (<a href="{{ .Site.BaseURL }}/courses/systems">{{ len .Site.Taxonomies.courses.systems }} Activities  </a>)--></h3>
+Introductory treatment to computer systems topics. Possible names are "computer systems", "computer organization".
+<ul>
+ {{ range first 2 .Site.Taxonomies.courses.systems }}
+ <li> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+ <li>   <a href="{{ $.Site.BaseURL }}/courses/systems">See All ({{ len .Site.Taxonomies.courses.systems }}) </a></li>
+</ul>
+<p><br></p>
+
+<h3>Advanced Courses</h3>
+The focus of this curation is primarily introductory courses and K-12; however, occasionally in the literature advanced courses are recommended as places where 
+unplugged activities are utilized. The following table highlights some of these courses:
+
+<table>
+<tr> <th width="50%">Course</th>   <th>Unplugged Activities</th>    </tr>
+  <tr><td>Operating Systems</td> <td>
+ {{ range first 2 .Site.Taxonomies.courses.os }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/os">See All ({{ len .Site.Taxonomies.courses.os }}) </a>
+</td></tr>
+  <tr><td>Object Oriented Programming</td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.courses.oo_course }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/oo_course">See All ({{ len .Site.Taxonomies.courses.oo_course }}) </a>
+  	</td></tr>
+  <tr><td>Programming Languages </td> 
+  	<td>
+  		{{ range first 2 .Site.Taxonomies.courses.proglang }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/proglang">See All ({{ len .Site.Taxonomies.courses.proglang }}) </a>
+  	</td></tr>
+  <tr><td>Parallel/Concurrent Programming </td> 
+  	<td>
+
+  	</td></tr>
+</table>
+
+
+</main>
+
+{{ partial "footer" . }}
