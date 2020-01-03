@@ -98,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/courses/k-12/</loc>
+    <loc>https://www.pdcunplugged.org/courses/k_12/</loc>
     <lastmod>2019-12-11T12:38:56-05:00</lastmod>
   </url>
   
@@ -673,11 +673,20 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/course-overview/intentionally-left-blank/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/about/</loc>
   </url>
   
   <url>
     <loc>https://www.pdcunplugged.org/contribute/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/course-overview/</loc>
   </url>
   
   <url>

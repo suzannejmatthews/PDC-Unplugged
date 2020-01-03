@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Course-overviews</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+            <link href="/course-overview/index.xml" rel="alternate" type="application/rss&#43;xml" title="PDC Unplugged" />
+            <link href="/course-overview/index.xml" rel="feed" type="application/rss&#43;xml" title="PDC Unplugged" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-155045117-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Course-overviews</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/activities/">All Activities</a></li>
+                            
+                                <li><a href="/senses/">Accesibility View</a></li>
+                            
+                                <li><a href="/course-overview/">Course View</a></li>
+                            
+                                <li><a href="/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+
+
+<main align="left">
+
+<h1>Course View</h1>
+<p >This view classifies PDC unplugged activities by their recommended implementation in courses. Course recommendations are made by authors or derived from the TCPP Curriculum Initiative. 
+All of the listed courses (unless specified) are for undergraduate students, unless otherwise specified. Definitions for CS1, CS2, and DSA are derived from the TCPP Curriculum Initiative. 
+It should also be noted that CS1, CS2, DSA and Systems are designated by TCPP as "core" undergraduate courses where it is strongly recommended to introduce parallelism.</p>
+
+
+
+
+
+<h3 >K-12 </h3>
+<p>The following activities have been used or recommended for K-12 students. Most do not assume any background in computing. 
+<ul>
+ 
+ <li> <a href="https://www.pdcunplugged.org/activities/pipelinesort/">PipelineSort</a></li>
+    
+ <li> <a href="https://www.pdcunplugged.org/activities/addlargenumbers/">AddLargeNumbers</a></li>
+    
+ <li>   <a href="https://www.pdcunplugged.org/courses/k_12">See All (13) </a></li>
+</ul>
+<p><br></p>
+
+
+
+<h3 >CS0 </h3>
+<p>A CS0 course is a computing course that usually has no pre-requisites. While all CS0 courses have some level of programming, no prior background in computing is assumed. CS0 is frequently taken by 
+	non-computing majors at the undergraduate level. 
+<ul>
+ 
+ <li> <a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a></li>
+    
+ <li> <a href="https://www.pdcunplugged.org/activities/findoldestpenny/">FindOldestPenny</a></li>
+    
+ <li>   <a href="https://www.pdcunplugged.org/courses/cs0">See All (8) </a></li>
+</ul>
+<p><br></p>
+
+
+
+<h3 >CS1 </h3>
+<p>A CS1 course is usually the first programming course in the major. 
+<ul>
+ 
+ <li> <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a></li>
+    
+ <li> <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a></li>
+    
+ <li>   <a href="https://www.pdcunplugged.org/courses/cs1">See All (12) </a></li>
+</ul>
+<p><br></p>
+
+<h3 >CS2 </h3>
+<p>A CS2 is the second programming course in the introductory programming sequence in the major. Sometimes called "Data Structures" at some institutions.</p>
+<ul>
+ 
+ <li> <a href="https://www.pdcunplugged.org/activities/addlargenumbers/">AddLargeNumbers</a></li>
+    
+ <li> <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a></li>
+    
+ <li>   <a href="https://www.pdcunplugged.org/courses/cs2">See All (17) </a></li>
+</ul>
+<p><br></p>
+
+<h3 >Data Structures and Algorithms </h3>
+<p>Data Structure and Algorithms (DSA) is a third programming course in the introductory programming sequence at some institutions, which focuses on data structures and basic 
+algorithmic theory.</p> 
+<ul>
+ 
+ <li> <a href="https://www.pdcunplugged.org/activities/addlargenumbers/">AddLargeNumbers</a></li>
+    
+ <li> <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a></li>
+    
+ <li>   <a href="https://www.pdcunplugged.org/courses/dsa">See All (18) </a></li>
+</ul>
+<p><br></p>
+
+<h3> Systems </h3>
+Introductory treatment to computer systems topics. Possible names are "computer systems", "computer organization".
+<ul>
+ 
+ <li> <a href="https://www.pdcunplugged.org/activities/coinflip/">CoinFlip</a></li>
+    
+ <li> <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a></li>
+    
+ <li>   <a href="https://www.pdcunplugged.org/courses/systems">See All (14) </a></li>
+</ul>
+<p><br></p>
+
+<h3>Advanced Courses</h3>
+The focus of this curation is primarily introductory courses and K-12; however, occasionally in the literature advanced courses are recommended as places where 
+unplugged activities are utilized. The following table highlights some of these courses:
+
+<table>
+<tr> <th width="50%">Course</th>   <th>Unplugged Activities</th>    </tr>
+  <tr><td>Operating Systems</td> <td>
+ 
+    <a href="https://www.pdcunplugged.org/activities/pbjinparallel/">PBJinParallel</a>;
+    
+    <a href="https://www.pdcunplugged.org/courses/os">See All (1) </a>
+</td></tr>
+  <tr><td>Object Oriented Programming</td> 
+  	<td>
+  		
+    <a href="https://www.pdcunplugged.org/activities/companyanalogy/">CompanyAnalogy</a>;
+    
+    <a href="https://www.pdcunplugged.org/courses/oo_course">See All (1) </a>
+  	</td></tr>
+  <tr><td>Programming Languages </td> 
+  	<td>
+  		
+    <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>;
+    
+    <a href="https://www.pdcunplugged.org/activities/arraysinparallel/">ArraysinParallel</a>;
+    
+    <a href="https://www.pdcunplugged.org/courses/proglang">See All (2) </a>
+  	</td></tr>
+  <tr><td>Parallel/Concurrent Programming </td> 
+  	<td>
+
+  	</td></tr>
+</table>
+
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
