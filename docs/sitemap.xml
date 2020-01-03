@@ -673,12 +673,21 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/access-overview/intentionally-left-blank/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/course-overview/intentionally-left-blank/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.pdcunplugged.org/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/access-overview/</loc>
   </url>
   
   <url>
