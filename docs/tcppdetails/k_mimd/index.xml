@@ -20,7 +20,7 @@
       <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
 No link to independent description available. See Details for a synopsis.
 Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
-They are presented wtih the following algorithm:
+They are presented with the following algorithm:
 1. flip coin. 2. check if heads.</description>
     </item>
     

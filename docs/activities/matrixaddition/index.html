@@ -200,14 +200,15 @@ additional details.</p>
 
 <p>Moore describes how to use Matrix Addition to describe the differences
 between shared memory vs distributed memory systems. Prior to the start
-of the exercise, the instructor writes <em>N</em> x <em>M</em> matrices A and B on the board,
+of the exercise, the instructor writes <em>N</em> x <em>N</em> matrices A and B on the board,
 along with an empty matrix C of the same dimensions.</p>
 
 <p><strong>Shared Memory</strong>:</p>
 
 <ul>
 <li>One student is designated as the master. He or she picks a team of students to
-help and splits up the <em>N</em><sup>2</sup> cells between them.</li>
+help and splits up the <em>N</em><sup>2</sup> cells of matrix A between them. The cells
+the students are assigned in A are the same cells they are assigned in B.</li>
 <li>Each student is responsible to add up their corresponding cells in A and B and
 write the result in C.<br /></li>
 </ul>
@@ -256,15 +257,21 @@ into further detail.</p>
 
 <p>The following variations are suggested:</p>
 
+<p><strong>Matrix-Vector Multiplication</strong>: The above activity can easily be used to illustrate
+matrix-vector multiplication by having the master assign each cell to a separate student helper
+(or subset of cells) along with the common vector. To ensure that students can complete the multiplication in a
+reasonable about of time, reduce the range of values in matrices A and B (say
+to 1..5).</p>
+
 <p><strong>Matrix Multiplication</strong>: The above activity can easily be used to illustrate
-matrix multiplication by having the master assign each row to a separate
+matrix multiplication by having the master assign rows in matrix A and B to a separate
 student helper. To ensure that students can complete the multiplication in a
 reasonable about of time, reduce the range of values in matrices A and B (say
 to 1..5).</p>
 
 <p><strong>Heterogeneous Distributed Architectures</strong>: For heterogeneous architectures,
-push desks together to form &ldquo;multicore&rdquo; nodes. Each group of desks has a large
-piece of paper on it, signfying shared memory.</p>
+push desks together to form &ldquo;multi-core&rdquo; nodes. Each group of desks has a large
+piece of paper on it, signifying shared memory.</p>
 
 <p>When the master sends a message, it is sent to the &ldquo;team leader&rdquo; at the desk,
 who then splits the work to his or her team at adjacent desks
@@ -273,7 +280,7 @@ in the matrix assigned to them. Once the paper is completely filled in, the
 team leader takes the paper, and gives it to the master at the front of the
 class, who fills in the associated cells in matrix C.</p>
 
-<p>To illustrate a multicore master node, simply have the student playing the master node select a set of
+<p>To illustrate a multi-core master node, simply have the student playing the master node select a set of
 &ldquo;mini-masters&rdquo; to stand in front with them, and do an initial split of
 the matrix (i.e. one row to a &ldquo;master&rdquo;). Then each master will send a subset
 of their assigned cells to student team leaders at desks; the activity then
@@ -337,7 +344,7 @@ continues as normal.</p>
 clear which course the lab was used in.</p></li>
 
 <li><p><strong>CS2/DSA/Systems</strong> While TCPP recommends that concepts such as matrix
-multiplicaton can be introduced as early as CS2, they recommend that several
+multiplication can be introduced as early as CS2, they recommend that several
 of the programming and algorithmic topics be covered in DSA. Architecture
 topics (and the notion of hybrid programming) are suggested for a systems course.</p></li>
 </ul>

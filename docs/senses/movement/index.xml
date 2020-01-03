@@ -31,7 +31,7 @@ Details See paper for details. In summary, the goal is to write the statement &a
       <guid>https://www.pdcunplugged.org/activities/parallelradixsort/</guid>
       <description>Original Author/link Originally Described by Adam Rifkin (1994). No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website
  Slides (includes other activities) PPT 1 Page Synopsis PDF  See papers (Rifkin1994, Sivilotti2003) for additional details.
-Similiar Exercises: Sorting: oddEvenTranspositionSort, sortingNetwork, cardsorting
+Similar Exercises: Sorting: oddEvenTranspositionSort, sortingNetwork, cardsorting
 Other activities by (Rifki1994, Sivilotti2003) Rifkin1994: oddEvenTranspositionSort</description>
     </item>
     
@@ -55,7 +55,7 @@ The Byzantine Generals problem is a classic description of the consensus problem
       <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
-Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summar of the exercise in (Ben-Ari1999):
+Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
 Two students volunteer to be robots. A drinking glass is placed at a visible point in the classroom, purporting to contain &amp;ldquo;juice&amp;rdquo;.</description>
     </item>
     
@@ -97,13 +97,16 @@ Details Moore describes how to use Matrix Addition to describe the differences b
     </item>
     
     <item>
-      <title>OddEvenTranspositionSort</title>
-      <link>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</link>
-      <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
+      <title>CompanyAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/companyanalogy/</link>
+      <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
       
-      <guid>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</guid>
-      <description>Original Author/link Originally Described by Adam Rifkin (Rifkin1994), with a separate description by Michelle Moore (Moore2000). (Bachelis1994) also presents the sort as a &amp;ldquo;compare-exchange sort&amp;rdquo;. We extrapolate on (Rifkin1994), since it is well described.
-No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website:</description>
+      <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
+      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
+No web-link to independent description available. See paper (Giacaman2012) for details.
+Details The company analogy is used to introduce multicore systems:
+ The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.
+  To illustrate (under)utilization and resource contention/context switching:</description>
     </item>
     
     <item>

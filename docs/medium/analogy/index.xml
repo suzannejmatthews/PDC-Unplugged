@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>analogy on PDC Unplugged</title>
+    <link>https://www.pdcunplugged.org/medium/analogy/</link>
+    <description>Recent content in analogy on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Dec 2019 17:54:13 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.pdcunplugged.org/medium/analogy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ConcertTickets</title>
+      <link>https://www.pdcunplugged.org/activities/concerttickets/</link>
+      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/concerttickets/</guid>
+      <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
+No on-line resources available. See details for description.
+Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best available seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
+    </item>
+    
+    <item>
+      <title>LongDistancePhoneCall</title>
+      <link>https://www.pdcunplugged.org/activities/longdistancephonecall/</link>
+      <pubDate>Tue, 05 Nov 2019 17:46:25 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/longdistancephonecall/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slide 26.
+ Available in: PPT and PDF Also described in (Neeman2006)  CS2013 Knowledge Unit Coverage Parallel Architecture (Elective) 8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]
+TCPP Topics Coverage Architecture Topics  Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</description>
+    </item>
+    
+    <item>
+      <title>DesertIslandsAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/desertislandsanalogy/</link>
+      <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/desertislandsanalogy/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slides 19-25.
+ Available in: PPT and PDF Also described in (Neeman2006)  The following questions from (Neeman2006) can be used to stimulate discussion:
+ Suppose that each student is on his or her own island far away from everyone else. Are any of them aware of anyone else? Do they know who is at the other end of the phone line?</description>
+    </item>
+    
+    <item>
+      <title>JigsawPuzzle</title>
+      <link>https://www.pdcunplugged.org/activities/jigsawpuzzle/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
+ Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+    </item>
+    
+    <item>
+      <title>CompanyAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/companyanalogy/</link>
+      <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
+      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
+No web-link to independent description available. See paper (Giacaman2012) for details.
+Details The company analogy is used to introduce multicore systems:
+ The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.
+  To illustrate (under)utilization and resource contention/context switching:</description>
+    </item>
+    
+  </channel>
+</rss>
