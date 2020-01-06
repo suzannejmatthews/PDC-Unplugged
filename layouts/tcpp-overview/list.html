@@ -309,7 +309,12 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
 <tr><td> <u>Comprehend/Apply Broadcast</u>: Use this important mode of global communication; observe enabling algorithms for various platforms (e.g., recursive doubling) (1 hour)</td><td>DSA</td><td></td></tr>
 <tr><td> <u>Know/Comprehend Multicast</u>: Recognize other modalities of global communication on a variety of platforms: e.g., rings, 2D-meshes, hypercubes, trees (0.5 hours)</td><td>DSA</td><td></td></tr>
 <tr><td> <u>Comprehend/Apply Scatter/gather</u>: Recognize these informational analogues of Map and reduce (0.5 hours)<td>DSA</td><td></td></tr>
-<tr><td> <u>Know Asynchrony</u>: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Asynchrony</u>: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td>
+     {{ range first 2 .Site.Taxonomies.tcppdetails.k_asynchrony }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/k_asynchrony">See All ({{ len .Site.Taxonomies.tcppdetails.k_asynchrony }}) </a>
+</td></tr>
 <tr><td> <u>Know Synchronization</u>: Be aware of methods for controlling race conditions (1 hour)</td> <td>CS2/DSA</td>
 	<td>
 		   {{ range first 2 .Site.Taxonomies.tcppdetails.k_synchronization }}
