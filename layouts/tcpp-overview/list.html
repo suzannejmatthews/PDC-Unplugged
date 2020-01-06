@@ -331,7 +331,13 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
     {{ end }}
     <a href="{{ $.Site.BaseURL }}/tcppdetails/k_selection">See All ({{ len .Site.Taxonomies.tcppdetails.k_selection }}) </a>
 	</td></tr>
-<tr><td> <u>Comprehend Graph Search Algorithms</u>: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Graph Search Algorithms</u>: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td>
+  <td>
+    {{ range first 2 .Site.Taxonomies.tcppdetails.c_graphsearchalgorithms }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/c_graphsearchalgorithms">See All ({{ len .Site.Taxonomies.tcppdetails.c_graphsearchalgorithms }}) </a>
+  </td></tr>
 <tr><td> <u>Apply Specialized computations</u>: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems. (2 hours)</td><td>CS2/DSA</td>
 	<td>
 		   {{ range first 2 .Site.Taxonomies.tcppdetails.a_specializedcomputations }}
