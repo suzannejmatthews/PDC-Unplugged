@@ -8,7 +8,7 @@ tcpp: ["TCPP_Algorithms", "TCPP_CrossCutting"]
 tcppdetails: ["K_Sorting", "K_NonDeterminism"]
 senses: ["visual", "movement"]
 medium: ["roleplay", "cards"]
-draft: false
+
 ---
 
 ## Original Author/link
