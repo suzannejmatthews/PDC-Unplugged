@@ -350,7 +350,7 @@
 
 <p><br></p>
 
-<h3>Formal Models and Semantics</h3>
+<h3>Formal Models and Semantics (<a href="{{ .Site.BaseURL }}/cs2013/pd_formalmodels">{{ len .Site.Taxonomies.cs2013.pd_formalmodels }} Activities  </a>)</h3>
 <table>
     <tr>
     <th width="60%">Learning Outcome</th> 
@@ -361,7 +361,12 @@
 <tr><td>3. Formally model a shared memory system to show if it is consistent. [Usage]</td><td></td></tr>
 <tr><td>4. Use a model to show progress guarantees in a parallel algorithm. [Usage]</td><td></td></tr>
 <tr><td>5. Use formal techniques to show that a parallel algorithm is correct with respect to a safety or liveness property. [Usage]</td><td></td></tr>
-<tr><td>6. Decide if a specific execution is linearizable or not. [Usage]</td><td></td></tr>
+<tr><td>6. Decide if a specific execution is linearizable or not. [Usage]</td><td>
+   {{ range first 2 .Site.Taxonomies.cs2013details.formal_6 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/cs2013details/formal_6">See All ({{ len .Site.Taxonomies.cs2013details.formal_6 }}) </a>
+</td></tr>
 </table>
 
 </main>
