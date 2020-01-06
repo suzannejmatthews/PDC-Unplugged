@@ -6,10 +6,28 @@
     <description>Recent content in Tcpp on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/tcpp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TCPP_Algorithms</title>
+      <link>https://www.pdcunplugged.org/tcpp/tcpp_algorithms/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcpp/tcpp_algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TCPP_CrossCutting</title>
+      <link>https://www.pdcunplugged.org/tcpp/tcpp_crosscutting/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcpp/tcpp_crosscutting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TCPP_Architecture</title>
@@ -26,24 +44,6 @@
       <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcpp/tcpp_programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TCPP_Algorithms</title>
-      <link>https://www.pdcunplugged.org/tcpp/tcpp_algorithms/</link>
-      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcpp/tcpp_algorithms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TCPP_CrossCutting</title>
-      <link>https://www.pdcunplugged.org/tcpp/tcpp_crosscutting/</link>
-      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcpp/tcpp_crosscutting/</guid>
       <description></description>
     </item>
     

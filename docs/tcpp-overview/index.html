@@ -414,7 +414,7 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <p><br></p>
 
 
-<h3>Algorithms Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms">15 Activities </a>)</h3>
+<h3>Algorithms Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms">18 Activities </a>)</h3>
 
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
@@ -492,7 +492,14 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
 <tr><td> <u>Comprehend/Apply Broadcast</u>: Use this important mode of global communication; observe enabling algorithms for various platforms (e.g., recursive doubling) (1 hour)</td><td>DSA</td><td></td></tr>
 <tr><td> <u>Know/Comprehend Multicast</u>: Recognize other modalities of global communication on a variety of platforms: e.g., rings, 2D-meshes, hypercubes, trees (0.5 hours)</td><td>DSA</td><td></td></tr>
 <tr><td> <u>Comprehend/Apply Scatter/gather</u>: Recognize these informational analogues of Map and reduce (0.5 hours)<td>DSA</td><td></td></tr>
-<tr><td> <u>Know Asynchrony</u>: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Asynchrony</u>: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td>
+     
+    <a href="https://www.pdcunplugged.org/activities/stabalizingleaderelection/">StabalizingLeaderElection</a>;
+    
+    <a href="https://www.pdcunplugged.org/activities/parallelgarbagecollection/">ParallelGarbageCollection</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_asynchrony">See All (2) </a>
+</td></tr>
 <tr><td> <u>Know Synchronization</u>: Be aware of methods for controlling race conditions (1 hour)</td> <td>CS2/DSA</td>
 	<td>
 		   
@@ -505,11 +512,11 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
 <tr><td> <u>Know Sorting</u>: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)</td><td>CS2/DSA</td>
 	<td>
 		   
+    <a href="https://www.pdcunplugged.org/activities/nondeterministicsorting/">NondeterministicSorting</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/cardsorting/">CardSorting</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_sorting">See All (3) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_sorting">See All (4) </a>
 	</td></tr>
 <tr><td> <u>Know Selection</u>: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. 0.5 hours)</td><td>CS2/DSA</td>
 	<td>
@@ -520,7 +527,13 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_selection">See All (4) </a>
 	</td></tr>
-<tr><td> <u>Comprehend Graph Search Algorithms</u>: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Graph Search Algorithms</u>: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td>
+  <td>
+    
+    <a href="https://www.pdcunplugged.org/activities/parallelgarbagecollection/">ParallelGarbageCollection</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_graphsearchalgorithms">See All (1) </a>
+  </td></tr>
 <tr><td> <u>Apply Specialized computations</u>: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems. (2 hours)</td><td>CS2/DSA</td>
 	<td>
 		   
@@ -534,7 +547,7 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
 
 <p><br></p>
 
-<h3>Cross Cutting and Advanced Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_crosscutting">5 Activities </a>)</h3>
+<h3>Cross Cutting and Advanced Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_crosscutting">7 Activities </a>)</h3>
 
 <table id="t02">
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
@@ -549,19 +562,21 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
 <tr><td> <u>Know Non-determinism</u>: Different execution sequences can lead to different results hence algorithm design either be tolerant to such phenomena or be able to take advantage of this. (0.5 hours)</td> <td>DSA/Systems</td>
 	<td>
 		   
+    <a href="https://www.pdcunplugged.org/activities/nondeterministicsorting/">NondeterministicSorting</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_nondeterminism">See All (1) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_nondeterminism">See All (2) </a>
 	</td></tr>
 <tr><td> <u>Know Power Consumption</u>: Know that power consumption is a metric of growing importance, its impact on architectural evolution, and design of algorithms and software. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
 <tr><td> <u>Know Fault tolerance</u>: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)</td> <td>Systems</td>
 	<td>
 		   
+    <a href="https://www.pdcunplugged.org/activities/stabalizingleaderelection/">StabalizingLeaderElection</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/faulttoleranttokenring/">FaultTolerantTokenRing</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/byzantinegenerals/">ByzantineGenerals</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_faulttolerance">See All (2) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_faulttolerance">See All (3) </a>
 	</td></tr>
 <tr><td> <u>Know Cluster Computing</u>: Be able to describe a cluster as a popular local-memory architecture with commodity compute nodes and a high-performance interconnection network. (0.25 hours)</td> <td>CS2/DSA/Systems</td>
 	<td>

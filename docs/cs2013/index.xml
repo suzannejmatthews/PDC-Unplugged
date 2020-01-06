@@ -6,10 +6,46 @@
     <description>Recent content in Cs2013 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/cs2013/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PD_CloudComputing</title>
+      <link>https://www.pdcunplugged.org/cs2013/pd_cloudcomputing/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013/pd_cloudcomputing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD_DistributedSystems</title>
+      <link>https://www.pdcunplugged.org/cs2013/pd_distributedsystems/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013/pd_distributedsystems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD_CommunicationAndCoordination</title>
+      <link>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</link>
+      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD_FormalModels</title>
+      <link>https://www.pdcunplugged.org/cs2013/pd_formalmodels/</link>
+      <pubDate>Mon, 06 Jan 2020 13:39:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013/pd_formalmodels/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PD_ParallelArchitecture</title>
@@ -39,24 +75,6 @@
     </item>
     
     <item>
-      <title>PD_CloudComputing</title>
-      <link>https://www.pdcunplugged.org/cs2013/pd_cloudcomputing/</link>
-      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013/pd_cloudcomputing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PD_CommunicationAndCoordination</title>
-      <link>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</link>
-      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>PD_ParallelFundamentals</title>
       <link>https://www.pdcunplugged.org/cs2013/pd_parallelfundamentals/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
@@ -71,15 +89,6 @@
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013/pd_parallelperformance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PD_DistributedSystems</title>
-      <link>https://www.pdcunplugged.org/cs2013/pd_distributedsystems/</link>
-      <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013/pd_distributedsystems/</guid>
       <description></description>
     </item>
     

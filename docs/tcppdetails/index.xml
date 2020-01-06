@@ -6,10 +6,55 @@
     <description>Recent content in Tcppdetails on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/tcppdetails/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>K_Asynchrony</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_asynchrony/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_asynchrony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_FaultTolerance</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_faulttolerance/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_faulttolerance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_GraphSearchAlgorithms</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_graphsearchalgorithms/</link>
+      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_graphsearchalgorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_NonDeterminism</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_nondeterminism/</link>
+      <pubDate>Mon, 06 Jan 2020 13:39:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_nondeterminism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Sorting</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_sorting/</link>
+      <pubDate>Mon, 06 Jan 2020 13:39:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_sorting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>K_MIMD</title>
@@ -183,15 +228,6 @@
     </item>
     
     <item>
-      <title>K_FaultTolerance</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_faulttolerance/</link>
-      <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_faulttolerance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>C_DistributedMemory</title>
       <link>https://www.pdcunplugged.org/tcppdetails/c_distributedmemory/</link>
       <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
@@ -224,15 +260,6 @@
       <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/a_criticalregions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K_NonDeterminism</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_nondeterminism/</link>
-      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_nondeterminism/</guid>
       <description></description>
     </item>
     
@@ -359,15 +386,6 @@
       <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/c_asymptotics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K_Sorting</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_sorting/</link>
-      <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_sorting/</guid>
       <description></description>
     </item>
     

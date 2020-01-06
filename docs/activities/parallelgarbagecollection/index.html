@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ParallelGarbageCollection</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-155045117-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">ParallelGarbageCollection</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/activities/">All Activities</a></li>
+                            
+                                <li><a href="/access-overview/">Accessibility View</a></li>
+                            
+                                <li><a href="/course-overview/">Course View</a></li>
+                            
+                                <li><a href="/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>ParallelGarbageCollection</h2>
+        <h5></h5>
+        
+
+        
+<a href="https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination"><kbd class="item-cs2013">PD_CommunicationAndCoordination</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/courses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/parprog"><kbd class="item-course">ParProg</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/graduate"><kbd class="item-course">Graduate</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/senses/movement"><kbd class="item-sense">movement</kbd></a>
+
+<a href="https://www.pdcunplugged.org/senses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Paulo A.G. Sivilotti and Scott Pike</p>
+
+<p><a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf">Paper</a> and <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf">poster</a> available online:</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges.
+The end-goal is determine the set of reachable vertices from the root (&ldquo;food&rdquo;) and distinguish them from the set of non-reachable vertices (&ldquo;garbage&rdquo;). Complicating the process is the
+presence of a mutator process that can modify (add or delete) edges; the set of vertices stay constant.</p>
+
+<p>A group of 15 to 20 students are chosen for the activity to represent the vertices of the graph. Each student is given a hat and a set of 12 index cards. One student play the part of the root.</p>
+
+<ul>
+<li>The activity starts with each student writing their names on all their index cards. Students should give the activity leader three cards, and place the rest in their pocket.</li>
+<li>The activity leader shuffles the set of collected cards and redistributes them to the set of student vertices. Each student vertex holds the cards they receive in their hands. These received cards represent <em>edges</em> from the
+student holding the card to the students whose name is written on the held cards.</li>
+<li>Graph mutation occurs amongst the student vertices themselves:
+
+<ul>
+<li>deleting an edge: to delete an edge, student simply discard one or more of the cards they hold in their hand.</li>
+<li>adding an edge: to add an edge, the student must add a vertex that is connectable from the root. To do so, they must look at the set of index cards held by the root, visit a person whose name is written on that card, look at
+that person&rsquo;s index cards, visit a person on one of those index cards, and so forth, until the student goes the desired number of hops. The student then takes a card from the destination vertex&rsquo;s reserves.</li>
+</ul></li>
+<li>One additional student volunteer plays the role of the marker, and executes the &ldquo;naive&rdquo; marking algorithm. In other words, the marker starts at the root, placing a hat on the root&rsquo;s head. The marker then travels to all reachable vertices from the root and places hats on each reachable vertex&rsquo;s head. The end goal is to have all the &ldquo;food&rdquo; (reachable) vertices wearing hats, while all the &ldquo;garbage&rdquo; (unreachable) vertices do not have hats.</li>
+<li>When the marker determines that s/he has completed their task, everyone goes and sits down (no more mutations occur). The work can be checked via a depth first search. The root first stands up, and reads off the name of an individual on one of the index cards they are holding. That person then stands up and reads off a name of one of their index cards. This process continues until everyone who is standing has read off all the names on their index cards. The people who are standing are the reachable vertices, while the people sitting down are the unreachable vertices. If there is anyone who is sitting down who is wearing a hat (or vice versa), the algorithm has failed.</li>
+</ul>
+
+<p>This activity is effective at demonstrating an <em>incorrect</em> algorithm. To force an incorrect execution case, the instructor joins the activity as a special node:</p>
+
+<ul>
+<li>Ahead of time, two student vertices are marked as &ldquo;special&rdquo;, and have edges to the instructor (e.g. cards with instructor&rsquo;s name on it). No one else has an edge to the instructor, and the two special student vertices <em>always</em> are
+accessible from the root in this activity (i.e., the root never deletes its edges to the special vertices).</li>
+<li>During the activity, the special vertices hold their instructor edge card in their hand. If the marker process comes around to check them, they casually drop that edge to the ground (e.g. delete the edge). Once the marker process
+moves on, they pick the instructor edge back up off the floor. In this manner, the marker process never reaches/marks the instructor node.</li>
+</ul>
+
+<p><strong>Tips from the authors</strong>
+* Ensure that students know each other&rsquo;s names prior to the activity.</p>
+
+<ul>
+<li><p>No-one (save for the instructor, two special students and root student) should know about the instructor being part of the activity and the special arrangement with the instructor&rsquo;s edge cards. To help, the two special vertices should be far apart from each other.</p></li>
+
+<li><p>To ensure that the are students who are unreachable vertices, consider splitting the student vertices into two groups. Student in each group should only receive edge cards from other group members. Next, the students in the group that does not contain the root should get some edge cards of the people in the group that contains the root (i.e. the other group contain edges pointing toward the group with the root).</p></li>
+</ul>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-communication-and-coordination">PD/Communication and Coordination</h3>
+
+<p>8. Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable.</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Know Asynchrony: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions)</li>
+<li>Comprehend Graph Search Algorithms: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<p>The instructors used this activity in an upper-level undergraduate course on parallel programming. They also recommend the activity for graduate students.</p>
+
+<ul>
+<li><strong>CS2</strong>: TCPP recommends that asynchronous communication can be introduced as early as CS2.</li>
+<li><strong>DSA</strong>: TCPP recommends that parallel graph search algorithms be covered in DSA.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>The activity may be difficult for students who are blind and/or have mobility issues.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>No assessment provided.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>P. A. G. Sivilotti and S. M. Pike, &ldquo;The suitability of kinesthetic learning activities for teaching distributed algorithms&rdquo;, in <em>Proceedings of the
+38th SIGCSE Technical Symposium on Computer Science Education (SIGCSE&rsquo;07)</em>, 2007, pp. 362–366.
+Available Online: <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf</a>. Also: <a href="http://doi.acm.org/10.1145/1227310.1227438">http://doi.acm.org/10.1145/1227310.1227438</a></p></li>
+
+<li><p>P. A. G. Sivilotti, &ldquo;Kinesthetic learning activities in an upper-division computer science course&rdquo;, in <em>National Academy of Engineering Frontiers
+of Engineering Education symposium</em>, 2010, <em>poster</em>; <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf</a></p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>roleplaying on PDC Unplugged</title>
+    <link>https://www.pdcunplugged.org/medium/roleplaying/</link>
+    <description>Recent content in roleplaying on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.pdcunplugged.org/medium/roleplaying/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>StabalizingLeaderElection</title>
+      <link>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
+      <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
+Paper available online:
+Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+    </item>
+    
+    <item>
+      <title>ParallelGarbageCollection</title>
+      <link>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</link>
+      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
+      <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
+Paper and poster available online:
+Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+    </item>
+    
+  </channel>
+</rss>

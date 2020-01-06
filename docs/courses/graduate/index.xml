@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graduate on PDC Unplugged</title>
+    <link>https://www.pdcunplugged.org/courses/graduate/</link>
+    <description>Recent content in Graduate on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.pdcunplugged.org/courses/graduate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>StabalizingLeaderElection</title>
+      <link>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
+      <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
+Paper available online:
+Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+    </item>
+    
+    <item>
+      <title>ParallelGarbageCollection</title>
+      <link>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</link>
+      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
+      <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
+Paper and poster available online:
+Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>NondeterministicSorting</title>
+      <link>https://www.pdcunplugged.org/activities/nondeterministicsorting/</link>
+      <pubDate>Mon, 06 Jan 2020 13:39:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/nondeterministicsorting/</guid>
+      <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
+Paper and poster available online:
+Details See paper and poster for full details. A high level summary is provided below:
+ A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
+    </item>
+    
+    <item>
+      <title>FindYoungestStudentInClass</title>
+      <link>https://www.pdcunplugged.org/activities/findyoungeststudentinclass/</link>
+      <pubDate>Fri, 01 Nov 2019 11:20:35 -0400</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/findyoungeststudentinclass/</guid>
+      <description>Original Author/link Chitra P (iPDC Modules)
+ Available in Word and PDF  Similar Activities FindOldestPenny, FindSmallestCard
+CS2013 Knowledge Unit Coverage PD/Parallel Decomposition Core Tier 1 2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
+TCPP Topics Coverage Algorithms Topics  Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.</description>
+    </item>
+    
+  </channel>
+</rss>

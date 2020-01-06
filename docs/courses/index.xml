@@ -6,17 +6,53 @@
     <description>Recent content in Courses on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2019 15:00:06 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/courses/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Systems</title>
+      <title>CS2</title>
+      <link>https://www.pdcunplugged.org/courses/cs2/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/courses/cs2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graduate</title>
+      <link>https://www.pdcunplugged.org/courses/graduate/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/courses/graduate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ParProg</title>
+      <link>https://www.pdcunplugged.org/courses/parprog/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/courses/parprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systems</title>
       <link>https://www.pdcunplugged.org/courses/systems/</link>
-      <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/courses/systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DSA</title>
+      <link>https://www.pdcunplugged.org/courses/dsa/</link>
+      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/courses/dsa/</guid>
       <description></description>
     </item>
     
@@ -26,24 +62,6 @@
       <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/courses/k_12/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CS2</title>
-      <link>https://www.pdcunplugged.org/courses/cs2/</link>
-      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/courses/cs2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DSA</title>
-      <link>https://www.pdcunplugged.org/courses/dsa/</link>
-      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/courses/dsa/</guid>
       <description></description>
     </item>
     

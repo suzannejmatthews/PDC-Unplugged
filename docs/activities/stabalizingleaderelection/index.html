@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>StabalizingLeaderElection</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-155045117-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">StabalizingLeaderElection</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/activities/">All Activities</a></li>
+                            
+                                <li><a href="/access-overview/">Accessibility View</a></li>
+                            
+                                <li><a href="/course-overview/">Course View</a></li>
+                            
+                                <li><a href="/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>StabalizingLeaderElection</h2>
+        <h5></h5>
+        
+
+        
+<a href="https://www.pdcunplugged.org/cs2013/pd_distributedsystems"><kbd class="item-cs2013">PD_DistributedSystems</kbd></a>
+
+<a href="https://www.pdcunplugged.org/cs2013/pd_cloudcomputing"><kbd class="item-cs2013">PD_CloudComputing</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_crosscutting"><kbd class="item-tcpp">TCPP_CrossCutting</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/courses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/systems"><kbd class="item-course">Systems</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/parprog"><kbd class="item-course">ParProg</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/graduate"><kbd class="item-course">Graduate</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/senses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Paulo A.G. Sivilotti and Scott Pike</p>
+
+<p><a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf">Paper</a> available online:</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier.  While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process. The corrupted data values can only be fixed by overwriting them with fresh values.</p>
+
+<ul>
+<li><p>Prior to the activity, the instructor either manually assigns each student a unique process ID, or (as an alternative method) have each student&rsquo;s process ID be the last four digits of their telephone number.  Students sitting at desks that are adjacent to each other share edges. Furthermore, each student is given a flash-card which they use to record the highest process ID seen (called the candidate).</p></li>
+
+<li><p>At the beginning of the activity, each student initializes their flash card with their own ID.</p></li>
+
+<li><p>During the activity, each student periodically compares their values with their neighbors. If the neighbor has a higher value on their flash card, then the student updates their flash card with the higher value. If the student has the higher value, then the neighbor will update their flash card with the value on the student&rsquo;s card.</p></li>
+
+<li><p>The leader is elected when the majority of the cards have the same value.</p></li>
+</ul>
+
+<h3 id="illustrating-the-intolerant-algorithm">Illustrating the Intolerant Algorithm</h3>
+
+<ul>
+<li>A student in the group surreptitiously changes their card to &lsquo;9999&rsquo; during the activity.</li>
+<li>The value 9999 will then get propagated throughout the classroom. Eventually, it will get elected as &ldquo;leader&rdquo; (i.e., the highest value)</li>
+<li>The instructor should then ask the student with the process id &lsquo;9999&rsquo; to stand up. No one will stand up because it doesn&rsquo;t match anyone&rsquo;s process ID! This example illustrates how an error can propagate through the system.</li>
+</ul>
+
+<h3 id="stable-leader-election-algorithm">Stable Leader Election Algorithm</h3>
+
+<ul>
+<li>Each student now has two flash cards; one that represents the candidate, and the other that represents distance.<br /></li>
+<li>As students compare cards with their neighbors, they take their neighbor&rsquo;s highest value as long as the distance does not exceed some small value <em>k</em>. If two neighbors have the same higher value, the students should copy the higher value from the student with the lower distance, and add 1 to it to get their distance. If the newly computed distance is greater than <em>k</em>, the student does not take the value.</li>
+<li>A student in the group surreptitiously changes their card to &lsquo;9999&rsquo;. However, since <em>k</em> is small, the number of students that take on the corrupted value is minimal, and a non-corrupted process value will be elected leader.</li>
+</ul>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-distributed-systems">PD/Distributed Systems</h3>
+
+<p>9. Give examples of problems for which consensus algorithms such as leader election are required. [Usage]</p>
+
+<h3 id="pd-cloud-computing">PD/Cloud Computing</h3>
+
+<p>2. Explain strategies to synchronize a common view of shared data across a collection of devices.[Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li>Know Asynchrony: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions)</li>
+</ul>
+
+<h3 id="cross-cutting-and-advanced-topics">Cross Cutting and Advanced Topics</h3>
+
+<ul>
+<li>Know Fault tolerance: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)</li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<p>The instructors used this activity in an upper-level undergraduate course on parallel programming. They also recommend the activity for graduate students.</p>
+
+<ul>
+<li><strong>CS2</strong>: TCPP recommends that asynchronous communication can be introduced as early as CS2</li>
+<li><strong>Systems</strong>: TCPP recommends that fault tolerance be introduced in a systems course.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This activity may be difficult for blind students.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>No assessment provided.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li>P. A. G. Sivilotti and S. M. Pike, &ldquo;The suitability of kinesthetic learning activities for teaching distributed algorithms&rdquo;, in <em>Proceedings of the
+38th SIGCSE Technical Symposium on Computer Science Education (SIGCSE&rsquo;07)</em>, 2007, pp. 362–366.
+Available Online: <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf</a>. Also: <a href="http://doi.acm.org/10.1145/1227310.1227438">http://doi.acm.org/10.1145/1227310.1227438</a></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -6,10 +6,21 @@
     <description>Recent content in DS_9 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Nov 2019 14:02:06 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/cs2013details/ds_9/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>StabalizingLeaderElection</title>
+      <link>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
+      <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
+Paper available online:
+Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+    </item>
     
     <item>
       <title>ByzantineGenerals</title>
