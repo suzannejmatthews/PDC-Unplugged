@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination", "PD_Clou
 cs2013details: ["PD_1", "CAC_2", "CAC_5", "CAC_7", "CAC_8", "CC_2"]
 tcpp: ["TCPP_Programming", "TCPP_CrossCutting"]
 tcppdetails: ["K_DataRaces", "K_Consistency"]
-courses: ["CS1"]
+courses: ["CS1", "ParProg"]
 medium: ["analogy"]
 
 ---
