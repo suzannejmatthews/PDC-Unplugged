@@ -137,7 +137,7 @@ The focus of this curation is primarily introductory courses and K-12; however, 
 unplugged activities are utilized. The following table highlights some of these courses:
 
 <table>
-<tr> <th width="50%">Course</th>   <th>Unplugged Activities</th>    </tr>
+<tr> <th width="40%">Course</th>   <th>Unplugged Activities</th>    </tr>
   <tr><td>Operating Systems</td> <td>
  {{ range first 2 .Site.Taxonomies.courses.os }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
@@ -160,8 +160,18 @@ unplugged activities are utilized. The following table highlights some of these 
   	</td></tr>
   <tr><td>Parallel/Concurrent Programming </td> 
   	<td>
-
+  {{ range first 2 .Site.Taxonomies.courses.parprog }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/parprog">See All ({{ len .Site.Taxonomies.courses.parprog }}) </a>
   	</td></tr>
+     <tr><td>Graduate Level </td> 
+    <td>
+  {{ range first 2 .Site.Taxonomies.courses.graduate }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/courses/graduate">See All ({{ len .Site.Taxonomies.courses.graduate }}) </a>
+    </td></tr>
 </table>
 
 
