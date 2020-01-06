@@ -4,8 +4,8 @@ date: 2020-01-06T14:36:44-05:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_8"]
 tcpp: ["TCPP_Algorithms"]
-tcppdetails: ["C_GraphSearchAlgorithms"]
-courses: ["ParProg","Graduate"]
+tcppdetails: ["K_Asynchrony", "C_GraphSearchAlgorithms"]
+courses: ["CS2", "DSA", "ParProg","Graduate"]
 senses: ["movement", "visual"]
 medium: ["roleplaying", "cards"]
 ---
@@ -66,6 +66,7 @@ This activity is effective at demonstrating an _incorrect_ algorithm. To force a
 
 ### Algorithms Topics
 
+* Know Asynchrony: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions)
 * Comprehend Graph Search Algorithms: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)
 
 ---
@@ -74,6 +75,7 @@ This activity is effective at demonstrating an _incorrect_ algorithm. To force a
 
 The instructors used this activity in an upper-level undergraduate course on parallel programming. They also recommend the activity for graduate students.
 
+* **CS2**: TCPP recommends that asynchronous communication can be introduced as early as CS2.
 * **DSA**: TCPP recommends that parallel graph search algorithms be covered in DSA.
 
 ---
