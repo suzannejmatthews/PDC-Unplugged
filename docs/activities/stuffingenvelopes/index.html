@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>StuffingEnvelopes</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-155045117-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">StuffingEnvelopes</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/activities/">All Activities</a></li>
+                            
+                                <li><a href="/access-overview/">Accessibility View</a></li>
+                            
+                                <li><a href="/course-overview/">Course View</a></li>
+                            
+                                <li><a href="/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>StuffingEnvelopes</h2>
+        <h5></h5>
+        
+
+        
+<a href="https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms"><kbd class="item-cs2013">PD_ParallelAlgorithms</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/courses/k_12"><kbd class="item-course">K_12</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/systems"><kbd class="item-course">Systems</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/senses/touch"><kbd class="item-sense">touch</kbd></a>
+
+<a href="https://www.pdcunplugged.org/senses/visual"><kbd class="item-sense">visual</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&rsquo; book (see citations) as inspiration for this example.</p>
+
+<p>No link to indepdendent description available. Please see Details section for more information.</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</p>
+
+<ul>
+<li><p><strong>Domain (Data) Decomposition</strong>: Each student &ldquo;core&rdquo; has a private stack of letters and performs the job of individually addresssing, stuffing and sealing each envelope prior to mailing it.</p></li>
+
+<li><p><strong>Task Decomposition</strong>: Each student was asked take on one or two particular tasks (e.g. stuffing and sealing). The team of &ldquo;cores&rdquo; then complete the tasks in a pipeline form; as one student finishes his or her set of tasks, the result was placed in a pile in front of of the other student to perform.</p></li>
+</ul>
+
+<p>The students should recognize that due to dependencies between tasks, the level of parallelism is reduced.</p>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-decomposition">PD/Parallel Decomposition</h3>
+
+<p>4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
+
+<p>5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</p>
+
+<h3 id="pd-parallel-algorithms-analysis-and-programming">PD/Parallel Algorithms, Analysis and Programming</h3>
+
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<p>5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</p>
+
+<p>9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li>Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes.</li>
+</ul>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li><p>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex computational structures</p></li>
+
+<li><p>Know Dependencies: Understand the impacts of dependencies</p></li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p><strong>K-12</strong>: The authors shared the described unplugged activities with high school students.</p></li>
+
+<li><p><strong>CS1/Systems</strong>: TCPP recommends that the notion of dependencies can be introduced as early as CS1 and/or Systems</p></li>
+
+<li><p><strong>CS2/DSA</strong>: TCPP recommends that decomposition strategies be introduced in CS2 or DSA.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>Students who are blind may have difficulty with this activity.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>(Chesebrough2010) used unplugged activities as part of a larger three-day workshop for 16 high schoool students at Brookyn Tech in summer 2009. Chesebrough and Turner report that &ldquo;the best part&rdquo; of the camp was the role playing, and that the exercises helped drive concepts home. However, some of the more advanced students felt that the activities were &ldquo;childish&rdquo;. However younger and/or less-experienced students enjoyed the role playing exercises.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>R. A. Chesebrough and I. Turner. &ldquo;Parallel computing: at the interface of high school and industry&rdquo;. In <em>Proceedings of the 41st ACM technical symposium on Computer science education (SIGCSE&rsquo;10)</em>. pp. 280–284. Available: <a href="https://doi.org/10.1145/1734263.1734361">https://doi.org/10.1145/1734263.1734361</a></p></li>
+
+<li><p>J. Reinders. <em>Intel Threading Building Blocks: Outfitting C++ for Multi-Core Processor Parallelism</em>, O&rsquo;Reilly Media Inc. 2007.</p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

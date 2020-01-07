@@ -6,17 +6,116 @@
     <description>Recent content in Cs2013details on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 08:40:19 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/cs2013details/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Algo_4</title>
+      <link>https://www.pdcunplugged.org/cs2013details/algo_4/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/algo_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAC_1</title>
+      <link>https://www.pdcunplugged.org/cs2013details/cac_1/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/cac_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAC_2</title>
+      <link>https://www.pdcunplugged.org/cs2013details/cac_2/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/cac_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAC_5</title>
+      <link>https://www.pdcunplugged.org/cs2013details/cac_5/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/cac_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAC_8</title>
+      <link>https://www.pdcunplugged.org/cs2013details/cac_8/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/cac_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fun_2</title>
+      <link>https://www.pdcunplugged.org/cs2013details/fun_2/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/fun_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD_1</title>
+      <link>https://www.pdcunplugged.org/cs2013details/pd_1/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/pd_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD_2</title>
+      <link>https://www.pdcunplugged.org/cs2013details/pd_2/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/pd_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algo_5</title>
+      <link>https://www.pdcunplugged.org/cs2013details/algo_5/</link>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/algo_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Algo_9</title>
       <link>https://www.pdcunplugged.org/cs2013details/algo_9/</link>
-      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013details/algo_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD_4</title>
+      <link>https://www.pdcunplugged.org/cs2013details/pd_4/</link>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/pd_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD_5</title>
+      <link>https://www.pdcunplugged.org/cs2013details/pd_5/</link>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013details/pd_5/</guid>
       <description></description>
     </item>
     
@@ -66,15 +165,6 @@
     </item>
     
     <item>
-      <title>CAC_8</title>
-      <link>https://www.pdcunplugged.org/cs2013details/cac_8/</link>
-      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/cac_8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Formal_6</title>
       <link>https://www.pdcunplugged.org/cs2013details/formal_6/</link>
       <pubDate>Mon, 06 Jan 2020 13:39:13 -0500</pubDate>
@@ -102,24 +192,6 @@
     </item>
     
     <item>
-      <title>Algo_4</title>
-      <link>https://www.pdcunplugged.org/cs2013details/algo_4/</link>
-      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/algo_4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PD_4</title>
-      <link>https://www.pdcunplugged.org/cs2013details/pd_4/</link>
-      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/pd_4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Algo_3</title>
       <link>https://www.pdcunplugged.org/cs2013details/algo_3/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
@@ -138,33 +210,6 @@
     </item>
     
     <item>
-      <title>PD_2</title>
-      <link>https://www.pdcunplugged.org/cs2013details/pd_2/</link>
-      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/pd_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CAC_2</title>
-      <link>https://www.pdcunplugged.org/cs2013details/cac_2/</link>
-      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/cac_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CAC_5</title>
-      <link>https://www.pdcunplugged.org/cs2013details/cac_5/</link>
-      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/cac_5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CAC_7</title>
       <link>https://www.pdcunplugged.org/cs2013details/cac_7/</link>
       <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
@@ -174,38 +219,11 @@
     </item>
     
     <item>
-      <title>PD_1</title>
-      <link>https://www.pdcunplugged.org/cs2013details/pd_1/</link>
-      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/pd_1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algo_5</title>
-      <link>https://www.pdcunplugged.org/cs2013details/algo_5/</link>
-      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/algo_5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>fun_1</title>
       <link>https://www.pdcunplugged.org/cs2013details/fun_1/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013details/fun_1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PD_5</title>
-      <link>https://www.pdcunplugged.org/cs2013details/pd_5/</link>
-      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/pd_5/</guid>
       <description></description>
     </item>
     
@@ -224,15 +242,6 @@
       <pubDate>Fri, 06 Dec 2019 13:09:20 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013details/perf_1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CAC_1</title>
-      <link>https://www.pdcunplugged.org/cs2013details/cac_1/</link>
-      <pubDate>Thu, 14 Nov 2019 12:37:23 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013details/cac_1/</guid>
       <description></description>
     </item>
     

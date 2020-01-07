@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ArrayAddition</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-155045117-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">ArrayAddition</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/activities/">All Activities</a></li>
+                            
+                                <li><a href="/access-overview/">Accessibility View</a></li>
+                            
+                                <li><a href="/course-overview/">Course View</a></li>
+                            
+                                <li><a href="/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>ArrayAddition</h2>
+        <h5></h5>
+        
+
+        
+<a href="https://www.pdcunplugged.org/cs2013/pd_parallelfundamentals"><kbd class="item-cs2013">PD_ParallelFundamentals</kbd></a>
+
+<a href="https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination"><kbd class="item-cs2013">PD_CommunicationAndCoordination</kbd></a>
+
+<a href="https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms"><kbd class="item-cs2013">PD_ParallelAlgorithms</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/courses/k_12"><kbd class="item-course">K_12</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/systems"><kbd class="item-course">Systems</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/proglang"><kbd class="item-course">ProgLang</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/senses/visual"><kbd class="item-sense">visual</kbd></a>
+
+<a href="https://www.pdcunplugged.org/senses/movement"><kbd class="item-sense">movement</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&rsquo; book (see citations) as inspiration for this example.</p>
+
+<p>No link to indepdendent description available. Please see Details section for more information.</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>Students sitting at desks represent &ldquo;threads&rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath. The goal is to, as a class, add up all the elements in the array and update a global sum value written on a index card held by the instructor.</p>
+
+<h3 id="naive-case">Naive Case</h3>
+
+<ul>
+<li><p>As each student sums up their component of the array, they should raise their hand so that the instructor can tell them what is currently on the index card.</p></li>
+
+<li><p>When the student thinks they know what the new value on the index card should hold, they should raise their hand again and tell the instructor what they think the value should be. The instructor should then overwrite what is on the index card with the value that the student tells them.</p></li>
+
+<li><p>When each student is &ldquo;done&rdquo;, they should give a thumbs up.</p></li>
+
+<li><p>When all students are done, the instructor should read the value on their index card. Most likely the value is wrong (if this does not happen, as a student is adding to the total, surreptitiously update it with another students total; this will cause an accidental overwrite of a value).</p></li>
+
+<li><p>There are a few strategies that can play out &ndash; the student queries the instructor with every number they are adding, or they do a local sum entirely on their own, and only convey the total to the instructor. In both cases, it is likely that values are lost.</p></li>
+
+<li><p>Have a discussion on what went wrong &ndash; this leads nicely into discussing data races.</p></li>
+</ul>
+
+<h3 id="defining-critical-regions">Defining Critical Regions</h3>
+
+<ul>
+<li><p>To fix the issue, the instructor places on a table in front of the class a special pen. Whoever has the pen has sole access to the instructor and the instructor&rsquo;s index card until they put the pen down.</p></li>
+
+<li><p>Using this method, each student individually updates the global index card with their sums, and the index card should contain the proper sum of all the elements in the array.</p></li>
+
+<li><p>However, students observe a substantial performance impact from using the &ldquo;critical section&rdquo;</p></li>
+</ul>
+
+<h3 id="using-reduction">Using Reduction</h3>
+
+<ul>
+<li><p>In addition to their piece of paper that is local memory, students are given a special index card that represents a partial sum variable.</p></li>
+
+<li><p>As before, student should add up the values assigned to them. When they are done, they should write their total on the partial sum variable card and give a &ldquo;thumbs up&rdquo; sign to indicate that they are done.</p></li>
+
+<li><p>When each student gives a thumbs up, the instructor (acting as a &ldquo;boss&rdquo; process) gathers all the partial sum cards and adds them together, updating the global index sum card by his or herself.</p></li>
+
+<li><p>Students should observe that this is more efficient that the critical section approach, but still results in no race conditions.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="pd-parallel-fundamentals">PD/Parallel Fundamentals</h3>
+
+<p>2. Distinguish multiple sufficient programming constructs for synchronization that may be inter-implementable but have complementary advantages.</p>
+
+<h3 id="pd-parallel-decomposition">PD/Parallel Decomposition</h3>
+
+<p>1. Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
+
+<p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<h3 id="pd-communication-and-coordination">PD/Communication and Coordination</h3>
+
+<p>1. Use mutual exclusion to avoid a given race condition. [Usage]</p>
+
+<p>2. Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]</p>
+
+<p>5. Write a program that correctly terminates when all of a set of concurrent tasks have completed. [Usage]</p>
+
+<p>8. Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable. [Usage]</p>
+
+<h3 id="pd-parallel-algorithms-analysis-and-programming">PD/Parallel Algorithms, Analysis and Programming</h3>
+
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li><p>Apply Shared Memory: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up.</p></li>
+
+<li><p>Apply Data parallel: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise. Understand relation between different notations for data parallel: Array notations, SPMD, and parallel loops. Builds on shared memory topic above</p></li>
+
+<li><p>Apply Critical regions: Be able to write shared memory programs that use critical regions for synchronization</p></li>
+
+<li><p>Know Data Races: Know what a data race is, and how to use synchronization to prevent it</p></li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<ul>
+<li><p><strong>K-12</strong>: The authors shared the described unplugged activities with high school students.</p></li>
+
+<li><p><strong>CS2/DSA/ProgLang</strong>: TCPP recommends that shared memory and data parallel concepts be covered in CS2/DSA and Programming Languages.</p></li>
+
+<li><p><strong>Systems</strong>: In addition to CS2 and DSA, TCPP recommends that critical sections be covered in systems. TCPP also recommends that data races be covered in Systems in adddition to DSA.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This activity is highly visual and involves some movement. The critical section demonstration may be difficult for students who are mobility challenged. In addition, this activity may be difficult for blind students.</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>(Chesebrough2010) used unplugged activities as part of a larger three-day workshop for 16 high schoool students at Brookyn Tech in summer 2009. Chesebrough and Turner report that &ldquo;the best part&rdquo; of the camp was the role playing, and that the exercises helped drive concepts home. However, some of the more advanced students felt that the activities were &ldquo;childish&rdquo;. However younger and/or less-experienced students enjoyed the role playing exercises.</p>
+
+<p>If all students can see the global index card, it is possible for them to implictly avoid race conditions and fail to produce one, and determine that a core should just &ldquo;know&rdquo; what the value is. A short script may be helpful to ensure that students understand what they need to do and what can be assumed (and not assumed).</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li>R. A. Chesebrough and I. Turner. &ldquo;Parallel computing: at the interface of high school and industry&rdquo;. In <em>Proceedings of the 41st ACM technical symposium on Computer science education (SIGCSE&rsquo;10)</em>. pp. 280–284. Available: <a href="https://doi.org/10.1145/1734263.1734361">https://doi.org/10.1145/1734263.1734361</a></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

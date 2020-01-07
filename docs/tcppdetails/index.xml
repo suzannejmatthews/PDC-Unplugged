@@ -6,10 +6,73 @@
     <description>Recent content in Tcppdetails on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 08:40:19 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/tcppdetails/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A_CriticalRegions</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/a_criticalregions/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/a_criticalregions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A_DataParallel</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/a_dataparallel/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/a_dataparallel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A_SharedMemory</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/a_sharedmemory/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/a_sharedmemory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_DataRaces</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A_Dependencies</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/a_dependencies/</link>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/a_dependencies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Decomposition</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</link>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Dependencies</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</link>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>C_CacheOrganization</title>
@@ -75,7 +138,7 @@
     </item>
     
     <item>
-      <title>K_FaultTolerance</title>
+      <title>K_FaultTolerance&#34;</title>
       <link>https://www.pdcunplugged.org/tcppdetails/k_faulttolerance/</link>
       <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
       
@@ -125,24 +188,6 @@
       <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_simdvector/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C_decomposition</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</link>
-      <pubDate>Wed, 11 Dec 2019 10:46:11 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A_Dependencies</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/a_dependencies/</link>
-      <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/a_dependencies/</guid>
       <description></description>
     </item>
     
@@ -228,15 +273,6 @@
     </item>
     
     <item>
-      <title>K_DataRaces</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</link>
-      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CK_Scalability</title>
       <link>https://www.pdcunplugged.org/tcppdetails/ck_scalability/</link>
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
@@ -251,15 +287,6 @@
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_concurrency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K_Dependencies</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</link>
-      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</guid>
       <description></description>
     </item>
     
@@ -305,15 +332,6 @@
       <pubDate>Wed, 13 Nov 2019 14:02:06 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A_CriticalRegions</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/a_criticalregions/</link>
-      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/a_criticalregions/</guid>
       <description></description>
     </item>
     
@@ -404,15 +422,6 @@
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A_DataParallel</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/a_dataparallel/</link>
-      <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/a_dataparallel/</guid>
       <description></description>
     </item>
     

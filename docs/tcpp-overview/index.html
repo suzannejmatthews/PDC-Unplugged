@@ -268,13 +268,19 @@
 <p><br></p>
 
 
-<h3>Programming Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_programming">19 Activities </a>) </h3>
+<h3>Programming Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_programming">21 Activities </a>) </h3>
 
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
 <tr><td> <u>Know SIMD</u>: Understand common vector operations including element-by-element operations and reductions (0.5 hours)</td><td>CS2/Systems</td><td></td></tr>
 <tr><td> <u>Know SIMD  (Process vector extensions)</u> : Know examples - SSE/Altivec macros</td><td>Systems</td><td></td></tr>
-<tr><td> <u> Apply Shared Memory</u>: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up (2 hours).</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> <u> Apply Shared Memory</u>: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up (2 hours).</td><td>CS2/DSA/ProgLang</td>
+  <td>
+      
+    <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/a_sharedmemory">See All (1) </a>
+</td></tr>
 <tr><td> <u>Know Shared Memory Language Extensions</u>: Know about language extensions for parallel programming. Illustration from Cilk (spawn/join) and Java (Java threads)</td><td>CS2/DSA/ProgLang</td><td></td></tr>
 <tr><td> <u>Comprehend Shared Memory Compiler Directives</u>: Understand what simple directives, such as those of OpenMP, mean (parallel for, concurrent section), pragmas show examples</td><td>CS2/DSA/ProgLang</td><td></td></tr>
 <tr><td> <u> Comprehend Shared Memory Libraries</u>: Know one in detail, and know of the existence of some other example libraries such as Pthreads, Pfunc, Intel's TBB (Thread building blocks), Microsoft's TPL (Task Parallel Library), etc.</td><td>CS2/DSA/ProgLang</td><td></td></tr>
@@ -310,11 +316,11 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <tr><td> <u>Apply Data parallel</u>: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise. Understand relation between different notations for data parallel: Array notations, SPMD, and parallel loops. Builds on shared memory topic above. (1 hour)</td><td>CS2/DSA/ProgLang</td>
   <td>
       
+    <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/arraysinparallel/">ArraysinParallel</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/a_dataparallel">See All (2) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/a_dataparallel">See All (3) </a>
   </td></tr>
 <tr><td> <u>Apply Parallel loops for shared memory</u>: Know, through an example, one way to implement parallel loops, understand collision/dependencies across iterations (e.g., OpenMP, Intel's TBB) for shared memory</td><td>CS2/DSA/ProgLang</td><td></td></tr>
 <tr><td> <u>Know Tasks and threads</u>: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that (e.g., OpenMP, Intel TBB, etc.) (0.5 hours)</td><td>CS2/DSA/Systems/ProgLang</td><td>
@@ -328,9 +334,11 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <tr><td> <u>Apply Critical regions</u>: Be able to write shared memory programs that use critical regions for synchronization</td><td>CS2/DSA/Systems</td>
   <td>
       
+    <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/a_criticalregions">See All (1) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/a_criticalregions">See All (2) </a>
   </td></tr>
 <tr><td> <u>Apply Producer-consumer</u>: Be able to write shared memory programs that use the producer-consumer pattern to share data and synchronize threads</td><td>CS2/DSA/Systems</td><td></td></tr>
 <tr><td> <u>Know Monitors</u>: Understand how to use monitors for synchronization</td><td>CS2/DSA/Systems</td><td></td></tr>
@@ -346,21 +354,21 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <tr><td> <u>Know Data Races</u>:  Know what a data race is, and how to use synchronization to prevent it</td><td>DSA/Systems</td>
   <td>
           
+    <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/concerttickets/">ConcertTickets</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_dataraces">See All (4) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_dataraces">See All (5) </a>
   </td></tr>
 <tr><td> <u>Know Tools to detect concurrency defects</u>: Know the existence of tools to detect race conditions (e.g., Eraser) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
 <tr><td> <u>Comprehend Computation Decomposition Strategies</u>: Understand different ways to assign computations to threads or processes</td><td>CS2/DSA</td>
 <td>
     
+    <a href="https://www.pdcunplugged.org/activities/stuffingenvelopes/">StuffingEnvelopes</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/addlargenumbers/">AddLargeNumbers</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/c_decomposition">See All (5) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_decomposition">See All (6) </a>
 </td></tr>
 <tr><td> <u>Comprehend Owner Computes Rule</u>: Understand how to assign loop iterations to threads based on which thread/process owns the data element(s) written in an iteration</td><td>CS2/DSA</td><td></td></tr>
 <tr><td> <u>Comprehend Decomposition into Atomic Tasks</u>: Understand how to decompose computations into tasks with communication only at the beginning and end of each task, and assign them to threads/processes</td><td>CS2/DSA</td><td></td></tr>
@@ -446,7 +454,7 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <p><br></p>
 
 
-<h3>Algorithms Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms">18 Activities </a>)</h3>
+<h3>Algorithms Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms">19 Activities </a>)</h3>
 
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
@@ -481,11 +489,11 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <tr><td> <u>Know BSP/CILK</u>: Be exposed to higher-level algorithmic abstractions that encapsulate more aspects of real architectures. Either BSP or CILK would be a good option to introduce a higher level programming model and higher-level notions. Remark that both of these abstractions have led to programming models. (1 hour)</td><td>DSA</td><td></td></tr>
 <tr><td> <u>Apply Dependencies</u>: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures (0.5 hours)</td><td>CS1/CS2/DSA</td>
 	<td>   
+    <a href="https://www.pdcunplugged.org/activities/stuffingenvelopes/">StuffingEnvelopes</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/a_dependencies">See All (4) </a></td></tr>
+    <a href="https://www.pdcunplugged.org/tcppdetails/a_dependencies">See All (5) </a></td></tr>
 <tr><td> <u>Comprehend Task Graphs</u>: See multiple examples of this concrete algorithmic abstraction as a mechanism for exposing inter-task dependencies. These graphs, which are used also in compiler analyses, form the level at which parallelism is exposed and exploited (0.5 hours)</td><td>DSA/SWEng</td>
 	<td>
 	
@@ -506,9 +514,11 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
 <tr><td> <u>Know Dependencies</u>: Understand the impacts of dependencies (0.5 hours)<td>Systems</td>
 	<td>
 		   
+    <a href="https://www.pdcunplugged.org/activities/stuffingenvelopes/">StuffingEnvelopes</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_dependencies">See All (1) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_dependencies">See All (2) </a>
 	</td></tr>
 <tr><td> <u> Comprehend/Know Series-parallel composition</u>: Understand how "barrier synchronizations" can be used to enable a simple thread-based abstraction for parallel programming. Understand the
 possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/Systems(C)</td><td></td></tr>

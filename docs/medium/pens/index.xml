@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pens on PDC Unplugged</title>
+    <link>https://www.pdcunplugged.org/medium/pens/</link>
+    <description>Recent content in pens on PDC Unplugged</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.pdcunplugged.org/medium/pens/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ArrayAddition</title>
+      <link>https://www.pdcunplugged.org/activities/arrayaddition/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
+      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
+No link to indepdendent description available. Please see Details section for more information.
+Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
+    </item>
+    
+    <item>
+      <title>PenGame</title>
+      <link>https://www.pdcunplugged.org/activities/pengame/</link>
+      <pubDate>Tue, 05 Nov 2019 14:30:34 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/pengame/</guid>
+      <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
+&amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Shared Memory, Slides 103-104.
+ Available in: PPT and PDF Also described in (Neeman2006)  After the first game (Take the Pen), students are asked &amp;ldquo;Can the outcome be predicted in advance?&amp;rdquo; They are led to the answer &amp;ldquo;no&amp;rdquo;, and to understand this is situation represents a race condition (Neeman2006).
+The question is repeated after the second game (Look at the Pen).</description>
+    </item>
+    
+  </channel>
+</rss>
