@@ -8,7 +8,7 @@ tcppdetails: ["C_Decomposition", "A_Dependencies", "K_Dependencies"]
 courses: ["K_12", "CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
 medium: ["roleplaying", "envelopes"]
-draft: true
+
 ---
 
 ## Original Author/link
