@@ -249,7 +249,10 @@
 <tr><td>6. Describe assembly-level support for atomic operations. [Familiarity]</td>
   <td>   </td></tr>
 <tr><td>7. Describe the challenges in maintaining cache coherence. [Familiarity]</td><td>
-
+{{ range first 2 .Site.Taxonomies.cs2013details.arch_7 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/cs2013details/arch_7">See All ({{ len .Site.Taxonomies.cs2013details.arch_7 }}) </a>
 </td></tr>
 <tr><td>8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</td><td>
     {{ range first 2 .Site.Taxonomies.cs2013details.arch_8 }}
@@ -288,7 +291,11 @@
     {{ end }}
     <a href="{{ $.Site.BaseURL }}/cs2013details/perf_3">See All ({{ len .Site.Taxonomies.cs2013details.perf_3 }}) </a></td></tr>
 <tr><td>4. Detect and correct an instance of false sharing. [Usage]</td>
-  <td></td></tr>
+  <td>{{ range first 2 .Site.Taxonomies.cs2013details.perf_4 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/cs2013details/perf_4">See All ({{ len .Site.Taxonomies.cs2013details.perf_4 }}) </a>
+  </td></tr>
 <tr><td>5. Explain the impact of scheduling on parallel performance. [Familiarity]</td><td>
   {{ range first 2 .Site.Taxonomies.cs2013details.perf_5 }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
@@ -296,7 +303,10 @@
     <a href="{{ $.Site.BaseURL }}/cs2013details/perf_5">See All ({{ len .Site.Taxonomies.cs2013details.perf_5 }}) </a>
 </td></tr>
 <tr><td>6. Explain performance impacts of data locality. [Familiarity]</td><td>
-
+{{ range first 2 .Site.Taxonomies.cs2013details.perf_6 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/cs2013details/perf_6">See All ({{ len .Site.Taxonomies.cs2013details.perf_6 }}) </a>
 </td></tr>
 <tr><td>7. Explain the impact and trade-off related to power usage on parallel performance. [Familiarity]</td><td>
 </td></tr>
