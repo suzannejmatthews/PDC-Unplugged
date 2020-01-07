@@ -99,6 +99,12 @@ students with disabilities.</p>
     {{ end }}
     <a href="{{ $.Site.BaseURL }}/medium/coins">See All ({{ len .Site.Taxonomies.medium.coins }}) </a>
 </td></tr>
+  <tr><td>Pens</td> <td>
+ {{ range first 2 .Site.Taxonomies.medium.pens }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/medium/pens">See All ({{ len .Site.Taxonomies.medium.pens }}) </a>
+</td></tr>
   <tr><td>Food</td> <td>
  {{ range first 2 .Site.Taxonomies.medium.food }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;

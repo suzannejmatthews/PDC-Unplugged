@@ -36,7 +36,12 @@
     {{ end }}
     <a href="{{ $.Site.BaseURL }}/cs2013details/fun_1">See All ({{ len .Site.Taxonomies.cs2013details.fun_1 }}) </a>
 </td></tr>
-  <tr><td>2. Distinguish multiple sufficient programming constructs for synchronization that may be inter-implementable but have complementary advantages. [Familiarity]</td> <td></td></tr>
+  <tr><td>2. Distinguish multiple sufficient programming constructs for synchronization that may be inter-implementable but have complementary advantages. [Familiarity]</td> <td>
+     {{ range first 2 .Site.Taxonomies.cs2013details.fun_2 }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/cs2013details/fun_2">See All ({{ len .Site.Taxonomies.cs2013details.fun_2 }}) </a>
+  </td></tr>
   <tr><td>3. Distinguish data races from higher level races.  [Familiarity]</td><td></td></tr>
 </table>
 

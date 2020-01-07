@@ -7,7 +7,7 @@ tcpp: ["TCPP_Programming"]
 tcppdetails: ["K_DataRaces"]
 courses: ["K_12", "CS0", "DSA", "Systems"]
 senses: ["visual"]
-medium: ["game"]
+medium: ["game", "pens"]
 
 ---
 
