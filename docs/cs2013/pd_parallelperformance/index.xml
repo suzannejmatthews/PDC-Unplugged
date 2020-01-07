@@ -6,10 +6,20 @@
     <description>Recent content in PD_ParallelPerformance on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2019 14:17:02 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 08:40:19 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/cs2013/pd_parallelperformance/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>KitchenAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/kitchenanalogy/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/kitchenanalogy/</guid>
+      <description>Original Author/link The kitchen analogy is a fairly well-known analogy for discussing the memory hierarchy. I am not sure who first described it. If someone knows, please contact me so I can attribute correctly
+There are several on-line write-ups about the Kitchen Analogy. We specifically link to a series of blog-posts on the Kitchen Analogy that were posted on the Intel Developers Site in 2015, as it is one of the most well-developed write-ups of the analogy that I have seen thus far:</description>
+    </item>
     
     <item>
       <title>MoreProcessorsNotAlwaysBetter</title>

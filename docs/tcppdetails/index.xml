@@ -6,10 +6,46 @@
     <description>Recent content in Tcppdetails on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 08:40:19 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/tcppdetails/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C_CacheOrganization</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_cacheorganization/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_cacheorganization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_DataLayout</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_datalayout/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_datalayout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_DataLocality</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_datalocality/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_datalocality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_FalseSharing</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_falsesharing/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_falsesharing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>K_Asynchrony</title>

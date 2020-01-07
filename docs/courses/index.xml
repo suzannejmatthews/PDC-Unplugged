@@ -6,10 +6,28 @@
     <description>Recent content in Courses on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 16:15:10 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 08:40:19 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/courses/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DSA</title>
+      <link>https://www.pdcunplugged.org/courses/dsa/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/courses/dsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ProgLang</title>
+      <link>https://www.pdcunplugged.org/courses/proglang/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/courses/proglang/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS2</title>
@@ -39,20 +57,11 @@
     </item>
     
     <item>
-      <title>systems</title>
+      <title>Systems</title>
       <link>https://www.pdcunplugged.org/courses/systems/</link>
       <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/courses/systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DSA</title>
-      <link>https://www.pdcunplugged.org/courses/dsa/</link>
-      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/courses/dsa/</guid>
       <description></description>
     </item>
     
@@ -80,15 +89,6 @@
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/courses/cs0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ProgLang</title>
-      <link>https://www.pdcunplugged.org/courses/proglang/</link>
-      <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/courses/proglang/</guid>
       <description></description>
     </item>
     
