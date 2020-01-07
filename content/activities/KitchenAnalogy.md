@@ -77,6 +77,7 @@ Likewise, suppose there are a number of threads that are working on populating a
 4\. Detect and correct an instance of false sharing. [Usage]
 
 6\. Explain performance impacts of data locality. [Familiarity]
+
 ---
 
 ## TCPP Topics Coverage
