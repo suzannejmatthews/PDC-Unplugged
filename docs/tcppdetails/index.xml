@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>K_DataLayout</title>
+      <title>K_DataLayout&#34;</title>
       <link>https://www.pdcunplugged.org/tcppdetails/k_datalayout/</link>
       <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
       
@@ -44,6 +44,15 @@
       <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_falsesharing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Pipelines</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_pipelines/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_pipelines/</guid>
       <description></description>
     </item>
     

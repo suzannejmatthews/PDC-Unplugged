@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>PD_ParallelAlgorithms</title>
+      <link>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>PD_ParallelArchitecture</title>
       <link>https://www.pdcunplugged.org/cs2013/pd_parallelarchitecture/</link>
       <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
@@ -62,15 +71,6 @@
       <pubDate>Mon, 06 Jan 2020 13:39:13 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013/pd_formalmodels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PD_ParallelAlgorithms</title>
-      <link>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</link>
-      <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</guid>
       <description></description>
     </item>
     
