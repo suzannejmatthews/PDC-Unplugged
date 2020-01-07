@@ -1,10 +1,10 @@
 ---
 title: "KitchenAnalogy"
 date: 2020-01-07T08:40:19-05:00
-cs2013: ["PD_ParallelArchitecture", "PD_ParallelPerformance"]
-cs2013details: ["Arch_7", "Perf_4", "Perf_6"]
+cs2013: ["PD_ParallelArchitecture", "PD_ParallelPerformance", "PD_ParallelAlgorithms"]
+cs2013details: ["Algo_9", "Arch_7", "Perf_4", "Perf_6"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
-tcppdetails: ["C_CacheOrganization", "K_DataLayout", "K_DataLocality", "K_FalseSharing"]
+tcppdetails: ["C_CacheOrganization", "K_Pipelines", K_DataLayout", "K_DataLocality", "K_FalseSharing"]
 courses: ["DSA", "ProgLang"]
 senses: ["visual"]
 medium: ["analogy"]
@@ -64,6 +64,10 @@ Likewise, suppose there are a number of threads that are working on populating a
 
 ## CS2013 Knowledge Unit Coverage
 
+### PD/Parallel Algorithms
+
+9\. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]
+
 ### PD/Parallel Architecture
 
 7\. Describe the challenges in maintaining cache coherence. [Familiarity]
@@ -73,13 +77,13 @@ Likewise, suppose there are a number of threads that are working on populating a
 4\. Detect and correct an instance of false sharing. [Usage]
 
 6\. Explain performance impacts of data locality. [Familiarity]
-
 ---
 
 ## TCPP Topics Coverage
 
 ### Architecture Topics
 
+* Know Pipelines (Single vs. multicycle): Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution
 * Comprehend Cache organization Know the cache hierarchies, shared caches (as opposed to private caches) result in coherency and performance issues for software
 
 ### Programming Topics
