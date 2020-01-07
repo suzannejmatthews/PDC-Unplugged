@@ -3,9 +3,9 @@ title: "KitchenAnalogy"
 date: 2020-01-07T08:40:19-05:00
 cs2013: ["PD_ParallelArchitecture", "PD_ParallelPerformance", "PD_ParallelAlgorithms"]
 cs2013details: ["Algo_9", "Arch_7", "Perf_4", "Perf_6"]
-tcpp: ["TCPP_Architecture", "TCPP_Programming"]
-tcppdetails: ["C_CacheOrganization", "K_Pipelines", K_DataLayout", "K_DataLocality", "K_FalseSharing"]
-courses: ["DSA", "ProgLang"]
+tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_CrossCutting"]
+tcppdetails: ["C_CacheOrganization", "K_Pipelines", K_DataLayout", "K_DataLocality", "K_FalseSharing", "C_Locality"]
+courses: ["DSA", "Systems", "ProgLang"]
 senses: ["visual"]
 medium: ["analogy"]
 ---
@@ -92,6 +92,10 @@ Likewise, suppose there are a number of threads that are working on populating a
 * Know Data layout: Know how to lay out data in memory to get improve performance (memory hierarchy)	
 * Know Data locality: Know what spatial and temporal locality are, and how to organize data to take advantage of them	
 * Know False sharing: Know that for cache coherent shared memory systems, data is kept coherent in blocks, not individual words, and how to avoid false sharing across threads of data for a block
+
+### Cross Cutting and Advanced Topics
+
+* Comprehend Locality: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication.
 
 ---
 
