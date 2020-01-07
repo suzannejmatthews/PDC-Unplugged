@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/c_locality/</loc>
+    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/courses/</loc>
     <lastmod>2020-01-07T08:40:19-05:00</lastmod>
   </url>
@@ -118,12 +123,22 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/courses/systems/</loc>
+    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/tcpp/</loc>
     <lastmod>2020-01-07T08:40:19-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.pdcunplugged.org/tcpp/tcpp_architecture/</loc>
+    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcpp/tcpp_crosscutting/</loc>
     <lastmod>2020-01-07T08:40:19-05:00</lastmod>
   </url>
   
@@ -198,17 +213,7 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/courses/systems/</loc>
-    <lastmod>2020-01-06T16:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/tcpp/tcpp_algorithms/</loc>
-    <lastmod>2020-01-06T16:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcpp/tcpp_crosscutting/</loc>
     <lastmod>2020-01-06T16:15:10-05:00</lastmod>
   </url>
   
