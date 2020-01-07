@@ -392,7 +392,13 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
 <table id="t02">
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
 <tr><td> <u>Know why and what is parallel/distributed computing</u>: Know the common issues and differences between parallel and distributed computing; history and applications. Microscopic level to macroscopic level parallelism in current architectures. (0.5 hours)</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> <u>Comprehend Locality</u>: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication. (1 hour)</td> <td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Locality</u>: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication. (1 hour)</td> <td>DSA/Systems</td>
+  <td>
+         {{ range first 2 .Site.Taxonomies.tcppdetails.c_locality }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/c_locality">See All ({{ len .Site.Taxonomies.tcppdetails.c_locality }}) </a>
+  </td></tr>
 <tr><td> <u>Know Concurrency</u>: The degree of inherent parallelism in an algorithm, independent of how it is executed on a machine (0.5 hours)</td> <td>CS2/DSA</td><td>
 	   {{ range first 2 .Site.Taxonomies.tcppdetails.k_concurrency }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
