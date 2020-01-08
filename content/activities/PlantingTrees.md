@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelPerfor
 cs2013details: ["PD_1", "PD_2", "PD_3", "PD_4", "PD_5", "Algo_4", "Algo_5", "Algo_9", "Perf_1"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
 tcppdetails: ["C_Decomposition", "C_LoadBalancing", "C_Time", "A_Dependencies", "K_Dependencies"]
-courses: ["CS1", ParProg"]
+courses: ["CS1", "CS2", "DSA", "Systems", "ParProg"]
 medium: ["analogy"]
 ---
 
@@ -117,7 +117,9 @@ given the dependencies between the actions, it is again impossible for the three
 (Kolikant2001) presented the original exercise in an upper-level 
 course on concurrency.
 
-* **CS1**: Bogaerts presented his high-level questions in CS1. 
+* **CS1**: Bogaerts presented his high-level questions in CS1. TCPP also recommends that dependencies can be introduced as early as CS1.
+* **CS2/DSA**: TCPP recommends discussing decomposition strategies in CS2 or DSA.
+* **Systems**: In addition to DSA, TCPP recommends discussing load balancing in systems courses. TCPP also recommends that dependencies be discussed in Systems courses.
 
 ---
 
