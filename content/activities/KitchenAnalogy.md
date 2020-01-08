@@ -5,7 +5,7 @@ cs2013: ["PD_ParallelArchitecture", "PD_ParallelPerformance", "PD_ParallelAlgori
 cs2013details: ["Algo_9", "Arch_7", "Perf_4", "Perf_6"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_CrossCutting"]
 tcppdetails: ["C_CacheOrganization", "K_Pipelines", K_DataLayout", "K_DataLocality", "K_FalseSharing", "C_Locality"]
-courses: ["DSA", "Systems", "ProgLang"]
+courses: ["DSA", "Systems", "ProgLang", "ParProg"]
 senses: ["visual"]
 medium: ["analogy"]
 ---
@@ -23,6 +23,8 @@ well-developed write-ups of the analogy that I have seen thus far:
 * [Pipeline and the Efficient Chef (Part 1)](https://software.intel.com/en-us/blogs/2016/09/26/pipeline-and-the-efficient-chef-part-1)
 * [Pipeline and the Efficient Chef (Part 2)](https://software.intel.com/en-us/blogs/2016/10/14/pipeline-and-the-efficient-chef-part-2)
 
+It should be noted that Ko, Burgstaller and Scholz (Ko2013) independently use the Chef/Kitchen Analogy to describe pipelining.
+
 ### Variations
 Instead of seeing each core as a separate kitchen, it is useful to see each core as a chef with his or her own workstation in a large restaurant. While each chef may have their own personal work area (L1 cache, with cutting board being registers), there may be counter space shared by all the chefs (last level cache). Further away may be a much larger counter top that has all the ingredients the chefs need to prepare the dishes of that day. The pantry (or refrigerator in some write-ups) represents the hard-drive. Note that each level (cutting board, work station, shared chef counter space, ingredients counter top, refrigerator/pantry) represent a _cache_ of all previous levels.
 
@@ -39,7 +41,6 @@ Instead of seeing each core as a separate kitchen, it is useful to see each core
 * **Spatial locality**: An ingredient close to another used ingredient will likely be used by the chef (e.g. the pepper and other spices located next to the salt are likely to be used by the chef)
 
 Recipes (programs) that have good locality are easier to make (complete quicker).
-
 
 **Cache Coherence**:
 
@@ -103,6 +104,7 @@ Likewise, suppose there are a number of threads that are working on populating a
 
 * **Systems**: TCPP recommends that cache organization concepts be covered in a systems course.
 * **DSA/ProgLang**: TCPP recommends that data layout and locality issues be discussed in either DSA or Programming Languages.
+* **ParProg**: (Ko2013) used the Chef analogy to discuss pipelining in the context of a multicore programming course.
 
 ---
 
@@ -120,3 +122,5 @@ Unknown or unavailable.
 ---
 
 ## Citations
+
+* Y. Ko, B. Burgstaller, and B. Scholz. "Parallel from the beginning: the case for multicore programming in thecomputer science undergraduate curriculum". In _Proceeding of the 44th ACM technical symposium on Computer science education (SIGCSE'13)_, pp. 415–420. 2013.  Available: https://doi.org/10.1145/2445196.2445320
