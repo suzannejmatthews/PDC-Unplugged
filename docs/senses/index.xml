@@ -6,7 +6,7 @@
     <description>Recent content in Senses on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/senses/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>movement</title>
       <link>https://www.pdcunplugged.org/senses/movement/</link>
-      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      <pubDate>Wed, 08 Jan 2020 16:20:50 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/senses/movement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>accessible</title>
+      <link>https://www.pdcunplugged.org/senses/accessible/</link>
+      <pubDate>Wed, 08 Jan 2020 16:01:45 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/senses/accessible/</guid>
       <description></description>
     </item>
     
@@ -35,15 +44,6 @@
       <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/senses/touch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>accessible</title>
-      <link>https://www.pdcunplugged.org/senses/accessible/</link>
-      <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/senses/accessible/</guid>
       <description></description>
     </item>
     

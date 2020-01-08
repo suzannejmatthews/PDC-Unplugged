@@ -3,6 +3,256 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.pdcunplugged.org/activities/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/c_distributedmemory/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/dsa/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/medium/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/activities/messagepassingacrobats/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/senses/movement/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/oo_course/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/medium/roleplaying/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/senses/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/systems/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcpp/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcpp/tcpp_programming/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/senses/accessible/</loc>
+    <lastmod>2020-01-08T16:01:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/medium/analogy/</loc>
+    <lastmod>2020-01-08T16:01:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/cs1/</loc>
+    <lastmod>2020-01-08T16:01:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/cs2/</loc>
+    <lastmod>2020-01-08T16:01:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</loc>
+    <lastmod>2020-01-08T16:01:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</loc>
+    <lastmod>2020-01-08T16:01:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/proglang/</loc>
+    <lastmod>2020-01-08T16:01:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/cac_1/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_synchronization/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/pd_1/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/activities/survivoranalogy/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcpp/tcpp_algorithms/</loc>
+    <lastmod>2020-01-08T15:20:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/activities/buildingcommunicationanalogy/</loc>
+    <lastmod>2020-01-08T14:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/ca_communication/</loc>
+    <lastmod>2020-01-08T14:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/a_dependencies/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/algo_4/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/algo_5/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/algo_9/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/c_loadbalancing/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/c_time/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/courses/parprog/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/pd_2/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/pd_3/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/pd_4/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/pd_5/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013/pd_parallelperformance/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013details/perf_1/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/activities/plantingtrees/</loc>
+    <lastmod>2020-01-08T11:16:31-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/a_criticalregions/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
@@ -18,27 +268,12 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/activities/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/algo_4/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/activities/arrayaddition/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.pdcunplugged.org/medium/boardwork/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/cac_1/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
   
@@ -63,31 +298,6 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/courses/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/courses/cs2/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/courses/dsa/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/cs2013details/fun_2/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
@@ -103,42 +313,7 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/medium/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/senses/movement/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/medium/paper/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/pd_1/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/pd_2/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
   
@@ -148,42 +323,7 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/medium/pens/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/courses/proglang/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/senses/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/courses/systems/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcpp/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcpp/tcpp_programming/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
   
@@ -193,52 +333,7 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/a_dependencies/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/algo_5/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/algo_9/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/courses/cs1/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/medium/envelopes/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/pd_4/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/pd_5/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/medium/roleplaying/</loc>
     <lastmod>2020-01-07T14:10:46-05:00</lastmod>
   </url>
   
@@ -248,18 +343,8 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/tcpp/tcpp_algorithms/</loc>
-    <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/senses/touch/</loc>
     <lastmod>2020-01-07T14:10:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/medium/analogy/</loc>
-    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
   </url>
   
   <url>
@@ -308,11 +393,6 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/cs2013/pd_parallelperformance/</loc>
-    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/cs2013details/perf_4/</loc>
     <lastmod>2020-01-07T08:40:19-05:00</lastmod>
   </url>
@@ -354,11 +434,6 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/k_faulttolerance/</loc>
-    <lastmod>2020-01-06T16:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/courses/parprog/</loc>
     <lastmod>2020-01-06T16:15:10-05:00</lastmod>
   </url>
   
@@ -448,11 +523,6 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/senses/accessible/</loc>
-    <lastmod>2019-12-11T12:38:56-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/activities/pipelinesort/</loc>
     <lastmod>2019-12-11T12:38:56-05:00</lastmod>
   </url>
@@ -484,16 +554,6 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/c_speedup/</loc>
-    <lastmod>2019-12-09T15:43:45-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/c_time/</loc>
-    <lastmod>2019-12-09T15:43:45-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/ca_communication/</loc>
     <lastmod>2019-12-09T15:43:45-05:00</lastmod>
   </url>
   
@@ -563,11 +623,6 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</loc>
-    <lastmod>2019-12-06T14:17:02-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</loc>
     <lastmod>2019-12-06T14:17:02-05:00</lastmod>
   </url>
@@ -578,17 +633,7 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/c_loadbalancing/</loc>
-    <lastmod>2019-12-06T13:09:20-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/activities/findoldestpenny/</loc>
-    <lastmod>2019-12-06T13:09:20-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/cs2013details/perf_1/</loc>
     <lastmod>2019-12-06T13:09:20-05:00</lastmod>
   </url>
   
@@ -618,11 +663,6 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/c_distributedmemory/</loc>
-    <lastmod>2019-11-13T14:02:06-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/k_clustercomputing/</loc>
     <lastmod>2019-11-13T14:02:06-05:00</lastmod>
   </url>
@@ -634,11 +674,6 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/medium/food/</loc>
-    <lastmod>2019-11-07T11:07:01-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_synchronization/</loc>
     <lastmod>2019-11-07T11:07:01-05:00</lastmod>
   </url>
   
@@ -779,11 +814,6 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/activities/companyanalogy/</loc>
-    <lastmod>2019-11-01T17:02:44-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/courses/oo_course/</loc>
     <lastmod>2019-11-01T17:02:44-04:00</lastmod>
   </url>
   

@@ -6,10 +6,23 @@
     <description>Recent content in Perf_1 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2019 13:09:20 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 11:16:31 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/cs2013details/perf_1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PlantingTrees</title>
+      <link>https://www.pdcunplugged.org/activities/plantingtrees/</link>
+      <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/plantingtrees/</guid>
+      <description>Original Author/link Described by Yifat Ben-David Kolikant (Kolinkat2001). Two introduction questions presented by Steven Bogaerts as part of his &amp;ldquo;real-life analogies&amp;rdquo; (Bogaerts2014, Bogaerts2017).
+No public description avaialable. See Details section for more information.
+Details Start with some generals questions from Steven Bogaerts:
+ &amp;ldquo;If I can shovel my driveway in 1 hour, how long would you expect it to take if someone equally capable were to help me?&amp;rdquo;
+&amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
+    </item>
     
     <item>
       <title>FindOldestPenny</title>
@@ -67,13 +80,12 @@ Parallel Performance (Elective) 1.</description>
       
       <guid>https://www.pdcunplugged.org/activities/cardsorting/</guid>
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
-Variation using a deck of playing cards by (Ghafoor2019):
+Variation using a deck of playing cards by (Bogaerts2014 and Ghafoor2019):
 iPDC Modules
  Available in Word and PDF  Similiar Exercises: Sorting: oddEvenTranspositionSort, ParallelRadixSort, PipelineSort, sortingNetwork
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, PipelineSort
 (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, MatrixAddition
-(Ghafoor2019):
-Details From (Bachelis1994): The goal is to sort a deck of 16 cards (it is assumed that there are unique numbers) using parallel selection sort.</description>
+(Ghafoor2019): ArraysInParallel, CandySorting, FindYoungestStudentInClass, PBJinParalell,</description>
     </item>
     
   </channel>

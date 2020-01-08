@@ -6,10 +6,21 @@
     <description>Recent content in ProgLang on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 16:01:45 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/courses/proglang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FlowerJoinAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</link>
+      <pubDate>Wed, 08 Jan 2020 16:01:45 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</guid>
+      <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
+No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
+Details Bogaerts used this analogy to explain the notion of thread join operation. Suppose a parent and their child are out for a walk along a trail in their local park. The child decides to travel off the path to pick flowers. While the parent can go on for some time without the child, eventually they will call out to the child to catch up: &amp;ldquo;Come now, please join me up here&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>ArrayAddition</title>

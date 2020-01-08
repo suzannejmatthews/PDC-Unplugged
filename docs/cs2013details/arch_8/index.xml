@@ -46,5 +46,20 @@ TCPP Topics Coverage Architecture Topics  Know Message passing (no shared memory
  Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
     </item>
     
+    <item>
+      <title>CardSorting</title>
+      <link>https://www.pdcunplugged.org/activities/cardsorting/</link>
+      <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/cardsorting/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
+Variation using a deck of playing cards by (Bogaerts2014 and Ghafoor2019):
+iPDC Modules
+ Available in Word and PDF  Similiar Exercises: Sorting: oddEvenTranspositionSort, ParallelRadixSort, PipelineSort, sortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, PipelineSort
+(Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, MatrixAddition
+(Ghafoor2019): ArraysInParallel, CandySorting, FindYoungestStudentInClass, PBJinParalell,</description>
+    </item>
+    
   </channel>
 </rss>

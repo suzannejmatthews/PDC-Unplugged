@@ -6,10 +6,22 @@
     <description>Recent content in C_DistributedMemory on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Nov 2019 14:02:06 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/tcppdetails/c_distributedmemory/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MessagePassingAcrobats</title>
+      <link>https://www.pdcunplugged.org/activities/messagepassingacrobats/</link>
+      <pubDate>Wed, 08 Jan 2020 16:20:50 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/messagepassingacrobats/</guid>
+      <description>Original Author/link Originally described by Steven K. Andrianoff and David B. Levine
+No link to independent description available. See &amp;ldquo;Details&amp;rdquo; for more details.
+Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
+ The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
+    </item>
     
     <item>
       <title>ByzantineGenerals</title>

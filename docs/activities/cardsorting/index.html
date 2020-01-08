@@ -22,6 +22,7 @@
 </style>
 
 
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
 
 
 
@@ -37,9 +38,7 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
+ 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     
@@ -151,6 +150,8 @@
 
 <a href="https://www.pdcunplugged.org/cs2013/pd_parallelperformance"><kbd class="item-cs2013">PD_ParallelPerformance</kbd></a>
 
+<a href="https://www.pdcunplugged.org/cs2013/pd_parallelarchitecture"><kbd class="item-cs2013">PD_ParallelArchitecture</kbd></a>
+
 
         
 <a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
@@ -169,9 +170,11 @@
 
 
         
-<a href="https://www.pdcunplugged.org/senses/visual"><kbd class="item-sense">visual</kbd></a>
+<a href="https://www.pdcunplugged.org/senses/accessible"><kbd class="item-sense">accessible</kbd></a>
 
 <a href="https://www.pdcunplugged.org/senses/touch"><kbd class="item-sense">touch</kbd></a>
+
+<a href="https://www.pdcunplugged.org/senses/visual"><kbd class="item-sense">visual</kbd></a>
 
 
     </div>
@@ -182,7 +185,7 @@
 
 <p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).</p>
 
-<p>Variation using a deck of playing cards by (Ghafoor2019):</p>
+<p>Variation using a deck of playing cards by (Bogaerts2014 and Ghafoor2019):</p>
 
 <p><a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">iPDC Modules</a></p>
 
@@ -202,7 +205,7 @@
 <p>(Moore2000): <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
              <a href="https://www.pdcunplugged.org/activities/matrixaddition/">MatrixAddition</a></p>
 
-<p>(Ghafoor2019):</p>
+<p>(Ghafoor2019): <a href="https://www.pdcunplugged.org/activities/arraysinparallel/">ArraysInParallel</a>, <a href="https://www.pdcunplugged.org/activities/candysorting/">CandySorting</a>, <a href="https://www.pdcunplugged.org/activities/findyoungeststudentinclass/">FindYoungestStudentInClass</a>, <a href="https://www.pdcunplugged.org/activities/pbjinparallel/">PBJinParalell</a>,</p>
 
 <hr />
 
@@ -261,9 +264,24 @@ and thus the second round of merging requires 7 time steps. The final round of m
 <p>The class then should asked to calculate the speedup of the parallel cases over the serial cases. They should be able to recognize that as more processors are added, the merge step starts to require the
 majority of the time.</p>
 
-<h3 id="variations">Variations</h3>
+<h3 id="playing-card-variation-bogaerts2014">Playing Card Variation (Bogaerts2014)</h3>
 
-<p>(Ghafoor2019) describes a variation using two standard decks of playing cards, rather than the 16 numbered cards that (Bachelis1994) recommends. There is also no specified sorting algorithm in this variant.</p>
+<p>Steve Bogaerts describes a variation using playing cards rather than the 16 numbered cards that (Bachelis1994) recommends. Student volunteers are separated into three groups (A, B, and C) containing 1 student, 3 students and
+2 students respectively.</p>
+
+<ul>
+<li><p>The single person in group A plays the role of a single-core processor. The student has a sheet of paper representing local RAM.</p></li>
+
+<li><p>Two students in group B sit on opposite sides of the room, and represents the role of two processors. Each student has a sheet of paper representing their own RAM. The third student play the role of the message passing interface, and passes messages between the two students.</p></li>
+
+<li><p>The two students in group C sit next to each other and share a single piece of paper, representing a dual-core processor communicating via &ldquo;shared memory&rdquo;.</p></li>
+</ul>
+
+<p>The remaining students in the class are asked to watch the students as they each attempt to sort their playing cards. Common observations include that while the student in group A had no overhead, it took them a long time to sort the cards since they were working alone. The students in groups B and C generally take less time, but there are different issues. Group B takes a longer time to communicate, owing to the distance between them. While the two students in Group C have an easier time communicating, there is less space and there is a chance that they will &ldquo;mess up&rdquo; by working in a shared space. This latter scenario is foreshadowing of race conditions.</p>
+
+<h3 id="other-variations">Other Variations</h3>
+
+<p>(Ghafoor2019) describes a variation using two standard decks of playing cards. There is also no specified sorting algorithm in this variant.</p>
 
 <p>The concept of card sorting is described by (Moore2000). In a parallel
 processing lab, students form groups to develop card sorting algorithms to
@@ -290,6 +308,12 @@ not provided.</p>
 <p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
 
 <p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.</p>
+
+<h3 id="parallel-architecture">Parallel Architecture</h3>
+
+<p>1. Explain the differences between shared and distributed memory. [Familiarity] [Core-Tier2]</p>
+
+<p>8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</p>
 
 <h3 id="parallel-performance-elective">Parallel Performance (Elective)</h3>
 
@@ -345,7 +369,20 @@ in the exercise if Braille playing cards were used.</p>
 
 <h2 id="assessment">Assessment</h2>
 
-<p>Unknown. (Moore2000) discusses the impact of the parallel computing labs in
+<p>(Bogaerts2014) used sorting playing cards an activity as part of a larger unit in parallelism in a CS1 course. He mentions that the total amount
+of time spent on parallelism was larger in the section that used analogies and hands-on activities compared
+to the one that presented the topics in a traditional lecture-style format (4 hours vs 90 minutes). However,
+the section that used analogies and hands-on activities performed better than those who received the
+information in a traditional lecture-format. Bogaerts argues that it is much better to spend more time on
+fewer parallel concepts in a hands-on way in an introductory course, rather than covering a variety of
+parallel concepts in a non-hands-on way. The final conclusion drawn is that analogies and hands-on activities
+enabled students to learn better and stimulated greater interest in the subject than a course that
+delivered the material in a typical lecture-style fashion. (Bogaerts2017) extends the assessment of the
+original paper, but found that while student interest increased, the desire to learn more decreased. The authors
+theorize that this is because most of the students in the course were non-majors who will not be pursuing
+computing in the future.</p>
+
+<p>(Moore2000) discusses the impact of the parallel computing labs in
 her course. In general, students responded to the labs positively, and felt
 that labs increased their knowledge significantly.</p>
 
@@ -360,11 +397,15 @@ vol. 94, no. 4, pp. 176–186, 1994.</p></li>
 <li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
 on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
 
-<li><p>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
-last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></p></li>
+<li><p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p></li>
+
+<li><p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p></li>
 
 <li><p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
 vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p></li>
+
+<li><p>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
+last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></p></li>
 </ul>
 </div>
 

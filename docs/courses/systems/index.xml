@@ -6,10 +6,46 @@
     <description>Recent content in Systems on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/courses/systems/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MessagePassingAcrobats</title>
+      <link>https://www.pdcunplugged.org/activities/messagepassingacrobats/</link>
+      <pubDate>Wed, 08 Jan 2020 16:20:50 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/messagepassingacrobats/</guid>
+      <description>Original Author/link Originally described by Steven K. Andrianoff and David B. Levine
+No link to independent description available. See &amp;ldquo;Details&amp;rdquo; for more details.
+Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
+ The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
+    </item>
+    
+    <item>
+      <title>FlowerJoinAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</link>
+      <pubDate>Wed, 08 Jan 2020 16:01:45 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</guid>
+      <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
+No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
+Details Bogaerts used this analogy to explain the notion of thread join operation. Suppose a parent and their child are out for a walk along a trail in their local park. The child decides to travel off the path to pick flowers. While the parent can go on for some time without the child, eventually they will call out to the child to catch up: &amp;ldquo;Come now, please join me up here&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>PlantingTrees</title>
+      <link>https://www.pdcunplugged.org/activities/plantingtrees/</link>
+      <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/plantingtrees/</guid>
+      <description>Original Author/link Described by Yifat Ben-David Kolikant (Kolinkat2001). Two introduction questions presented by Steven Bogaerts as part of his &amp;ldquo;real-life analogies&amp;rdquo; (Bogaerts2014, Bogaerts2017).
+No public description avaialable. See Details section for more information.
+Details Start with some generals questions from Steven Bogaerts:
+ &amp;ldquo;If I can shovel my driveway in 1 hour, how long would you expect it to take if someone equally capable were to help me?&amp;rdquo;
+&amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
+    </item>
     
     <item>
       <title>ArrayAddition</title>
@@ -205,11 +241,10 @@ Details Moore describes how to use Matrix Addition to describe the differences b
       <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
-      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
+      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).
 No web-link to independent description available. See paper (Giacaman2012) for details.
 Details The company analogy is used to introduce multicore systems:
- The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.
-  To illustrate (under)utilization and resource contention/context switching:</description>
+ The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.</description>
     </item>
     
     <item>
@@ -218,10 +253,7 @@ Details The company analogy is used to introduce multicore systems:
       <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/pbjinparallel/</guid>
-      <description>Original Author/link iPDC Modules
- Available in Word and PDF  CS2013 Knowledge Unit Coverage Communication and Coordination (Core Tier 1) 2. Core Tier 1: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]
-TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
- Know Data Races: Know what a data race is, and how to use synchronization to prevent it.</description>
+      <description>Original Author/link Note: The &amp;ldquo;Make a Peanut Butter and Jelly Sandwich&amp;rdquo; serial exercise is an extremely old way to describe how a computer executes a set of instructions. The earliest known description is the &amp;ldquo;Great Peanut Butter Caper&amp;rdquo; by Lewandowski and Morehead in 1998. A variation was presented by Davis and Rebelsky in 2007. Unlike the original described exercises, this activity explores how to put together a Peanut Butter and Jelly sandwich in parallel</description>
     </item>
     
     <item>

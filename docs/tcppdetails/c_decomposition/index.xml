@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C_Decomposition on PDC Unplugged</title>
+    <title>C_decomposition on PDC Unplugged</title>
     <link>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</link>
-    <description>Recent content in C_Decomposition on PDC Unplugged</description>
+    <description>Recent content in C_decomposition on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 14:10:46 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 11:16:31 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/tcppdetails/c_decomposition/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PlantingTrees</title>
+      <link>https://www.pdcunplugged.org/activities/plantingtrees/</link>
+      <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/plantingtrees/</guid>
+      <description>Original Author/link Described by Yifat Ben-David Kolikant (Kolinkat2001). Two introduction questions presented by Steven Bogaerts as part of his &amp;ldquo;real-life analogies&amp;rdquo; (Bogaerts2014, Bogaerts2017).
+No public description avaialable. See Details section for more information.
+Details Start with some generals questions from Steven Bogaerts:
+ &amp;ldquo;If I can shovel my driveway in 1 hour, how long would you expect it to take if someone equally capable were to help me?&amp;rdquo;
+&amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
+    </item>
     
     <item>
       <title>StuffingEnvelopes</title>
@@ -65,11 +78,10 @@ Details See paper for details. In summary, the goal is to find the oldest penny 
       <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
-      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012).
+      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).
 No web-link to independent description available. See paper (Giacaman2012) for details.
 Details The company analogy is used to introduce multicore systems:
- The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.
-  To illustrate (under)utilization and resource contention/context switching:</description>
+ The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.</description>
     </item>
     
     <item>

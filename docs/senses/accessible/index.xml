@@ -6,10 +6,43 @@
     <description>Recent content in accessible on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2019 12:38:56 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 16:01:45 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/senses/accessible/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FlowerJoinAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</link>
+      <pubDate>Wed, 08 Jan 2020 16:01:45 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</guid>
+      <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
+No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
+Details Bogaerts used this analogy to explain the notion of thread join operation. Suppose a parent and their child are out for a walk along a trail in their local park. The child decides to travel off the path to pick flowers. While the parent can go on for some time without the child, eventually they will call out to the child to catch up: &amp;ldquo;Come now, please join me up here&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>SurvivorAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/survivoranalogy/</link>
+      <pubDate>Wed, 08 Jan 2020 15:20:31 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/survivoranalogy/</guid>
+      <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
+No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
+Details This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book The Lord of the Flies, not everyone may be familiar with that book (and some who are may not want to be reminded of it). Instead, it may be useful to explain the following general scenario:</description>
+    </item>
+    
+    <item>
+      <title>BuildingCommunicationAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/buildingcommunicationanalogy/</link>
+      <pubDate>Wed, 08 Jan 2020 14:38:16 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/buildingcommunicationanalogy/</guid>
+      <description>Original Author/link Originally described Steven Bogaerts.
+No link to independent description. See Details section for more details.
+Details This analogy is used to describe different types of inter-process communication. The scenario is as follows: suppose that you and a friend are trying to count the number of people in a building. How can this be accomplished? Here are three different things you may say to your friend (from Bogaerts2014):</description>
+    </item>
     
     <item>
       <title>PipelineSort</title>
@@ -25,6 +58,18 @@ Details From (Bachelis1994): The goal of this exercise is to illustrate how sort
     </item>
     
     <item>
+      <title>ConcertTickets</title>
+      <link>https://www.pdcunplugged.org/activities/concerttickets/</link>
+      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/concerttickets/</guid>
+      <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
+No on-line resources available. See details for description.
+Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best available seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
+    </item>
+    
+    <item>
       <title>OddEvenTranspositionSort</title>
       <link>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</link>
       <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
@@ -32,6 +77,33 @@ Details From (Bachelis1994): The goal of this exercise is to illustrate how sort
       <guid>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</guid>
       <description>Original Author/link Originally Described by Adam Rifkin (Rifkin1994), with a separate description by Michelle Moore (Moore2000). (Bachelis1994) also presents the sort as a &amp;ldquo;compare-exchange sort&amp;rdquo;. We extrapolate on (Rifkin1994), since it is well described.
 No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website:</description>
+    </item>
+    
+    <item>
+      <title>CompanyAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/companyanalogy/</link>
+      <pubDate>Fri, 01 Nov 2019 17:02:44 -0400</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
+      <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).
+No web-link to independent description available. See paper (Giacaman2012) for details.
+Details The company analogy is used to introduce multicore systems:
+ The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.</description>
+    </item>
+    
+    <item>
+      <title>CardSorting</title>
+      <link>https://www.pdcunplugged.org/activities/cardsorting/</link>
+      <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/cardsorting/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
+Variation using a deck of playing cards by (Bogaerts2014 and Ghafoor2019):
+iPDC Modules
+ Available in Word and PDF  Similiar Exercises: Sorting: oddEvenTranspositionSort, ParallelRadixSort, PipelineSort, sortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, PipelineSort
+(Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, MatrixAddition
+(Ghafoor2019): ArraysInParallel, CandySorting, FindYoungestStudentInClass, PBJinParalell,</description>
     </item>
     
     <item>

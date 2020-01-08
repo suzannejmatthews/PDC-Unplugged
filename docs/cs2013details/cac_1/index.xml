@@ -6,10 +6,21 @@
     <description>Recent content in CAC_1 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 15:20:31 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/cs2013details/cac_1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SurvivorAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/survivoranalogy/</link>
+      <pubDate>Wed, 08 Jan 2020 15:20:31 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/survivoranalogy/</guid>
+      <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
+No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
+Details This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book The Lord of the Flies, not everyone may be familiar with that book (and some who are may not want to be reminded of it). Instead, it may be useful to explain the following general scenario:</description>
+    </item>
     
     <item>
       <title>ArrayAddition</title>

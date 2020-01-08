@@ -6,10 +6,21 @@
     <description>Recent content in CA_Communication on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2019 15:43:45 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 14:38:16 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/tcppdetails/ca_communication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BuildingCommunicationAnalogy</title>
+      <link>https://www.pdcunplugged.org/activities/buildingcommunicationanalogy/</link>
+      <pubDate>Wed, 08 Jan 2020 14:38:16 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/buildingcommunicationanalogy/</guid>
+      <description>Original Author/link Originally described Steven Bogaerts.
+No link to independent description. See Details section for more details.
+Details This analogy is used to describe different types of inter-process communication. The scenario is as follows: suppose that you and a friend are trying to count the number of people in a building. How can this be accomplished? Here are three different things you may say to your friend (from Bogaerts2014):</description>
+    </item>
     
     <item>
       <title>ParallelAddition</title>

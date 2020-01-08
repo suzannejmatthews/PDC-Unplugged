@@ -64,10 +64,7 @@ The question is repeated after the second game (Look at the Pen).</description>
       <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/pbjinparallel/</guid>
-      <description>Original Author/link iPDC Modules
- Available in Word and PDF  CS2013 Knowledge Unit Coverage Communication and Coordination (Core Tier 1) 2. Core Tier 1: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]
-TCPP Topics Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
- Know Data Races: Know what a data race is, and how to use synchronization to prevent it.</description>
+      <description>Original Author/link Note: The &amp;ldquo;Make a Peanut Butter and Jelly Sandwich&amp;rdquo; serial exercise is an extremely old way to describe how a computer executes a set of instructions. The earliest known description is the &amp;ldquo;Great Peanut Butter Caper&amp;rdquo; by Lewandowski and Morehead in 1998. A variation was presented by Davis and Rebelsky in 2007. Unlike the original described exercises, this activity explores how to put together a Peanut Butter and Jelly sandwich in parallel</description>
     </item>
     
   </channel>

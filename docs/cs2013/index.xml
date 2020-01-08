@@ -6,7 +6,7 @@
     <description>Recent content in Cs2013 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 15:20:31 -0500</lastBuildDate>
     
 	<atom:link href="https://www.pdcunplugged.org/cs2013/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,36 @@
     <item>
       <title>PD_CommunicationAndCoordination</title>
       <link>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</link>
-      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      <pubDate>Wed, 08 Jan 2020 15:20:31 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013/pd_communicationandcoordination/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>PD_ParallelDecomposition</title>
+      <link>https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition/</link>
+      <pubDate>Wed, 08 Jan 2020 15:20:31 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>PD_ParallelAlgorithms</title>
       <link>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</link>
-      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>PD_ParallelDecomposition</title>
-      <link>https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition/</link>
-      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      <title>PD_ParallelPerformance</title>
+      <link>https://www.pdcunplugged.org/cs2013/pd_parallelperformance/</link>
+      <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition/</guid>
+      <guid>https://www.pdcunplugged.org/cs2013/pd_parallelperformance/</guid>
       <description></description>
     </item>
     
@@ -53,15 +62,6 @@
       <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/cs2013/pd_parallelarchitecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PD_ParallelPerformance</title>
-      <link>https://www.pdcunplugged.org/cs2013/pd_parallelperformance/</link>
-      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/cs2013/pd_parallelperformance/</guid>
       <description></description>
     </item>
     

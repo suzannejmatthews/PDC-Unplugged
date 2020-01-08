@@ -35,6 +35,18 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
     </item>
     
     <item>
+      <title>ConcertTickets</title>
+      <link>https://www.pdcunplugged.org/activities/concerttickets/</link>
+      <pubDate>Fri, 06 Dec 2019 17:54:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/concerttickets/</guid>
+      <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
+No on-line resources available. See details for description.
+Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best available seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
+    </item>
+    
+    <item>
       <title>DesertIslandsAnalogy</title>
       <link>https://www.pdcunplugged.org/activities/desertislandsanalogy/</link>
       <pubDate>Tue, 05 Nov 2019 15:34:13 -0500</pubDate>
@@ -69,6 +81,21 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
 Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+    </item>
+    
+    <item>
+      <title>CardSorting</title>
+      <link>https://www.pdcunplugged.org/activities/cardsorting/</link>
+      <pubDate>Fri, 01 Nov 2019 12:39:05 -0400</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/cardsorting/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
+Variation using a deck of playing cards by (Bogaerts2014 and Ghafoor2019):
+iPDC Modules
+ Available in Word and PDF  Similiar Exercises: Sorting: oddEvenTranspositionSort, ParallelRadixSort, PipelineSort, sortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, PipelineSort
+(Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, MatrixAddition
+(Ghafoor2019): ArraysInParallel, CandySorting, FindYoungestStudentInClass, PBJinParalell,</description>
     </item>
     
     <item>

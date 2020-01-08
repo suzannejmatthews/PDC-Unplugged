@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PlantingTrees</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments)};
+              gtag('js', new Date());
+              gtag('config', 'UA-155045117-1');
+            </script>
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">PlantingTrees</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/contribute/">Contribute</a></li>
+                            
+                                <li><a href="/activities/">All Activities</a></li>
+                            
+                                <li><a href="/access-overview/">Accessibility View</a></li>
+                            
+                                <li><a href="/course-overview/">Course View</a></li>
+                            
+                                <li><a href="/cs2013-overview/">CS2013 View</a></li>
+                            
+                                <li><a href="/tcpp-overview/">TCPP View</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>PlantingTrees</h2>
+        <h5></h5>
+        
+
+        
+<a href="https://www.pdcunplugged.org/cs2013/pd_paralleldecomposition"><kbd class="item-cs2013">PD_ParallelDecomposition</kbd></a>
+
+<a href="https://www.pdcunplugged.org/cs2013/pd_parallelalgorithms"><kbd class="item-cs2013">PD_ParallelAlgorithms</kbd></a>
+
+<a href="https://www.pdcunplugged.org/cs2013/pd_parallelperformance"><kbd class="item-cs2013">PD_ParallelPerformance</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_programming"><kbd class="item-tcpp">TCPP_Programming</kbd></a>
+
+<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms"><kbd class="item-tcpp">TCPP_Algorithms</kbd></a>
+
+
+        
+<a href="https://www.pdcunplugged.org/courses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/cs2"><kbd class="item-course">CS2</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/dsa"><kbd class="item-course">DSA</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/systems"><kbd class="item-course">Systems</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/parprog"><kbd class="item-course">ParProg</kbd></a>
+
+
+        
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="original-author-link">Original Author/link</h2>
+
+<p>Described by Yifat Ben-David Kolikant (Kolinkat2001). Two introduction questions presented by Steven Bogaerts as part of his &ldquo;real-life analogies&rdquo; (Bogaerts2014, Bogaerts2017).</p>
+
+<p>No public description avaialable. See Details section for more information.</p>
+
+<hr />
+
+<h2 id="details">Details</h2>
+
+<p>Start with some generals questions from Steven Bogaerts:</p>
+
+<blockquote>
+<p>&ldquo;If I can shovel my driveway in 1 hour, how long would you expect it to take if someone equally capable were to help me?&rdquo;</p>
+
+<p>&ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?&rdquo;</p>
+</blockquote>
+
+<p>The drive-way shoveling analogy is easy to split up and is relatively easy for students to recognize on how to do. The hole digging analogy is much harder to split up.</p>
+
+<p>To connect it better with the work of (Kolikant2001), we present a third question involving planting trees:</p>
+
+<blockquote>
+<p>&ldquo;Suppose the goal is to plant 100 trees. Each tree requires than you dig a hole, place the tree in the hole, and refill the hole. Assume each of these steps takes 100 seconds.
+   How long does it take for one person to plant 1 tree? How about 100 trees? Suppose 10 people helped plant trees. How long will it take?&rdquo;</p>
+</blockquote>
+
+<ul>
+<li>Students should be able to quickly identify that it takes one person 300 seconds to plant a single tree, and it would take that person 30,000 seconds (~8.33 hours) to plant 100 trees.</li>
+<li>The question of how to split up the work is interesting. If each person was responsible for planting 10 trees, then it would take roughly 3,000 seconds for all 10 people to finish
+planting the 100 trees. This is a <strong>data parallel</strong> strategy. It is also potentially a good idea to ask what would happen if the first 9 people were assigned only 5 trees to plant,
+while the 10th person got 55 trees to plant. Students should recognize that even though everyone is able to plant trees in parallel, the first 9 people will finish much sooner than
+the 10th person, and everyone would have to wait until that person finishes for the task to be done. This scenario emphasizes the importance of <strong>load-balancing</strong>.</li>
+</ul>
+
+<p>Now suppose instead of 10 people we have only 3, and each person followed the algorithm below to plant 100 trees in a straight line (Kolikant2001):</p>
+
+<table>
+<thead>
+<tr>
+<th>Person 1  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Person 2 &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Person 3</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Do 100 times:</td>
+<td>Do 100 times:</td>
+<td>Do 100 times:</td>
+</tr>
+
+<tr>
+<td>Dig hole</td>
+<td>Put tree in hole</td>
+<td>Refill hole</td>
+</tr>
+
+<tr>
+<td>Walk 2 meters</td>
+<td>Walk 2 meters</td>
+<td>Walk 2 meters</td>
+</tr>
+</tbody>
+</table>
+
+<p><p>
+While the actions on the hole must be performed in order, the algorithm does not explicitly state this. Students need to recognize the <strong>dependencies</strong> of execution between Persons 1 and 2, and between Persons 2 and 3. Students must explicitly state their assumptions (e.g. how long does it take each person to walk 2 meters? How long does it take for each gardener to complete their task?) and discuss scenarios in which the algorithm will work.</p>
+
+<ul>
+<li><p>Some students may suggest that a central manager exists that directs the first person to dig all 100 holes, followed by the second person putting trees in all the holes, followed by the third person refilling all the holes. However, there is no parallelism in this solution, since each person does their work one after another. Another solution is that all three gardeners work on planting a single tree, before all going on to plant another. However,
+given the dependencies between the actions, it is again impossible for the three people to work in parallel in planting a single tree.</p></li>
+
+<li><p>Some students may notice that is possible for all three people to be working on planting trees at once. This is a good place to discuss <strong>pipelining</strong> and how to calculate how long it will take for the three people to finish planting 100 trees.</p></li>
+
+<li><p>It may be useful also to explain how in the most general case, each gardener has to be blocked on the gardener before them (wait-and-check) to do the task. This scenario does NOT include any assumption about how long it takes each gardener to complete their task, or how long it takes for the gardener to walk to the next hole. This is perhaps the most &ldquo;realistic&rdquo; scenario.</p></li>
+</ul>
+
+<hr />
+
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+
+<h3 id="parallel-decomposition">Parallel Decomposition</h3>
+
+<p><strong>Core Tier 1:</strong>
+1. Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
+
+<p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+
+<p>3. Write a correct and scalable parallel algorithm. [Usage]</p>
+
+<p><strong>Core Tier 2:</strong>
+4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
+
+<p>5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</p>
+
+<h3 id="parallel-algorithms-analysis-and-programming">Parallel Algorithms, Analysis and Programming</h3>
+
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+
+<p>5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</p>
+
+<p><strong>Elective:</strong>
+9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</p>
+
+<h3 id="parallel-performance">Parallel Performance</h3>
+
+<p>1. Detect and correct a load imbalance. [Usage]</p>
+
+<hr />
+
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+
+<h3 id="programming-topics">Programming Topics</h3>
+
+<ul>
+<li><p>Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes</p></li>
+
+<li><p>Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes</p></li>
+</ul>
+
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+
+<ul>
+<li><p>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism (0.33 hours)</p></li>
+
+<li><p>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex computational structures (0.5 hours)</p></li>
+
+<li><p>Know Dependencies: Understand the impacts of dependencies (0.5 hours)</p></li>
+</ul>
+
+<hr />
+
+<h2 id="recommended-courses">Recommended Courses</h2>
+
+<p>(Kolikant2001) presented the original exercise in an upper-level
+course on concurrency.</p>
+
+<ul>
+<li><strong>CS1</strong>: Bogaerts presented his high-level questions in CS1. TCPP also recommends that dependencies can be introduced as early as CS1.</li>
+<li><strong>CS2/DSA</strong>: TCPP recommends discussing decomposition strategies in CS2 or DSA.</li>
+<li><strong>Systems</strong>: In addition to DSA, TCPP recommends discussing load balancing in systems courses. TCPP also recommends that dependencies be discussed in Systems courses.</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>This assignment seems generally accessible. For students who are blind, the prompt needs to be made available in Braille (if given on paper).</p>
+
+<hr />
+
+<h2 id="assessment">Assessment</h2>
+
+<p>(Kolikant2001) presented a component of the above as the second assignment in an upper-level
+course on concurrency. Despite the differences in the solutions, Kolikant found
+that she could classify all the responses into five main categories, including
+three centralized solutions, and two decentralized solutions. Found that many students
+changed the problem to a simpler solution (e.g. each person received a third of the threes). 36.6%
+of the students identified that there were dependencies between the people planting trees, and
+assumed a constant rate of work for each. However, approximately half the students were able to
+identify that a &ldquo;constant rate of work&rdquo; is not realistic in real-life, including those that
+made the assumption. In post-interviews, some students mentioned that they used the constant rate assumption
+to make the algorithm &ldquo;succeed&rdquo;. Students who took a decentralized view were in the minority;
+for example, one student in the post-interview said they were not comfortable using a pipelining approach,
+since it was unclear how long it would take each gardener to travel from one hole to another, and that it
+was theoretically possible for Person 2 to finish their work and travel to the next hole before Person 1
+finished their task of digging it. (Kolikant2001) argues that these findings support the notion
+that students have trouble orchestrating entities in decentralized systems.</p>
+
+<p>(Bogaerts2014) used the analogies as part of a larger unit in parallelism. He mentions that the total amount
+of time spent on parallelism was larger in the section that used analogies and hands-on activities compared
+to the one that presented the topics in a traditional lecture-style format (4 hours vs 90 minutes). However,
+the section that used analogies and hands-on activities performed better than those who received the
+information in a traditional lecture-format. Bogaerts argues that it is much better to spend more time on
+fewer parallel concepts in a hands-on way in an introductory course, rather than covering a variety of
+parallel concepts in a non-hands-on way. The final conclusion drawn is that analogies and hands-on activities
+enabled students to learn better and stimulated greater interest in the subject than a course that
+delivered the material in a typical lecture-style fashion. (Bogaerts2017) extends the assessment of the
+original paper, but found that while student interest increased, the desire to learn more decreased. The authors
+theorize that this is because most of the students in the course were non-majors who will not be pursuing
+computing in the future.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+<li><p>Y. B.-D. Kolikant, &ldquo;Gardeners and cinema tickets: High school students&rsquo;
+preconceptions of concurrency&rdquo;, <em>Computer Science Education</em>, 11(3),
+pp. 221–245, 2001. Available: <a href="https://doi.org/10.1076/csed.11.3.221.3831">https://doi.org/10.1076/csed.11.3.221.3831</a></p></li>
+
+<li><p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p></li>
+
+<li><p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p></li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
