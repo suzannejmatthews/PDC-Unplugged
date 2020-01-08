@@ -7,13 +7,13 @@ tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Sorting", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer"]
 courses: ["K_12", CS0", "CS1", "CS2", "DSA"]
 senses: ["visual", "touch"]
-medium: ["cards", "game"]
+medium: ["cards", "game", "paper", "roleplaying"]
 ---
 
 ## Original Author/link
 Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).
 
-Variation using a deck of playing cards by (Ghafoor2019):
+Variation using a deck of playing cards by (Bogaerts2014 and Ghafoor2019):
 
 [iPDC Modules](https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/)
 
@@ -30,7 +30,7 @@ Sorting: [oddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort"
 (Moore2000): [SieveOfErastothenes]({{<ref "activities/sieveoferastothenes">}}), [OddEvenTranspositionSort]({{<ref "activities/oddeventranspositionsort">}}), 
              [MatrixAddition]({{<ref "activities/matrixaddition">}})
 
-(Ghafoor2019):
+(Ghafoor2019): [ArraysInParallel]({{<ref "activities/arraysinparallel">}}), [CandySorting]({{<ref "activities/candysorting">}}), [FindYoungestStudentInClass]({{<ref "activities/findyoungeststudentinclass">}}), [PBJinParalell]({{<ref "activities/pbjinparallel">}}), 
 
 ----
 
@@ -84,10 +84,22 @@ The class then should asked to calculate the speedup of the parallel cases over 
 majority of the time.
 
 
+### Playing Card Variation (Bogaerts2014)
+
+Steve Bogaerts describes a variation using playing cards rather than the 16 numbered cards that (Bachelis1994) recommends. Student volunteers are separated into three groups (A, B, and C) containing 1 student, 3 students and 
+2 students respectively. 
+
+* The single person in group A plays the role of a single-core processor. The student has a sheet of paper representing local RAM.
+
+* Two students in group B sit on opposite sides of the room, and represents the role of two processors. Each student has a sheet of paper representing their own RAM. The third student play the role of the message passing interface, and passes messages between the two students. 
+
+* The two students in group C sit next to each other and share a single piece of paper, representing a dual-core processor communicating via "shared memory".
+
+The remaining students in the class are asked to watch the students as they each attempt to sort their playing cards. Common observations include that while the student in group A had no overhead, it took them a long time to sort the cards since they were working alone. The students in groups B and C generally take less time, but there are different issues. Group B takes a longer time to communicate, owing to the distance between them. While the two students in Group C have an easier time communicating, there is less space and there is a chance that they will "mess up" by working in a shared space. This latter scenario is foreshadowing of race conditions. 
 
 
-### Variations
-(Ghafoor2019) describes a variation using two standard decks of playing cards, rather than the 16 numbered cards that (Bachelis1994) recommends. There is also no specified sorting algorithm in this variant.
+### Other Variations
+(Ghafoor2019) describes a variation using two standard decks of playing cards. There is also no specified sorting algorithm in this variant.
 
 The concept of card sorting is described by (Moore2000). In a parallel 
 processing lab, students form groups to develop card sorting algorithms to 
@@ -163,7 +175,21 @@ in the exercise if Braille playing cards were used.
 
 ## Assessment 
 
-Unknown. (Moore2000) discusses the impact of the parallel computing labs in 
+(Bogaerts2014) used sorting playing cards an activity as part of a larger unit in parallelism in a CS1 course. He mentions that the total amount 
+of time spent on parallelism was larger in the section that used analogies and hands-on activities compared 
+to the one that presented the topics in a traditional lecture-style format (4 hours vs 90 minutes). However, 
+the section that used analogies and hands-on activities performed better than those who received the 
+information in a traditional lecture-format. Bogaerts argues that it is much better to spend more time on 
+fewer parallel concepts in a hands-on way in an introductory course, rather than covering a variety of 
+parallel concepts in a non-hands-on way. The final conclusion drawn is that analogies and hands-on activities 
+enabled students to learn better and stimulated greater interest in the subject than a course that 
+delivered the material in a typical lecture-style fashion. (Bogaerts2017) extends the assessment of the 
+original paper, but found that while student interest increased, the desire to learn more decreased. The authors
+theorize that this is because most of the students in the course were non-majors who will not be pursuing 
+computing in the future. 
+
+
+(Moore2000) discusses the impact of the parallel computing labs in 
 her course. In general, students responded to the labs positively, and felt 
 that labs increased their knowledge significantly.
 
@@ -178,9 +204,12 @@ that labs increased their knowledge significantly.
 * B. R. Maxim, G. Bachelis, D. James, and Q. Stout, "Introducing parallel algorithms in undergraduate computer science courses (tutorial session)", in _Proceedings of the Twenty-first SIGCSE Technical Symposium 
   on Computer Science Education (SIGCSE'90)_. ACM, 1990, pp. 255. Available: http://doi.acm.org/10.1145/323410.323415
 
-* S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, "ipdc modules (unplugged)" 
-  last accessed Oct 16, 2019. [Online]. Available: https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/
+* S. Bogaerts. "Limited Time and Experience: Parallelism in CS1". In _Proceedings of the 2014 IEEE 28th International Parallel & Distributed Processing Symposium Workshops  (IPDPSW'14)_, pp. 1071-1078. 2014.
+
+* S. Bogaerts. "One step at a time: Parallelism in an introductory programming course". _Journal of Parallel and Distributed Computing_ Vol. 105, pp. 4-17. 2017.
 
 * M. Moore, "Introducing parallel processing concepts", *J. Comput. Sci. Coll.,* 
   vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: http://dl.acm.org/citation.cfm?id=1852563.1852589
 
+* S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, "ipdc modules (unplugged)" 
+  last accessed Oct 16, 2019. [Online]. Available: https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/
