@@ -6,13 +6,13 @@ cs2013details: ["Arch_2"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
 tcppdetails: ["K_MIMD", "K_TasksThreads", "C_Decomposition", "C_Static", "C_Dynamic"]
 courses: ["oo_course", "systems"]
-senses: ["movement"]
+senses: ["accessible"]
 medium: ["analogy"]
 ---
 
 ## Original Author/link
 
-Originally described by Nasser Giacaman (Giacaman2012). 
+Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).
 
 No web-link to independent description available. See paper (Giacaman2012) for 
 details.
@@ -39,6 +39,14 @@ To introduce static vs dynamic scheduling:
 * **Dynamic scheduling**: The cards start in a large pile in front of the room. When an employee is done processing their card, they request another card to process.
 
 Alternatively, the activity can be actually acted out with job cards, desks, and students.
+
+The company analogy can also be introduced with a question (from Bogaerts2014):
+
+> "If I ran a company by myself working 100 hours per week, how much time will I need if I hire an assistant?"
+
+The question can be used to introduce the boss-worker pattern.
+
+Note that this can stay an analogy, or be dramatized with students in a classroom setting.  
 
 ---
 
@@ -69,13 +77,13 @@ Alternatively, the activity can be actually acted out with job cards, desks, and
 ## Recommended Courses
 
 * **OO** Giacaman used the analogies in a second year computer science course (beyond data structures) where students got their first taste of object-oriented programming.
-* **Systems**: The analogies above would also be usedful in a Systems course.
+* **Systems**: The analogies above would also be useful in a Systems course.
 
 ---
 
 ## Accessibility
 
-N/A
+As an analogy, this is generally accessible, though care must be taken to ensure that those who are blind have an understanding of the components of a company so that they can visualize what is going on inside their heads. 
 
 ---
 
@@ -88,6 +96,19 @@ completed survey. 93% of the students reported liking the way material was
 presented (47% strongly agree, 46% agree). Of the 105 respondents, 16 specifically 
 mentioned the use of the analogies as being "most helpful" to their learning. 
 
+(Bogaerts2014) used the question component of the company analogy as part of a larger unit in parallelism in a CS1 course. He mentions that the total amount 
+of time spent on parallelism was larger in the section that used analogies and hands-on activities compared 
+to the one that presented the topics in a traditional lecture-style format (4 hours vs 90 minutes). However, 
+the section that used analogies and hands-on activities performed better than those who received the 
+information in a traditional lecture-format. Bogaerts argues that it is much better to spend more time on 
+fewer parallel concepts in a hands-on way in an introductory course, rather than covering a variety of 
+parallel concepts in a non-hands-on way. The final conclusion drawn is that analogies and hands-on activities 
+enabled students to learn better and stimulated greater interest in the subject than a course that 
+delivered the material in a typical lecture-style fashion. (Bogaerts2017) extends the assessment of the 
+original paper, but found that while student interest increased, the desire to learn more decreased. The authors
+theorize that this is because most of the students in the course were non-majors who will not be pursuing 
+computing in the future. 
+
 ---
 
 ## Citations
@@ -97,3 +118,7 @@ demonstrations to teach parallel computing concepts to undergraduate students"
 in *Proceedings of the 2012 IEEE 26th International Parallel and Distributed 
 Processing Symposium Workshops & PhD Forum (IPDPSW'12)*, Washington, DC, USA: 
 IEEE Computer Society, 2012, pp. 1295–1298. Available: http://dx.doi.org/10.1109/IPDPSW.2012.158
+
+* S. Bogaerts. "Limited Time and Experience: Parallelism in CS1". In _Proceedings of the 2014 IEEE 28th International Parallel & Distributed Processing Symposium Workshops  (IPDPSW'14)_, pp. 1071-1078. 2014.
+
+* S. Bogaerts. "One step at a time: Parallelism in an introductory programming course". _Journal of Parallel and Distributed Computing_ Vol. 105, pp. 4-17. 2017.
