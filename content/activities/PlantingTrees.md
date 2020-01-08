@@ -163,10 +163,10 @@ computing in the future.
 
 ## Citations
 
-* S. Bogaerts. "Limited Time and Experience: Parallelism in CS1". In _Proceedings of the 2014 IEEE 28th International Parallel & Distributed Processing Symposium Workshops  (IPDPSW'14)_, pp. 1071-1078. 2014.
-
-* S. Bogaerts. "One step at a time: Parallelism in an introductory programming course". _Journal of Parallel and Distributed Computing_ Vol. 105, pp. 4-17. 2017.
-
 * Y. B.-D. Kolikant, "Gardeners and cinema tickets: High school students' 
   preconceptions of concurrency", _Computer Science Education_, 11(3), 
   pp. 221–245, 2001. Available: https://doi.org/10.1076/csed.11.3.221.3831
+
+* S. Bogaerts. "Limited Time and Experience: Parallelism in CS1". In _Proceedings of the 2014 IEEE 28th International Parallel & Distributed Processing Symposium Workshops  (IPDPSW'14)_, pp. 1071-1078. 2014.
+
+* S. Bogaerts. "One step at a time: Parallelism in an introductory programming course". _Journal of Parallel and Distributed Computing_ Vol. 105, pp. 4-17. 2017.
