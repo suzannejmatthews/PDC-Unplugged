@@ -1,8 +1,8 @@
 ---
 title: "CardSorting"
 date: 2019-11-01T12:39:05-04:00
-cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance"]
-cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Algo_6", Perf_1", "Perf_2", "Perf_3"]
+cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance", "PD_ParallelArchitecture"]
+cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Algo_6", Perf_1", "Perf_2", "Perf_3", "Arch_1", "Arch_8"]
 tcpp: ["TCPP_Algorithms"]
 tcppdetails: ["K_Sorting", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer"]
 courses: ["K_12", CS0", "CS1", "CS2", "DSA"]
@@ -126,6 +126,11 @@ not provided.
 
 6\. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.
 
+### Parallel Architecture
+
+1\. Explain the differences between shared and distributed memory. [Familiarity] [Core-Tier2]
+
+8\. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]
 
 ### Parallel Performance (Elective)
 
