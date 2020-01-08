@@ -70,7 +70,10 @@
 <tr><th>Core Tier 2 </th></tr>
 <tr><td> 3. Write a correct and scalable parallel algorithm. [Usage]</td>
   <td>
-
+   {{ range first 2 .Site.Taxonomies.cs2013details.pd_3 }}
+ <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>; 
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/cs2013details/pd_3">See All ({{ len .Site.Taxonomies.cs2013details.pd_3 }}) </a>
   </td>
 </tr> 
 
