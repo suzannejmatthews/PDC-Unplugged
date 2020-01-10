@@ -131,7 +131,13 @@
     {{ end }}
     <a href="{{ $.Site.BaseURL }}/tcppdetails/a_sharedmemory">See All ({{ len .Site.Taxonomies.tcppdetails.a_sharedmemory }}) </a>
 </td></tr>
-<tr><td> <u>Know Shared Memory Language Extensions</u>: Know about language extensions for parallel programming. Illustration from Cilk (spawn/join) and Java (Java threads)</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> <u>Know Shared Memory Language Extensions</u>: Know about language extensions for parallel programming. Illustration from Cilk (spawn/join) and Java (Java threads)</td><td>CS2/DSA/ProgLang</td>
+  <td>
+    {{ range first 2 .Site.Taxonomies.tcppdetails.k_sharedmemorylanguageextensions }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/k_sharedmemorylanguageextensions">See All ({{ len .Site.Taxonomies.tcppdetails.k_sharedmemorylanguageextensions }}) </a>    
+  </td></tr>
 <tr><td> <u>Comprehend Shared Memory Compiler Directives</u>: Understand what simple directives, such as those of OpenMP, mean (parallel for, concurrent section), pragmas show examples</td><td>CS2/DSA/ProgLang</td><td></td></tr>
 <tr><td> <u> Comprehend Shared Memory Libraries</u>: Know one in detail, and know of the existence of some other example libraries such as Pthreads, Pfunc, Intel's TBB (Thread building blocks), Microsoft's TPL (Task Parallel Library), etc.</td><td>CS2/DSA/ProgLang</td><td></td></tr>
  <tr><td> <u>Comprehend Distributed Memory</u>: Know basic notions of messaging among processes, different ways of message passing, collective operations (1 hour)</td><td>DSA/Systems</td>
