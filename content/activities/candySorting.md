@@ -59,10 +59,9 @@ medium: ["food"]
 
 ## Accessibility
 
-May be difficult for color-blind students. In the case that there are 
-color-blind students, we recommend using a range of treats that are 
-differentiated by shape rather than color. This will also help students 
-who are Blind with the sorting.
+May be difficult for color-blind students, or students who are blind. 
+We recommend using a range of treats that are differentiated by shape and color.
+Inexpensive bulk candies that achieve this include Runts, Nitwitz, and Rascals.  
 
 ---
 
