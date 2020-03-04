@@ -21,11 +21,11 @@
     </item>
     
     <item>
-      <title>K_TasksThreads</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</link>
+      <title>K_SharedMemoryLanguageExtensions</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_sharedmemorylanguageextensions/</link>
       <pubDate>Wed, 08 Jan 2020 16:01:45 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</guid>
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_sharedmemorylanguageextensions/</guid>
       <description></description>
     </item>
     
@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>C_decomposition</title>
+      <title>C_Decomposition</title>
       <link>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</link>
       <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
       
@@ -323,6 +323,15 @@
       <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_TasksThreads</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</link>
+      <pubDate>Fri, 06 Dec 2019 14:17:02 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</guid>
       <description></description>
     </item>
     
