@@ -2,7 +2,7 @@
 title: "FlowerJoinAnalogy"
 date: 2020-01-08T16:01:45-05:00
 tcpp: ["TCPP_Programming"]
-tcppdetails: ["K_TasksThreads"]
+tcppdetails: ["K_SharedMemoryLanguageExtensions"]
 courses: ["CS1", "CS2", "DSA", "Systems", "ProgLang"]
 senses: ["accessible"]
 medium: ["analogy"]
@@ -38,14 +38,14 @@ N/A
 
 ### Programming Topics
 
-* Know Tasks and threads: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that
+* Know Shared Memory Language Extensions: Know about language extensions for parallel programming. Illustration from Cilk (spawn/join) and Java (Java threads)
 
 ---
 
 ## Recommended Courses
 
 * **CS1**: Bogaerts used the analogy in a CS1 course 
-* **CS2/DSA/Systems/ProgLang**: TCPP recommends that the notion of tasks and threads can be introduced in CS2, DSA, Systems and/or Programming Languages.
+* **CS2/DSA/Systems/ProgLang**: TCPP recommends that the notion of language extensions such as thread `join()` can be introduced in CS2, DSA, Systems and/or Programming Languages.
 ---
 
 ## Accessibility
