@@ -2,7 +2,6 @@
 title: "Contributing to PDC Unplugged"
 ---
 
-# How to Contribute
 
 Everyone is welcome to contribute to PDC Unplugged!  Please consider contributing if:
 
@@ -15,6 +14,7 @@ All submissions to PDC Unplugged are reviewed by the repository administrators. 
 appear almost immediately on the site.
 
 
+---
 
 
 ## Activity Structure
@@ -70,7 +70,9 @@ tags:
 
 ```
 
-##Filling in the details
+---
+
+## Filling in the details
 
 Here are detailed instructions on how to fill in each individual section:
 
