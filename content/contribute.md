@@ -159,8 +159,8 @@ set of recommended courses associated with that topic area. Courses associated w
 
 ### Contributing Changes
 
-**Note**: The paper associated with PDC Unplugged is currently under review. To submit changes or new activities to PDC Unplugged, please e-mail 
-the administrator (suzanne DOT matthews AT westpoint DOT edu) with your markdown file or list of changes.
+**Note**: The paper associated with PDC Unplugged is currently in press. To submit changes or new activities to PDC Unplugged, please e-mail 
+the administrator (suzanne DOT matthews AT westpoint DOT edu) with your markdown file or list of changes. 
 
 All educators are free to e-mail the administrator (suzanne DOT matthews AT westpoint DOT edu) with their markdown file and/or list of changes. Those who are familiar with GitHub may choose to fork the repository, make their changes, and then [submit a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). This ensures that your contribution is acknowledged through GitHub. 
 

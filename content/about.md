@@ -16,6 +16,19 @@ they please, provided that they cite the source papers and PDC Unplugged.
 To contribute, please follow instructions on the [contribute]({{<ref "contribute">}}) page.
 
 
+### How to Cite
+
+To cite a particular activity, please use the citation information that is 
+listed at the bottom of that activity's page.
+
+Please use the following citation for PDC Unplugged:
+
+S. J. Matthews. "PDCUnplugged: A free repository of unplugged parallel & 
+distributed computing activities", in *2020 IEEE International Parallel and 
+Distributed Processing Symposium Workshops (IPDPSW)*, May 2020. *to appear*
+
+
+
 ---
 
 ### Other free resources for PDC

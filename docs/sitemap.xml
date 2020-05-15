@@ -103,7 +103,7 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</loc>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_sharedmemorylanguageextensions/</loc>
     <lastmod>2020-01-08T16:01:45-05:00</lastmod>
   </url>
   
@@ -619,6 +619,11 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/k_concurrency/</loc>
+    <lastmod>2019-12-06T14:17:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_tasksthreads/</loc>
     <lastmod>2019-12-06T14:17:02-05:00</lastmod>
   </url>
   
