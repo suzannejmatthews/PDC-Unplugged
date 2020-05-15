@@ -2,7 +2,7 @@
 title: "Contributing to PDC Unplugged"
 ---
 
-### How to Contribute
+# How to Contribute
 
 Everyone is welcome to contribute to PDC Unplugged!  Please consider contributing if:
 
@@ -17,9 +17,16 @@ appear almost immediately on the site.
 
 
 
-### Activity Structure
+## Activity Structure
 
-Activities in the PDC Unplugged repository are created using MarkDown, a markup language that is simpler than HTML and in many ways resembles plaintext. To create a new activity, copy the following template to a textfile (for example `yourActivity.md`):
+Activities in the PDC Unplugged repository are created using MarkDown, a markup language that is simpler than HTML and in many ways resembles plaintext. 
+
+All activities are located under the `content/activities/` folder in the GitHub repository. To contribute to the repository, either modify the existing 
+markdown file with your recommended changes or add a new markdown file to the folder. 
+
+If you are using Hugo to locally build the repository, you can generate a new activity by using the command `hugo new activities/yourActivity.md` where `yourActivity.md` is the name of your new activity.
+
+For those educators unfamiliar or uncomfortable with using Github, you can also create an activity by copying the following template to a textfile (for example `yourActivity.md`):
 
 ```
 ---
@@ -62,6 +69,10 @@ tags:
 ## Citations
 
 ```
+
+##Filling in the details
+
+Here are detailed instructions on how to fill in each individual section:
 
 * **Original Author/link**: Please list the activity's author and any links to related external material. Paper citations and/or websites should be placed under the  "Citations" heading 
 
@@ -157,16 +168,17 @@ set of recommended courses associated with that topic area. Courses associated w
 
 ---
 
-### Contributing Changes
+## Contributing Changes
 
-**Note**: The paper associated with PDC Unplugged is currently in press. To submit changes or new activities to PDC Unplugged, please e-mail 
-the administrator (suzanne DOT matthews AT westpoint DOT edu) with your markdown file or list of changes. 
+All educators are free to contribute to the repository. There are two ways to contribute:
 
-All educators are free to e-mail the administrator (suzanne DOT matthews AT westpoint DOT edu) with their markdown file and/or list of changes. Those who are familiar with GitHub may choose to fork the repository, make their changes, and then [submit a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). This ensures that your contribution is acknowledged through GitHub. 
+* e-mail the administrator (suzanne DOT matthews AT westpoint DOT edu) with their markdown file and/or list of changes. 
+
+* [submit a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) through GitHub. 
+
+This ensures that your contribution is acknowledged through GitHub. Note that all pull requests are reviewed.
 
 
-All activities are located under the `content/activities/` folder in the GitHub repository. To contribute to the repository, either modify the existing 
-markdown file with your recommended changes or add a new markdown file to the folder. 
 
 ---
 
