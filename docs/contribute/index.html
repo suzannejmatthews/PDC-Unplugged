@@ -22,7 +22,6 @@
 </style>
 
 
-<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
 
 
 
@@ -38,7 +37,9 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     
@@ -127,7 +128,7 @@
                             
                                 <li class="navbar-icon"><a href="http://suzannejmatthews.com/"><i class="fa fa-id-card"></i></a></li>
                             
-                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/"><i class="fa fa-github"></i></a></li>
+                                <li class="navbar-icon"><a href="https://github.com/suzannejmatthews/PDC-Unplugged"><i class="fa fa-github"></i></a></li>
                             
                                 <li class="navbar-icon"><a href="https://www.linkedin.com/in/suzannejmatthews/"><i class="fa fa-linkedin"></i></a></li>
                             
@@ -157,8 +158,6 @@
 
     <div align="start" class="content">
 
-<h3 id="how-to-contribute">How to Contribute</h3>
-
 <p>Everyone is welcome to contribute to PDC Unplugged!  Please consider contributing if:</p>
 
 <ul>
@@ -171,9 +170,18 @@
 <p>All submissions to PDC Unplugged are reviewed by the repository administrators. Once approved, the changes will
 appear almost immediately on the site.</p>
 
-<h3 id="activity-structure">Activity Structure</h3>
+<hr />
 
-<p>Activities in the PDC Unplugged repository are created using MarkDown, a markup language that is simpler than HTML and in many ways resembles plaintext. To create a new activity, copy the following template to a textfile (for example <code>yourActivity.md</code>):</p>
+<h2 id="activity-structure">Activity Structure</h2>
+
+<p>Activities in the PDC Unplugged repository are created using MarkDown, a markup language that is simpler than HTML and in many ways resembles plaintext.</p>
+
+<p>All activities are located under the <code>content/activities/</code> folder in the GitHub repository. To contribute to the repository, either modify the existing
+markdown file with your recommended changes or add a new markdown file to the folder.</p>
+
+<p>If you are using Hugo to locally build the repository, you can generate a new activity by using the command <code>hugo new activities/yourActivity.md</code> where <code>yourActivity.md</code> is the name of your new activity.</p>
+
+<p>For those educators unfamiliar or uncomfortable with using Github, you can also create an activity by copying the following template to a textfile (for example <code>yourActivity.md</code>):</p>
 
 <pre><code>---
 title: 
@@ -215,6 +223,12 @@ tags:
 ## Citations
 
 </code></pre>
+
+<hr />
+
+<h2 id="filling-in-the-details">Filling in the details</h2>
+
+<p>Here are detailed instructions on how to fill in each individual section:</p>
 
 <ul>
 <li><p><strong>Original Author/link</strong>: Please list the activity&rsquo;s author and any links to related external material. Paper citations and/or websites should be placed under the  &ldquo;Citations&rdquo; heading</p></li>
@@ -310,15 +324,17 @@ set of recommended courses associated with that topic area. Courses associated w
 
 <hr />
 
-<h3 id="contributing-changes">Contributing Changes</h3>
+<h2 id="contributing-changes">Contributing Changes</h2>
 
-<p><strong>Note</strong>: The paper associated with PDC Unplugged is currently in press. To submit changes or new activities to PDC Unplugged, please e-mail
-the administrator (suzanne DOT matthews AT westpoint DOT edu) with your markdown file or list of changes.</p>
+<p>All educators are free to contribute to the repository. There are two ways to contribute:</p>
 
-<p>All educators are free to e-mail the administrator (suzanne DOT matthews AT westpoint DOT edu) with their markdown file and/or list of changes. Those who are familiar with GitHub may choose to fork the repository, make their changes, and then <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">submit a pull request</a>. This ensures that your contribution is acknowledged through GitHub.</p>
+<ul>
+<li><p>e-mail the administrator (suzanne DOT matthews AT westpoint DOT edu) with their markdown file and/or list of changes.</p></li>
 
-<p>All activities are located under the <code>content/activities/</code> folder in the GitHub repository. To contribute to the repository, either modify the existing
-markdown file with your recommended changes or add a new markdown file to the folder.</p>
+<li><p><a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">submit a pull request</a> through GitHub.</p></li>
+</ul>
+
+<p>This ensures that your contribution is acknowledged through GitHub. Note that all pull requests are reviewed.</p>
 
 <hr />
 
