@@ -24,6 +24,18 @@ Details See paper and poster for full details. A high level summary is provided 
     </item>
     
     <item>
+      <title>ParallelRadixSort</title>
+      <link>https://www.pdcunplugged.org/activities/parallelradixsort/</link>
+      <pubDate>Thu, 14 Nov 2019 10:30:47 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/parallelradixsort/</guid>
+      <description>Original Author/link Originally Described by Adam Rifkin (1994). No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website
+ Slides (includes other activities) PPT 1 Page Synopsis PDF  See papers (Rifkin1994, Sivilotti2003) for additional details.
+Similar Exercises: Sorting: oddEvenTranspositionSort, sortingNetwork, cardsorting
+Other activities by (Rifki1994, Sivilotti2003) Rifkin1994: oddEvenTranspositionSort</description>
+    </item>
+    
+    <item>
       <title>OddEvenTranspositionSort</title>
       <link>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</link>
       <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
