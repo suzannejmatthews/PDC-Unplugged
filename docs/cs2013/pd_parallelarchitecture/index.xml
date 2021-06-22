@@ -29,7 +29,7 @@ There are several on-line write-ups about the Kitchen Analogy. We specifically l
       <guid>https://www.pdcunplugged.org/activities/coinflip/</guid>
       <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
 No link to independent description available. See Details for a synopsis.
-Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
+ Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
 They are presented with the following algorithm:
 1. flip coin. 2. check if heads.</description>
     </item>
@@ -42,8 +42,8 @@ They are presented with the following algorithm:
       <guid>https://www.pdcunplugged.org/activities/longdistancephonecall/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slide 26.
- Available in: PPT and PDF Also described in (Neeman2006)  CS2013 Knowledge Unit Coverage Parallel Architecture (Elective) 8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]
-TCPP Topics Coverage Architecture Topics  Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</description>
+ Available in: PPT and PDF Also described in (Neeman2006)   CS2013 Knowledge Unit Coverage Parallel Architecture (Elective) 8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]
+ TCPP Topics Coverage Architecture Topics   Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ TCPP Topics Coverage Architecture Topics  Know Message passing (no shared memory
       <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
- Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+ Available in: PPT and PDF Also described in (Neeman2006)   Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
     </item>
     
     <item>
@@ -79,7 +79,7 @@ TCPP Topics Coverage Architecture Topics  Know Message passing (no shared memory
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
 (Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
-Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+ Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
     </item>
     
     <item>
@@ -91,7 +91,7 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+ Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
     </item>
     
     <item>
@@ -102,7 +102,7 @@ Details Moore describes how to use Matrix Addition to describe the differences b
       <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
       <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).
 No web-link to independent description available. See paper (Giacaman2012) for details.
-Details The company analogy is used to introduce multicore systems:
+ Details The company analogy is used to introduce multicore systems:
  The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.</description>
     </item>
     

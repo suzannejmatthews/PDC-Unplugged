@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/medium/roleplay/</loc>
+    <lastmod>2020-01-08T16:20:50-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/medium/roleplaying/</loc>
     <lastmod>2020-01-08T16:20:50-05:00</lastmod>
   </url>
@@ -308,6 +313,11 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_data/</loc>
+    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
@@ -484,11 +494,6 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/cs2013/pd_formalmodels/</loc>
-    <lastmod>2020-01-06T13:39:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/medium/roleplay/</loc>
     <lastmod>2020-01-06T13:39:13-05:00</lastmod>
   </url>
   
@@ -768,11 +773,6 @@
   </url>
   
   <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_data/</loc>
-    <lastmod>2019-11-04T13:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pdcunplugged.org/cs2013details/perf_5/</loc>
     <lastmod>2019-11-04T13:12:43-05:00</lastmod>
   </url>
@@ -874,12 +874,18 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/access-overview/intentionally-left-blank/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.pdcunplugged.org/course-overview/intentionally-left-blank/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/cs2013-overview/intentionally-left-blank/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcpp-overview/intentionally-left-blank/</loc>
   </url>
   
   <url>

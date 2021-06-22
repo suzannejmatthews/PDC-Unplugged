@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -170,66 +170,38 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Steve Bogaerts (Bogaerts2014).</p>
-
 <p>No link to independent description publicly available. See &ldquo;Details&rdquo; section for more details:</p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book <em>The Lord of the Flies</em>, not everyone may be familiar with that book (and some who are may not want to be reminded of it).
 Instead, it may be useful to explain the following general scenario:</p>
-
 <p>Imagine if a group of people are stranded on a deserted island. Occasionally, they must get together to make decisions. In order to prevent the meetings from getting chaotic, everyone agrees to a common rule that whoever holds a special conch shell is the only one who speaks. When the person speaking finishes, they put down the shell, enabling other people to compete for the shell. Whoever acquires it first is the person who speaks next. Other people must wait until the person speaking finishes, before they can attempt to get a turn.</p>
-
 <p>In this analogy, the ship-wrecked people in the meeting represent threads or processes executing concurrently. The conch represents a lock, while the area where people talk represents a critical section. To ensure that communication is synchronized (and therefore intelligible), the conch enforces the rule that only one person talks at a time. Likewise, in order to ensure that processes or threads don&rsquo;t overwrite each other, locks ensure that only one thread or process enters a critical section at a time.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h3 id="parallel-decomposition">Parallel Decomposition</h3>
-
 <p>1. Explain why synchronization is necessary in a specific parallel program.</p>
-
 <h3 id="communication-and-coordination">Communication and Coordination</h3>
-
 <p>1. Use mutual exclusion to avoid a given race condition. [Usage]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="algorithms-topics">Algorithms Topics</h3>
-
 <ul>
 <li>Know Synchronization: Be aware of methods for controlling race conditions (1 hour)</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li><strong>CS1</strong>: Bogaerts used the analogy in a CS1 course</li>
 <li><strong>CS2/DSA</strong>: TCPP recommends that synchronization concepts be covered in CS2 or DSA.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>Generally accessible. Some students may not be aware what a &ldquo;conch shell&rdquo; is, and it may be better to specify another object that all students are familiar with.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>(Bogaerts2014) used survivor analogy to explain locks as part of a larger unit in parallelism in a CS1 course. He mentions that the total amount
 of time spent on parallelism was larger in the section that used analogies and hands-on activities compared
 to the one that presented the topics in a traditional lecture-style format (4 hours vs 90 minutes). However,
@@ -242,22 +214,22 @@ delivered the material in a typical lecture-style fashion. (Bogaerts2017) extend
 original paper, but found that while student interest increased, the desire to learn more decreased. The authors
 theorize that this is because most of the students in the course were non-majors who will not be pursuing
 computing in the future.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p></li>
-
-<li><p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p></li>
+<li>
+<p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p>
+</li>
+<li>
+<p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

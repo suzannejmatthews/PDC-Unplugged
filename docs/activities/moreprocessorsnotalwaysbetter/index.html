@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -184,152 +184,128 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>This activity was originally proposed by Mary Smith and Srishti Srivastava.</p>
-
 <p><a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">Paper</a> (Srivastava2019) and <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/Srishti_Mary_EduHPC_SC2019_Presentation.pdf">slides</a>
 available on-line.</p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>See paper for details. In summary, the goal is to write the statement
 &ldquo;More Processors Are Not Always The Best&rdquo;, along with the indices of each letter.</p>
-
 <ul>
-<li><p>Sequential phase. In the sequential phase, a single student is instructed
+<li>
+<p>Sequential phase. In the sequential phase, a single student is instructed
 to first write the statement show above (task 1) and then write the index
 associated with each letter (0 .. 32, 36 if including spaces) underneath (task 2).
-Another student times how long it takes.</p></li>
-
-<li><p>In the &ldquo;Uniprocessor multi-tasking phase&rdquo;, the same student is asked to
+Another student times how long it takes.</p>
+</li>
+<li>
+<p>In the &ldquo;Uniprocessor multi-tasking phase&rdquo;, the same student is asked to
 interleve tasks 1 and 2. In other words, they first write a letter, then
 write an index, then write a letter, and so on. The second student times how
-long it takes, and compares it to the first result.</p></li>
-
-<li><p>In the &ldquo;two process parallel phase&rdquo;, one student completes task 1, while
+long it takes, and compares it to the first result.</p>
+</li>
+<li>
+<p>In the &ldquo;two process parallel phase&rdquo;, one student completes task 1, while
 another student completes task 2. A third student times how long it takes,
-and compares the performance to tasks one and two.</p></li>
-
-<li><p>In the &ldquo;multi-processor parallel phase&rdquo;, there are five total students.
+and compares the performance to tasks one and two.</p>
+</li>
+<li>
+<p>In the &ldquo;multi-processor parallel phase&rdquo;, there are five total students.
 The first student is assigned to write the phrase &ldquo;more processors are&rdquo;,
 the second to writing the phrase &ldquo;not always the best&rdquo;, and the third
 student is assigned to write the indices associated student 1&rsquo;s phrase.
 Student 4, however, must wait until student 3 completes before s/he can
 start writing his or her set of indices. The fifth student times how
-long it takes. This scenario is used to demonstrate Amdahl&rsquo;s law.</p></li>
+long it takes. This scenario is used to demonstrate Amdahl&rsquo;s law.</p>
+</li>
 </ul>
-
 <p>All together, the activity distinguishes between parallelism and concurrency,
 and introduces the notion of Amdahl&rsquo;s law and speedup.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
-<h3 id="pd-parallel-fundamentals-core-tier-1">PD/Parallel Fundamentals Core Tier 1</h3>
-
+<h3 id="pdparallel-fundamentals-core-tier-1">PD/Parallel Fundamentals Core Tier 1</h3>
 <p>1. Distinguish using computational resources for a faster answer from managing efficient access to a shared resource. [Familiarity]</p>
-
-<h3 id="pd-parallel-decomposition">PD/Parallel Decomposition</h3>
-
+<h3 id="pdparallel-decomposition">PD/Parallel Decomposition</h3>
 <p><strong>Core Tier 1</strong>*:</p>
-
 <p>1. Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
-
 <p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
-
 <p><strong>Core Tier 2</strong>:</p>
-
 <p>4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
-
 <p>5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</p>
-
-<h2 id="pd-parallel-algorithms-analysis-and-programming">PD/Parallel Algorithms, Analysis and Programming</h2>
-
+<h2 id="pdparallel-algorithms-analysis-and-programming">PD/Parallel Algorithms, Analysis and Programming</h2>
 <p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
-
 <p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
-
 <p>5. Characterize features of a workload that allow or prevent it from being naturally parallelized. [Familiarity]</p>
-
-<h2 id="pd-parallel-performance">PD/Parallel Performance</h2>
-
+<h2 id="pdparallel-performance">PD/Parallel Performance</h2>
 <p>2. Calculate the implications of Amdahl&rsquo;s law for a particular parallel algorithm. [Usage]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
-<li><p>Know Tasks and threads: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that.</p></li>
-
-<li><p>Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes</p></li>
-
-<li><p>Comprehend Speedup: Understand how to compute speedup, and what it means</p></li>
-
-<li><p>Know Amdahl&rsquo;s Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</p></li>
+<li>
+<p>Know Tasks and threads: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that.</p>
+</li>
+<li>
+<p>Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes</p>
+</li>
+<li>
+<p>Comprehend Speedup: Understand how to compute speedup, and what it means</p>
+</li>
+<li>
+<p>Know Amdahl&rsquo;s Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</p>
+</li>
 </ul>
-
 <h3 id="algorithm-topics">Algorithm Topics</h3>
-
 <ul>
-<li><p>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism.</p></li>
-
-<li><p>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</p></li>
-
-<li><p>Comprehend/Know Scalability in algorithms and architectures: Comprehend via several examples that having access more processors does not guarantee faster execution &mdash; the notion of inherent sequentiality</p></li>
-
-<li><p>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex computational structures</p></li>
-
-<li><p>Know Dependencies: Understand the impacts of dependencies</p></li>
+<li>
+<p>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism.</p>
+</li>
+<li>
+<p>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</p>
+</li>
+<li>
+<p>Comprehend/Know Scalability in algorithms and architectures: Comprehend via several examples that having access more processors does not guarantee faster execution &mdash; the notion of inherent sequentiality</p>
+</li>
+<li>
+<p>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex computational structures</p>
+</li>
+<li>
+<p>Know Dependencies: Understand the impacts of dependencies</p>
+</li>
 </ul>
-
 <h3 id="cross-cutting-and-advanced-topics">Cross Cutting and Advanced Topics</h3>
-
 <ul>
 <li>Know Concurrency: The degree of inherent parallelism in an algorithm, independent of how it is executed on a machine.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
-<li><p><strong>CS0/CS1/CS2</strong>: The authors of the activity presented the activity to
-students in CS0, CS1, and CS2 at several institutions.</p></li>
-
-<li><p><strong>DSA</strong>: In addition to CS2, TCPP recommends notion of threads, computation,
-dependencies be covered in either DSA or Systems.</p></li>
-
-<li><p><strong>Systems</strong>: In addition to CS2 and DSA, TCPP recommends notation of threads
-and dependencies be covered in Systems courses.</p></li>
+<li>
+<p><strong>CS0/CS1/CS2</strong>: The authors of the activity presented the activity to
+students in CS0, CS1, and CS2 at several institutions.</p>
+</li>
+<li>
+<p><strong>DSA</strong>: In addition to CS2, TCPP recommends notion of threads, computation,
+dependencies be covered in either DSA or Systems.</p>
+</li>
+<li>
+<p><strong>Systems</strong>: In addition to CS2 and DSA, TCPP recommends notation of threads
+and dependencies be covered in Systems courses.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>The activity requires vision and potentially some movement. If writing is
 being done somewhere central, students who have mobility issues may find
 participating in the writing components difficult.</p>
-
 <p>However, mobility-challenged students may be able to participate by being
 in the role of the student who times the tasks.  A blind student can also
 fill this role by pressing a stop watch when an instructor says &ldquo;go&rdquo;, and
 stopping the timer when the instructor says &ldquo;time&rdquo;. The instructor can then
 read out-loud how much time had elapsed.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Paper (Srivastava2019) performs assessment on this activity and another
 activity (FindOldestPenny). For this particular activity,
 assessment was performed on 102 students (77 male, 25 female) over four
@@ -345,30 +321,30 @@ Juniors had a statistically significant greater sense of instructor
 contribution than Freshmen or Sophomores. The authors suggest that
 that younger students may be more used to active learning strategies
 from K-12, while it may be more novel for older college students.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>S. Srivastava, M. Smith, A. Ghimire, and S. Gao, &ldquo;Assessing the integration of
+<li>
+<p>S. Srivastava, M. Smith, A. Ghimire, and S. Gao, &ldquo;Assessing the integration of
 parallel and distributed computing in early undergraduate computer science
 curriculum using unplugged activities&rdquo;, in <em>Proceedings of the Workshop on
 Education for High Performance Computing (EduHPC&rsquo;19)</em>, 2019, <em>to appear</em>.
-[Online]. Available: <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf</a></p></li>
-
-<li><p>M. Smith and S. Srivastava, &ldquo;Evaluating student engagement towards
+[Online]. Available: <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf</a></p>
+</li>
+<li>
+<p>M. Smith and S. Srivastava, &ldquo;Evaluating student engagement towards
 integrating parallel and distributed computing (PDC) topics in undergraduate
 level computer science curriculum&rdquo;, in <em>Proceedings of the 50th ACM
 Technical Symposium on Computer Science Education (SIGCSE&rsquo;19)</em>. 2019,
-pp. 1269–1269. [Online, Abstract Only]. Available: <a href="http://doi.acm.org/10.1145/3287324.3293854">http://doi.acm.org/10.1145/3287324.3293854</a></p></li>
+pp. 1269–1269. [Online, Abstract Only]. Available: <a href="http://doi.acm.org/10.1145/3287324.3293854">http://doi.acm.org/10.1145/3287324.3293854</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

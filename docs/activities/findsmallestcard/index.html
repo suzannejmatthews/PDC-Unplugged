@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -174,62 +174,42 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)</p>
-
 <p>No link to independent description publicly available. Please see details section for a synopsis.</p>
-
 <h3 id="similar-activites">Similar Activites</h3>
-
 <p><a href="https://www.pdcunplugged.org/activities/findoldestpenny/">FindOldestPenny</a>, <a href="https://www.pdcunplugged.org/activities/findyoungeststudentinclass/">FindYoungestStudent</a></p>
-
 <h3 id="other-activities-by-authors">Other activities by authors</h3>
-
 <p>(Bachelis1994): <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>. <a href="https://www.pdcunplugged.org/activities/cardsorting/">CardSorting</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
-  <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a></p>
-
-<hr />
-
+<a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a></p>
+<hr>
 <h2 id="details">Details</h2>
-
 <p>From (Bachelis1994):
 The goal is to find the smallest card (e.g. lowest value card) in a collection of 16 cards. The notion of a &ldquo;two-card comparator&rdquo; is discussed as part of the process (e.g. input is two cards, outputs the smaller of the two cards). The processor therefore employs a series of &ldquo;two-card comparators&rdquo; to sort the set of cards.</p>
-
 <h3 id="serial-case">Serial case:</h3>
-
 <ul>
 <li>Students recognize that to find the smallest card in a collection of 16 cards, it should take 15 comparisons.</li>
 <li>Ask the students: <em>how to make the process faster?</em></li>
 <li>The answer is to to use several processors and a &ldquo;divide and conquer&rdquo; methodology.</li>
 </ul>
-
 <h3 id="parallel-case">Parallel Case</h3>
-
 <p><strong>Two Students</strong>:</p>
-
 <ul>
 <li>Each student is given 8 cards</li>
 <li>Each student finds the minimum of the 8; then a &ldquo;global&rdquo; comparison is made between the two students to determine the global minimum.</li>
 <li>Ask the students: <em>how many time steps did this require?</em></li>
 <li>Answer: To find the minimum of 8 cards, a total of 7 comparisons are required. Since each student performed their comparisons simultaneously and in parallel (and assuming that each comparison takes a time step), a total of 7 time steps are required. The final global comparison requires an additional time step. Therefore 8 total time steps are required.</li>
 </ul>
-
 <p><strong>Four Students</strong>:</p>
-
 <ul>
 <li>Each student is assigned a number (1..4) and is given a subset of 4 cards.</li>
-<li>Each student finds the minimum of their 4 cards. At the end, students 1 and 2 compare their minimums, with student 2 receiving the minimum. Likewise, students 3 and 4 compare their minimums, with student 4<br />
+<li>Each student finds the minimum of their 4 cards. At the end, students 1 and 2 compare their minimums, with student 2 receiving the minimum. Likewise, students 3 and 4 compare their minimums, with student 4<br>
 receiving the minimum. Lastly, student 2 and 4 compare their minimum cards to determine the global minimum.</li>
 <li>Ask the students: <em>how many time steps did this require?</em></li>
 <li>Answer: Each student initially takes 3 comparisons to find the minimum of 4 cards. Since the students performed their comparisons simultaneous and in parallel (and assuming that each comparison takes a time step), a total of three time steps are needed for this step. Next, the comparison between students 1 and 2 happen independently from the comparison of students 3 and 4, and therefore can occur in parallel. This
 additional comparison takes 1 time step. The final comparison between students 2 and 4 takes one additional time step. Therefore, the total number of time steps is 3 + 1 + 1 = 5.</li>
 </ul>
-
 <p><strong>Eight students</strong></p>
-
 <ul>
 <li>Each student is assigned a number (1..8) and given a subset of two cards.</li>
 <li>Each student finds the minimum of their two cards. Then: Students 1 and 2 compare their minimums with student 2 receiving the minimum; Students 3 and 4 compare their minimums, with student 4 receiving the minimum; Students 5 and 6 compare their minimums, with student 6 receiving the minimum; Students 7 and 8 compare their minimums, with student 8 receiving the minimum. Next, students 2 and 4 compare their minimums, with student 4 receiving the result; students 6 and 8 compare their minimums, with student 8 receiving the result. Lastly, students 4 and 8 compare their final minimums, to output the global minimum.</li>
@@ -237,128 +217,89 @@ additional comparison takes 1 time step. The final comparison between students 2
 <li>Answer: Each student requires one time step to find the minimum of 2 cards. Since the students performed their comparisons simultaneous and in parallel (and assuming that each comparison takes a time step), a total of 1 time step is needed for this initial step. Next, note that the comparisons between students 1 and 2 happen independently from the comparison of students 3 and 4, and students 5 and 6, and students 7 and 8. These comparisons can therefore all happen in parallel, and take an additional time step. Next, observe that the comparison between students 2 and 4 happen independently from the comparison between students 6 and 8. These comparisons can therefore happen in parallel, and take an additional time step. The final comparison between students 4 and 8 requires one additional time step. Therefore, the total
 number of time steps is 1 + 1 + 1 + 1 = 4.</li>
 </ul>
-
 <p>The class then should asked to calculate the speedup of the parallel cases over the serial cases.</p>
-
 <h3 id="constant-time-case">Constant Time Case</h3>
-
-<p>Another parallel algorithm can be demonstrated (Valiant1975). To find the minimum of <em>n</em> numbers (or <em>n</em> cards with unique numbers) employ <em>n<sup>2</sup></em> processors.</p>
-
+<p>Another parallel algorithm can be demonstrated (Valiant1975). To find the minimum of <em>n</em> numbers (or <em>n</em> cards with unique numbers) employ <em>n<!-- raw HTML omitted -->2<!-- raw HTML omitted --></em> processors.</p>
 <p>The case for <em>n</em> = 4 is illustrated below. Arrange the students into a 4 x 4 grid. The students along the diagonal are each handed a card. To do this activity with playing cards, we recommend that over-sized
 cards are used, or that numbers are written on a large piece of paper (front and back). In the example shown below (taken from Bachelis1994), the numbers 5, 1, 9 and 8 are employed. The initial grid is shown.</p>
-
-<pre><code class="language-text">5 : - : - : - :
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">5 : - : - : - :
 - : 1 : - : - :
 - : - : 9 : - :
 - : - : - : 8 :
-</code></pre>
-
-<p>The students along the diagonal each have a number, which they hold up, so that everyone in their row can see. The <code>-</code> denotes other students sitting at their desks.</p>
-
+</code></pre></div><p>The students along the diagonal each have a number, which they hold up, so that everyone in their row can see. The <code>-</code> denotes other students sitting at their desks.</p>
 <ul>
 <li>During the first step, the students note holding cards look down their rows and note the the number that they can see.</li>
 <li>During the second step, the along the diagonal hold their cards up so that it is visible to the other students in their column. The students at the column then raise their hand if they number they saw along
 their row (the first number) is greater than the number they see along their column (second number).</li>
 </ul>
-
 <p>For the matrix above, we expect the following students to raise their hands (&lsquo;denoted with U&rsquo;):</p>
-
-<pre><code class="language-text">5 : U : - : - :
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">5 : U : - : - :
 - : 1 : - : - :
 U : U : 9 : U :
 U : U : - : 8 :
-</code></pre>
-
-<p>The student whose row has no hands raised is holding the smallest number. In the above scenario, that student is the one holding the number <code>1</code>. That is therefore the minimum number.</p>
-
+</code></pre></div><p>The student whose row has no hands raised is holding the smallest number. In the above scenario, that student is the one holding the number <code>1</code>. That is therefore the minimum number.</p>
 <p>From (Bachelis1994): The value of this exercise is that &ldquo;even though each processor knows very little about the global picture, by acting in concert they can solve the problem at hand&rdquo;.</p>
-
 <p>To achieve this with 16 numbers, there can be four contests each with 4 numbers, followed by one final contest with the final four numbers.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
-<h3 id="pd-parallel-decomposition">PD/Parallel Decomposition</h3>
-
+<h3 id="pdparallel-decomposition">PD/Parallel Decomposition</h3>
 <p><strong>Core Tier 1:</strong></p>
-
 <p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
-
 <p><strong>Core Tier 2:</strong></p>
-
 <p>4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
-
-<h3 id="pd-parallel-algorithms-analysis-programming-core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
-
+<h3 id="pdparallel-algorithms-analysis--programming---core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
 <p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
-
 <p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
-
 <p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
 <li>Comprehend Performance Metrics (Speedup): Understand how to compute speedup, and what it means</li>
 </ul>
-
 <h3 id="algorithms-topics">Algorithms Topics</h3>
-
 <ul>
 <li>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism</li>
 <li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
 <li>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex
 computational structures</li>
-<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as merge-sort &hellip; how the same structure that enables divide and conquer (sequential) algorithms
+<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as merge-sort . . . how the same structure that enables divide and conquer (sequential) algorithms
 exposes opportunities for parallel computation</li>
 <li>Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li><strong>CS1</strong>: TCPP recommends that the notion of dependencies be covered as early as CS1.</li>
 <li><strong>CS2/DSA</strong>: TCPP recommends that concepts of speedup, divide-and-conquer and selection be covered in either CS2 or DSA.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>The visual aspect of this activity may make it less accessible for blind students. However, there are special decks of cards that have Braille printed on them. This will allow blind students to participate equally in this exercise.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Unknown. However, the related activities have assessment.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
-vol. 94, no. 4, pp. 176–186, 1994.</p></li>
-
-<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
-on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
-
-<li><p>L. Valiant, &ldquo;Parallelism in Comparison Problems&rdquo;, in <em>SIAM Journal of Computing</em>. vol. 4, no. 3, pp. 348&ndash;355. 1975.</p></li>
+<li>
+<p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p>
+</li>
+<li>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&quot;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+</li>
+<li>
+<p>L. Valiant, &ldquo;Parallelism in Comparison Problems&rdquo;, in <em>SIAM Journal of Computing</em>. vol. 4, no. 3, pp. 348&ndash;355. 1975.</p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

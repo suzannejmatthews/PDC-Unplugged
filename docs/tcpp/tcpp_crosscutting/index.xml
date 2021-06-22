@@ -29,7 +29,7 @@ There are several on-line write-ups about the Kitchen Analogy. We specifically l
       <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper available online:
-Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+ Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
     </item>
     
     <item>
@@ -40,8 +40,8 @@ Details See paper for full details. This activity demonstrates how an algorithm 
       <guid>https://www.pdcunplugged.org/activities/nondeterministicsorting/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper and poster for full details. A high level summary is provided below:
- A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
+ Details See paper and poster for full details. A high level summary is provided below:
+  A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ Details See paper and poster for full details. A high level summary is provided 
       <guid>https://www.pdcunplugged.org/activities/concerttickets/</guid>
       <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
 No on-line resources available. See details for description.
-Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
  Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best available seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
     </item>
     
@@ -64,8 +64,8 @@ Details CS1 Use-Case The following scenario is presented to students entering CS
       <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
-Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
- Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+ Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+  Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@ Details See paper for details. In summary, the goal is to write the statement &a
       <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
- Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF   CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]   TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
     </item>
     
     <item>
@@ -87,7 +87,7 @@ Paper and materials available online:
       <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
-Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+ Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
 The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
     </item>
     
@@ -99,7 +99,7 @@ The Byzantine Generals problem is a classic description of the consensus problem
       <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
-Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
+ Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
 Two students volunteer to be robots. A drinking glass is placed at a visible point in the classroom, purporting to contain &amp;ldquo;juice&amp;rdquo;.</description>
     </item>
     

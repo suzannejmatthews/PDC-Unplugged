@@ -19,9 +19,9 @@
       <guid>https://www.pdcunplugged.org/activities/plantingtrees/</guid>
       <description>Original Author/link Described by Yifat Ben-David Kolikant (Kolinkat2001). Two introduction questions presented by Steven Bogaerts as part of his &amp;ldquo;real-life analogies&amp;rdquo; (Bogaerts2014, Bogaerts2017).
 No public description avaialable. See Details section for more information.
-Details Start with some generals questions from Steven Bogaerts:
+ Details Start with some generals questions from Steven Bogaerts:
  &amp;ldquo;If I can shovel my driveway in 1 hour, how long would you expect it to take if someone equally capable were to help me?&amp;rdquo;
-&amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
+  &amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ Details Start with some generals questions from Steven Bogaerts:
       <guid>https://www.pdcunplugged.org/activities/stuffingenvelopes/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
+ Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
     </item>
     
     <item>
@@ -43,8 +43,8 @@ Details Prior to the activity, students should be assigned to teams of four. The
       <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
-Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
- Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+ Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+  Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ Details See paper for details. In summary, the goal is to write the statement &a
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
 (Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
-Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+ Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
     </item>
     
     <item>

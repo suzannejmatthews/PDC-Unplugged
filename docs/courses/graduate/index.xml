@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper available online:
-Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+ Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@ Details See paper for full details. This activity demonstrates how an algorithm 
       <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+ Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -41,8 +41,8 @@ Details See paper for details. In summary, this activity presents a directed gra
       <guid>https://www.pdcunplugged.org/activities/nondeterministicsorting/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper and poster for full details. A high level summary is provided below:
- A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
+ Details See paper and poster for full details. A high level summary is provided below:
+  A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
     </item>
     
     <item>

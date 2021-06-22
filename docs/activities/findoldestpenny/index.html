@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -180,94 +180,60 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>This activity was originally proposed by Mary Smith and Srishti Srivastava,
 with consultation from Brett A Becker.</p>
-
 <p><a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">Paper</a> (Srivastava2019) and <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/Srishti_Mary_EduHPC_SC2019_Presentation.pdf">slides</a>
 available on-line.</p>
-
 <h3 id="similar-activities">Similar Activities</h3>
-
 <p><a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>, <a href="https://www.pdcunplugged.org/activities/findyoungeststudentinclass/">FindYoungestStudent</a></p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>See paper for details. In summary, the goal is to find the oldest penny in a
 pile of pennies. This is first done sequentially, with one student trying
 to determine the oldest penny in a group of 50 pennies. Next, two students are
 employed, with each student getting a bag of 25 pennies. Lastly, four
 students get two pennies each, while a fifth student gets 42 pennies. This
 last scenario indicates the importance of load-balancing, and Amdahl&rsquo;s Law.</p>
-
 <p>This activity is very similar to FindYoungestStudentinClass proposed by
 Chitra P (Chitra2019)</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
-<h3 id="pd-parallel-decomposition-core-tier-1">PD/Parallel Decomposition Core Tier 1</h3>
-
+<h3 id="pdparallel-decomposition-core-tier-1">PD/Parallel Decomposition Core Tier 1</h3>
 <p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
-
-<h3 id="pd-parallel-algorithms-core-tier-2">PD/Parallel Algorithms Core Tier 2</h3>
-
+<h3 id="pdparallel-algorithms-core-tier-2">PD/Parallel Algorithms Core Tier 2</h3>
 <p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
-
-<h3 id="pd-parallel-performance">PD/Parallel Performance</h3>
-
+<h3 id="pdparallel-performance">PD/Parallel Performance</h3>
 <p>1. Detect and correct a load imbalance. [Usage]</p>
-
 <p>2. Calculate the implications of Amdahl&rsquo;s law for a particular parallel algorithm [Usage]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
 <li>Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes.</li>
 <li>Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes.</li>
 <li>Know Amdahl&rsquo;s Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</li>
 </ul>
-
 <h3 id="algorithms-topics">Algorithms Topics</h3>
-
 <ul>
 <li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
 <li>Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. (0.5 hours)</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li><strong>CS0/CS1/CS2</strong>: The authors of the activity presented the activity to
-students in CS0, CS1, and CS2 at several institutions.<br /></li>
+students in CS0, CS1, and CS2 at several institutions.</li>
 <li><strong>DSA</strong>: In addition to CS2, TCPP recommends that computation, performance and selection topics
 be covered in DSA.</li>
 <li><strong>Systems</strong>: In addition to DSA, TCPP recommends that load balancing be covered in Systems.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>This activity may be difficult for students who are blind. For those students,
 the similar activity by Chitra P (<a href="https://www.pdcunplugged.org/activities/findyoungeststudentinclass/">FindYoungestStudent</a>) may be a better choice.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Paper (Srivastava2019) performs assessment on this activity and another
 activity (<a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>). For this particular activity,
 assessment was performed on 98 students (73 male, 25 female) over four
@@ -282,30 +248,30 @@ in college, 23-27 year-olds had a statistically greater value of the activity an
 of instructor contribution than 18-22 year olds. The authors suggest that
 that younger students may be more used to active learning strategies
 from K-12, while it may be more novel for older college students.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>S. Srivastava, M. Smith, A. Ghimire, and S. Gao, &ldquo;Assessing the integration of
+<li>
+<p>S. Srivastava, M. Smith, A. Ghimire, and S. Gao, &ldquo;Assessing the integration of
 parallel and distributed computing in early undergraduate computer science
 curriculum using unplugged activities&rdquo;, in <em>Proceedings of the Workshop on
 Education for High Performance Computing (EduHPC&rsquo;19)</em>, 2019, <em>to appear</em>.
-[Online]. Available: <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf</a></p></li>
-
-<li><p>M. Smith and S. Srivastava, &ldquo;Evaluating student engagement towards
+[Online]. Available: <a href="https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf">https://tcpp.cs.gsu.edu/curriculum/sites/default/files/ws_eduhpcp110s2-file1.pdf</a></p>
+</li>
+<li>
+<p>M. Smith and S. Srivastava, &ldquo;Evaluating student engagement towards
 integrating parallel and distributed computing (PDC) topics in undergraduate
 level computer science curriculum&rdquo;, in <em>Proceedings of the 50th ACM
 Technical Symposium on Computer Science Education (SIGCSE&rsquo;19)</em>. 2019,
-pp. 1269–1269. [Online, Abstract Only]. Available: <a href="http://doi.acm.org/10.1145/3287324.3293854">http://doi.acm.org/10.1145/3287324.3293854</a></p></li>
+pp. 1269–1269. [Online, Abstract Only]. Available: <a href="http://doi.acm.org/10.1145/3287324.3293854">http://doi.acm.org/10.1145/3287324.3293854</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

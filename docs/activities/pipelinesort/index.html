@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -166,43 +166,26 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). It was also mentioned in (Kitche1992),
 but (Maxim1990) is listed as a reference.</p>
-
 <p>No link to independent description publicly available. Please see details section for a synopsis.</p>
-
 <h3 id="similiar-exercises">Similiar Exercises:</h3>
-
 <p>Sorting: <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>, <a href="https://www.pdcunplugged.org/activities/parallelradixsort/">ParallelRadixSort</a>, <a href="https://www.pdcunplugged.org/activities/cardsorting/">CardSorting</a>, <a href="https://www.pdcunplugged.org/activities/sortingnetwork/">SortingNetwork</a></p>
-
 <h3 id="other-activities-by-authors">Other activities by authors</h3>
-
 <p>(Bachelis1994): <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>, <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>, <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>, <a href="https://www.pdcunplugged.org/activities/cardsorting/">CardSorting</a></p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>From (Bachelis1994): The goal of this exercise is to illustrate how sorting can occur in a stream/pipeline. The instructor feeds in numbers at one end of the pipeline, and the sorted output appears at the end.
 The number of pipeline stages must equal the number of numbers to be sorted. Each student represents a separate pipeline stage, and receives cards from the right and passes them to the left.</p>
-
 <p>Students stand facing the classroom in a line. The instructor stands at the right-most end of the line and has the input numbers (which are written on large cards). The instructor is in charge of placing input into the pipeline and calling out the time steps.</p>
-
 <p>Students are given a set of instructions that read as follows:</p>
-
-<pre><code class="language-text">1. Receive number from your right. 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. Receive number from your right. 
 2. If you have two cards, pass the larger to your left during the next time step.
-3. If, after you have started to receive cards from the right, you don't receive 
+3. If, after you have started to receive cards from the right, you don&#39;t receive 
    a card from the right, pass one to the right whenever you have one to pass. 
-</code></pre>
-
-<p>The students follow the instructions every time step. The instructor calls out the time step with each iteration. To illustrate the sort, we consider a scenario with six numbers and six student processors. The instructor has the following six numbers written on separate index cards in order: 2, 6, 3, 7, 4, 1. The pipeline at the start is shown below (remember, students are facing the front of the class.)</p>
-
-<pre><code class="language-text">Step [Intr]          [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]
+</code></pre></div><p>The students follow the instructions every time step. The instructor calls out the time step with each iteration. To illustrate the sort, we consider a scenario with six numbers and six student processors. The instructor has the following six numbers written on separate index cards in order: 2, 6, 3, 7, 4, 1. The pipeline at the start is shown below (remember, students are facing the front of the class.)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Step [Intr]          [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]
 0:   [1,4,7,3,6,2]          
 1    [1,4,7,3,6]       2 
 2:   [1,4,7,3]        (6,2)
@@ -222,23 +205,16 @@ The number of pipeline stages must equal the number of numbers to be sorted. Eac
 16:  [1,2,3,4,6]             7
 17:  [1,2,3,4,6]       7
 18:  [1,2,3,4,6,7]
-</code></pre>
-
-<h3 id="variation-kitchen1994">Variation (Kitchen1994)</h3>
-
+</code></pre></div><h3 id="variation-kitchen1994">Variation (Kitchen1994)</h3>
 <p>(Kitchen1994) has a modified set of instructions from (Bachelis1994), where the output appears on the other side of the pipeline (instead of being returned back to the instructor). The numbers appear sorted
 (in ascending order) out of the stream.</p>
-
-<pre><code class="language-text">1. Receive number from your right. 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. Receive number from your right. 
 2. If you have two cards, pass the smaller to your left during the next time step.
-3. If, after starting to receive cards from the right, you don't receive 
+3. If, after starting to receive cards from the right, you don&#39;t receive 
    a card from the right (and you have one card), pass your number to the left 
    during the next time step. 
-</code></pre>
-
-<p>Here is how the pipeline operates using the description from (Kitchen1994):</p>
-
-<pre><code class="language-textStep">[Intr]               [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]   [Output]
+</code></pre></div><p>Here is how the pipeline operates using the description from (Kitchen1994):</p>
+<pre><code class="language-textStep" data-lang="textStep">[Intr]               [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]   [Output]
 0:   [1,4,7,3,6,2]          
 1    [1,4,7,3,6]       2 
 2:   [1,4,7,3]        (6,2)
@@ -258,67 +234,50 @@ The number of pipeline stages must equal the number of numbers to be sorted. Eac
 16:  []                                                 (7,6)     [4,3,2,1] 
 17:  []                                                    7      [6,4,3,2,1]
 18:  []                                                           [7,6,4,3,2,1]  
-</code></pre>
-
-<p>(Kitche1994) recommends pointing out to the students that the algorithm does not automatically adapt to the problem size, and that when the set of numbers exceeds the number of pipeline stages, the
+</code></pre><p>(Kitche1994) recommends pointing out to the students that the algorithm does not automatically adapt to the problem size, and that when the set of numbers exceeds the number of pipeline stages, the
 algorithm breaks down. They recommend that students act this out (i.e., remove one pipeline stage and use the same set of numbers) if they have trouble visualizing why this is the case.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
-<h3 id="pd-parallel-algorithms-analysis-and-programming">PD/Parallel Algorithms, Analysis and Programming</h3>
-
+<h3 id="pdparallel-algorithms-analysis-and-programming">PD/Parallel Algorithms, Analysis and Programming</h3>
 <p><strong>Elective</strong>:
 9. Give examples of problems where pipelining would be an effective means of parallelization. [Familiarity]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <p>N/A</p>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li><strong>K-12</strong>: (Bachelis1994) recommends introducing concepts to students in a secondary-school mathematics or computer science class.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>This activity is generally accessible. For classrooms that contain blind students, we recommended that the cards being passed have Braille on them, so that the blind students
 can participate equally.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Unknown.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
-on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
-
-<li><p>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.
-Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org/10.1145/142040.142064</a></p></li>
-
-<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
-vol. 94, no. 4, pp. 176–186, 1994.</p></li>
+<li>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&quot;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+</li>
+<li>
+<p>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.
+Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org/10.1145/142040.142064</a></p>
+</li>
+<li>
+<p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

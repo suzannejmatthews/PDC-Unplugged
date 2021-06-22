@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -166,94 +166,55 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).</p>
-
 <p>No link to independent description available. See Details for a synopsis.</p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.</p>
-
 <p>They are presented with the following algorithm:</p>
-
-<pre><code class="language-text">1. flip coin.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. flip coin.
 2. check if heads.
 2. If so, raise hand.
-</code></pre>
-
-<p>The goal is to determine the total number of heads over all the coin flips.</p>
-
+</code></pre></div><p>The goal is to determine the total number of heads over all the coin flips.</p>
 <h3 id="illustrating-mimd">Illustrating MIMD</h3>
-
 <p>When the instructor says &ldquo;go&rdquo;, each executes the algorithm and raises their hand if they receive heads. The instructor counts the number of raised hands to determine the final result.  It should be emphasized to students watching the exercise that each student acts independently and executes the algorithm at their own pace.</p>
-
 <h3 id="illustrating-simd">Illustrating SIMD</h3>
-
 <p>The instructor reads the instructions out loud step by step. As the instructor reads each instruction, the student processors perform the instruction in lock step fashion. Students can only perform their instruction when the instructor reads it aloud. Thus,</p>
-
 <ul>
 <li>When the instructor says &ldquo;flip coin&rdquo;, all the students flip coins.</li>
 <li>When the instructor says &ldquo;check if heads&rdquo;, all the students look down to see if they got heads on their coin flip.</li>
 <li>When the instructor says &ldquo;raise hand if heads&rdquo;, all the students who got heads raise their hands.</li>
 </ul>
-
 <p>At the end, the instructor counts off the number of raised hands to determine the number of heads. This exercise emphasizes to students that SIMD instructions are executed in lock-step fashion, in comparison
 to MIMD, where each thread has more autonomy to execute their instructions.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
-<h3 id="pd-parallel-architecture">PD/Parallel Architecture</h3>
-
+<h3 id="pdparallel-architecture">PD/Parallel Architecture</h3>
 <p><strong>Core Tier 2</strong></p>
-
 <p>3. Characterize the kinds of tasks that are a natural match for SIMD machines.</p>
-
 <p><strong>Elective</strong>:
 4. Describe the advantages and limitations of GPUs vs. CPUs.</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="architecture-topics">Architecture Topics</h3>
-
 <ul>
 <li>Know SIMD/Vector (e.g., SSE, Cray): Describe uses of SIMD/Vector (same operation on multiple data items)</li>
 <li>Know MIMD: Identify MIMD instances in practice (multicore, cluster, etc.)</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li><strong>Systems</strong>: TCPP recommends that architecture topics be covered in a systems course.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>This activity may be difficult for students who are visually impaired. To enable those students to participate in the exercise, we suggest giving students a larger coin or tile (say a dominos tile or mahjong tile), where the difference between the two sides can be clearly distinguished.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>In  (Kitchen1992), it is mentioned that a component of this exercise was used at an NSF Undergraduate Faculty Enhancement workshop at Colgate University in the Summer of 1991. A panelist at SuperComputing&rsquo;91 also mentioned that the SIMD component of this exercise was used successfully in an introductory parallel computing course at Bucknell University. No formal assessment mentioned.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
 <li>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.
 Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org/10.1145/142040.142064</a></li>
@@ -263,7 +224,7 @@ Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

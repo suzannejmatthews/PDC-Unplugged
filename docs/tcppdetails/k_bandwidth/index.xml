@@ -19,8 +19,8 @@
       <guid>https://www.pdcunplugged.org/activities/longdistancephonecall/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - &amp;ldquo;Distributed Multiprocessing&amp;rdquo;, Slide 26.
- Available in: PPT and PDF Also described in (Neeman2006)  CS2013 Knowledge Unit Coverage Parallel Architecture (Elective) 8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]
-TCPP Topics Coverage Architecture Topics  Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</description>
+ Available in: PPT and PDF Also described in (Neeman2006)   CS2013 Knowledge Unit Coverage Parallel Architecture (Elective) 8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]
+ TCPP Topics Coverage Architecture Topics   Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</description>
     </item>
     
   </channel>

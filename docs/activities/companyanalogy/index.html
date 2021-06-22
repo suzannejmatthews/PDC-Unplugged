@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -168,112 +168,73 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).</p>
-
 <p>No web-link to independent description available. See paper (Giacaman2012) for
 details.</p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>The company analogy is used to introduce multicore systems:</p>
-
 <ul>
 <li>The processor is a &ldquo;company&rdquo; with &ldquo;desks&rdquo; representing multiple cores.</li>
 <li>Students (&ldquo;employees&rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes).</li>
-<li>Work is written on &ldquo;job cards&rdquo; and represent tasks/runnables to be executed.<br /></li>
+<li>Work is written on &ldquo;job cards&rdquo; and represent tasks/runnables to be executed.</li>
 </ul>
-
 <p>To illustrate (under)utilization and resource contention/context switching:</p>
-
 <ul>
 <li>Optimally, one employee would be hired for every desk.</li>
 <li>If less employees are hired, then there are empty desks (under-utilization).</li>
 <li>If more employees are hired than there are desks, then some employees will have to wait until another employee gets up (resource contention) before sitting down (context switching).</li>
 </ul>
-
 <p>To introduce static vs dynamic scheduling:</p>
-
 <ul>
 <li><strong>Static scheduling</strong>: Each employee gets a subset of the job cards and sits at their desk until they are done.</li>
 <li><strong>Dynamic scheduling</strong>: The cards start in a large pile in front of the room. When an employee is done processing their card, they request another card to process.</li>
 </ul>
-
 <p>Alternatively, the activity can be actually acted out with job cards, desks, and students.</p>
-
 <p>The company analogy can also be introduced with a question (from Bogaerts2014):</p>
-
 <blockquote>
 <p>&ldquo;If I ran a company by myself working 100 hours per week, how much time will I need if I hire an assistant?&rdquo;</p>
 </blockquote>
-
 <p>The question can be used to introduce the boss-worker pattern.</p>
-
 <p>Note that this can stay an analogy, or be dramatized with students in a classroom setting.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h3 id="parallel-architecture-core-tier-2">Parallel Architecture (Core Tier 2)</h3>
-
 <p>2. Describe the SMP architecture and note its key features. [Familiarity]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="architecture-topics">Architecture Topics</h3>
-
 <ul>
 <li>Know MIMD: Identify MIMD instances in practice (<strong>multicore</strong>, cluster, e.g.), and know the difference between execution of tasks and threads (0.1-0.5 hours)</li>
 </ul>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
 <li>Know Tasks and threads: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that (e.g., OpenMP, Intel TBB, etc.) (0.5 hours)</li>
 <li>Comprehend Computation Decomposition Strategies: Understand different ways to assign computations to threads or processes</li>
 <li>Comprehend Static Scheduling and mapping: Understand how to map and schedule computations before runtime.</li>
 <li>Comprehend Dynamic Scheduling and mapping: Understand how to map and schedule computations at runtime.</li>
 </ul>
-
 <h3 id="algorithm-topics">Algorithm Topics</h3>
-
 <ul>
 <li>Comprehend Work: Observe the impact of computational work (e.g., the total number of tasks executed) on complexity measures such as power consumption (0.5 hours)</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li><strong>OO</strong> Giacaman used the analogies in a second year computer science course (beyond data structures) where students got their first taste of object-oriented programming.</li>
 <li><strong>Systems</strong>: The analogies above would also be useful in a Systems course.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>As an analogy, this is generally accessible, though care must be taken to ensure that those who are blind have an understanding of the components of a company so that they can visualize what is going on inside their heads.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Giacaman presented the analogies as a way of introducing programming concepts in
 a object oriented programming course. Of the 218 students in the course, 105
 completed survey. 93% of the students reported liking the way material was
 presented (47% strongly agree, 46% agree). Of the 105 respondents, 16 specifically
 mentioned the use of the analogies as being &ldquo;most helpful&rdquo; to their learning.</p>
-
 <p>(Bogaerts2014) used the question component of the company analogy as part of a larger unit in parallelism in a CS1 course. He mentions that the total amount
 of time spent on parallelism was larger in the section that used analogies and hands-on activities compared
 to the one that presented the topics in a traditional lecture-style format (4 hours vs 90 minutes). However,
@@ -286,28 +247,29 @@ delivered the material in a typical lecture-style fashion. (Bogaerts2017) extend
 original paper, but found that while student interest increased, the desire to learn more decreased. The authors
 theorize that this is because most of the students in the course were non-majors who will not be pursuing
 computing in the future.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>N. Giacaman, &ldquo;Teaching by example: Using analogies and live coding
+<li>
+<p>N. Giacaman, &ldquo;Teaching by example: Using analogies and live coding
 demonstrations to teach parallel computing concepts to undergraduate students&rdquo;
 in <em>Proceedings of the 2012 IEEE 26th International Parallel and Distributed
 Processing Symposium Workshops &amp; PhD Forum (IPDPSW&rsquo;12)</em>, Washington, DC, USA:
-IEEE Computer Society, 2012, pp. 1295–1298. Available: <a href="http://dx.doi.org/10.1109/IPDPSW.2012.158">http://dx.doi.org/10.1109/IPDPSW.2012.158</a></p></li>
-
-<li><p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p></li>
-
-<li><p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p></li>
+IEEE Computer Society, 2012, pp. 1295–1298. Available: <a href="http://dx.doi.org/10.1109/IPDPSW.2012.158">http://dx.doi.org/10.1109/IPDPSW.2012.158</a></p>
+</li>
+<li>
+<p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p>
+</li>
+<li>
+<p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

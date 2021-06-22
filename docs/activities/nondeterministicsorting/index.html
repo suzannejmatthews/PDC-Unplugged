@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -176,114 +176,95 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Paulo A.G. Sivilotti and Scott Pike</p>
-
 <p><a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf">Paper</a> and <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf">poster</a> available online:</p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>See paper and poster for full details. A high level summary is provided below:</p>
-
 <ul>
-<li><p>A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</p></li>
-
-<li><p>When the instructor says &ldquo;go&rdquo;, students mill about, comparing index cards with each other. If the other student&rsquo;s index card is out of order with respect to their position in the array (e.g., if the goal is to sort from smallest to largest, and if someone at a lower index has a index card whose value is higher than yours), then the students swap index cards.</p></li>
-
-<li><p>When each student believes that the array is sorted they raise their hands. When all the students&rsquo; hands are raised, the students line up according to their positions of the array and display their index cards. The array should be sorted.</p></li>
+<li>
+<p>A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</p>
+</li>
+<li>
+<p>When the instructor says &ldquo;go&rdquo;, students mill about, comparing index cards with each other. If the other student&rsquo;s index card is out of order with respect to their position in the array (e.g., if the goal is to sort from smallest to largest, and if someone at a lower index has a index card whose value is higher than yours), then the students swap index cards.</p>
+</li>
+<li>
+<p>When each student believes that the array is sorted they raise their hands. When all the students&rsquo; hands are raised, the students line up according to their positions of the array and display their index cards. The array should be sorted.</p>
+</li>
 </ul>
-
 <p><strong>Learning Objectives</strong>
 The paper states that the activity has the following learning objectives:</p>
-
 <ul>
-<li><p>Deterministic, sequential algorithms are often an over-specification of a non-determistic sorting algorithm.</p></li>
-
-<li><p>Every execution of the non-determistic algorithm yields a sorted array.</p></li>
-
-<li><p>Good metrics (for termination) are not always obvious</p></li>
-
-<li><p>An action system terminates when it reaches a fixed point.</p></li>
+<li>
+<p>Deterministic, sequential algorithms are often an over-specification of a non-determistic sorting algorithm.</p>
+</li>
+<li>
+<p>Every execution of the non-determistic algorithm yields a sorted array.</p>
+</li>
+<li>
+<p>Good metrics (for termination) are not always obvious</p>
+</li>
+<li>
+<p>An action system terminates when it reaches a fixed point.</p>
+</li>
 </ul>
-
-<p><strong>Tips from the authors</strong>
-* Ensure that students cannot see other people&rsquo;s index cards from far away; otherwise, they may make implicit comparisons.</p>
-
+<p><strong>Tips from the authors</strong></p>
 <ul>
-<li>Arrays that are too large take too long to complete. Suggest limiting to 10-15 students for the activity.</li>
+<li>
+<p>Ensure that students cannot see other people&rsquo;s index cards from far away; otherwise, they may make implicit comparisons.</p>
+</li>
+<li>
+<p>Arrays that are too large take too long to complete. Suggest limiting to 10-15 students for the activity.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h2 id="formal-models-and-semantics">Formal Models and Semantics</h2>
-
 <p>6. Decide if a specific execution is linearizable or not.</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="algorithms-topics">Algorithms Topics</h3>
-
 <ul>
 <li>Know Sorting: Observe several sorting algorithms for varied platforms &mdash; together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses</li>
 </ul>
-
 <h3 id="cross-cutting-and-advanced-topics">Cross cutting and Advanced Topics</h3>
-
 <ul>
 <li>Know Non-determinism: Different execution sequences can lead to different results hence algorithm design either be tolerant to such phenomena or be able to take advantage of this.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <p>The instructors used this activity in an upper-level undergraduate course on parallel programming. They also recommend the activity for graduate students.</p>
-
 <ul>
 <li><strong>CS2/DSA</strong>: TCPP recommends that sorting concepts that covered in CS2 and/or DSA.</li>
 <li><strong>Systems</strong>: In addition to DSA, TCPP recommends that non-determinism can be presented in a systems course.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>This activity may be difficult for students who are mobility challenged or have low vision. To assist students in the latter category, we suggest that cards
 be purchased that have visible numbers and Braille.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>No assessment provided.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>P. A. G. Sivilotti and S. M. Pike, &ldquo;The suitability of kinesthetic learning activities for teaching distributed algorithms&rdquo;, in <em>Proceedings of the
+<li>
+<p>P. A. G. Sivilotti and S. M. Pike, &ldquo;The suitability of kinesthetic learning activities for teaching distributed algorithms&rdquo;, in <em>Proceedings of the
 38th SIGCSE Technical Symposium on Computer Science Education (SIGCSE&rsquo;07)</em>, 2007, pp. 362–366.
-Available Online: <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf</a>. Also: <a href="http://doi.acm.org/10.1145/1227310.1227438">http://doi.acm.org/10.1145/1227310.1227438</a></p></li>
-
-<li><p>P. A. G. Sivilotti, &ldquo;Kinesthetic learning activities in an upper-division computer science course&rdquo;, in <em>National Academy of Engineering Frontiers
-of Engineering Education symposium</em>, 2010, <em>poster</em>; <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf</a></p></li>
+Available Online: <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/sigcse07.pdf</a>. Also: <a href="http://doi.acm.org/10.1145/1227310.1227438">http://doi.acm.org/10.1145/1227310.1227438</a></p>
+</li>
+<li>
+<p>P. A. G. Sivilotti, &ldquo;Kinesthetic learning activities in an upper-division computer science course&rdquo;, in <em>National Academy of Engineering Frontiers
+of Engineering Education symposium</em>, 2010, <em>poster</em>; <a href="http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf">http://web.cse.ohio-state.edu/~sivilotti.1/research/publications/nae-fee2010_poster.pdf</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

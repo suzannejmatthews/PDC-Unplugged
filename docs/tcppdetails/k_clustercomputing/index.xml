@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
-Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+ Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
 The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
     </item>
     

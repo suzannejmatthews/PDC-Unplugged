@@ -19,9 +19,9 @@
       <guid>https://www.pdcunplugged.org/activities/plantingtrees/</guid>
       <description>Original Author/link Described by Yifat Ben-David Kolikant (Kolinkat2001). Two introduction questions presented by Steven Bogaerts as part of his &amp;ldquo;real-life analogies&amp;rdquo; (Bogaerts2014, Bogaerts2017).
 No public description avaialable. See Details section for more information.
-Details Start with some generals questions from Steven Bogaerts:
+ Details Start with some generals questions from Steven Bogaerts:
  &amp;ldquo;If I can shovel my driveway in 1 hour, how long would you expect it to take if someone equally capable were to help me?&amp;rdquo;
-&amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
+  &amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ There are several on-line write-ups about the Kitchen Analogy. We specifically l
       <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper available online:
-Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+ Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@ Details See paper for full details. This activity demonstrates how an algorithm 
       <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+ Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -64,8 +64,8 @@ Details See paper for details. In summary, this activity presents a directed gra
       <guid>https://www.pdcunplugged.org/activities/nondeterministicsorting/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper and poster for full details. A high level summary is provided below:
- A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
+ Details See paper and poster for full details. A high level summary is provided below:
+  A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@ Details See paper and poster for full details. A high level summary is provided 
       <guid>https://www.pdcunplugged.org/activities/concerttickets/</guid>
       <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
 No on-line resources available. See details for description.
-Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
  Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best available seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
     </item>
     

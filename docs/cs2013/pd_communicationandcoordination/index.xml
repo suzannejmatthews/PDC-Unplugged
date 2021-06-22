@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/survivoranalogy/</guid>
       <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
 No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
-Details This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book The Lord of the Flies, not everyone may be familiar with that book (and some who are may not want to be reminded of it). Instead, it may be useful to explain the following general scenario:</description>
+ Details This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book The Lord of the Flies, not everyone may be familiar with that book (and some who are may not want to be reminded of it). Instead, it may be useful to explain the following general scenario:</description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@ Details This analogy is used to explain the mechanism of locks. While (Bogaerts2
       <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
+ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on ind
       <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+ Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ Details See paper for details. In summary, this activity presents a directed gra
       <guid>https://www.pdcunplugged.org/activities/concerttickets/</guid>
       <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
 No on-line resources available. See details for description.
-Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
  Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best available seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
     </item>
     
@@ -64,7 +64,7 @@ Details CS1 Use-Case The following scenario is presented to students entering CS
       <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
- Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF   CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]   TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ Paper and materials available online:
       <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
-Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
+ Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
 Two students volunteer to be robots. A drinking glass is placed at a visible point in the classroom, purporting to contain &amp;ldquo;juice&amp;rdquo;.</description>
     </item>
     
@@ -107,7 +107,7 @@ The question is repeated after the second game (Look at the Pen).</description>
       
       <guid>https://www.pdcunplugged.org/activities/orangegame/</guid>
       <description>Original Author/link CSUnplugged.Org
-CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2  Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
+CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2 Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
     </item>
     
   </channel>

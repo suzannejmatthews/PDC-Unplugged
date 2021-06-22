@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
- Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF   CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]   TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
     </item>
     
     <item>

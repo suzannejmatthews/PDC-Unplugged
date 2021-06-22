@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -176,176 +176,134 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)</p>
-
 <p>No web-link to independent description available. See paper (Ben-Ari1999) for
 additional details.</p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>The paper uses dramatizations to help students understand algorithmic execution.
 The paper only describes one such lesson, which is used to introduce the
 concept of mutual exclusion. The following is a rough summary of the exercise
 in (Ben-Ari1999):</p>
-
 <p>Two students volunteer to be robots. A drinking glass is placed at a visible
 point in the classroom, purporting to contain &ldquo;juice&rdquo;.
 The door (or another portion of the classroom) is denoted as the kitchen.
 In the &ldquo;kitchen&rdquo; area, there is a pile of wooden/plastic
 cubes (or balls) that will represent &ldquo;sugar cubes&rdquo; in this exercise.</p>
-
 <p>The goal is to sweeten the juice by adding exactly one sugar cube to the glass.</p>
-
 <h3 id="initial-algorithm">Initial algorithm</h3>
-
 <p>The student &ldquo;robots&rdquo; are then asked to execute the following algorithm:</p>
-
 <pre><code>taste the juice (i.e. pick up the glass and look at it)
 if the juice is not sweet then:
     go to the kitchen
     take a sugar cube
     come back to the table
     add the sugar cube to the juice
-</code></pre>
-
-<p>This is repeated several times to show there are instances when two sugar cubes
+</code></pre><p>This is repeated several times to show there are instances when two sugar cubes
 are added to the glass.</p>
-
 <p>During the classroom discussion, students are asked a number of questions:</p>
-
 <ul>
-<li><p>Does the algorithm produce the same result every time (number of sugar cubes in the glass)?</p></li>
-
-<li><p>Does the algorithm produce the desired result ever time (one sugar cube in the glass)?</p></li>
+<li>
+<p>Does the algorithm produce the same result every time (number of sugar cubes in the glass)?</p>
+</li>
+<li>
+<p>Does the algorithm produce the desired result ever time (one sugar cube in the glass)?</p>
+</li>
 </ul>
-
 <p>The notion of &ldquo;correctness&rdquo; is then introduced: an algorithm is considered
 correct if it performs as specified in every scenario.</p>
-
 <p>To prove that an algorithm is <em>incorrect</em>, it requires only one contradicting
 scenario.</p>
-
 <h3 id="correcting-the-algorithm">Correcting the algorithm</h3>
-
 <p>Next, students are asked to modify the algorithm to make it correct. Every
 time a new algorithm is presented, students dramatize it out, and produce a
 contradicting scenario. The students are made to release that with the
 current tools they have, they cannot create a &ldquo;correct&rdquo; algorithm.</p>
-
 <p>Mutual exclusion can then be introduced.</p>
-
 <p><strong>Suggested Variation:</strong></p>
-
 <p>To introduce mutual exclusion, we suggest introducing a wooden block (or box)
 as a new prop. The block is originally on a chair near the table which the
 glass is on.</p>
-
 <ul>
-<li><p>When a student robot reaches a table, he or she immediately puts the
+<li>
+<p>When a student robot reaches a table, he or she immediately puts the
 block on the table, until they are finished with whatever activity they are
 doing at the table. Once they are done, they put the block back on the chair,
-and leaves.</p></li>
-
-<li><p>Every student robot who comes to the table must check to see if there is a
+and leaves.</p>
+</li>
+<li>
+<p>Every student robot who comes to the table must check to see if there is a
 block on the table. If so, they cannot come to the table, and must instead
-wait. If there is no block, they can proceed to the table.</p></li>
+wait. If there is no block, they can proceed to the table.</p>
+</li>
 </ul>
-
 <p>The students should attempt to come up with an algorithm using the wooden block
 as an additional prop, and once again evaluate their algorithm for correctness.
 They should see that using mutual exclusion enables the creation of a correct
 algorithm.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h3 id="parallel-decomposition-core-tier-1">Parallel Decomposition (Core Tier 1)</h3>
-
 <p>1. Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
-
 <h3 id="communication-and-coordination-core-tier-1-core-tier-2">Communication and Coordination (Core Tier 1, Core Tier 2)</h3>
-
 <p>1. <strong>Core Tier 1</strong>: Use mutual exclusion to avoid a given race condition. [Usage]</p>
-
 <p>2. <strong>Core Tier 1</strong>: Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. [Familiarity]</p>
-
 <p>5. <strong>Core Tier 2</strong>: Write a program that correctly terminates when all of a set of concurrent tasks have completed. [Usage]</p>
-
 <p>8. <strong>Core Tier 2</strong>: Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable. [Usage]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
-<li><p>Apply Critical regions: Be able to write shared memory
-programs that use critical regions for synchronization.</p></li>
-
-<li><p>Know Data Races: Know what a data race is, and how to
-use synchronization to prevent it.</p></li>
+<li>
+<p>Apply Critical regions: Be able to write shared memory
+programs that use critical regions for synchronization.</p>
+</li>
+<li>
+<p>Know Data Races: Know what a data race is, and how to
+use synchronization to prevent it.</p>
+</li>
 </ul>
-
 <h3 id="algorithm-topics">Algorithm Topics</h3>
-
 <ul>
 <li>Know Synchronization: Be aware of methods for controlling race conditions.</li>
 </ul>
-
 <h3 id="cross-cutting-and-advanced-topics">Cross-Cutting and Advanced Topics</h3>
-
 <ul>
 <li>Know Non-determinism: Different execution sequences can lead to different
 results hence algorithm design either be tolerant to such phenomena or be
 able to take advantage of this.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
-<li><p><strong>K-12</strong>: The authors used dramatizations in a high school course, which
-suggests that the activity is appropriate for K-12 students.</p></li>
-
-<li><p><strong>CS2/DSA/Systems</strong> TCPP recommends that programming topics such as
+<li>
+<p><strong>K-12</strong>: The authors used dramatizations in a high school course, which
+suggests that the activity is appropriate for K-12 students.</p>
+</li>
+<li>
+<p><strong>CS2/DSA/Systems</strong> TCPP recommends that programming topics such as
 synchronization can be taught as early as CS2, and is also appropriate for
 DSA and Systems courses. Topics such as data races and non-determinism may
-be most appropriate for DSA or systems courses.</p></li>
+be most appropriate for DSA or systems courses.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>The original description in (Ben-Ari1999) seems to recommend an actual glass
 of juice. However, we recommend that fake sugar cubes and an empty drinking
 glass be used instead. Otherwise, the activity might lead to spills, or be
 difficult for students with diabetes or other metabolic issues to participate.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>(Ben-Ari1999) ran the dramatizations with high school students. The authors
 note that while students were originally &ldquo;embarrassed&rdquo; by the dramatizations
 and thought they were &ldquo;stupid&rdquo;, they eventually came to regard them as
 being central to their understanding of algorithms. Main result is that
 over the course of term, students began to appreciate the importance of
 correctness and its essentially in algorithm design.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
 <li>M. Ben-Ari and Y. B.-D. Kolikant, &ldquo;Thinking parallel: The process of
 learning concurrency&rdquo;, in <em>Proceedings of the 4th Annual SIGCSE/SIGCUE
@@ -358,7 +316,7 @@ Available: <a href="http://doi.acm.org/10.1145/305786.305831">http://doi.acm.org
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

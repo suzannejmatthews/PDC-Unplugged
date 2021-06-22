@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/coinflip/</guid>
       <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
 No link to independent description available. See Details for a synopsis.
-Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
+ Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
 They are presented with the following algorithm:
 1. flip coin. 2. check if heads.</description>
     </item>
@@ -33,7 +33,7 @@ They are presented with the following algorithm:
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
-Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
+ Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
     </item>
     
   </channel>

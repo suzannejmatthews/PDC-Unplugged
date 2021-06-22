@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -178,54 +178,36 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Maxim1990, Bachelis1994).  Also described
 by Michelle Moore (Moore2000) and (Kitchen1992).</p>
-
 <p>No web-link to independent description available. See papers (Bachelis1994, Moore2000) for
 additional details.</p>
-
 <h3 id="other-activities-by-authors">Other activities by authors</h3>
-
 <p>(Bachelis1994): <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>, <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a></p>
-
 <p>(Moore2000): <a href="https://www.pdcunplugged.org/activities/cardsorting/">CardSorting</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>, <a href="https://www.pdcunplugged.org/activities/matrixaddition/">MatrixAddition</a></p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>Suppose the goal is to find all the primes less than <em>n</em> = 1,000. In the serial case, all the numbers from 2 .. 1000 would be written up on the board. The sieve of eratosthenes algorithm is
 then as follows:</p>
-
 <ol>
 <li>Designated the first unmarked number as prime.</li>
 <li>Mark (cross out) all multiples of that number from the list.</li>
 <li>Repeats steps 1 and 2, designating the next unmarked number as prime each time.</li>
 </ol>
-
 <p>The question is next on how best to accomplish this algorithm in parallel.</p>
-
 <h3 id="first-attempt">First attempt</h3>
-
 <p>Observe first that all even numbers are a multiple of 2. Therefore, it suffices to consider odd primes (and odd numbers) going forward.
 Next, determine the set of prime numbers that are less than <code>sqrt(n)</code>, and then cross out the multiples in the range of   <code>sqrt(n) .. n</code>.
 In this case, <code>sqrt(1000)</code> is about 32, and the odd prime numbers between 3 .. 32 are 3, 5, 7, 11, 13, 17, 19, 23, 29, 31. Each student processor is then handed a subset of primes, and
 is asked to cross out the multiples of their primes. Thus, assuming there are 10 student processors, each student process is handed a separate prime, and crosses out the multiples of
 their prime in the matrix.</p>
-
 <p>An issue with this outlined approach is that larger primes necessarily have fewer multiples in the range. Therefore, student processors assigned the larger prime numbers have less work to perform than
 students assigned smaller prime numbers. This highlights a load-balancing issue with this algorithm.</p>
-
 <h3 id="second-attempt">Second attempt</h3>
-
 <p>The second version of the algorithm takes a data parallel approach. Each student is assigned a subset of <em>centuries</em>. Thus, if there are 10 student processors, each student is handed one century (shown below,
 from Bachelis1994):</p>
-
-<pre><code class="language-text">Century _00 to _99
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Century _00 to _99
 
 _01  _03  _05  _07  _09 
 _11  _13  _15  _17  _19 
@@ -237,22 +219,15 @@ _61  _63  _65  _67  _69
 _71  _73  _75  _77  _79 
 _81  _83  _85  _87  _89 
 _91  _93  _95  _97  _99 
-</code></pre>
-
-<p>So, student 0 is assigned the century 01 .. 99, while student 1 is assigned the century 101 .. 199, student 2 is assigned the century 201 .. 299 and so forth.  Note that student 0 will necessarily eliminate <code>1</code> from their matrix, since <code>1</code> is not prime.</p>
-
+</code></pre></div><p>So, student 0 is assigned the century 01 .. 99, while student 1 is assigned the century 101 .. 199, student 2 is assigned the century 201 .. 299 and so forth.  Note that student 0 will necessarily eliminate <code>1</code> from their matrix, since <code>1</code> is not prime.</p>
 <p>Students find the prime numbers in their century by following the algorithm below:</p>
-
-<pre><code class="language-text">for each number p in set of prime numbers
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">for each number p in set of prime numbers
    divide the first number in the century by p and round up to the next highest integer. Call this number q.
    Now multiply this number by p (i.e., q = q * p)
    if q is even, add p to it. This is the first odd multiple of p in the century.
    cross out q (unless it is p).
    continue to add p to q, crossing out each multiple.
-</code></pre>
-
-<p>As an example, consider student 1 who is assigned the century 101 .. 199.</p>
-
+</code></pre></div><p>As an example, consider student 1 who is assigned the century 101 .. 199.</p>
 <ul>
 <li>First, s/he divides 101 by 3, yielding 33.6, which rounds up to 34.</li>
 <li>34 multiplied by 3 yields 102. Since 102 is even, 3 is added to yield 105.</li>
@@ -260,133 +235,110 @@ _91  _93  _95  _97  _99
 <li>The student then crosses out 105, 108, 111, etc. since they are all multiples of 3.</li>
 <li>The student then repeat the process with 101 and 5.</li>
 </ul>
-
 <p>It should be pointed out to students that they are all running the same algorithm on different parts of data. This is an example of the SPMD (data paralllel) approach to parallel computing. It should also
 be pointed out that this approach is must better load balanced than the first attempt.</p>
-
 <p>Students should now be able to clearly see how to extend the activity to find the set of odd primes less than 1 million.</p>
-
 <h3 id="variation-moore2000">Variation (Moore2000)</h3>
-
 <p>Moore describes an example exercise that she presents in a parallel processing
 lab to illustrate data parallelism. Originally, the exercise is meant to
 distinguish between task parallelism and data parallelism. The &ldquo;First attempt&rdquo; in (Bachelis1994)
 is shown as an example of &ldquo;control&rdquo; (task) parallelism. The data parallel component of the
 exercise as shown in (Moore2000) is extrapolated below:</p>
-
 <p>Prior to the start of the exercise, the instructor starts by writing as many
 integers as possible on the board (1-30 is recommended at the very least). To
 illustrate the data parallel model:</p>
-
 <ul>
-<li><p>students are selected to be processors, and the <em>n</em> values are divided amongst
-the <em>s</em> students, so that each student has a partition of <em>n/s</em> of the data.</p></li>
-
-<li><p>Each student processor then marks the numbers in its portion of data that are divisible by 2, 3, 5, etc.</p></li>
+<li>
+<p>students are selected to be processors, and the <em>n</em> values are divided amongst
+the <em>s</em> students, so that each student has a partition of <em>n/s</em> of the data.</p>
+</li>
+<li>
+<p>Each student processor then marks the numbers in its portion of data that are divisible by 2, 3, 5, etc.</p>
+</li>
 </ul>
-
 <h3 id="variation-kitchen1992">Variation (Kitchen1992)</h3>
-
 <p>Kitchen et al. uses Sieve of Eratoshenes to distinguish between shared memory and distribted memory. For shared memory, the instructor initially
 writes all the numbers on a shared blackboard. Student threads each get assigned a component of the blackboard, perform the sieve on thier component and leaves. At the end,
 the blackboard will contain all the prime numbers.</p>
-
 <p>The distributed memory description in (Kitchen1992) is ambiguous. Here is another way to show the distributed memory case.
 For distributed memory, the instructor (representing the boss process) assigns each student process a component of the matrix by sending them a pair of numbers (indicated the range).
 This can be done by having the instructor throw piece of paper at the students (scatter), or walk to each individual desk to deliver message (send). Students can&rsquo;t start their work
 until they receive the message.  Once students receive the message, they enumerate the numbers in their assigned range on a piece of paper at their desks (local memory), and determine the primes in that range. They then &ldquo;send&rdquo; messages back to the instructor by either throwing a paper with the numbers into a waste-paper basket (&ldquo;gather&rdquo;), or handing their papers individually to the instructor (&ldquo;send/receive&rdquo;).
 The instructor then writes the received primes on the board.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
-<h3 id="pd-parallel-architecture-core-tier-1">PD/Parallel Architecture (Core Tier 1)</h3>
-
+<h3 id="pdparallel-architecture-core-tier-1">PD/Parallel Architecture (Core Tier 1)</h3>
 <p>1. Explain the differences between shared and distributed memory. [Familiarity]</p>
-
-<h3 id="pd-parallel-decomposition-core-tier-2">PD/Parallel Decomposition (Core Tier 2)</h3>
-
+<h3 id="pdparallel-decomposition-core-tier-2">PD/Parallel Decomposition (Core Tier 2)</h3>
 <p>5. Parallelize an algorithm by applying data-parallel decomposition.</p>
-
-<h3 id="pd-parallel-performance">PD/Parallel Performance</h3>
-
+<h3 id="pdparallel-performance">PD/Parallel Performance</h3>
 <ol>
 <li>Detect and correct a load imbalance. [Usage]</li>
 </ol>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="architecture-topics">Architecture Topics</h3>
-
 <ul>
 <li>Comprehend Parallel Taxonomy: Flynn&rsquo;s taxonomy, data vs. control parallelism, shared/distributed memory</li>
 </ul>
-
 <h3 id="tcpp-programming-topics">TCPP Programming Topics</h3>
-
 <ul>
 <li>Apply Data parallel: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise.</li>
 <li>Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes.</li>
 <li>Comprehend Distributed Memory: Know basic notions of messaging among processes, different ways of message passing, collective operations</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
-<li><p>Moore covers the concept in a parallel processing lab, though it is not
-clear which course the lab was used in.</p></li>
-
-<li><p><strong>CS2/DSA/ProgLang</strong> - TCPP recommends that data parallelism can be taught
-in either CS2, DSA or programming languages.</p></li>
-
-<li><p><strong>Systems</strong>: Architecture concepts can be taugh in Systems.</p></li>
+<li>
+<p>Moore covers the concept in a parallel processing lab, though it is not
+clear which course the lab was used in.</p>
+</li>
+<li>
+<p><strong>CS2/DSA/ProgLang</strong> - TCPP recommends that data parallelism can be taught
+in either CS2, DSA or programming languages.</p>
+</li>
+<li>
+<p><strong>Systems</strong>: Architecture concepts can be taugh in Systems.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>Since this activity requires students to mark values on a board in front of
 the classroom, it may be challenging for mobility-impaired students or blind
 students.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>(Kitchen1992) mentions the shared vs. distributed memory aspect of this exercise was used effectively at various invited talks, in a classroom at RIT, and at least two workshops at Colgate University. However, formal evaluation is not provided. (Moore2000) discusses the
 impact of the parallel computing labs in her course. In general, students
 responded to the labs positively, and felt that labs increased their knowledge
 significantly.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
-on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
-
-<li><p>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.
-Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org/10.1145/142040.142064</a></p></li>
-
-<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
-vol. 94, no. 4, pp. 176–186, 1994.</p></li>
-
-<li><p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
-vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p></li>
+<li>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&quot;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+</li>
+<li>
+<p>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.
+Available: <a href="http://doi.acm.org/10.1145/142040.142064">http://doi.acm.org/10.1145/142040.142064</a></p>
+</li>
+<li>
+<p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p>
+</li>
+<li>
+<p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
+vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

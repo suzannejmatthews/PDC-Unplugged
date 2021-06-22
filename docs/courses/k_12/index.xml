@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
+ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on ind
       <guid>https://www.pdcunplugged.org/activities/stuffingenvelopes/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
+ Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@ Details Prior to the activity, students should be assigned to teams of four. The
 No link to independent description publicly available. Please see details section for a synopsis.
 Similiar Exercises: Sorting: OddEvenTranspositionSort, ParallelRadixSort, CardSorting, SortingNetwork
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details From (Bachelis1994): The goal of this exercise is to illustrate how sorting can occur in a stream/pipeline.</description>
+ Details From (Bachelis1994): The goal of this exercise is to illustrate how sorting can occur in a stream/pipeline.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Details From (Bachelis1994): The goal of this exercise is to illustrate how sort
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, ParallelAddition
-Details From (Bachelis1994): The goal is to introduce students to how large pairs of numbers in parallel.
+ Details From (Bachelis1994): The goal is to introduce students to how large pairs of numbers in parallel.
 Suppose the goal is to add two large numbers (in this example, 534,789,213 and 495,378,388).</description>
     </item>
     
@@ -67,7 +67,7 @@ Suppose the goal is to add two large numbers (in this example, 534,789,213 and 4
       <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
- Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF   CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]   TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@ Other activities by (Rifki1994, Sivilotti2003) Rifkin1994: oddEvenTranspositionS
       <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
-Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+ Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
 The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
     </item>
     
@@ -102,7 +102,7 @@ The Byzantine Generals problem is a classic description of the consensus problem
       <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
-Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
+ Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
 Two students volunteer to be robots. A drinking glass is placed at a visible point in the classroom, purporting to contain &amp;ldquo;juice&amp;rdquo;.</description>
     </item>
     
@@ -126,7 +126,7 @@ The question is repeated after the second game (Look at the Pen).</description>
       <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
- Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+ Available in: PPT and PDF Also described in (Neeman2006)   Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
     </item>
     
     <item>
@@ -136,7 +136,8 @@ The question is repeated after the second game (Look at the Pen).</description>
       
       <guid>https://www.pdcunplugged.org/activities/oddeventranspositionsort/</guid>
       <description>Original Author/link Originally Described by Adam Rifkin (Rifkin1994), with a separate description by Michelle Moore (Moore2000). (Bachelis1994) also presents the sort as a &amp;ldquo;compare-exchange sort&amp;rdquo;. We extrapolate on (Rifkin1994), since it is well described.
-No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website:</description>
+No web-link to independent description available. However, (Sivilotti2003) employed the exercise in a summer workshop for middle school girls, and provided a write-up of the activity and slides associated with the activity at his website:
+ Slides (includes other activities) PPT 1 Page Synopsis PDF  See papers (Rifkin1994, Bachelis1994, Moore2000, Sivilotti2003) for additional details.</description>
     </item>
     
     <item>
@@ -173,7 +174,7 @@ TCPP Topics Coverage Algorithms Topics  Know Selection: Observe algorithms for f
       
       <guid>https://www.pdcunplugged.org/activities/orangegame/</guid>
       <description>Original Author/link CSUnplugged.Org
-CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2  Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
+CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2 Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
     </item>
     
     <item>

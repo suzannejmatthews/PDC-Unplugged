@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>C_decomposition</title>
+      <title>C_Decomposition</title>
       <link>https://www.pdcunplugged.org/tcppdetails/c_decomposition/</link>
       <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
       
@@ -116,6 +116,15 @@
       <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/a_sharedmemory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Data</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_data/</link>
+      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_data/</guid>
       <description></description>
     </item>
     
@@ -422,15 +431,6 @@
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/c_static/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K_Data</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_data/</link>
-      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_data/</guid>
       <description></description>
     </item>
     

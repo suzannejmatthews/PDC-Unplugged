@@ -19,8 +19,8 @@
       <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
-Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
- Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+ Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+  Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Details See paper for details. In summary, the goal is to write the statement &a
       <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
       <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).
 No web-link to independent description available. See paper (Giacaman2012) for details.
-Details The company analogy is used to introduce multicore systems:
+ Details The company analogy is used to introduce multicore systems:
  The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.</description>
     </item>
     

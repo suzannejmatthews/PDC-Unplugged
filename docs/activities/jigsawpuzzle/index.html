@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -176,84 +176,82 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Oklahoma Supercomputing Center for Educaton and Research
 (<a href="http://www.oscer.ou.edu/education.php">OSCER</a>)</p>
-
 <p>&ldquo;Supercomputing in Plain English&rdquo; - Overview, Slides 45-52.</p>
-
 <ul>
 <li>Available in: <a href="http://www.oscer.ou.edu/Workshops/Overview/sipe_overview_20180123.pptx">PPT</a> and <a href="http://www.oscer.ou.edu/Workshops/Overview/sipe_overview_20180123.pdf">PDF</a></li>
 <li>Also described in (Neeman2006)</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="variations">Variations</h2>
-
 <p>It is theoretically possible to &ldquo;act out&rdquo; the analogy by using an actual
 puzzle. However, the puzzle needs to be small enough to enable students to
 complete the puzzle in a reasonable amount of time. This variation is
 described in (Neeman2006):</p>
-
 <p><strong>Shared Memory:</strong></p>
-
 <ul>
-<li><p>Suppose <em>A</em> is working on a jigsaw puzzle (give them a puzzle), and it takes
-them an hour to complete the puzzle.</p></li>
-
-<li><p>Now suppose <em>B</em> sits down at the table across from <em>A</em> (another volunteer
-sits at table).</p></li>
-
-<li><p>If <em>A</em> does the half part of the puzzle, and <em>B</em> does the lower half, how
-long will it take them to complete the puzzle?</p></li>
-
-<li><p>If <em>A</em> and <em>B</em> both try to grab a piece out of the pile at the same time, will
-that slow them down? What if they try to grab the same piece?</p></li>
-
-<li><p>Can <em>A</em> and <em>B</em> really work completely independently, or will they have to
-work on some parts together?</p></li>
-
-<li><p>Will these issues slow them down? If so, how much?</p></li>
-
-<li><p>What if new people <em>C</em> and <em>D</em> sit down at the table to help (have two more
+<li>
+<p>Suppose <em>A</em> is working on a jigsaw puzzle (give them a puzzle), and it takes
+them an hour to complete the puzzle.</p>
+</li>
+<li>
+<p>Now suppose <em>B</em> sits down at the table across from <em>A</em> (another volunteer
+sits at table).</p>
+</li>
+<li>
+<p>If <em>A</em> does the half part of the puzzle, and <em>B</em> does the lower half, how
+long will it take them to complete the puzzle?</p>
+</li>
+<li>
+<p>If <em>A</em> and <em>B</em> both try to grab a piece out of the pile at the same time, will
+that slow them down? What if they try to grab the same piece?</p>
+</li>
+<li>
+<p>Can <em>A</em> and <em>B</em> really work completely independently, or will they have to
+work on some parts together?</p>
+</li>
+<li>
+<p>Will these issues slow them down? If so, how much?</p>
+</li>
+<li>
+<p>What if new people <em>C</em> and <em>D</em> sit down at the table to help (have two more
 volunteers join them)? How long will it take four people? Will there be
 more, less or about the same level of resource contention? What if we
-increased the number to helpers to 8?</p></li>
+increased the number to helpers to 8?</p>
+</li>
 </ul>
-
 <p>The above questions lead to a discussion about overhead issues such as
 contention for shared resources. While in a no-overhead situation it would
 take 30 minutes for two people to complete the puzzle, communication overhead
 will cause the puzzle to take more than 30 minutes to complete. Adding more
 people increases the communication overhead, and the discussing turns to
 the notion of diminishing returns.</p>
-
 <p><strong>Distributed Memory:</strong></p>
-
 <p>Everyone except for <em>A</em> and <em>B</em> goes back and returns to their seats. Pull
 out a different puzzle, this time where the pieces for <em>A</em> and the pieces of
 <em>B</em> are in different baggies. Ask <em>B</em> to go to another table across the room.</p>
-
 <ul>
-<li><p>Looking at this new arrangement, will there be more, less or the same amount
-of contention for shared resources?</p></li>
-
-<li><p>What happens when <em>A</em> and <em>B</em> need to combine their puzzles together (i.e.
+<li>
+<p>Looking at this new arrangement, will there be more, less or the same amount
+of contention for shared resources?</p>
+</li>
+<li>
+<p>What happens when <em>A</em> and <em>B</em> need to combine their puzzles together (i.e.
 what about communication)? Will doing this kind of communication take more
-or less time than when <em>A</em> and <em>B</em> were sitting together at the same table?</p></li>
-
-<li><p>Suppose <em>C</em> and <em>D</em> are given additional piles of puzzle pieces, so that
-each person has 1/4th of the work. What will happen to communication cost?</p></li>
-
-<li><p>What if one student has twice as many pieces as another student? How does
+or less time than when <em>A</em> and <em>B</em> were sitting together at the same table?</p>
+</li>
+<li>
+<p>Suppose <em>C</em> and <em>D</em> are given additional piles of puzzle pieces, so that
+each person has 1/4th of the work. What will happen to communication cost?</p>
+</li>
+<li>
+<p>What if one student has twice as many pieces as another student? How does
 that impact when the puzzle finishes? What if the two students are working
-at the same rate? What if the first student is faster than the second?</p></li>
+at the same rate? What if the first student is faster than the second?</p>
+</li>
 </ul>
-
 <p>The above questions enable students to see that while there is less resource
 contention, the communication cost gets more expensive. As more students
 are added, there is additional communication cost. The discussion then
@@ -261,74 +259,51 @@ transitions to load balancing. Students learn that if processor speeds are
 equal, then work should be balanced amongst them. However, if one processor
 is much faster than the other, then that processor should get additional work
 (Neeman2006).</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h3 id="parallel-decomposition-core-tier-1">Parallel Decomposition (Core Tier 1)</h3>
-
 <p>1. Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
-
 <p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
-
 <h3 id="parallel-algorithms-analysis-and-programming-core-tier-2">Parallel Algorithms, Analysis and Programming (Core Tier 2)</h3>
-
 <p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
-
 <p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
-
 <h3 id="parallel-architecture-core-tier-1-elective">Parallel Architecture (Core Tier 1, Elective)</h3>
-
 <p>1.  <strong>Core Tier 1</strong>: Explain the differences between shared and distributed memory. [Familiarity]</p>
-
 <p>8. <strong>Elective</strong>:  Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</p>
-
 <h3 id="parallel-performance-elective">Parallel Performance (Elective)</h3>
-
 <p>1. Detect and correct a load imbalance. [Usage]</p>
-
 <p>2. Calculate the implications of Amdahl&rsquo;s law for a particular parallel algorithm. [Usage]</p>
-
 <p>3. Describe how data distribution/layout can affect an algorithm&rsquo;s communication costs. [Familiarity]</p>
-
 <p>5. Explain the impact of scheduling on parallel performance. [Familiarity]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="architecture-topics">Architecture Topics</h3>
-
 <ul>
-<li><p>Know MIMD:Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads.</p></li>
-
-<li><p>Comprehend Multicore: Describe how cores share resources (cache, memory) and resolve conflicts.</p></li>
-
-<li><p>Know Message passing Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</p></li>
+<li>
+<p>Know MIMD:Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads.</p>
+</li>
+<li>
+<p>Comprehend Multicore: Describe how cores share resources (cache, memory) and resolve conflicts.</p>
+</li>
+<li>
+<p>Know Message passing Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup.</p>
+</li>
 </ul>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
 <li>Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes.</li>
-<li>Comprehend Static Scheduling and mapping: Understand how to map and schedule computations before runtime  DSA/Systems</li>
-<li>Comprehend Dynamic Scheduling and mapping: Understand how to map and schedule computations at runtime DSA/Systems</li>
+<li>Comprehend Static Scheduling and mapping: Understand how to map and schedule computations before runtime	DSA/Systems</li>
+<li>Comprehend Dynamic Scheduling and mapping: Understand how to map and schedule computations at runtime	DSA/Systems</li>
 <li>Know Data: Understand impact of data distribution, layout and locality on performance; know false sharing and its impact on performance (e.g., in a cyclic mapping in a parallel loop); notion that transfer of data has fixed cost plus bit rate (irrespective of transfer from memory or inter-processor) (1 hour)</li>
 <li>Comprehend Speedup: Understand how to compute speedup, and what it means.</li>
 </ul>
-
 <h3 id="algorithms-topics">Algorithms Topics</h3>
-
 <ul>
 <li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling).</li>
 <li>Comprehend/Apply Communication: Understand &mdash; via hands-on experience &mdash; that inter-processor communication is one of the most challenging aspects of PDC.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li>Authors present the analogy to attendees of their &ldquo;Supercomputing in Plain English&rdquo; workshop series. According to (Neeman2008), the concepts have been presented to students as young as elementary school to adult attendees.</li>
 <li><strong>K-12</strong>: The analogy is appropriate for K-12. Actually <em>doing</em> a puzzle in class may be most appealing to some classrooms. However, the <em>size</em> of the puzzle matters a lot here. If a puzzle with too many pieces is chosen,
@@ -338,45 +313,40 @@ places to introduce concepts such as static vs dynamic scheduling and
 load balancing. In addition, architecture topics may be most appropriate in a
 Systems course.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>The analogy and exercise are very visual; this exercise may not be appropriate
 for blind students.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Unknown. (Neeman2006) describes the different analogies. There is no assessment
 provided in (Neeman2006) or (Neeman2008).</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>OSCER. &ldquo;Overview: What the Heck is Supercomputing?&ldquo;. <em>Supercomputing in
+<li>
+<p>OSCER. &ldquo;Overview: What the Heck is Supercomputing?&quot;. <em>Supercomputing in
 Plain English: A High Performance Computing Workshop Series</em>. Online,
-last accessed 5 November 2019. <a href="http://www.oscer.ou.edu/Workshops/Overview/sipe_overview_20180123.pdf">http://www.oscer.ou.edu/Workshops/Overview/sipe_overview_20180123.pdf</a></p></li>
-
-<li><p>H. Neeman, L. Lee, J. Mullen, and G. Newman, &ldquo;Analogies for teaching parallel
+last accessed 5 November 2019. <a href="http://www.oscer.ou.edu/Workshops/Overview/sipe_overview_20180123.pdf">http://www.oscer.ou.edu/Workshops/Overview/sipe_overview_20180123.pdf</a></p>
+</li>
+<li>
+<p>H. Neeman, L. Lee, J. Mullen, and G. Newman, &ldquo;Analogies for teaching parallel
 computing to inexperienced programmers&rdquo;, in <em>Working Group Reports on ITiCSE
 on Innovation and Technology in Computer Science Education</em>, ser. ITiCSE-WGR&rsquo;06.
-New York, NY, USA: ACM, 2006, pp. 64–67. Available: <a href="http://doi.acm.org/10.1145/1189215.1189172">http://doi.acm.org/10.1145/1189215.1189172</a></p></li>
-
-<li><p>H. Neeman, H. Severini, and D. Wu, &ldquo;Supercomputing in plain english: Teaching
+New York, NY, USA: ACM, 2006, pp. 64–67. Available: <a href="http://doi.acm.org/10.1145/1189215.1189172">http://doi.acm.org/10.1145/1189215.1189172</a></p>
+</li>
+<li>
+<p>H. Neeman, H. Severini, and D. Wu, &ldquo;Supercomputing in plain english: Teaching
 cyberinfrastructure to computing novices&rdquo; <em>SIGCSE Bull.</em>, vol. 40, no. 2,
-pp. 27–30, June 2008. Available: <a href="http://doi.acm.org/10.1145/1383602.1383628">http://doi.acm.org/10.1145/1383602.1383628</a></p></li>
+pp. 27–30, June 2008. Available: <a href="http://doi.acm.org/10.1145/1383602.1383628">http://doi.acm.org/10.1145/1383602.1383628</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

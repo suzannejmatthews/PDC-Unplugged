@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -170,47 +170,33 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally Described by Adam Rifkin (1994). No web-link to independent
 description available. However, (Sivilotti2003) employed the exercise in a
 summer workshop for middle school girls, and provided a write-up of the
 activity and slides associated with the activity at
 <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/">his website</a></p>
-
 <ul>
 <li>Slides (includes other activities) <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/fesc.ppt">PPT</a></li>
 <li>1 Page Synopsis <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/parallel.pdf">PDF</a></li>
 </ul>
-
 <p>See papers (Rifkin1994, Sivilotti2003) for additional details.</p>
-
 <h3 id="similar-exercises">Similar Exercises:</h3>
-
 <p>Sorting: <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">oddEvenTranspositionSort</a>, <a href="https://www.pdcunplugged.org/activities/sortingnetwork/">sortingNetwork</a>, <a href="https://www.pdcunplugged.org/activities/cardsorting/">cardsorting</a></p>
-
 <h3 id="other-activities-by-rifki1994-sivilotti2003">Other activities by (Rifki1994, Sivilotti2003)</h3>
-
 <p>Rifkin1994: <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">oddEvenTranspositionSort</a></p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>(Rifkin1994) designed the activity to take place in the course of the hour,
 and was introduced to high school minority students in a workshop format.
 Prior to the exercise, students are given an overview of the concept of
 sorting, and try to come up with ways to sort a collection of six random
 numbers.</p>
-
 <p>The instructor then splits the group into nine teams (of about the same size),
 with three teams assigned to a separate supervisor. The supervisor will then
 have one of the three teams perform bubble sort, the second perform
 odd-even-transposition sort (described in a <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">separate exercise</a> ), and the last
 perform parallel radix sort.</p>
-
 <p>Each team under the care of supervisor stands in a separate row.
 Each row has indices noted on the ground, indicating where students should
 stand, numbered from 0 … n-1 where n is the number of students in each row.
@@ -218,10 +204,8 @@ Each student at index i is handed a random number that corresponds to the
 same index in a separate row. Each row is then given its own set of
 instructions, and they are instructed to follow the instructions specifically
 (without talking) to sort the numbers.</p>
-
 <p>For parallel radix sort, the exercise is formed as a &ldquo;race&rdquo;, where the group
 leader walks down the line with the student at space 0.</p>
-
 <ul>
 <li>The student at space 0 (or &ldquo;roving student&rdquo;), as they walk, reveals their
 number to the other students standing in place.</li>
@@ -244,72 +228,62 @@ indicates that everyone should simultaneously leave the space they were
 standing and go to the same space indicated by their private counter. After
 doing this, the numbers should be now be sorted.</li>
 </ul>
-
 <p>The smallest number will have had a private counter of 0, and will stand
 in space 0, as they never encountered a number that was smaller. The next
 smallest number will be at space 1, and so forth.</p>
-
 <p>Students are asked to think why the list should be sorted at the end of
 Parallel Radix Sort.</p>
-
 <h3 id="variants-sivilotti2003">Variants (Sivilotti2003)</h3>
-
 <p>Sivilotti performed the activity exactly as described in (Rifkin1994). However,
 prior to introducing the activity, used an analogy to describe computers as
 &ldquo;chefs&rdquo; and programs to &ldquo;recipes&rdquo;. Like programs, recipes are characterized
 by what their ingredients (input) and the final product (output). A software
 engineer is thus described as a &ldquo;recipe-engineer&rdquo;.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h3 id="parallel-decomposition">Parallel Decomposition</h3>
-
 <p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="tcpp-algorithms">TCPP algorithms</h3>
-
 <ul>
-<li><p>Comprehend Asymptotics: Understand upper (big-O) and lower bounds
+<li>
+<p>Comprehend Asymptotics: Understand upper (big-O) and lower bounds
 (big-Omega,); follow elementary big-O analyses, e.g., the O(log n)
-tree-depth argument for merge-sort with unbounded parallelism.</p></li>
-
-<li><p>Comprehend Time: Recognize time as a fundamental computational resource that
-can be influenced by parallelism.</p></li>
-
-<li><p>Comprehend Speedup: Recognize the use of parallelism either to solve a given
+tree-depth argument for merge-sort with unbounded parallelism.</p>
+</li>
+<li>
+<p>Comprehend Time: Recognize time as a fundamental computational resource that
+can be influenced by parallelism.</p>
+</li>
+<li>
+<p>Comprehend Speedup: Recognize the use of parallelism either to solve a given
 problem instance faster or to solve larger instance in the same time
-(strong and weak scaling).</p></li>
-
-<li><p>Know Sorting: Observe several sorting algorithms for varied platforms -
+(strong and weak scaling).</p>
+</li>
+<li>
+<p>Know Sorting: Observe several sorting algorithms for varied platforms -
 together with analyses. Parallel merge sort is the simplest example,
 but equally simple alternatives for rings and meshes might be covered also;
-more sophisticated algorithms might be covered in more advanced courses.</p></li>
+more sophisticated algorithms might be covered in more advanced courses.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
-<li><p><strong>K-12</strong>: (Rifkin1994) successfully introduced sorting concepts to minority
+<li>
+<p><strong>K-12</strong>: (Rifkin1994) successfully introduced sorting concepts to minority
 high school students in a summer workshop. (Sivilotti2003) successfully
-introduced the activity to middle school girls in a 45-minute format.</p></li>
-
-<li><p><strong>CS2/DSA</strong>: TCPP recommends that topics of sorting can be covered as early
+introduced the activity to middle school girls in a 45-minute format.</p>
+</li>
+<li>
+<p><strong>CS2/DSA</strong>: TCPP recommends that topics of sorting can be covered as early
 as CS2, and that both sorting and algorithmic complexity topics are
-appropriate for DSA.</p></li>
+appropriate for DSA.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>The exercise may be difficult for students who are mobility-impaired, or have
 trouble with visual. Cards can have Braille on them, so when a blind student
 plays the stationary student role, he or she can reach out and touch the card
@@ -317,17 +291,13 @@ to read the value. Verbal acknowledgments may be most appropriate when the
 blind student acts as the roving student in the exercise. Verbal
 acknowledgments may also be preferable to students who have trouble raising
 their hands.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>(Rifkin1994) gives a general overview of assessment; 81 students completed
 surveys, in which they overwhelmingly responded that the workshop as a whole
 was a positive experience, and that respondents “learned something, had fun,
 and had a better impression of computer science” (Rifkin1994). However,
 specific assessment of parallel radix sort was not provided.</p>
-
 <p>(Sivilotti2003) reported the sorting activity could be completed in a 45 minute
 period. Students were asked a number of questions, including rating the
 exercises. On a scale from 1 (low) to 5 (high) students rated the parallel
@@ -337,29 +307,29 @@ are slow&rdquo; (Sivilotti1999). Students were also asked to evaluate the overal
 quality of the computer science module on scale of 1 (low) to 5 (high), and
 rated the cs component of the workshop as 4.6. Note that this includes other
 activities.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>P. A. G. Sivilotti and M. Demirbas, &ldquo;Introducing middle school girls to
+<li>
+<p>P. A. G. Sivilotti and M. Demirbas, &ldquo;Introducing middle school girls to
 fault tolerant computing&rdquo;, in <em>Proceedings of the 34th SIGCSE Technical
 Symposium on Computer Science Education (SIGCSE ’03)</em>. New York, NY, USA:
 ACM, 2003, pp. 327–331, [Online]: <a href="http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/">http://web.cse.ohio-state.edu/~sivilotti.1/outreach/FESC02/</a>
-Available: <a href="http://doi.acm.org/10.1145/611892.611999">http://doi.acm.org/10.1145/611892.611999</a></p></li>
-
-<li><p>A. Rifkin, &ldquo;Teaching parallel programming and software engineering concepts
+Available: <a href="http://doi.acm.org/10.1145/611892.611999">http://doi.acm.org/10.1145/611892.611999</a></p>
+</li>
+<li>
+<p>A. Rifkin, &ldquo;Teaching parallel programming and software engineering concepts
 to high school students&rdquo;, In <em>SIGCSE Bulletin</em>, vol. 26, no. 1. and
 <em>Proceedings of the Twenty-fifth SIGCSE Symposium on Computer Science
-Education</em>, 1994, pp. 26–30. Available: <a href="http://doi.acm.org/10.1145/191033.191044">http://doi.acm.org/10.1145/191033.191044</a></p></li>
+Education</em>, 1994, pp. 26–30. Available: <a href="http://doi.acm.org/10.1145/191033.191044">http://doi.acm.org/10.1145/191033.191044</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -176,61 +176,47 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Oklahoma Supercomputing Center for Educaton and Research
 (<a href="http://www.oscer.ou.edu/education.php">OSCER</a>)</p>
-
 <p>&ldquo;Supercomputing in Plain English&rdquo; - &ldquo;Distributed Multiprocessing&rdquo;, Slides 19-25.</p>
-
 <ul>
 <li>Available in: <a href="http://www.oscer.ou.edu/Workshops/DistributedParallelism/sipe_distribmem_20180306.pptx">PPT</a> and <a href="http://www.oscer.ou.edu/Workshops/DistributedParallelism/sipe_distribmem_20180306.pdf">PDF</a></li>
 <li>Also described in (Neeman2006)</li>
 </ul>
-
 <p>The following questions from (Neeman2006) can be used to stimulate discussion:</p>
-
 <ul>
 <li>Suppose that each student is on his or her own island far away from everyone
 else. Are any of them aware of anyone else? Do they know who is at the
 other end of the phone line?</li>
 <li>Next, read out the set of instructions from a piece of paper. Ask the people who had that set of instructions to raise their hands. Everyone should raise their hands. Assuming that everyone is on a separate island, is it possible for anyone to be aware of the work that anyone else is doing (or if it is the same program?)</li>
 </ul>
-
 <p>The point is that someone very clever (the instructor) can plan it out ahead of
 time that everyone is running the same program on different units of data.
 Together therefore, they can solve a problem much larger (and faster) than any
 single person can solve.</p>
-
-<hr />
-
+<hr>
 <h2 id="variations">Variations</h2>
-
 <p><strong>Activity</strong>:
 It is possible to act this out.</p>
-
 <ul>
 <li>Students physically sitting at separate desks represent CPUs.
 Each person has a basket in front of their desk, representing their voice
 mailbox. Each basket is denoted a phone number.</li>
-<li>The instructor should hand each person at a desk a piece of paper with some<br />
+<li>The instructor should hand each person at a desk a piece of paper with some<br>
 pre-printed instructions, and different colors of paper (representing data).</li>
-<li>Instead of making phone calls, they can write answers on the color paper,<br />
+<li>Instead of making phone calls, they can write answers on the color paper,<br>
 crumple it up and toss the result into the appropriate baskets of other nodes.</li>
 <li>It is important for students to be able to see that each volunteer is working
 at their own pace and independently, in isolation of everyone else.</li>
 <li>Use the questions above to stimulate discussion about the activity.</li>
 </ul>
-
 <p><strong>GPUs:</strong>
 The analogy can also be extended to describe processes on GPUs. To act out
 this analogy, have a collection of chairs organized in a row (no desks),
 to represent an &ldquo;archipelago&rdquo; of smaller islands. Have a person sit in each
 chair. Each person in a chair represents a GPU core.
 Next to the row of chairs is a person at a desk (representing the much larger CPU).</p>
-
 <ul>
 <li>Since chairs are smaller than desks, the types of work the GPU cores can
 accomplish is very little. Suppose it&rsquo;s just simple math.</li>
@@ -242,56 +228,35 @@ each calculation in lock-step fashion.</li>
 <li>The CPU (human) then takes care of the more complicated work, including
 communicating the final result back to the user.</li>
 </ul>
-
 <p>This can conclude with a discussion of Flynn&rsquo;s taxonomy, where we talk about
 MIMD (distributed, multicore) architectures, and SIMD (GPU) architectures.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h3 id="parallel-decomposition-core-tier-2">Parallel Decomposition (Core Tier 2)</h3>
-
 <p>5. Parallelize an algorithm by applying data-parallel decomposition. [Usage]</p>
-
 <h3 id="parallel-architecture-core-tier-1-core-tier-2-elective">Parallel Architecture (Core Tier 1, Core Tier 2, Elective)</h3>
-
 <p>1. <strong>Core Tier 1</strong>: Explain the differences between shared and distributed memory. [Familiarity]</p>
-
 <p>3. <strong>Core Tier 2</strong>: Characterize the kinds of tasks that are a natural match for SIMD machines. [Familiarity]</p>
-
 <p>4. <strong>Elective</strong>: Describe the advantages and limitations of GPUs vs. CPUs. Familiarity]</p>
-
 <p>5. <strong>Elective</strong>: Explain the features of each classification in Flynn&rsquo;s taxonomy. [Familiarity]</p>
-
 <p>8. <strong>Elective</strong>: Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</p>
-
 <h3 id="parallel-performance-elective">Parallel Performance (Elective)</h3>
-
 <p>3. Describe how data distribution/layout can affect an algorithm&rsquo;s communication costs. [Familiarity]</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="architecture-topics">Architecture Topics</h3>
-
 <ul>
 <li>Comprehend Parallel Taxonomy: Flynn&rsquo;s taxonomy, data vs. control parallelism, shared/distributed memory.</li>
 <li>Know Heterogeneous (e.g., Cell,on-chip GPU): Recognize that multicore may not all be the same kind of core.</li>
 </ul>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
 <li>Comprehend SPMD: Understand how SPMD program is written and how it executes.</li>
 <li>Comprehend Distributed Memory: Know basic notions of messaging among processes, different ways of message passing, collective operations.</li>
-<li>Know Hybrid: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.)
-&mdash;</li>
+<li>Know Hybrid: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.)</li>
 </ul>
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li>Authors present the analogy to attendees of their &ldquo;Supercomputing in Plain
 English&rdquo; workshop series. According to (Neeman2008), the concepts have been
@@ -299,48 +264,43 @@ presented to students as young as elementary school to adult attendees.</li>
 <li><strong>CS2/DSA/Systems</strong>: TCPP recommends that the SPMD concept be covered in
 CS2 or DSA, and that architecture topics be covered in <em>Systems</em>.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <ul>
 <li>Students with mobility issues may have issues with the activity version of
 this exercise (throwing).</li>
 <li>Blind students will likely have issues with this exercise.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Unknown. (Neeman2006) describes the different analogies. There is no assessment
 provided in (Neeman2006) or (Neeman2008).</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>OSCER. &ldquo;Distributed Multiprocessing&rdquo;. <em>Supercomputing in
+<li>
+<p>OSCER. &ldquo;Distributed Multiprocessing&rdquo;. <em>Supercomputing in
 Plain English: A High Performance Computing Workshop Series</em>. Online,
-last accessed 5 November 2019. <a href="http://www.oscer.ou.edu/Workshops/DistributedParallelism/sipe_distribmem_20180306.pdf">http://www.oscer.ou.edu/Workshops/DistributedParallelism/sipe_distribmem_20180306.pdf</a></p></li>
-
-<li><p>H. Neeman, L. Lee, J. Mullen, and G. Newman, &ldquo;Analogies for teaching parallel
+last accessed 5 November 2019. <a href="http://www.oscer.ou.edu/Workshops/DistributedParallelism/sipe_distribmem_20180306.pdf">http://www.oscer.ou.edu/Workshops/DistributedParallelism/sipe_distribmem_20180306.pdf</a></p>
+</li>
+<li>
+<p>H. Neeman, L. Lee, J. Mullen, and G. Newman, &ldquo;Analogies for teaching parallel
 computing to inexperienced programmers&rdquo;, in <em>Working Group Reports on ITiCSE
 on Innovation and Technology in Computer Science Education</em>, ser. ITiCSE-WGR&rsquo;06.
-New York, NY, USA: ACM, 2006, pp. 64–67. Available: <a href="http://doi.acm.org/10.1145/1189215.1189172">http://doi.acm.org/10.1145/1189215.1189172</a></p></li>
-
-<li><p>H. Neeman, H. Severini, and D. Wu, &ldquo;Supercomputing in plain english: Teaching
+New York, NY, USA: ACM, 2006, pp. 64–67. Available: <a href="http://doi.acm.org/10.1145/1189215.1189172">http://doi.acm.org/10.1145/1189215.1189172</a></p>
+</li>
+<li>
+<p>H. Neeman, H. Severini, and D. Wu, &ldquo;Supercomputing in plain english: Teaching
 cyberinfrastructure to computing novices&rdquo; <em>SIGCSE Bull.</em>, vol. 40, no. 2,
-pp. 27–30, June 2008. Available: <a href="http://doi.acm.org/10.1145/1383602.1383628">http://doi.acm.org/10.1145/1383602.1383628</a></p></li>
+pp. 27–30, June 2008. Available: <a href="http://doi.acm.org/10.1145/1383602.1383628">http://doi.acm.org/10.1145/1383602.1383628</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

@@ -19,8 +19,8 @@
       <guid>https://www.pdcunplugged.org/activities/messagepassingacrobats/</guid>
       <description>Original Author/link Originally described by Steven K. Andrianoff and David B. Levine
 No link to independent description available. See &amp;ldquo;Details&amp;rdquo; for more details.
-Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
- The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
+ Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
+  The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Details The instructor plays the role of the main program, and students play the
       <guid>https://www.pdcunplugged.org/activities/flowerjoinanalogy/</guid>
       <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
 No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
-Details Bogaerts used this analogy to explain the notion of thread join operation. Suppose a parent and their child are out for a walk along a trail in their local park. The child decides to travel off the path to pick flowers. While the parent can go on for some time without the child, eventually they will call out to the child to catch up: &amp;ldquo;Come now, please join me up here&amp;rdquo;.</description>
+ Details Bogaerts used this analogy to explain the notion of thread join operation. Suppose a parent and their child are out for a walk along a trail in their local park. The child decides to travel off the path to pick flowers. While the parent can go on for some time without the child, eventually they will call out to the child to catch up: &amp;ldquo;Come now, please join me up here&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -42,9 +42,9 @@ Details Bogaerts used this analogy to explain the notion of thread join operatio
       <guid>https://www.pdcunplugged.org/activities/plantingtrees/</guid>
       <description>Original Author/link Described by Yifat Ben-David Kolikant (Kolinkat2001). Two introduction questions presented by Steven Bogaerts as part of his &amp;ldquo;real-life analogies&amp;rdquo; (Bogaerts2014, Bogaerts2017).
 No public description avaialable. See Details section for more information.
-Details Start with some generals questions from Steven Bogaerts:
+ Details Start with some generals questions from Steven Bogaerts:
  &amp;ldquo;If I can shovel my driveway in 1 hour, how long would you expect it to take if someone equally capable were to help me?&amp;rdquo;
-&amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
+  &amp;ldquo;If one person can dig a hole with a shovel in 100 seconds, how long will it take for 10 people to dig that hole?</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Details Start with some generals questions from Steven Bogaerts:
       <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
+ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on ind
       <guid>https://www.pdcunplugged.org/activities/stuffingenvelopes/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
+ Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
     </item>
     
     <item>
@@ -87,7 +87,7 @@ There are several on-line write-ups about the Kitchen Analogy. We specifically l
       <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper available online:
-Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+ Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
     </item>
     
     <item>
@@ -98,8 +98,8 @@ Details See paper for full details. This activity demonstrates how an algorithm 
       <guid>https://www.pdcunplugged.org/activities/nondeterministicsorting/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper and poster for full details. A high level summary is provided below:
- A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
+ Details See paper and poster for full details. A high level summary is provided below:
+  A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
     </item>
     
     <item>
@@ -110,7 +110,7 @@ Details See paper and poster for full details. A high level summary is provided 
       <guid>https://www.pdcunplugged.org/activities/coinflip/</guid>
       <description>Original Author/link Originally described by Andrew Kitchen, Nan Schaller and Paul Tyman (Kitchen1992).
 No link to independent description available. See Details for a synopsis.
-Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
+ Details The goal of this activity is to help students visualize the difference between execution on a SIMD architecture vs a MIMD architecture. Each student plays a processor and is given a coin.
 They are presented with the following algorithm:
 1. flip coin. 2. check if heads.</description>
     </item>
@@ -124,7 +124,7 @@ They are presented with the following algorithm:
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
-Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
+ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
     </item>
     
     <item>
@@ -135,8 +135,8 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
       <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
-Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
- Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+ Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+  Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
     </item>
     
     <item>
@@ -148,7 +148,7 @@ Details See paper for details. In summary, the goal is to write the statement &a
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
-Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
+ Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
     </item>
     
     <item>
@@ -159,7 +159,7 @@ Details See paper for details. In summary, the goal is to find the oldest penny 
       <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
- Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF   CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]   TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
     </item>
     
     <item>
@@ -170,7 +170,7 @@ Paper and materials available online:
       <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
-Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+ Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
 The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
     </item>
     
@@ -182,7 +182,7 @@ The Byzantine Generals problem is a classic description of the consensus problem
       <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
-Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
+ Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
 Two students volunteer to be robots. A drinking glass is placed at a visible point in the classroom, purporting to contain &amp;ldquo;juice&amp;rdquo;.</description>
     </item>
     
@@ -220,7 +220,7 @@ The question is repeated after the second game (Look at the Pen).</description>
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
 (Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
-Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+ Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
     </item>
     
     <item>
@@ -232,7 +232,7 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+ Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
     </item>
     
     <item>
@@ -243,7 +243,7 @@ Details Moore describes how to use Matrix Addition to describe the differences b
       <guid>https://www.pdcunplugged.org/activities/companyanalogy/</guid>
       <description>Original Author/link Originally described by Nasser Giacaman (Giacaman2012). General Question presented by Steve Bogaerts (Bogaerts2014).
 No web-link to independent description available. See paper (Giacaman2012) for details.
-Details The company analogy is used to introduce multicore systems:
+ Details The company analogy is used to introduce multicore systems:
  The processor is a &amp;ldquo;company&amp;rdquo; with &amp;ldquo;desks&amp;rdquo; representing multiple cores. Students (&amp;ldquo;employees&amp;rdquo;) are assigned/hired to sit at a desk to do work, representing threads (or processes). Work is written on &amp;ldquo;job cards&amp;rdquo; and represent tasks/runnables to be executed.</description>
     </item>
     
@@ -263,7 +263,7 @@ Details The company analogy is used to introduce multicore systems:
       
       <guid>https://www.pdcunplugged.org/activities/orangegame/</guid>
       <description>Original Author/link CSUnplugged.Org
-CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2  Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
+CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2 Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
     </item>
     
   </channel>

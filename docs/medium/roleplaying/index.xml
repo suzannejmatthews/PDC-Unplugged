@@ -19,8 +19,8 @@
       <guid>https://www.pdcunplugged.org/activities/messagepassingacrobats/</guid>
       <description>Original Author/link Originally described by Steven K. Andrianoff and David B. Levine
 No link to independent description available. See &amp;ldquo;Details&amp;rdquo; for more details.
-Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
- The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
+ Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
+  The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Details The instructor plays the role of the main program, and students play the
       <guid>https://www.pdcunplugged.org/activities/stuffingenvelopes/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
+ Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Details Prior to the activity, students should be assigned to teams of four. The
       <guid>https://www.pdcunplugged.org/activities/stabalizingleaderelection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper available online:
-Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
+ Details See paper for full details. This activity demonstrates how an algorithm can recover from data corruption. The students in this activity represent processes in an undirected connected graph. Each process has a unique identifier. The goal is to identify the process with the highest identifier. While the process identifiers themselves are not corruptible, the model assumes that transient faults may occur that can corrupt data values associated with the process.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@ Details See paper for full details. This activity demonstrates how an algorithm 
       <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+ Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
     </item>
     
     <item>

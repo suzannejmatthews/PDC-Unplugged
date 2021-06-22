@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -178,51 +178,35 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)</p>
-
 <p>No link to independent description publicly available. Please see details section for a synopsis.</p>
-
 <h3 id="other-activities-by-authors">Other activities by authors</h3>
-
 <p>(Bachelis1994): <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>, <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">CardSorting</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
-  <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="https://www.pdcunplugged.org/activities/addlargenumbers/">AddLargeNumbers</a></p>
-
-<hr />
-
+<a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="https://www.pdcunplugged.org/activities/addlargenumbers/">AddLargeNumbers</a></p>
+<hr>
 <h2 id="details">Details</h2>
-
 <p>From (Bachelis1994):
 The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to. Addition can only be performed between two numbers at any given time, and it assumed that it takes the same amount of time to add any two numbers. Thus, one addition operation takes one time step. The processor therefore employs a series of addition operations to
 to add the collection of numbers. Each number is written down on a separate card. Note cards are also provided for &ldquo;message passing&rdquo;.</p>
-
 <h3 id="serial-case">Serial case:</h3>
-
 <ul>
 <li>One student is given the set of 16 random numbers and is asked to add them up.</li>
 <li>Student should recognize that to add 16 numbers, it takes a total of 15 addition operations.</li>
 <li>Ask the students: <em>how to make the process faster?</em></li>
 <li>The answer is to to use several processors and a &ldquo;divide and conquer&rdquo; methodology.</li>
 </ul>
-
 <h3 id="parallel-case">Parallel Case</h3>
-
 <p><strong>Two Students</strong>:</p>
-
 <ul>
 <li>Each student is given a subset of 8 numbers.</li>
-<li>Each student adds their 8 numbers together on their own piece of paper. Student 1 then writes their total on a note-card and hands it to student 2. Student 2 then adds their total with the total they received<br />
+<li>Each student adds their 8 numbers together on their own piece of paper. Student 1 then writes their total on a note-card and hands it to student 2. Student 2 then adds their total with the total they received<br>
 from student 1 to yield the final total. The class should note that this total is equal to total achieved during the serial run.</li>
 <li>Ask the students: <em>how many time steps did this require?</em></li>
 <li>Answer: To add 8 numbers, a total of 7 addition operations are required. Since each student performed their additions simultaneously and in parallel, a total of 7 time steps are required. The final global
 sum requires an additional time step. Therefore 8 total time steps are required, plus any overhead for the message by student 1 to student 2.</li>
 </ul>
-
 <p><strong>Four Students</strong>:</p>
-
 <ul>
 <li>Each student is assigned a number (1..4) and is given a subset of 4 numbers to add up.</li>
 <li>Each student adds up their 4 numbers (using their piece of paper). At the end, students 1 writes their total on an index card and hands it to student 2, who computes a new total using their total and the
@@ -232,9 +216,7 @@ Lastly, student 2 writes their new total on another index card and hands it to s
 <li>Answer: Each student initially takes 3 addition operations to add 4 numbers. Since the students performed their comparisons simultaneous and in parallel, a total of three time steps are needed for this step.
 Next, the communication of the sum from student 1 to 2 happen independently from the communication of the sum from student 3 to student 4, and students 2 and 4 compute their sums independently. Therefore, this step can also happen in parallel, and takes an additional time step (exclusive of communication costs). The final sum between students 2 and 4 requires on last time step. Therefore, the total number of time steps is 3 + 1 + 1 = 5, not including the overhead of message communication. Students should recognize that the number of &ldquo;messages&rdquo; sent by students have grown.</li>
 </ul>
-
 <p><strong>Eight students</strong></p>
-
 <ul>
 <li>Each student is assigned a number (1..8) and given a subset of two cards.</li>
 <li>Each student adds their two numbers together. Then: Student 1 sends their total to Student 2, Student 3 sends their total to Student 4, Student 5 sends their total to Student 6, Student 7 sends their total to
@@ -249,102 +231,73 @@ processor scenarios.</li>
 of student 1 and 2&rsquo;s totals happen independently from the sums of students 3 and 4&rsquo;s totals, and student 5 and 6&rsquo;s totals, and students 7 and 8&rsquo;s totals. These additions all happen in parallel, and take an additional time step. Next, the summing of the totals for students 2 and 4 happen independently from the summing of the totals of students 6 and 8. These additions therefore happen in parallel, and take an
 additional time step. The final addition of the totals of students 4 and 8 requires one additional time step. Therefore, the total number of time steps is 1 + 1 + 1 + 1 = 4, excluding communication costs.</li>
 </ul>
-
 <p>The class then should asked to calculate the speedup of the parallel cases over the serial cases. The students should see that speedup is not linear, and that the addition of more processors does incur heavier
 communication cost. To make the example more concrete, assign a cost to each communication component (0.5 time step). Then ask students to recompute time steps and speedup. This should help students clearly
 observe the cost of communication overhead.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
-<h3 id="pd-parallel-decomposition">PD/Parallel Decomposition</h3>
-
+<h3 id="pdparallel-decomposition">PD/Parallel Decomposition</h3>
 <p><strong>Core Tier 1:</strong></p>
-
 <p>2. Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
-
 <p><strong>Core Tier 2:</strong></p>
-
 <p>4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
-
-<h3 id="pd-parallel-algorithms-analysis-programming-core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
-
+<h3 id="pdparallel-algorithms-analysis--programming---core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
 <p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
-
 <p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
-
 <p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.</p>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="architecture-topics">Architecture Topics</h3>
-
 <ul>
 <li>Know Message passing (no shared memory) Latency: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup</li>
 </ul>
-
 <h3 id="programming-topics">Programming Topics</h3>
-
 <ul>
 <li>Comprehend Speedup: Understand how to compute speedup, and what it means</li>
 <li>Know Amdahl&rsquo;s Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</li>
 </ul>
-
 <h3 id="algorithms-topics">Algorithms Topics</h3>
-
 <ul>
 <li>Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism</li>
 <li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
 <li>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex
 computational structures</li>
-<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as merge-sort &hellip; how the same structure that enables divide and conquer (sequential) algorithms
+<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as merge-sort . . . how the same structure that enables divide and conquer (sequential) algorithms
 exposes opportunities for parallel computation</li>
 <li>Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.</li>
 <li>Comprehend/Apply Communication: Understand &mdash; via hands-on experience &mdash; that inter-processor communication is one of the most challenging aspects of PDC.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
 <li><strong>CS1</strong>: TCPP recommends that the notion of dependencies be covered as early as CS1.</li>
 <li><strong>CS2/DSA</strong>: TCPP recommends that concepts of speedup, divide-and-conquer and selection be covered in either CS2 or DSA.</li>
 <li><strong>Systems</strong>: TCPP recommends that topics related to communication could be covered in Systems.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>The visual aspect of this activity may make it less accessible for blind students. However. students communicating a message to a blind partner can read their total aloud. The instructor can facilitate passing the total to the next student as necessary.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>Unknown.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
-on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
-
-<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
-vol. 94, no. 4, pp. 176–186, 1994.</p></li>
+<li>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&quot;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+</li>
+<li>
+<p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

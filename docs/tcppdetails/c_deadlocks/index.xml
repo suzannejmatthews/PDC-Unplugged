@@ -27,7 +27,7 @@
       
       <guid>https://www.pdcunplugged.org/activities/orangegame/</guid>
       <description>Original Author/link CSUnplugged.Org
-CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2  Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
+CS2013 Knowledge Unit Coverage PD/Communication and Coordination Core Tier 2 Give an example of a scenario in which blocking message sends can deadlock. [Usage]  TCPP Coverage Programming Topics  Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them  Recommended Courses  K-12: CSUnplugged recommends this as a K-12 activity Systems/OS: The activity can also be used to introduce the concepts of concurrency and deadlock in undergraduate courses.</description>
     </item>
     
   </channel>

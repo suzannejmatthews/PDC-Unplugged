@@ -20,7 +20,7 @@
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
-Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
+ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
     </item>
     
     <item>
@@ -31,8 +31,8 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
       <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
-Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
- Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+ Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+  Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@ Details See paper for details. In summary, the goal is to write the statement &a
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
-Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
+ Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
     </item>
     
   </channel>

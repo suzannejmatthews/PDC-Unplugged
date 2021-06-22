@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+ Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
     </item>
     
   </channel>

@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/buildingcommunicationanalogy/</guid>
       <description>Original Author/link Originally described Steven Bogaerts.
 No link to independent description. See Details section for more details.
-Details This analogy is used to describe different types of inter-process communication. The scenario is as follows: suppose that you and a friend are trying to count the number of people in a building. How can this be accomplished? Here are three different things you may say to your friend (from Bogaerts2014):</description>
+ Details This analogy is used to describe different types of inter-process communication. The scenario is as follows: suppose that you and a friend are trying to count the number of people in a building. How can this be accomplished? Here are three different things you may say to your friend (from Bogaerts2014):</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Details This analogy is used to describe different types of inter-process commun
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
-Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
+ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
       <guid>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</guid>
       <description>Original Author/link Originally described by Paolo A.G. Sivilotti and Murat Demirbas (Sivilotti2003) to illustrate Dijkstra&amp;rsquo;s stabalizing token ring algorithm.
 Paper and materials available online:
- Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF  CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]  TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
+ Middle School Slides (includes other activities) PPT High School Slides PPT 1 Page Synopsis PDF Token ring algorithm handout PDF   CS2013 Knowledge Unit Coverage Communication and Coordination  Use mutual exclusion to avoid a given race condition. [Usage]   TCPP Topics Coverage Algorithms Topics  Comprehend/Apply Communication: Understand &amp;mdash; via hands-on experience &amp;mdash; that inter-processor communication is one of the most challenging aspects of PDC.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@ Paper and materials available online:
       <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
-Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+ Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
 The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
     </item>
     
@@ -65,7 +65,7 @@ The Byzantine Generals problem is a classic description of the consensus problem
       <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
- Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+ Available in: PPT and PDF Also described in (Neeman2006)   Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
     </item>
     
     <item>
@@ -77,7 +77,7 @@ The Byzantine Generals problem is a classic description of the consensus problem
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+ Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
     </item>
     
   </channel>

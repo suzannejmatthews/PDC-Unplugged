@@ -31,7 +31,7 @@
       <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
- Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+ Available in: PPT and PDF Also described in (Neeman2006)   Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+ Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@ Details Moore describes how to use Matrix Addition to describe the differences b
       
       <guid>https://www.pdcunplugged.org/activities/candysorting/</guid>
       <description>Original Author/link iPDC Modules
- Available in Word and PDF  CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
+ Available in Word and PDF   CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
 2. Core Tier 1: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
 4. Core Tier 2: Parallelize an algorithm by applying task-based decomposition. [Usage]
 Parallel Performance (Elective) 1.</description>

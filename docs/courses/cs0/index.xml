@@ -19,8 +19,8 @@
       <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
-Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
- Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+ Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+  Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ Details See paper for details. In summary, the goal is to write the statement &a
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava, with consultation from Brett A Becker.
 Paper (Srivastava2019) and slides available on-line.
 Similar Activities FindSmallestCard, FindYoungestStudent
-Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
+ Details See paper for details. In summary, the goal is to find the oldest penny in a pile of pennies. This is first done sequentially, with one student trying to determine the oldest penny in a group of 50 pennies. Next, two students are employed, with each student getting a bag of 25 pennies.</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@ The question is repeated after the second game (Look at the Pen).</description>
       
       <guid>https://www.pdcunplugged.org/activities/candysorting/</guid>
       <description>Original Author/link iPDC Modules
- Available in Word and PDF  CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
+ Available in Word and PDF   CS2013 Knowledge Unit Coverage Parallel Decomposition (Core Tier 1, Core Tier 2) 1. Core Tier 1: Explain why synchronization is necessary in a specific parallel program. [Usage]
 2. Core Tier 1: Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]
 4. Core Tier 2: Parallelize an algorithm by applying task-based decomposition. [Usage]
 Parallel Performance (Elective) 1.</description>

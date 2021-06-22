@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
+ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on ind
       <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994)
 No link to independent description publicly available. Please see details section for a synopsis.
 Other activities by authors (Bachelis1994): FindSmallestCard, CardSorting, OddEvenTranspositionSort, SieveOfErastothenes, AddLargeNumbers
-Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
+ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. Each student is given a piece of paper (representing local memory) that only they have access to.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Details From (Bachelis1994): The goal is to add a series of 16 random numbers. E
       <guid>https://www.pdcunplugged.org/activities/concerttickets/</guid>
       <description>Original Author/link Originally described by Yifat Ben-David Kolikant (Kolinkat2001). Modified for a CS1 audience by Gary Lewandowski, Dennis Bouvier, Robert McCartney, Kate Sanders, and Beth Simon in 2007 (Lewandowski2007, Lewandowski2010)
 No on-line resources available. See details for description.
-Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
+ Details CS1 Use-Case The following scenario is presented to students entering CS1 on their first day (Lewandowski2010):
  Suppose a Ticket Sale Company sells concert tickets in the following way: When a customer calls and asks for a n seats, the seller (1) finds the n best available seats; (2) marks those n seats as unavailable; and (3) deals with customer payment options and either e-mails ticket receipt or sends tickets to the Will Call Box Office (lets customer pick up tickets day of show).</description>
     </item>
     
@@ -68,7 +68,7 @@ Details CS1 Use-Case The following scenario is presented to students entering CS
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
 (Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
-Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+ Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+ Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
     </item>
     
     <item>

@@ -19,8 +19,8 @@
       <guid>https://www.pdcunplugged.org/activities/messagepassingacrobats/</guid>
       <description>Original Author/link Originally described by Steven K. Andrianoff and David B. Levine
 No link to independent description available. See &amp;ldquo;Details&amp;rdquo; for more details.
-Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
- The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
+ Details The instructor plays the role of the main program, and students play the role of one or more acrobats.
+  The instructor chooses a few student volunteers to be &amp;ldquo;acrobats&amp;rdquo;. It is very important that the instructor knows the names of the students (and that they have different names).</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Details The instructor plays the role of the main program, and students play the
       <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
       <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
-Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
+ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on ind
       <guid>https://www.pdcunplugged.org/activities/parallelgarbagecollection/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
+ Details See paper for details. In summary, this activity presents a directed graph with a distinguished vertex (labeled the root). Vertices are connected to each other with some number of edges. The end-goal is determine the set of reachable vertices from the root (&amp;ldquo;food&amp;rdquo;) and distinguish them from the set of non-reachable vertices (&amp;ldquo;garbage&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -53,8 +53,8 @@ Details See paper for details. In summary, this activity presents a directed gra
       <guid>https://www.pdcunplugged.org/activities/nondeterministicsorting/</guid>
       <description>Original Author/link Originally described by Paulo A.G. Sivilotti and Scott Pike
 Paper and poster available online:
-Details See paper and poster for full details. A high level summary is provided below:
- A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
+ Details See paper and poster for full details. A high level summary is provided below:
+  A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
     </item>
     
     <item>
@@ -65,8 +65,8 @@ Details See paper and poster for full details. A high level summary is provided 
       <guid>https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/</guid>
       <description>Original Author/link This activity was originally proposed by Mary Smith and Srishti Srivastava.
 Paper (Srivastava2019) and slides available on-line.
-Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
- Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
+ Details See paper for details. In summary, the goal is to write the statement &amp;ldquo;More Processors Are Not Always The Best&amp;rdquo;, along with the indices of each letter.
+  Sequential phase. In the sequential phase, a single student is instructed to first write the statement show above (task 1) and then write the index associated with each letter (0 .</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@ Other activities by (Rifki1994, Sivilotti2003) Rifkin1994: oddEvenTranspositionS
       <guid>https://www.pdcunplugged.org/activities/byzantinegenerals/</guid>
       <description>Original Author/link Originally described by William S. Lloyd (Lloyd1994)
 No web-link to independent description available. See paper (Lloyd1994) for additional details.
-Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
+ Details Students learn of the classic Byzantine Generals problem by acting out scenarios.
 The Byzantine Generals problem is a classic description of the consensus problem in distributed computing, where many independent processes must agree on a &amp;ldquo;true&amp;rdquo; value for a particular measurement (especially in the case where some processes become unreliable due to faults).</description>
     </item>
     
@@ -101,7 +101,7 @@ The Byzantine Generals problem is a classic description of the consensus problem
       <guid>https://www.pdcunplugged.org/activities/sweetenjuice/</guid>
       <description>Original Author/link Originally described by Mordechai Ben-Ari and Yifat Ben-David Kolikant (Ben-Ari1999)
 No web-link to independent description available. See paper (Ben-Ari1999) for additional details.
-Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
+ Details The paper uses dramatizations to help students understand algorithmic execution. The paper only describes one such lesson, which is used to introduce the concept of mutual exclusion. The following is a rough summary of the exercise in (Ben-Ari1999):
 Two students volunteer to be robots. A drinking glass is placed at a visible point in the classroom, purporting to contain &amp;ldquo;juice&amp;rdquo;.</description>
     </item>
     
@@ -127,7 +127,7 @@ Two students volunteer to be robots. A drinking glass is placed at a visible poi
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
 (Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
-Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+ Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
     </item>
     
     <item>
@@ -139,7 +139,7 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+ Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
     </item>
     
     <item>

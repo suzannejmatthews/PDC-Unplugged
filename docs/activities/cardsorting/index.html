@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -180,54 +180,34 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<h2 id="original-author-link">Original Author/link</h2>
-
+    <div align="start" class="content"><h2 id="original-authorlink">Original Author/link</h2>
 <p>Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). Also alluded to by Garcia and (Moore2000).</p>
-
 <p>Variation using a deck of playing cards by (Bogaerts2014 and Ghafoor2019):</p>
-
 <p><a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">iPDC Modules</a></p>
-
 <ul>
 <li>Available in <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/card_sorting/Card%20Sorting.docx">Word</a> and <a href="https://www.csc.tntech.edu/pdcincs/resources/modules/unplugged/card_sorting/Card%20Sorting.pdf">PDF</a></li>
 </ul>
-
 <h3 id="similiar-exercises">Similiar Exercises:</h3>
-
 <p>Sorting: <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">oddEvenTranspositionSort</a>, <a href="https://www.pdcunplugged.org/activities/parallelradixsort/">ParallelRadixSort</a>, <a href="https://www.pdcunplugged.org/activities/pipelinesort/">PipelineSort</a>,
-         <a href="https://www.pdcunplugged.org/activities/sortingnetwork/">sortingNetwork</a></p>
-
+<a href="https://www.pdcunplugged.org/activities/sortingnetwork/">sortingNetwork</a></p>
 <h3 id="other-activities-by-authors">Other activities by authors</h3>
-
 <p>(Bachelis1994): <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>, <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>, <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>, <a href="https://www.pdcunplugged.org/activities/pipelinesort/">PipelineSort</a></p>
-
 <p>(Moore2000): <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>, <a href="https://www.pdcunplugged.org/activities/oddeventranspositionsort/">OddEvenTranspositionSort</a>,
-             <a href="https://www.pdcunplugged.org/activities/matrixaddition/">MatrixAddition</a></p>
-
+<a href="https://www.pdcunplugged.org/activities/matrixaddition/">MatrixAddition</a></p>
 <p>(Ghafoor2019): <a href="https://www.pdcunplugged.org/activities/arraysinparallel/">ArraysInParallel</a>, <a href="https://www.pdcunplugged.org/activities/candysorting/">CandySorting</a>, <a href="https://www.pdcunplugged.org/activities/findyoungeststudentinclass/">FindYoungestStudentInClass</a>, <a href="https://www.pdcunplugged.org/activities/pbjinparallel/">PBJinParalell</a>,</p>
-
-<hr />
-
+<hr>
 <h2 id="details">Details</h2>
-
 <p>From (Bachelis1994):
 The goal is to sort a deck of 16 cards (it is assumed that there are unique numbers) using parallel selection sort. The notion of a &ldquo;two-card comparator&rdquo; is discussed as part of the process (e.g. input is two cards, outputs the smaller of the two cards). The processor therefore employs a series of &ldquo;two-card comparators&rdquo; to sort the set of cards. (Bechelis1994) recommends that students are first introduced to the <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a> activity.</p>
-
 <h3 id="serial-case">Serial case:</h3>
-
 <ul>
 <li>Students recognize that to find the smallest card in a collection of 16 cards, it should take 15 comparisons. Therefore, to find the next smallest it takes 14 comparisons, then 13, and so on. Therefore
 <em>sorting</em> 16 cards takes (using Guass&rsquo; formula) (15 x 16)/2 comparisons. Assuming that each comparison takes 1 unit time, then sorting 16 cards serially requires 120 time steps.</li>
 <li>Ask the students: <em>how to make the process faster?</em></li>
 <li>The answer is to to use several processors and a &ldquo;divide and conquer&rdquo; methodology.</li>
 </ul>
-
 <h3 id="parallel-case">Parallel Case</h3>
-
 <p><strong>Two Students</strong>:</p>
-
 <ul>
 <li>Each student is given 8 cards, and asked to sort using selection sort. (i.e. Find the smallest, then the next smallest, etc.). At the end, the smallest card should be at the top of the deck, and the largest
 should be at the bottom of the deck.</li>
@@ -237,21 +217,17 @@ The students continue the process, each time with the student with the smaller c
 <li>Answer: To sort 8 cards, a total of (8 x 7)/2 = 28 comparisons are required. Since each student performed their comparisons simultaneously and in parallel; thus a total of 28 time steps are required.
 The final merge takes at most 15 comparison steps, for a total of 28 + 15 = 43 time steps.</li>
 </ul>
-
 <p><strong>Four Students</strong>:</p>
-
 <ul>
 <li>Each student is assigned a number (1..4) and is given a subset of 4 cards.</li>
-<li>Each student sorts their four cards. At the end, students 1 and 2 merge their decks, with student 2 receiving the new deck. Likewise, students 3 and 4 merge their decks, with student 4<br />
+<li>Each student sorts their four cards. At the end, students 1 and 2 merge their decks, with student 2 receiving the new deck. Likewise, students 3 and 4 merge their decks, with student 4<br>
 receiving the deck. Lastly, student 2 and 4 merge their decks to create final sorted deck.</li>
 <li>Ask the students: <em>how many time steps did this require?</em></li>
 <li>Answer: Each student initially takes (3 x 4) / 2 = 6 comparisons to sort their decks of four cards. Since the students performed their comparisons simultaneous and in parallel, a total of 6 time steps
 are needed for this step. Next, the merges between students 1 and 2 happen independently from the merges of students 3 and 4, and therefore can occur in parallel. To merge to a total of 8 cards, 7 comparisons
 (and thus 7 time steps are needed). Lastly, for the final round of merging between students 2 and 4, 15 time steps are needed. Therefore, the total number of time steps is 6 + 7 + 15 = 28 time steps.</li>
 </ul>
-
 <p><strong>Eight students</strong></p>
-
 <ul>
 <li>Each student is assigned a number (1..8) and given a subset of two cards.</li>
 <li>Each student sorts their two cards. Then: Students 1 and 2 merge their decks with student 2 receiving the new deck; Students 3 and 4 merge their decks, with student 4 receiving the new deck; Students 5 and 6
@@ -261,75 +237,57 @@ merge their decks, with student 6 receiving the new deck; Students 7 and 8 merge
 of four cards takes 3 comparisons, and thus this first merge step requires 3 time steps. The second round of merging produces two decks of eight cards; producing a deck of eight cards requires 7 comparisons,
 and thus the second round of merging requires 7 time steps. The final round of merging 15 steps. Thus, the total time is 1 + 3 + 7 + 15 = 26 time steps.</li>
 </ul>
-
 <p>The class then should asked to calculate the speedup of the parallel cases over the serial cases. They should be able to recognize that as more processors are added, the merge step starts to require the
 majority of the time.</p>
-
 <h3 id="playing-card-variation-bogaerts2014">Playing Card Variation (Bogaerts2014)</h3>
-
 <p>Steve Bogaerts describes a variation using playing cards rather than the 16 numbered cards that (Bachelis1994) recommends. Student volunteers are separated into three groups (A, B, and C) containing 1 student, 3 students and
 2 students respectively.</p>
-
 <ul>
-<li><p>The single person in group A plays the role of a single-core processor. The student has a sheet of paper representing local RAM.</p></li>
-
-<li><p>Two students in group B sit on opposite sides of the room, and represents the role of two processors. Each student has a sheet of paper representing their own RAM. The third student play the role of the message passing interface, and passes messages between the two students.</p></li>
-
-<li><p>The two students in group C sit next to each other and share a single piece of paper, representing a dual-core processor communicating via &ldquo;shared memory&rdquo;.</p></li>
+<li>
+<p>The single person in group A plays the role of a single-core processor. The student has a sheet of paper representing local RAM.</p>
+</li>
+<li>
+<p>Two students in group B sit on opposite sides of the room, and represents the role of two processors. Each student has a sheet of paper representing their own RAM. The third student play the role of the message passing interface, and passes messages between the two students.</p>
+</li>
+<li>
+<p>The two students in group C sit next to each other and share a single piece of paper, representing a dual-core processor communicating via &ldquo;shared memory&rdquo;.</p>
+</li>
 </ul>
-
 <p>The remaining students in the class are asked to watch the students as they each attempt to sort their playing cards. Common observations include that while the student in group A had no overhead, it took them a long time to sort the cards since they were working alone. The students in groups B and C generally take less time, but there are different issues. Group B takes a longer time to communicate, owing to the distance between them. While the two students in Group C have an easier time communicating, there is less space and there is a chance that they will &ldquo;mess up&rdquo; by working in a shared space. This latter scenario is foreshadowing of race conditions.</p>
-
 <h3 id="other-variations">Other Variations</h3>
-
 <p>(Ghafoor2019) describes a variation using two standard decks of playing cards. There is also no specified sorting algorithm in this variant.</p>
-
 <p>The concept of card sorting is described by (Moore2000). In a parallel
 processing lab, students form groups to develop card sorting algorithms to
 illustrate data parallelism in shared memory, data parallelism in message passing, and task parallelism for message
 passing. However, additional details on <em>how</em> exactly this is accomplished is
 not provided.</p>
-
-<hr />
-
+<hr>
 <h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
-
 <h3 id="parallel-decomposition-core-tier-1">Parallel Decomposition (Core Tier 1)</h3>
-
 <ol>
-<li><p>Explain why synchronization is necessary in a specific parallel program. [Usage]</p></li>
-
-<li><p>Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p></li>
+<li>
+<p>Explain why synchronization is necessary in a specific parallel program. [Usage]</p>
+</li>
+<li>
+<p>Identify opportunities to partition a serial program into independent parallel modules. [Familiarity]</p>
+</li>
 </ol>
-
-<h3 id="pd-parallel-algorithms-analysis-programming-core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
-
+<h3 id="pdparallel-algorithms-analysis--programming---core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
 <p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in this regard. [Familiarity]</p>
-
 <p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
-
 <p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.</p>
-
 <h3 id="parallel-architecture">Parallel Architecture</h3>
-
 <p>1. Explain the differences between shared and distributed memory. [Familiarity] [Core-Tier2]</p>
-
 <p>8. Describe the key performance challenges in different memory and distributed system topologies. [Familiarity]</p>
-
 <h3 id="parallel-performance-elective">Parallel Performance (Elective)</h3>
-
 <ol>
 <li>Detect and correct a load imbalance. [Usage]</li>
 <li>Calculate the implications of Amdahl&rsquo;s law for a particular parallel algorithm (cross-reference SF/Evaluation for Amdahl&rsquo;s Law). [Usage]</li>
 <li>Describe how data distribution/layout can affect an algorithm&rsquo;s communication costs. [Familiarity]</li>
 </ol>
-
-<hr />
-
+<hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-
 <h3 id="algorithms-topics">Algorithms Topics</h3>
-
 <ul>
 <li>Know Sorting: Observe several sorting algorithms for varied platforms &mdash;
 together with analyses. Parallel merge sort is the simplest example,
@@ -340,36 +298,32 @@ more sophisticated algorithms might be covered in more advanced courses
 <li>Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling)</li>
 <li>Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations &mdash; thereby lifting one from the limited domain of &ldquo;embarrassing parallelism&rdquo; to more complex
 computational structures</li>
-<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as mergesort &hellip; how the same structure that enables divide and conquer (sequential) algorithms
-exposes opportunities for parallel computation
-&mdash;</li>
+<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured examples such as mergesort . . . how the same structure that enables divide and conquer (sequential) algorithms
+exposes opportunities for parallel computation</li>
 </ul>
-
+<hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
-
 <ul>
-<li><p><strong>K-12</strong>: (Bachelis1994) recommends introducing concepts to students in a secondary-school mathematics or computer science class.</p></li>
-
-<li><p><strong>CS0/CS1/CS2</strong> - The authors suggest using the activity in introductory
+<li>
+<p><strong>K-12</strong>: (Bachelis1994) recommends introducing concepts to students in a secondary-school mathematics or computer science class.</p>
+</li>
+<li>
+<p><strong>CS0/CS1/CS2</strong> - The authors suggest using the activity in introductory
 computer science courses. In addition, there is assessment supporting this
-approach.</p></li>
-
-<li><p><strong>DSA</strong> - In addition to CS2, TCPP recommends that DSA may be an appropriate
-place to cover sorting topics.</p></li>
+approach.</p>
+</li>
+<li>
+<p><strong>DSA</strong> - In addition to CS2, TCPP recommends that DSA may be an appropriate
+place to cover sorting topics.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="accessibility">Accessibility</h2>
-
 <p>Yes. This activity should be accessible to a wide range of students. The
 activity can easily be done at a table. Blind students can also participate
 in the exercise if Braille playing cards were used.</p>
-
-<hr />
-
+<hr>
 <h2 id="assessment">Assessment</h2>
-
 <p>(Bogaerts2014) used sorting playing cards an activity as part of a larger unit in parallelism in a CS1 course. He mentions that the total amount
 of time spent on parallelism was larger in the section that used analogies and hands-on activities compared
 to the one that presented the topics in a traditional lecture-style format (4 hours vs 90 minutes). However,
@@ -382,38 +336,41 @@ delivered the material in a typical lecture-style fashion. (Bogaerts2017) extend
 original paper, but found that while student interest increased, the desire to learn more decreased. The authors
 theorize that this is because most of the students in the course were non-majors who will not be pursuing
 computing in the future.</p>
-
 <p>(Moore2000) discusses the impact of the parallel computing labs in
 her course. In general, students responded to the labs positively, and felt
 that labs increased their knowledge significantly.</p>
-
-<hr />
-
+<hr>
 <h2 id="citations">Citations</h2>
-
 <ul>
-<li><p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
-vol. 94, no. 4, pp. 176–186, 1994.</p></li>
-
-<li><p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
-on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p></li>
-
-<li><p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p></li>
-
-<li><p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p></li>
-
-<li><p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
-vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p></li>
-
-<li><p>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
-last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></p></li>
+<li>
+<p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing algorithms to life: Cooperative computing activities using students as processors&rdquo;, <em>School Science and Mathematics</em>,
+vol. 94, no. 4, pp. 176–186, 1994.</p>
+</li>
+<li>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&quot;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+</li>
+<li>
+<p>S. Bogaerts. &ldquo;Limited Time and Experience: Parallelism in CS1&rdquo;. In <em>Proceedings of the 2014 IEEE 28th International Parallel &amp; Distributed Processing Symposium Workshops  (IPDPSW&rsquo;14)</em>, pp. 1071-1078. 2014.</p>
+</li>
+<li>
+<p>S. Bogaerts. &ldquo;One step at a time: Parallelism in an introductory programming course&rdquo;. <em>Journal of Parallel and Distributed Computing</em> Vol. 105, pp. 4-17. 2017.</p>
+</li>
+<li>
+<p>M. Moore, &ldquo;Introducing parallel processing concepts&rdquo;, <em>J. Comput. Sci. Coll.,</em>
+vol. 15, no. 3, pp. 173–180, Mar. 2000. Available: <a href="http://dl.acm.org/citation.cfm?id=1852563.1852589">http://dl.acm.org/citation.cfm?id=1852563.1852589</a></p>
+</li>
+<li>
+<p>S. K. Ghafoor, M. Rogers, D. Brown, and A. Haynes, &ldquo;ipdc modules (unplugged)&rdquo;
+last accessed Oct 16, 2019. [Online]. Available: <a href="https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/">https://www.csc.tntech.edu/pdcincs/index.php/ipdc-modules/</a></p>
+</li>
 </ul>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         

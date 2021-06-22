@@ -31,7 +31,7 @@
       <guid>https://www.pdcunplugged.org/activities/jigsawpuzzle/</guid>
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
- Available in: PPT and PDF Also described in (Neeman2006)  Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+ Available in: PPT and PDF Also described in (Neeman2006)   Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
 No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
 Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
 (Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
-Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
+ Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
     </item>
     
     <item>
@@ -56,7 +56,7 @@ Details Suppose the goal is to find all the primes less than n = 1,000. In the s
       <description>Original Author/link Originally Described by Michelle Moore (Moore2000). In a separate paper (Kitchen1992), the notion of adding numbers in a matrix to illustrate master/worker is alluded to, but not discussed in depth.
 No web-link to independent description available. See paper (Moore2000) for additional details.
 Other activities by author (Moore2000): SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
-Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
+ Details Moore describes how to use Matrix Addition to describe the differences between shared memory vs distributed memory systems.</description>
     </item>
     
     <item>

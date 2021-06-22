@@ -67,7 +67,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.68.3" />
         
 
         
@@ -156,33 +156,22 @@
 
     </div>
 
-    <div align="start" class="content">
-
-<p>Everyone is welcome to contribute to PDC Unplugged!  Please consider contributing if:</p>
-
+    <div align="start" class="content"><p>Everyone is welcome to contribute to PDC Unplugged!  Please consider contributing if:</p>
 <ul>
 <li>If you have a great PDC unplugged activity that you created.</li>
 <li>If you know of a great PDC unplugged activity (be sure to provide links and/or citations).</li>
 <li>If you have assessed an existing listed unplugged activity.</li>
 <li>If you see typos or other need to correct an existing activity.</li>
 </ul>
-
 <p>All submissions to PDC Unplugged are reviewed by the repository administrators. Once approved, the changes will
 appear almost immediately on the site.</p>
-
-<hr />
-
+<hr>
 <h2 id="activity-structure">Activity Structure</h2>
-
 <p>Activities in the PDC Unplugged repository are created using MarkDown, a markup language that is simpler than HTML and in many ways resembles plaintext.</p>
-
 <p>All activities are located under the <code>content/activities/</code> folder in the GitHub repository. To contribute to the repository, either modify the existing
 markdown file with your recommended changes or add a new markdown file to the folder.</p>
-
 <p>If you are using Hugo to locally build the repository, you can generate a new activity by using the command <code>hugo new activities/yourActivity.md</code> where <code>yourActivity.md</code> is the name of your new activity.</p>
-
 <p>For those educators unfamiliar or uncomfortable with using Github, you can also create an activity by copying the following template to a textfile (for example <code>yourActivity.md</code>):</p>
-
 <pre><code>---
 title: 
 date: 
@@ -222,131 +211,125 @@ tags:
 
 ## Citations
 
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <h2 id="filling-in-the-details">Filling in the details</h2>
-
 <p>Here are detailed instructions on how to fill in each individual section:</p>
-
 <ul>
-<li><p><strong>Original Author/link</strong>: Please list the activity&rsquo;s author and any links to related external material. Paper citations and/or websites should be placed under the  &ldquo;Citations&rdquo; heading</p></li>
-
-<li><p><strong>Details (optional)</strong> The Details section is optional, but recommended if the activity is not publicly available on the web. Please include as much detail about the activity as you can. If you are getting information about an activity from an academic paper, it is important to cite the paper the activity is from and the original author.</p></li>
-
-<li><p><strong>CS2013 Knowledge Unit Coverage</strong> Next, please include the CS2013 knowledge units that match your activity. Please see the <a href="https://www.pdcunplugged.org/cs2013-overview/">CS2013 View</a> page for a detailed listing of all PDC knowledge units. For each knowledge unit, please list the the title (e.g. <code>PD/Cloud Computing</code>) and the assoicated learning outcomes. The following code listing (extracted from <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>) illustrates how multiple knowledge units and learning outcomes associated for a particular activity can be listed:</p>
-
-<pre><code class="language-text">
----
-## CS2013 Knowledge Unit Coverage
-
-### PD/Parallel Decomposition
-
-**Core Tier 1:**
-
-2\. Identify opportunities to partition a serial program into independent 
-    parallel modules. [Familiarity]
-
-**Core Tier 2:**
-
-4\. Parallelize an algorithm by applying task-based decomposition. [Usage]
-
-### PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2
-
-3\. Define &quot;speed-up&quot; and explain the notion of an algorithm's scalability in 
-    this regard. [Familiarity]
-
-4\. Identify independent tasks in a program that may be parallelized. [Usage]
-
-6\. Implement a parallel divide-and-conquer (and/or graph algorithm) and 
-    empirically measure its performance relative to its sequential analog.
-
----
-</code></pre></li>
-
-<li><p><strong>TCPP Topics Coverage</strong> Please also include any relevant TCPP topics that match your activity. Please see the <a href="https://www.pdcunplugged.org/tcpp-overview/">TCPP View</a> page for a detailed listing of all TCPP Topic Areas. The following code listing (extracted from <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>) illustrates how multiple topics associated with a particular activity can be listed:</p>
-
-<pre><code class="language-text">
----
-## TCPP Topics Coverage
-
-### Programming Topics 
-
-* Comprehend Performance Metrics (Speedup): Understand how to compute speedup, 
-  and what it means
-
-### Algorithms Topics
-
-* Comprehend Time: Recognize time as a fundamental computational resource that 
-  can be influenced by parallelism
-* Comprehend Scaling: Recognize the use of parallelism either to solve a given 
-  problem instance faster or to solve larger instance in the same time 
-  (strong and weak scaling)
-* Apply Dependencies: Observe how dependencies constrain the execution order of 
-  &quot;embarrassing parallelism&quot; to more complex computational structures
-* Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured 
-  examples such as mergesort . . . how the same structure that enables divide 
-  and conquer (sequential) algorithms exposes opportunities for parallel 
-  computation
-* Know Selection: Observe algorithms for finding order statistics, notably min 
-  and max. Understand that selection can always be accomplished by sorting but 
-  that direct algorithms may be simpler.
-
----
-</code></pre></li>
-
-<li><p><strong>Recommended Courses</strong> If you have any recommendation for courses, please list them below. If you are citing an unplugged activity that exists in the literature, please include any recommendations for courses from the paper. Finally, if your activities align with any TCPP Topic Areas, please include the
-set of recommended courses associated with that topic area. Courses associated with each Topic Area can be found on the <a href="https://www.pdcunplugged.org/tcpp-overview/">TCPP View</a> page.</p></li>
-
-<li><p><strong>Accessibility</strong>: If you have any experience or thoughts on how to teach the unplugged activity to disabled students, please include them in this section. If you anticipate that a particular activity would be challenging for a particular group, please also mention it here. For example, an activity that heavily involves vision may not be the best choice for blind students. Include that information in this section, along with any suggestions on how blind students may participate equally in the exercise.</p></li>
-
-<li><p><strong>Assessment</strong>: If there is any assessment on the activity, please provide it in this section. Educators who use a particular acitivity in their classroom are welcome to include any evidence (qualitative or quantitative) about their experiences. Any assessment gleaned from the literature should have appropriate citations.</p></li>
-
-<li><p><strong>Citations</strong>: PDC Unplugged  asks that all contributions cite the originating literature. If you are contributing an activity that was previously described, please cite the original set of authors, and provide a FULL citation to the paper, including any DOI information as available. If the PDF is available on-line, please link directly to it.  The following code listing (extracted from <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>) illustrates how journal and conference papers should be cited:</p>
-
-<pre><code class="language-text">
-## Citations
-
-* G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &quot;Bringing 
-  algorithms to life: Cooperative computing activities using students as 
-  processors&quot;, _School Science and Mathematics_, vol. 94, no. 4, pp. 176–186, 
-  1994.
-
-* B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &quot;Introducing parallel 
-  algorithms in undergraduate computer science courses (tutorial session)&quot;, in 
-  _Proceedings of the Twenty-first SIGCSE Technical Symposium on Computer 
-  Science Education (SIGCSE'90)_. ACM, 1990, pp. 255. 
-  Available: http://doi.acm.org/10.1145/323410.323415
+<li>
+<p><strong>Original Author/link</strong>: Please list the activity&rsquo;s author and any links to related external material. Paper citations and/or websites should be placed under the  &ldquo;Citations&rdquo; heading</p>
+</li>
+<li>
+<p><strong>Details (optional)</strong> The Details section is optional, but recommended if the activity is not publicly available on the web. Please include as much detail about the activity as you can. If you are getting information about an activity from an academic paper, it is important to cite the paper the activity is from and the original author.</p>
+</li>
+<li>
+<p><strong>CS2013 Knowledge Unit Coverage</strong> Next, please include the CS2013 knowledge units that match your activity. Please see the <a href="https://www.pdcunplugged.org/cs2013-overview/">CS2013 View</a> page for a detailed listing of all PDC knowledge units. For each knowledge unit, please list the the title (e.g. <code>PD/Cloud Computing</code>) and the assoicated learning outcomes. The following code listing (extracted from <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>) illustrates how multiple knowledge units and learning outcomes associated for a particular activity can be listed:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">
+</code></pre></div></li>
+</ul>
+<hr>
+<h2 id="cs2013-knowledge-unit-coverage">CS2013 Knowledge Unit Coverage</h2>
+<h3 id="pdparallel-decomposition">PD/Parallel Decomposition</h3>
+<p><strong>Core Tier 1:</strong></p>
+<p>2. Identify opportunities to partition a serial program into independent
+parallel modules. [Familiarity]</p>
+<p><strong>Core Tier 2:</strong></p>
+<p>4. Parallelize an algorithm by applying task-based decomposition. [Usage]</p>
+<h3 id="pdparallel-algorithms-analysis--programming---core-tier-2">PD/Parallel Algorithms, Analysis &amp; Programming - Core Tier 2</h3>
+<p>3. Define &ldquo;speed-up&rdquo; and explain the notion of an algorithm&rsquo;s scalability in
+this regard. [Familiarity]</p>
+<p>4. Identify independent tasks in a program that may be parallelized. [Usage]</p>
+<p>6. Implement a parallel divide-and-conquer (and/or graph algorithm) and
+empirically measure its performance relative to its sequential analog.</p>
+<hr>
+<pre><code>```
+</code></pre>
+<ul>
+<li><strong>TCPP Topics Coverage</strong> Please also include any relevant TCPP topics that match your activity. Please see the <a href="https://www.pdcunplugged.org/tcpp-overview/">TCPP View</a> page for a detailed listing of all TCPP Topic Areas. The following code listing (extracted from <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>) illustrates how multiple topics associated with a particular activity can be listed:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">
+</code></pre></div></li>
+</ul>
+<hr>
+<h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
+<h3 id="programming-topics">Programming Topics</h3>
+<ul>
+<li>Comprehend Performance Metrics (Speedup): Understand how to compute speedup,
+and what it means</li>
+</ul>
+<h3 id="algorithms-topics">Algorithms Topics</h3>
+<ul>
+<li>Comprehend Time: Recognize time as a fundamental computational resource that
+can be influenced by parallelism</li>
+<li>Comprehend Scaling: Recognize the use of parallelism either to solve a given
+problem instance faster or to solve larger instance in the same time
+(strong and weak scaling)</li>
+<li>Apply Dependencies: Observe how dependencies constrain the execution order of
+&ldquo;embarrassing parallelism&rdquo; to more complex computational structures</li>
+<li>Comprehend Divide &amp; conquer (parallel aspects): Observe, via tree-structured
+examples such as mergesort . . . how the same structure that enables divide
+and conquer (sequential) algorithms exposes opportunities for parallel
+computation</li>
+<li>Know Selection: Observe algorithms for finding order statistics, notably min
+and max. Understand that selection can always be accomplished by sorting but
+that direct algorithms may be simpler.</li>
+</ul>
+<hr>
+<pre><code>```
+</code></pre>
+<ul>
+<li>
+<p><strong>Recommended Courses</strong> If you have any recommendation for courses, please list them below. If you are citing an unplugged activity that exists in the literature, please include any recommendations for courses from the paper. Finally, if your activities align with any TCPP Topic Areas, please include the
+set of recommended courses associated with that topic area. Courses associated with each Topic Area can be found on the <a href="https://www.pdcunplugged.org/tcpp-overview/">TCPP View</a> page.</p>
+</li>
+<li>
+<p><strong>Accessibility</strong>: If you have any experience or thoughts on how to teach the unplugged activity to disabled students, please include them in this section. If you anticipate that a particular activity would be challenging for a particular group, please also mention it here. For example, an activity that heavily involves vision may not be the best choice for blind students. Include that information in this section, along with any suggestions on how blind students may participate equally in the exercise.</p>
+</li>
+<li>
+<p><strong>Assessment</strong>: If there is any assessment on the activity, please provide it in this section. Educators who use a particular acitivity in their classroom are welcome to include any evidence (qualitative or quantitative) about their experiences. Any assessment gleaned from the literature should have appropriate citations.</p>
+</li>
+<li>
+<p><strong>Citations</strong>: PDC Unplugged  asks that all contributions cite the originating literature. If you are contributing an activity that was previously described, please cite the original set of authors, and provide a FULL citation to the paper, including any DOI information as available. If the PDF is available on-line, please link directly to it.  The following code listing (extracted from <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>) illustrates how journal and conference papers should be cited:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">
+</code></pre></div></li>
+</ul>
+<h2 id="citations">Citations</h2>
+<ul>
+<li>
+<p>G. F. Bachelis, B. R. Maxim, D. A. James, and Q. F. Stout, &ldquo;Bringing
+algorithms to life: Cooperative computing activities using students as
+processors&rdquo;, <em>School Science and Mathematics</em>, vol. 94, no. 4, pp. 176–186,
+1994.</p>
+</li>
+<li>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel
+algorithms in undergraduate computer science courses (tutorial session)&quot;, in
+<em>Proceedings of the Twenty-first SIGCSE Technical Symposium on Computer
+Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255.
+Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+<pre><code>
 
 </code></pre></li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="contributing-changes">Contributing Changes</h2>
-
 <p>All educators are free to contribute to the repository. There are two ways to contribute:</p>
-
 <ul>
-<li><p>e-mail the administrator (suzanne DOT matthews AT westpoint DOT edu) with their markdown file and/or list of changes.</p></li>
-
-<li><p><a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">submit a pull request</a> through GitHub.</p></li>
+<li>
+<p>e-mail the administrator (suzanne DOT matthews AT westpoint DOT edu) with their markdown file and/or list of changes.</p>
+</li>
+<li>
+<p><a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">submit a pull request</a> through GitHub.</p>
+</li>
 </ul>
-
 <p>This ensures that your contribution is acknowledged through GitHub. Note that all pull requests are reviewed.</p>
-
-<hr />
-
+<hr>
 <h2 id="funding">Funding</h2>
-
-<p><img src="../images/nsf.png" width="70" height="70" align="left"> This work is sponsored by National Science Foundation (NSF) Collaborative Research Grant DUE-1855761. <em>Collaborative Research: CSinParallel: Experiential Learning of Parallel and Distributed Computing through Sight, Sound, and Touch</em>.</p>
+<p><!-- raw HTML omitted --> This work is sponsored by National Science Foundation (NSF) Collaborative Research Grant DUE-1855761. <em>Collaborative Research: CSinParallel: Experiential Learning of Parallel and Distributed Computing through Sight, Sound, and Touch</em>.</p>
 </div>
 
 </main>
 
         <footer>
-            <p class="copyright text-muted">&copy; 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+            <p class="copyright text-muted">© 2019 Suzanne J. Matthews. All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
         
