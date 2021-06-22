@@ -30,7 +30,7 @@ The drive-way shoveling analogy is easy to split up and is relatively easy for s
 To connect it better with the work of (Kolikant2001), we present a third question involving planting trees:
 
 > "Suppose the goal is to plant 100 trees. Each tree requires than you dig a hole, place the tree in the hole, and refill the hole. Assume each of these steps takes 100 seconds. 
-   How long does it take for one person to plant 1 tree? How about 100 trees? Suppose 10 people helped plant trees. How long will it take?"
+   How long does it take for one person to plant 1 tree? How about 100 trees? Suppose 10 people worked together to plant trees. How long will it take?"
 
 * Students should be able to quickly identify that it takes one person 300 seconds to plant a single tree, and it would take that person 30,000 seconds (~8.33 hours) to plant 100 trees.
 * The question of how to split up the work is interesting. If each person was responsible for planting 10 trees, then it would take roughly 3,000 seconds for all 10 people to finish 
