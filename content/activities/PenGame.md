@@ -4,7 +4,7 @@ date: 2019-11-05T14:30:34-05:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_2"]
 tcpp: ["TCPP_Programming"]
-tcppdetails: ["K_DataRaces"]
+tcppdetails: ["C_DataRaces"]
 courses: ["K_12", "CS0", "DSA", "Systems"]
 senses: ["visual"]
 medium: ["game", "pens"]
@@ -46,8 +46,7 @@ than reads (looking at the pen). (Neeman2006).
 
 ### Programming Topics
 
-* Know Data Races: Know what a data race is, and how 
-to use synchronization to prevent it.
+* Comprehend Race Conditions: Know what a race condition is, and how to use synchronization to prevent it
 
 ---
 

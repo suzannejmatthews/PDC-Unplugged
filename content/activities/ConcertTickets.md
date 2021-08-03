@@ -4,7 +4,7 @@ date: 2019-12-06T17:54:13-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination", "PD_CloudComputing"]
 cs2013details: ["PD_1", "CAC_2", "CAC_5", "CAC_7", "CAC_8", "CC_2"]
 tcpp: ["TCPP_Programming", "TCPP_CrossCutting"]
-tcppdetails: ["K_DataRaces", "K_Consistency"]
+tcppdetails: ["C_DataRaces", "K_Consistency"]
 senses: ["accessible"]
 courses: ["CS1", "ParProg"]
 medium: ["analogy", "paper"]
@@ -160,7 +160,7 @@ Develop a system according to the following steps:
 
 ### Programming Topics
 
-* Know Concurrency Defects (Data Races): Know what a data race is, and how to use synchronization to prevent it.
+* Comprehend Race Condition: Know what a race condition is, and how to use synchronization to prevent it
 
 ### Cross Cutting and Advanced Topics 
 

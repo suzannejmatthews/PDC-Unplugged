@@ -4,7 +4,7 @@ date: 2020-01-08T11:16:31-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelPerformance"]
 cs2013details: ["PD_1", "PD_2", "PD_3", "PD_4", "PD_5", "Algo_4", "Algo_5", "Algo_9", "Perf_1"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["C_Decomposition", "C_LoadBalancing", "C_Time", "A_Dependencies", "K_Dependencies"]
+tcppdetails: ["C_Decomposition", "C_LoadBalancing", "C_Time", "A_Dependencies"]
 courses: ["CS1", "CS2", "DSA", "Systems", "ParProg"]
 medium: ["analogy"]
 ---

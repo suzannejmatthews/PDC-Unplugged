@@ -4,7 +4,7 @@ date: 2020-01-08T15:20:31-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination"]
 cs2013details: ["PD_1", "CAC_1"]
 tcpp: ["TCPP_Algorithms"]
-tcppdetails: ["K_Synchronization"]
+tcppdetails: ["A_Synchronization"]
 senses: ["accessible"]
 courses: ["CS1", "CS2", "DSA"]
 medium: ["analogy"]
@@ -46,7 +46,7 @@ In this analogy, the ship-wrecked people in the meeting represent threads or pro
 
 ### Algorithms Topics
 
-* Know Synchronization: Be aware of methods for controlling race conditions (1 hour)
+* Apply Synchronization: Be aware of methods for controlling race conditions (1 hour)
 
 ---
 

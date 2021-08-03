@@ -4,7 +4,7 @@ date: 2019-11-07T11:07:01-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination"]
 cs2013details: ["PD_1", "CAC_1","CAC_2","CAC_5","CAC_8"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
-tcppdetails: ["A_CriticalRegions", "K_DataRaces", "K_Synchronization", "K_NonDeterminism"]
+tcppdetails: ["A_CriticalRegions", "C_DataRaces", "A_Synchronization", "K_NonDeterminism"]
 courses: ["K_12", "CS2", "DSA", "Systems"]
 senses: ["movement"]
 medium: ["roleplay", "food"]
@@ -117,12 +117,11 @@ algorithm.
 * Apply Critical regions: Be able to write shared memory 
   programs that use critical regions for synchronization.
 
-* Know Data Races: Know what a data race is, and how to 
-  use synchronization to prevent it.
+* Comprehend Data Races: Know what a race condition is, and how to use synchronization to prevent it
 
 ### Algorithm Topics
 
-* Know Synchronization: Be aware of methods for controlling race conditions.
+* Apply Synchronization: Be aware of methods for controlling race conditions.
 
 ### Cross-Cutting and Advanced Topics
 

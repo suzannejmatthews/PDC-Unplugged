@@ -4,7 +4,7 @@ date: 2020-01-07T08:40:19-05:00
 cs2013: ["PD_ParallelArchitecture", "PD_ParallelPerformance", "PD_ParallelAlgorithms"]
 cs2013details: ["Algo_9", "Arch_7", "Perf_4", "Perf_6"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming", "TCPP_CrossCutting"]
-tcppdetails: ["C_CacheOrganization", "K_Pipelines", K_DataLayout", "K_DataLocality", "K_FalseSharing", "C_Locality"]
+tcppdetails: ["C_CacheOrganization", "C_Pipelines", K_DataLayout", "K_DataLocality", "K_FalseSharing", "C_Locality"]
 courses: ["DSA", "Systems", "ProgLang", "ParProg"]
 senses: ["visual"]
 medium: ["analogy"]
@@ -85,7 +85,7 @@ Likewise, suppose there are a number of threads that are working on populating a
 
 ### Architecture Topics
 
-* Know Pipelines (Single vs. multicycle): Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution
+* Comprehend Pipelines (Basic Structure and Organization): Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution
 * Comprehend Cache organization Know the cache hierarchies, shared caches (as opposed to private caches) result in coherency and performance issues for software
 
 ### Programming Topics

@@ -4,7 +4,7 @@ date: 2019-12-06T14:17:02-05:00
 cs2013: ["PD_ParallelFundamentals", "PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelPerformance"]
 cs2013details: ["fun_1", "PD_2", "PD_4", "PD_5", "Algo_3", "Algo_4", "Algo_5", "Perf_2"]
 tcpp: ["TCPP_Algorithms", "TCPP_Programming", "TCPP_CrossCutting"]
-tcppdetails: ["K_TasksThreads", "C_Decomposition", "C_Speedup", "K_Amdahl", "C_Time", "C_Scaling", "CK_Scalability", "A_Dependencies", "K_Dependencies", "K_Concurrency"]
+tcppdetails: ["K_TasksThreads", "C_Decomposition", "C_Speedup", "K_Amdahl", "C_Time", "C_Scaling", "CK_Scalability", "A_Dependencies", "K_Concurrency"]
 courses: ["CS0", "CS1", "CS2", "DSA", "Systems"]
 senses: ["visual", "movement"]
 medium: ["boardwork"]
@@ -109,8 +109,6 @@ and introduces the notion of Amdahl's law and speedup.
 * Comprehend/Know Scalability in algorithms and architectures: Comprehend via several examples that having access more processors does not guarantee faster execution --- the notion of inherent sequentiality
 
 * Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures
-
-* Know Dependencies: Understand the impacts of dependencies 
 
 ### Cross Cutting and Advanced Topics 
 

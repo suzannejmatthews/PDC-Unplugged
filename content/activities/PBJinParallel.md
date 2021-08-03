@@ -4,7 +4,7 @@ date: 2019-11-01T16:19:09-04:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_2"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["C_Deadlocks", "K_DataRaces", "K_Synchronization"]
+tcppdetails: ["C_Deadlocks", "C_DataRaces", "A_Synchronization"]
 courses: ["CS0", "CS1", "CS2", "Systems", "OS"]
 senses: ["movement", "touch"]
 medium: ["roleplay", "food", "analogy"]
@@ -44,11 +44,11 @@ Steve Bogaerts suggested using the example of making a PB&J sandwich as a way of
 
 * Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
 
-*  Know Data Races: Know what a data race is, and how to use synchronization to prevent it.
+*  Comprehend Race Conditions: Know what a race condition is, and how to use synchronization to prevent it.
 
 ### Algorithms Topics
 
-*  Know Synchronization: Be aware of methods for controlling race conditions (1 hour)
+*  Apply Synchronization: Be aware of methods for controlling race conditions (1 hour)
 
 ---
 

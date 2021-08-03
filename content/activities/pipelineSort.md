@@ -3,6 +3,8 @@ title: "PipelineSort"
 date: 2019-12-11T12:38:56-05:00
 cs2013: ["PD_ParallelAlgorithms"]
 cs2013details: ["Algo_9"]
+tcpp: ["TCPP_Architecture"]
+tcppdetails: ["c_pipelines", "k_pipeline_streams"]
 courses: ["K_12"]
 senses: ["touch", "visual", "accessible"]
 medium: ["roleplay"]
@@ -121,7 +123,11 @@ algorithm breaks down. They recommend that students act this out (i.e., remove o
 
 ## TCPP Topics Coverage
 
-N/A
+### Architecture Topics
+
+* Comprehend Pipelines (Basic Structure and Organization): Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution
+
+* Know Pipeline Streams (e.g., GPU): Know that stream-based architecture exists in GPUs for graphics
 
 ---
 

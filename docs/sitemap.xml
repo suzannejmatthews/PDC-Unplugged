@@ -283,6 +283,11 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/c_dataraces/</loc>
+    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/cs2013details/cac_2/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
@@ -309,16 +314,6 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/courses/k_12/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_data/</loc>
-    <lastmod>2020-01-07T15:13:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</loc>
     <lastmod>2020-01-07T15:13:49-05:00</lastmod>
   </url>
   
@@ -373,6 +368,16 @@
   </url>
   
   <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/c_pipelines/</loc>
+    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_data/</loc>
+    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/k_datalayout/</loc>
     <lastmod>2020-01-07T08:40:19-05:00</lastmod>
   </url>
@@ -384,11 +389,6 @@
   
   <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/k_falsesharing/</loc>
-    <lastmod>2020-01-07T08:40:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pdcunplugged.org/tcppdetails/k_pipelines/</loc>
     <lastmod>2020-01-07T08:40:19-05:00</lastmod>
   </url>
   
@@ -525,6 +525,11 @@
   <url>
     <loc>https://www.pdcunplugged.org/tcppdetails/k_simdvector/</loc>
     <lastmod>2019-12-11T15:00:06-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pdcunplugged.org/tcppdetails/k_pipeline_streams/</loc>
+    <lastmod>2019-12-11T12:38:56-05:00</lastmod>
   </url>
   
   <url>

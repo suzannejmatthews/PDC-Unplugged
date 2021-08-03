@@ -4,7 +4,7 @@ date: 2019-12-09T14:34:15-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms"]
 cs2013details: ["PD_2", "PD_4", "Algo_3", "Algo_4", "Algo_6"]
 tcpp: ["TCPP_Algorithms", "TCPP_Programming"]
-tcppdetails: ["C_Speedup", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer", "K_Selection"]
+tcppdetails: ["C_Speedup", "C_Time", "C_Scaling", "A_Dependencies", "A_DivideAndConquer", "K_Selection"]
 courses: ["CS1", "CS2", "DSA"]
 senses: ["touch", "visual"]
 medium: ["cards", "game"]
@@ -142,8 +142,7 @@ To achieve this with 16 numbers, there can be four contests each with 4 numbers,
 * Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) 
 * Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex 
   computational structures
-* Comprehend Divide & conquer (parallel aspects): Observe, via tree-structured examples such as merge-sort . . . how the same structure that enables divide and conquer (sequential) algorithms 
-  exposes opportunities for parallel computation
+* Apply Divide & conquer (parallel aspects): Recognize that the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation. 
 * Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.
 
 ---

@@ -4,7 +4,7 @@ date: 2019-11-01T17:02:44-04:00
 cs2013: ["PD_ParallelArchitecture"]
 cs2013details: ["Arch_2"]
 tcpp: ["TCPP_Architecture", "TCPP_Programming"]
-tcppdetails: ["K_MIMD", "K_TasksThreads", "C_Decomposition", "C_Static", "C_Dynamic"]
+tcppdetails: ["K_MIMD", "K_TasksThreads", "C_Decomposition", "C_StaticDynamic"]
 courses: ["oo_course", "systems"]
 senses: ["accessible"]
 medium: ["analogy"]

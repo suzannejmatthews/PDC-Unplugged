@@ -120,20 +120,11 @@
     </item>
     
     <item>
-      <title>K_Data</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_data/</link>
+      <title>C_DataRaces</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_dataraces/</link>
       <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K_DataRaces</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</link>
-      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_dataraces/</guid>
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_dataraces/</guid>
       <description></description>
     </item>
     
@@ -152,6 +143,24 @@
       <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/c_locality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Pipelines</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_pipelines/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_pipelines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Data</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_data/</link>
+      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_data/</guid>
       <description></description>
     </item>
     
@@ -179,15 +188,6 @@
       <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_falsesharing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K_Pipelines</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_pipelines/</link>
-      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_pipelines/</guid>
       <description></description>
     </item>
     
@@ -251,6 +251,15 @@
       <pubDate>Wed, 11 Dec 2019 15:00:06 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/k_simdvector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k_pipeline_streams</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_pipeline_streams/</link>
+      <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_pipeline_streams/</guid>
       <description></description>
     </item>
     

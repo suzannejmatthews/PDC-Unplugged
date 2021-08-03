@@ -22,6 +22,7 @@
 </style>
 
 
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
 
 
 
@@ -37,9 +38,7 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
+ 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     
@@ -161,11 +160,11 @@
   </p>
   <p>Each topic is preceded by one of these terms. Use the Bloom taxonomy classification to gauge the level of topic coverage in a course.</p>
 
-  <h3>Architecture Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_architecture">9 Activities  </a>)</h3>
+  <h3>Architecture Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_architecture">10 Activities  </a>)</h3>
 
 <table >
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
-<tr><td> <u>Comprehend Parallel Taxonomy</u>: Flynn's taxonomy, data vs. control parallelism, shared/distributed memory (0.5 hours)</td><td>Systems</td>
+<tr><td> <u>Comprehend Parallel Taxonomy</u>: Flynn's taxonomy, data vs. control parallelism, shared/distributed memory </td><td>Systems</td>
 <td>
    
     <a href="https://www.pdcunplugged.org/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
@@ -175,24 +174,38 @@
     <a href="https://www.pdcunplugged.org/tcppdetails/c_taxonomy">See All (2) </a> 
 </td></tr>
 
-<tr><td> <u>Know Superscalar (ILP)</u>: Describe opportunities for multiple instruction issue and execution (0.25-1 hours)</td><td>Systems</td><td></td></tr> 
-<tr><td> <u>Know SIMD/Vector (e.g., SSE, Cray)</u>: Describe uses of SIMD/Vector (same operation on multiple data items), e.g., accelerating graphics for games. (0.1-0.5 hours)</td><td>Systems</td>
+<tr><td> <u>Know Superscalar (ILP)</u>: Describe opportunities for multiple instruction issue and execution (different instructions on different data)</td><td>Systems</td><td></td></tr> 
+<tr><td> <u>Know SIMD/Vector (e.g., AVX, GPU, TPU)</u>: Describe uses of SIMD/Vector (same operation on multiple data items), e.g., accelerating graphics for games.</td><td>Systems</td>
 <td>
   
     <a href="https://www.pdcunplugged.org/activities/coinflip/">CoinFlip</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_simdvector">See All (1) </a>
 </td></tr>
-<tr><td><u>Know Pipelines (Single vs. multicycle)</u>: Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution (1-2 hours)</td><td>Systems</td>
+<tr><td> <u>Know SIMD/Vector energy effects</u>: Saves energy by sharing one instruction over many instruction executions, whether in parallel (SIMD) or pipelined (vector)</td><td>Systems</td>
+<td>
+</td></tr>
+<tr><td><u>Comprehend Pipelines (Basic Structure and Organization)</u>: Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution</td><td>Systems</td>
 	<td>
   
     <a href="https://www.pdcunplugged.org/activities/kitchenanalogy/">KitchenAnalogy</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_pipelines">See All (1) </a>		
+    <a href="https://www.pdcunplugged.org/activities/pipelinesort/">PipelineSort</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_pipelines">See All (2) </a>		
 
 	</td></tr>
-<tr><td><u>Know Streams (e.g., GPU)</u>: Know that stream-based architecture exists in GPUs for graphics (0.1-0.5 hours)</td><td>Systems</td><td></td></tr> 
-<tr><td><u>Know MIMD</u>: Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads (0.1-0.5 hours)</td><td>Systems</td>
+  <tr><td><u>Know Pipelines (Data and control hazards)</u>: Show examples of how one pipe stage can depend on a result from another, or delayed branch resolution can start the wrong instructions in a pipe that can reduce performance</td><td>Systems</td>
+  <td>
+  </td></tr>
+<tr><td><u>Know Pipeline Streams (e.g., GPU)</u>: Know that stream-based architecture exists in GPUs for graphics </td><td>Systems</td><td>
+  
+    <a href="https://www.pdcunplugged.org/activities/pipelinesort/">PipelineSort</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_pipeline_streams">See All (1) </a>    
+</td></tr> 
+
+<tr><td><u>Know MIMD</u>: Identify MIMD instances in practice (multicore, cluster, e.g.), and know the difference between execution of tasks and threads</td><td>Systems</td>
   <td>
      
     <a href="https://www.pdcunplugged.org/activities/coinflip/">CoinFlip</a>;
@@ -203,8 +216,8 @@
 
   </td>
 </tr>
-<tr><td><u>Know Simultaneous MultiThreading</u>: Distinguish SMT from multicore (based on which resources are shared) (0.2-0.5 hours)</td><td>Systems</td><td></td></tr>
-<tr><td><u>Comprehend Multicore</u>: Describe how cores share resources (cache, memory) and resolve conflicts (0.5-1 hours)</td><td>Systems</td>
+<tr><td><u>Know MultiThreading</u>: Distinguish multithreading from multicore (based on which resources are shared)</td><td>Systems</td><td></td></tr>
+<tr><td><u>Comprehend Multicore</u>: Describe how cores share resources (cache, memory) and resolve conflicts</td><td>Systems</td>
 <td>
     
     <a href="https://www.pdcunplugged.org/activities/jigsawpuzzle/">JigsawPuzzle</a>;
@@ -215,14 +228,20 @@
 
 </td>
 </tr>
-<tr><td> <u>Know Heterogeneous (e.g., Cell,on-chip GPU)</u>: Recognize that multicore may not all be the same kind of core (0.1-0.5 hours)</td><td>Systems</td>
+<tr><td> <u>Know Heterogeneous (e.g., GPU, security, AI, low-power cores)</u>: Recognize that multicore may not all be the same kind of core (mix of organizations, instruction sets, high level explanation of benefits and costs)</td><td>Systems</td>
   <td>
      
     <a href="https://www.pdcunplugged.org/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_heterogeneous">See All (1) </a>
   </td></tr>
-<tr><td> <u>Comprehend Shared vs. distributed memory (SMP Buses)</u>: Systems Single resource, limited bandwidth and latency, snooping, scalability issues (0.5-1 hours)</td><td>Systems</td>
+<tr><td> <u>Know Heterogeneous Architecture Energy (small vs. big cores, CPU vs. GPU, accelerators)</u>: Know that heterogeneity saves energy by using power-efficient cores when there is sufficient parallelism</td><td>Systems</td>
+  <td>  </td></tr>
+<tr><td> <u>Know Symmetric Multi-Processor (SMP)</u>: Explain concept of uniform access shared memory architecture</td><td>Systems</td>
+  <td>  </td></tr>
+
+
+<tr><td> <u>Comprehend Buses for shared-memory implementation</u>: Be able to explain issues related to shared memory being a single resource, limited bandwidth and latency, snooping, and scalability</td><td>Systems</td>
   <td>
          
     <a href="https://www.pdcunplugged.org/activities/matrixaddition/">MatrixAddition</a>;
@@ -230,7 +249,7 @@
     <a href="https://www.pdcunplugged.org/tcppdetails/c_bus">See All (1) </a>
 
   </td></tr>
-<tr><td> <u>Know Message Passing Latency</u>: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup (0.2-0.5 hours)</td><td>Systems</td>
+<tr><td> <u>Know Distributed Memory Latency</u>: Know the concept, implications for scaling, impact on work/communication ratio to achieve speedup. Awareness of aspects of latency in parallel systems and networks that contribute to the idea of time accumulating over dependent parts or distance</td><td>Systems</td>
   <td>
          
     <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>;
@@ -239,29 +258,46 @@
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_latency">See All (3) </a>
   </td></tr>
-<tr><td> <u> Know Message Passing Bandwidth</u>: Know the concept, how it limits sharing, and considerations of data movement cost (0.1-0.5 hours)</td><td>Systems</td>
+<tr><td> <u> Know Distributed Memory Bandwidth</u>: Know the concept, how it limits sharing, and considerations of data movement cost</td><td>Systems</td>
   <td>
          
     <a href="https://www.pdcunplugged.org/activities/longdistancephonecall/">LongDistancePhoneCall</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_bandwidth">See All (1) </a>
   </td></tr>
-<tr><td> <u>Comprehend Cache organization</u> Know the cache hierarchies, shared caches (as opposed to private caches) result in coherency and performance issues for software (0.2 to 1 hours) </td><td>Systems</td>
+<tr><td> <u>Comprehend Caching</u> Know the cache hierarchies, and that shared caches (vs. private caches) result in coherency and performance issues for software </td><td>Systems</td>
   <td>
     
     <a href="https://www.pdcunplugged.org/activities/kitchenanalogy/">KitchenAnalogy</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_cacheorganization">See All (1) </a>
   </td></tr>
+<tr><td> <u>Know Atomicity</u>: CS2: Show awareness of the significance of thread-safe data structures in libraries.
+Systems: Explain the need for atomic operations and their use in synchronization, both in local and distributed contexts.
+</td><td>CS2/Systems</td><td></td></tr>  
+<tr><td> <u>Know Interrupts and event handling</u>: CS2: know that event handling is an aspect of graphical user interfaces.
+Systems: know that I/O is mostly interrupt-driven.
+</td><td>CS2/Systems</td><td></td></tr>  
+<tr><td> <u>Know Handshaking</u>: Know the difference between synchronous and asynchronous communication protocols, including context of multiple processors.
+</td><td>Systems</td><td></td></tr>  
+<tr><td> <u>Know Process ID, System/Node ID
+</u>: Explain need for a process identifier to enable interprocess communication, and for a node identifier in initialization of multiprocessor systems
+</td><td>Systems</td><td></td></tr>  
+
 <tr><td> <u>Know Floating Point Range</u>: Understand that range is limited, implications of infinities</td><td>CS1/CS2/Systems</td><td></td></tr>
-<tr><td> <u>Know Floating Point Precision</u>: How single and double precision floating point numbers impact software performance (0.1-0.5 hours)</td><td>CS1/CS2/Systems</td><td></td></tr>
-<tr><td> <u>Know Floating Point Error Propagation</u>: Understand NaN, Infinity values and how they affect computations and exception handling (0.1-0.5 hours)</td><td>CS2</td><td></td></tr>
-<tr><td> <u>Know Floating Point IEEE 754 standard</u>: Representation, range, precision, rounding, NaN, infinities, subnormals, comparison, effects of casting to other types (0.5-1 hours)</td><td>CS1/CS2/Systems</td><td></td></tr>
-<tr><td> <u>Comprehend Cycles per Instruction (CPI)</u>: Number of clock cycles for instructions, understand the performance of processor implementation, various pipelined implementations (0.25-1 hours) </td><td>Systems</td><td></td></tr>
-<tr><td> <u>Know Performance Benchmark - Spec Mark</u>: Awareness of pitfalls in relying on averages (different averages can alter perception of which architecture is faster) (0.25-0.5 hours)</td><td>Systems</td><td></td></tr>
-<tr><td> <u>Comprehend Peak Performance</u>: Understanding peak performance, how it is rarely valid for estimating real performance, illustrate fallacies (0.1-0.5 hours)</td><td>Systems</td><td></td></tr>
-<tr><td> <u>Know MIPS/FLOPS</u>: Understand meaning of terms (0.1 hours)</td><td>Systems</td><td></td></tr>
-<tr><td> <u>Comprehend Peak Vs. Sustained Performance</u>: Know difference between peak and sustained performance, how to define, measure, different benchmarks (0.1-0.5 hours)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Precision</u>: How single and double precision floating point numbers impact software performance, basic ways to avoid loss of precision in calculations</td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Know Floating Point Error Propagation</u>: Understand NaN, Infinity values and how they affect computations and exception handling</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Floating Point IEEE 754 standard</u>: Representation, range, precision, rounding, NaN, infinities, subnormals, comparison, effects of casting to other types </td><td>CS1/CS2/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Instructions Per Cycle</u>: Explain pros and cons of IPC as a performance metric, various pipelined implementations</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Performance Benchmarks</u>: Awareness of various benchmarks (such as LinPack, NAS parallel) and how they test different aspects of performance in parallel systems</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Peak Performance</u>: Understanding peak performance, how it is rarely valid for estimating real performance, illustrate fallacies</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know MIPS/FLOPS</u>: Know meaning of terms</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Peak Vs. Sustained Performance</u>: Know difference between peak and sustained performance, how to define, measure, different benchmarks</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Power, Energy</u>: Be able to explain difference between power (rate of energy usage) and energy</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Hardware limitations for data bound computation</u>: Comprehend the hardware limitations in the context of Big data and their most relevant v's (volume, velocity)</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Pressure imposed by data volume</u>: Know of the limitations in terms of storage, memories, and filesystems when dealing with very large data volumes</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Pressure imposed by data velocity</u>: Know of the limitations in bandwidth, memory, and processing when processing very fast data streams. Include networking and reliability issues</td><td>Systems</td><td></td></tr>
+<tr><td> <u>Know Cost of data movement across memory hierarchies</u>: Comprehend the difference in speed vs cost (latency, energy) of accessing the different memory hierarchies, and of changing their sizes, in the context of multiple processors and hierarchies</td><td>Systems</td><td></td></tr>
 </table>
 
 
@@ -272,25 +308,26 @@
 
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
-<tr><td> <u>Know SIMD</u>: Understand common vector operations including element-by-element operations and reductions (0.5 hours)</td><td>CS2/Systems</td><td></td></tr>
-<tr><td> <u>Know SIMD  (Process vector extensions)</u> : Know examples - SSE/Altivec macros</td><td>Systems</td><td></td></tr>
-<tr><td> <u> Apply Shared Memory</u>: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up (2 hours).</td><td>CS2/DSA/ProgLang</td>
+<tr><td> <u>Comprehend Concurrency and Parallelism</u>: Understand concurrency is an algorithmic property; it exposes potential for parallelization. If concurrency is present in an algorithm, it can be parallelized, without concurrency there is no scope for parallelization. Concurrency can be present in a sequential program, parallelization takes advantage of concurrency to increase performance.</td><td>CS1/CS2/DSA</td><td></td></tr>
+<tr><td> <u>Know SIMD</u>: Understand common vector operations including element-by-element operations and reductions</td><td>CS2/Systems</td><td></td></tr>
+<tr><td> <u>Know SIMD  (Process vector extensions)</u> : Know examples - e.g., Intel AVX or Power VSX macros</td><td>Systems</td><td></td></tr>
+<tr><td> <u> Apply Shared Memory</u>: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up.</td><td>CS2/DSA</td>
   <td>
       
     <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/a_sharedmemory">See All (1) </a>
 </td></tr>
-<tr><td> <u>Know Shared Memory Language Extensions</u>: Know about language extensions for parallel programming. Illustration from Cilk (spawn/join) and Java (Java threads)</td><td>CS2/DSA/ProgLang</td>
+<tr><td> <u>Know Shared Memory Language Extensions</u>: Know about language extensions for parallel programming. Illustrate with examples from Cilk (spawn/join), Java (Java threads), or other languages.</td><td>CS2/DSA</td>
   <td>
     
     <a href="https://www.pdcunplugged.org/activities/flowerjoinanalogy/">FlowerJoinAnalogy</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_sharedmemorylanguageextensions">See All (1) </a>    
   </td></tr>
-<tr><td> <u>Comprehend Shared Memory Compiler Directives</u>: Understand what simple directives, such as those of OpenMP, mean (parallel for, concurrent section), pragmas show examples</td><td>CS2/DSA/ProgLang</td><td></td></tr>
-<tr><td> <u> Comprehend Shared Memory Libraries</u>: Know one in detail, and know of the existence of some other example libraries such as Pthreads, Pfunc, Intel's TBB (Thread building blocks), Microsoft's TPL (Task Parallel Library), etc.</td><td>CS2/DSA/ProgLang</td><td></td></tr>
- <tr><td> <u>Comprehend Distributed Memory</u>: Know basic notions of messaging among processes, different ways of message passing, collective operations (1 hour)</td><td>DSA/Systems</td>
+<tr><td> <u>Comprehend Shared Memory Compiler Directives</u>: Understand what simple directives, such as those of OpenMP, mean (parallel for, concurrent section), pragmas show examples</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u> Comprehend Shared Memory Libraries</u>: Know one in detail, and know of the existence of some other example libraries such as Pthreads, Pfunc, Intel's TBB (Thread building blocks), Microsoft's TPL (Task Parallel Library), C++ threads, etc.</td><td>CS2/DSA</td><td></td></tr>
+ <tr><td> <u>Know Distributed Memory</u>: Know basic notions of messaging among processes, different ways of message passing, collective operations</td><td>Systems/DSA</td>
   <td>
     
     <a href="https://www.pdcunplugged.org/activities/messagepassingacrobats/">MessagePassingAcrobats</a>;
@@ -299,8 +336,8 @@
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_distributedmemory">See All (5) </a>
   </td></tr> 
- <tr><td> <u>Comprehend Client Server</u>: Know notions of invoking and providing services (e.g., RPC, RMI, web services) - understand these as concurrent processes (1 hour)</td><td>DSA/Systems</td><td></td></tr> 
- <tr><td> <u>Know Hybrid</u>: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, etc.) (0.5 hours)</td><td>Systems</td>
+ <tr><td> <u>Comprehend Client Server and Peer to Peer models</u>: Know notions of invoking and providing services (e.g., RPC, RMI, web services) - understand these as concurrent processes; know about network model of distributed computing (e.g., sockets); know that in distributed systems such handshaking interaction is crucial for the efficient communication between asynchronous processes</td><td>Systems</td><td></td></tr> 
+ <tr><td> <u>Know Hybrid</u>: Know the notion of programming over multiple classes of machines simultaneously (CPU, GPU, TPU, etc.)</td><td>Systems</td>
   <td>
           
     <a href="https://www.pdcunplugged.org/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
@@ -309,17 +346,17 @@
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_hybrid">See All (2) </a>
   </td></tr> 
- <tr><td> <u>Apply Task/thread spawning</u>: Be able to write correct programs with threads, synchronize (fork-join, producer/consumer, etc.), use dynamic threads (in number and possibly
-recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on shared memory topic above (1 hour)</td><td>CS2/DSA</td><td></td></tr> 
-<tr><td> <u>Comprehend SPMD</u>: Understand how SPMD program is written and how it executes (1 hour)</td><td>CS2/DSA</td>
+ <tr><td> <u>Apply Task/thread spawning</u>: Be able to write correct programs with threads, synchronize (fork-join, producer/consumer, master/worker, etc.), use dynamic threads (in number and possibly recursively) thread creation - (e.g., Pthreads,  Java threads, etc.)  - builds on shared memory topic above</td><td>CS2/DSA</td><td></td></tr> 
+  <tr><td> <u>Know Event-Driven Execution</u>: Know about the need for event-driven execution; possible approaches to implementing it. Know about the notion of causality among events (e.g., remote file access, GUI).  These effects may be easier to discuss in the context of distributed systems.</td><td>CS2</td><td></td></tr> 
+<tr><td> <u>Comprehend SPMD</u>: Understand how SPMD program is written and how it executes</td><td>CS2</td>
   <td>
    
     <a href="https://www.pdcunplugged.org/activities/desertislandsanalogy/">DesertIslandsAnalogy</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_spmd">See All (1) </a>
   </td></tr> 
-<tr><td> <u>Comprehend SPMD Notations</u>: Know the existence of highly threaded data parallel notations (e.g., CUDA, OpenCL), message passing (e.g, MPI), and some others (e.g., Global Arrays, BSP library)</td><td>CS2/DSA</td><td></td></tr> 
-<tr><td> <u>Apply Data parallel</u>: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise. Understand relation between different notations for data parallel: Array notations, SPMD, and parallel loops. Builds on shared memory topic above. (1 hour)</td><td>CS2/DSA/ProgLang</td>
+<tr><td> <u>Comprehend SPMD Notations</u>: Know the existence of highly threaded data parallel notations (e.g., CUDA, OpenCL), message passing (e.g., MPI), and some others (e.g., Global Arrays, BSP library)</td><td>CS2/DSA</td><td></td></tr> 
+<tr><td> <u>Apply Data parallel</u>: Be able to write a correct data-parallel program for shared-memory machines and get speedup, should do an exercise.</td><td>CS2/DSA</td>
   <td>
       
     <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
@@ -328,7 +365,7 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
     
     <a href="https://www.pdcunplugged.org/tcppdetails/a_dataparallel">See All (3) </a>
   </td></tr>
-<tr><td> <u>Apply Parallel loops for shared memory</u>: Know, through an example, one way to implement parallel loops, understand collision/dependencies across iterations (e.g., OpenMP, Intel's TBB) for shared memory</td><td>CS2/DSA/ProgLang</td><td></td></tr>
+<tr><td> <u>Apply Parallel loops for shared memory</u>: Know, through an example, one way to implement parallel loops, understand collision/dependencies across iterations (e.g., OpenMP, Intel's TBB) for shared memory</td><td>CS2/DSA</td><td></td></tr>
 <tr><td> <u>Know Tasks and threads</u>: Understand what it means to create and assign work to threads/processes in a parallel program, and know of at least one way do that (e.g., OpenMP, Intel TBB, etc.) (0.5 hours)</td><td>CS2/DSA/Systems/ProgLang</td><td>
       
     <a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
@@ -337,6 +374,10 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_tasksthreads">See All (2) </a>
 </td></tr>
+<tr><td> <u>Know MapReduce</u>: Understand how problems can be solved by mapreduce, and how algorithms can be written using map and reduce</td><td>CS2</td><td></td></tr>
+<tr><td> <u>Know Offloading to accelerators</u>: Know about running parts of applications on accelerators (e.g., GPU, TPU, FPGA)</td><td>CS2/Systems</td><td></td></tr>
+<tr><td> <u>Apply Tasks and Threads</u>: Be able to write parallel programs that create and assign work to threads/processes, in at least one parallel environment (e.g., OpenMP, Intel TBB, pthreads, etc.)</td><td>CS2/DSA/Systems</td><td></td></tr>
+<tr><td> <u>Apply Synchronization</u>: Be able to write shared memory programs with critical regions, producer- consumer communication, and get speedup; know the notions of mechanisms for concurrency (monitors, semaphores, etc.)</td><td>CS2/DSA/Systems</td><td></td></tr>
 <tr><td> <u>Apply Critical regions</u>: Be able to write shared memory programs that use critical regions for synchronization</td><td>CS2/DSA/Systems</td>
   <td>
       
@@ -347,8 +388,9 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
     <a href="https://www.pdcunplugged.org/tcppdetails/a_criticalregions">See All (2) </a>
   </td></tr>
 <tr><td> <u>Apply Producer-consumer</u>: Be able to write shared memory programs that use the producer-consumer pattern to share data and synchronize threads</td><td>CS2/DSA/Systems</td><td></td></tr>
-<tr><td> <u>Know Monitors</u>: Understand how to use monitors for synchronization</td><td>CS2/DSA/Systems</td><td></td></tr>
-<tr><td> <u>Comprehend Deadlocks</u>: Understand what a deadlock is, and methods for detecting and preventing them</td><td>DSA/Systems</td>
+
+<tr><td> <u>Comprehend Concurrency Issues</u>: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a  race condition, the correctness of the output may depend on the order of execution)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Deadlock/Livelock</u>: Understand what deadlock and livelock are, and methods for detecting and preventing them; also cast in terms of distributed systems</td><td>DSA/Systems</td>
   <td>
       
     <a href="https://www.pdcunplugged.org/activities/pbjinparallel/">PBJinParallel</a>;
@@ -357,14 +399,15 @@ recursively) thread creation (e.g. Pthreads, Java threads, etc.);  builds on sha
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_deadlocks">See All (2) </a>
   </td></tr>
-<tr><td> <u>Know Data Races</u>:  Know what a data race is, and how to use synchronization to prevent it</td><td>DSA/Systems</td>
+<tr><td> <u>Comprehend Starvation</u>: Understand how starvation (of a thread or process) can occur, in context of an example (e.g., dining philosophers)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Race Condition</u>:  Know what a race condition is, and how to use synchronization to prevent it</td><td>DSA/Systems</td>
   <td>
           
     <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
     
     <a href="https://www.pdcunplugged.org/activities/concerttickets/">ConcertTickets</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_dataraces">See All (5) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_dataraces">See All (5) </a>
   </td></tr>
 <tr><td> <u>Know Tools to detect concurrency defects</u>: Know the existence of tools to detect race conditions (e.g., Eraser) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
 <tr><td> <u>Comprehend Computation Decomposition Strategies</u>: Understand different ways to assign computations to threads or processes</td><td>CS2/DSA</td>

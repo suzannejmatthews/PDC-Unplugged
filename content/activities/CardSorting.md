@@ -4,7 +4,7 @@ date: 2019-11-01T12:39:05-04:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelPerformance", "PD_ParallelArchitecture"]
 cs2013details: ["PD_1", "PD_2", "Algo_3", "Algo_4", "Algo_6", Perf_1", "Perf_2", "Perf_3", "Arch_1", "Arch_8"]
 tcpp: ["TCPP_Algorithms"]
-tcppdetails: ["K_Sorting", "C_Time", "C_Scaling", "A_Dependencies", "C_DivideAndConquer"]
+tcppdetails: ["K_Sorting", "C_Time", "C_Scaling", "A_Dependencies", "A_DivideAndConquer"]
 courses: ["K_12", CS0", "CS1", "CS2", "DSA"]
 senses: ["accessible", "touch", "visual"]
 medium: ["cards", "game", "paper", "roleplaying"]
@@ -152,8 +152,7 @@ not provided.
 * Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) 
 * Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex 
   computational structures
-* Comprehend Divide & conquer (parallel aspects): Observe, via tree-structured examples such as mergesort . . . how the same structure that enables divide and conquer (sequential) algorithms 
-  exposes opportunities for parallel computation
+* Apply Divide & conquer (parallel aspects): Recognize that the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation. 
 ---
 
 ## Recommended Courses

@@ -4,7 +4,7 @@ date: 2020-01-07T15:13:49-05:00
 cs2013: ["PD_ParallelFundamentals", "PD_ParallelDecomposition", "PD_CommunicationAndCoordination", "PD_ParallelAlgorithms"]
 cs2013details: ["Fun_2", "PD_1", "PD_2", "CAC_1", "CAC_2", "CAC_5", "CAC_8", "Algo_4"]
 tcpp: ["TCPP_Programming"]
-tcppdetails: ["A_SharedMemory", "A_DataParallel", "A_CriticalRegions", "K_DataRaces"]
+tcppdetails: ["A_SharedMemory", "A_DataParallel", "A_CriticalRegions", "C_DataRaces"]
 courses: ["K_12", "CS2", "DSA", "Systems", "ProgLang"]
 senses: ["visual", "movement"]
 medium: ["boardwork", "paper", "cards", "pens"]
@@ -101,7 +101,7 @@ Students sitting at desks represent "threads" on individual cores. Each student 
 
 * Apply Critical regions: Be able to write shared memory programs that use critical regions for synchronization
 
-* Know Data Races: Know what a data race is, and how to use synchronization to prevent it
+* Comprehend Data Races: Know what a race condition is, and how to use synchronization to prevent it
 
 ---
 
