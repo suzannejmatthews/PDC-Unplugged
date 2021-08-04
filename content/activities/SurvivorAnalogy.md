@@ -4,7 +4,7 @@ date: 2020-01-08T15:20:31-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination"]
 cs2013details: ["PD_1", "CAC_1"]
 tcpp: ["TCPP_Algorithms"]
-tcppdetails: ["A_Synchronization"]
+tcppdetails: ["C_DataRaces"]
 senses: ["accessible"]
 courses: ["CS1", "CS2", "DSA"]
 medium: ["analogy"]
@@ -21,7 +21,7 @@ medium: ["analogy"]
 
 ## Details
 
-This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book _The Lord of the Flies_, not everyone may be familiar with that book (and some who are may not want to be reminded of it). 
+This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book _The Lord of the Flies_, not everyone may be familiar with that book (and some who are already familiar may not want to be reminded of it). 
 Instead, it may be useful to explain the following general scenario:
 
 Imagine if a group of people are stranded on a deserted island. Occasionally, they must get together to make decisions. In order to prevent the meetings from getting chaotic, everyone agrees to a common rule that whoever holds a special conch shell is the only one who speaks. When the person speaking finishes, they put down the shell, enabling other people to compete for the shell. Whoever acquires it first is the person who speaks next. Other people must wait until the person speaking finishes, before they can attempt to get a turn.
@@ -44,16 +44,16 @@ In this analogy, the ship-wrecked people in the meeting represent threads or pro
 
 ## TCPP Topics Coverage
 
-### Algorithms Topics
+### Programming Topics
 
-* Apply Synchronization: Be aware of methods for controlling race conditions (1 hour)
+* Comprehend Race Condition: Know what a race condition is, and how to use synchronization to prevent it
 
 ---
 
 ## Recommended Courses
 
 * **CS1**: Bogaerts used the analogy in a CS1 course 
-* **CS2/DSA**: TCPP recommends that synchronization concepts be covered in CS2 or DSA.
+* **CS2/DSA**: TCPP recommends that synchronization concepts be covered in CS1, CS2 or DSA.
 
 ---
 

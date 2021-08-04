@@ -3,8 +3,8 @@ title: "PBJinParallel"
 date: 2019-11-01T16:19:09-04:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_2"]
-tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["C_Deadlocks", "C_DataRaces", "A_Synchronization"]
+tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_Pervasive"]
+tcppdetails: ["C_Concurrency", "C_ConcurrencyIssues", "C_Deadlocks", "C_DataRaces", "A_Synchronization", "K_Asynchrony", "C_Asynchrony"]
 courses: ["CS0", "CS1", "CS2", "Systems", "OS"]
 senses: ["movement", "touch"]
 medium: ["roleplay", "food", "analogy"]
@@ -42,13 +42,23 @@ Steve Bogaerts suggested using the example of making a PB&J sandwich as a way of
 
 ### Programming Topics
 
+* Comprehend Concurrency Issues: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a race condition, the correctness of the output may depend on the order of execution)
+
 * Comprehend Deadlocks: Understand what a deadlock is, and methods for detecting and preventing them
 
 *  Comprehend Race Conditions: Know what a race condition is, and how to use synchronization to prevent it.
 
 ### Algorithms Topics
 
-*  Apply Synchronization: Be aware of methods for controlling race conditions (1 hour)
+*  Comprehend Concurrency, Asynchrony, Dependencies, and Nondeterminism: Qualitatively understand the notion of concurrency, asynchrony, dependencies, and nondeterminism through one or more every day examples illustrating simultaneous events with dependencies. 
+
+* Apply Synchronization: Be able to write shared memory programs with critical regions, producer- consumer communication, and get speedup; know the notions of mechanisms for concurrency (monitors, semaphores, etc.)
+
+* Comprehend Concurrency Issues: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a race condition, the correctness of the output may depend on the order of execution)
+
+### Emerging and Pervasive Topics
+
+* Comprehend Asynchrony: 1) Understand cause and effect of Asynchrony and how to ensure that computational correctness. 2)Understand asynchrony is the characteristics of modern systems and understand asynchrony in PDC context. 3)1) Can utilize a standard coordination strategy to prevent incorrect operation due to uncontrolled concurrency (race conditions)
 
 ---
 

@@ -113,17 +113,22 @@ observe the cost of communication overhead.
 ### Programming Topics 
 
 * Comprehend Speedup: Understand how to compute speedup, and what it means
+
 * Know Amdahl's Law: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed
 
 
 ### Algorithms Topics
 
 * Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism
+
 * Comprehend Speedup: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) 
-* Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex 
-  computational structures
+
+* Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures
+
 * Apply Divide & conquer (parallel aspects): Recognize that the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation. 
+
 * Know Selection: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler.
+
 * Comprehend/Apply Communication: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. 
 
 ---

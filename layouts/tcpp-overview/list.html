@@ -131,8 +131,12 @@ Systems: know that I/O is mostly interrupt-driven.
 </td><td>Systems</td><td></td></tr>  
 <tr><td> <u>Know Process ID, System/Node ID
 </u>: Explain need for a process identifier to enable interprocess communication, and for a node identifier in initialization of multiprocessor systems
-</td><td>Systems</td><td></td></tr>  
-
+</td><td>Systems</td><td>
+ {{ range first 2 .Site.Taxonomies.tcppdetails.k_pid }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/k_pid">See All ({{ len .Site.Taxonomies.tcppdetails.k_pid }}) </a>
+</td></tr>  
 <tr><td> <u>Know Floating Point Range</u>: Understand that range is limited, implications of infinities</td><td>CS1/CS2/Systems</td><td></td></tr>
 <tr><td> <u>Know Floating Point Precision</u>: How single and double precision floating point numbers impact software performance, basic ways to avoid loss of precision in calculations</td><td>CS1/CS2/Systems</td><td></td></tr>
 <tr><td> <u>Know Floating Point Error Propagation</u>: Understand NaN, Infinity values and how they affect computations and exception handling</td><td>CS2</td><td></td></tr>
@@ -157,7 +161,11 @@ Systems: know that I/O is mostly interrupt-driven.
 
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
-<tr><td> <u>Comprehend Concurrency and Parallelism</u>: Understand concurrency is an algorithmic property; it exposes potential for parallelization. If concurrency is present in an algorithm, it can be parallelized, without concurrency there is no scope for parallelization. Concurrency can be present in a sequential program, parallelization takes advantage of concurrency to increase performance.</td><td>CS1/CS2/DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Concurrency and Parallelism</u>: Understand concurrency is an algorithmic property; it exposes potential for parallelization. If concurrency is present in an algorithm, it can be parallelized, without concurrency there is no scope for parallelization. Concurrency can be present in a sequential program, parallelization takes advantage of concurrency to increase performance.</td><td>CS1/CS2/DSA</td><td>
+     {{ range first 2 .Site.Taxonomies.tcppdetails.c_concurrency }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/c_concurrency">See All ({{ len .Site.Taxonomies.tcppdetails.c_concurrency }}) </a></td></tr>
 <tr><td> <u>Know SIMD</u>: Understand common vector operations including element-by-element operations and reductions</td><td>CS2/Systems</td><td></td></tr>
 <tr><td> <u>Know SIMD  (Process vector extensions)</u> : Know examples - e.g., Intel AVX or Power VSX macros</td><td>Systems</td><td></td></tr>
 <tr><td> <u> Apply Shared Memory</u>: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up.</td><td>CS2/DSA</td>
@@ -228,7 +236,12 @@ Systems: know that I/O is mostly interrupt-driven.
   </td></tr>
 <tr><td> <u>Apply Producer-consumer</u>: Be able to write shared memory programs that use the producer-consumer pattern to share data and synchronize threads</td><td>CS2/DSA/Systems</td><td></td></tr>
 
-<tr><td> <u>Comprehend Concurrency Issues</u>: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a  race condition, the correctness of the output may depend on the order of execution)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Concurrency Issues</u>: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a  race condition, the correctness of the output may depend on the order of execution)</td><td>DSA/Systems</td><td>
+      {{ range first 2 .Site.Taxonomies.tcppdetails.c_concurrencyissues }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/c_concurrencyissues">See All ({{ len .Site.Taxonomies.tcppdetails.c_concurrencyissues }}) </a>
+</td></tr>
 <tr><td> <u>Comprehend Deadlock/Livelock</u>: Understand what deadlock and livelock are, and methods for detecting and preventing them; also cast in terms of distributed systems</td><td>DSA/Systems</td>
   <td>
       {{ range first 2 .Site.Taxonomies.tcppdetails.c_deadlocks }}
@@ -363,7 +376,11 @@ Power savings using smaller data representation 64-bit vs. 32-bit vs. 16-bit flo
 	<td>
 	</td></tr>
 <tr><td> <u>Know Model(s) to abstract from architectural details (for example PRAM (shared mem) and/or completely connected (network))</u>: Understand concurrency basics without the trappings of real systems (routing, data alignment etc.). Recognize the PRAM as embodying the simplest forms of parallel computation: Embarrassingly parallel problems can be sped up easily just by employing many processors.  Recognize how a completely connected network abstracts away from routing details. Recognize the difference between the model(s) and real systems. Such a MODEL of CHOICE (MoC) is assumed to be adopted by the instructor on which PDC concepts would be discussed.</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Know Notions from scheduling</u>: Understand how to decompose a problem into tasks</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Notions from scheduling</u>: Understand how to decompose a problem into tasks</td><td>DSA</td><td>
+ {{ range first 2 .Site.Taxonomies.tcppdetails.k_notions }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/k_notions">See All ({{ len .Site.Taxonomies.tcppdetails.k_notions }}) </a></td></tr>
 <tr><td> <u>Apply Dependencies</u>: Understand how dependencies constrain the execution order of sub-computations (thereby lifting one from the limited domain of “embarrassing parallelism” to more complex computational structures) and how deleterious race conditions can occur when dependencies among concurrent tasks are not respected. Also understand that there are situations where not respecting the order of certain computations may result in nondeterministic, but acceptable results.</td><td>CS1/CS2/DSA</td>
 	<td>   {{ range first 2 .Site.Taxonomies.tcppdetails.a_dependencies }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
@@ -381,7 +398,12 @@ Recognize that the same structure that enables divide and conquer (sequential) a
     {{ end }}
     <a href="{{ $.Site.BaseURL }}/tcppdetails/a_divideandconquer">See All ({{ len .Site.Taxonomies.tcppdetails.a_divideandconquer }}) </a>
 	</td></tr>
-<tr><td> <u>Know Load Balancing</u>: Understand that processors equitably sharing the computational/communication load among processors benefits the entire algorithm. That is, the most stretched processor determines the performance of the entire algorithm. Use a simple task graph (for example) with a small number of processors to illustrate the idea.</td><td>DSA/CS2</td><td></td></tr>
+<tr><td> <u>Know Load Balancing</u>: Understand that processors equitably sharing the computational/communication load among processors benefits the entire algorithm. That is, the most stretched processor determines the performance of the entire algorithm. Use a simple task graph (for example) with a small number of processors to illustrate the idea.</td><td>DSA/CS2</td><td>
+         {{ range first 2 .Site.Taxonomies.tcppdetails.k_loadbalancing }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/k_loadbalancing">See All ({{ len .Site.Taxonomies.tcppdetails.k_loadbalancing }}) </a>
+</td></tr>
 <tr><td> <u>Comprehend Reduction</u>: Recognize and use the tree structure implicit in applications such as scalar product, mergesort, histogram, mapreduce, etc.</td><td>DSA</td><td></td></tr>
 <tr><td> <u>Apply Synchronization</u>: Recognize that synchronization is necessary for certain algorithms to work correctly. Also recognize that synchronization should be used only when needed as it entails its own overheads.</td> <td>CS1/CS2/DSA</td>
   <td>
@@ -394,7 +416,12 @@ Recognize that the same structure that enables divide and conquer (sequential) a
 <tr><td> <u>Know Other multi-party communication patterns</u>: Recognize common multi-party communication patterns such as broadcast, gather, scatter, all-to-all or many-to-many communications, and their use as building blocks for parallel and distributed algorithms.  Illustrate using block matrix transpose or shuffle from map-reduce, etc.</td><td>CS2/DSA</td><td></td></tr>
 <tr><td> <u>Comprehend Mutual Exclusion and Conflict Resolution</u>: 
 Understand the need to resolve conflicts among concurrent processes competing for a shared resource. Here the computation may have to grant exclusive access to one process to ensure correctness and/or progress. Be able to identify and mitigate problems due to races. Instructors may provide examples such as (a) selecting an airline seat that may be simultaneously competed for by several passengers, (b) selecting which customer gets an item when more than one tries to buy it simultaneously, (c)  mutual exclusion in the context of Java threads, (d) Dining philosophers.
-</td><td>CS2/DSA</td><td></td></tr>
+</td><td>CS2/DSA</td><td>
+     {{ range first 2 .Site.Taxonomies.tcppdetails.c_mutualexclusion }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/c_mutualexclusion">See All ({{ len .Site.Taxonomies.tcppdetails.c_mutualexclusion }}) </a>
+</td></tr>
 <!--
 <tr><td> <u>Comprehend/Apply Communication</u>: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. (2 hours)</td> <td> -- </td>
 	<td>
@@ -506,12 +533,17 @@ Experience through class instruction and assignment/project the design, analysis
 </table>
 -->
 
-<h3>Emerging and Pervasive Topics (<a href="{{ .Site.BaseURL }}/tcpp/tcpp_crosscutting">{{ len .Site.Taxonomies.tcpp.tcpp_crosscutting }} Activities </a>)</h3>
+<h3>Emerging and Pervasive Topics (<a href="{{ .Site.BaseURL }}/tcpp/tcpp_pervasive">{{ len .Site.Taxonomies.tcpp.tcpp_pervasive }} Activities </a>)</h3>
 
 <table id="t02">
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
 <tr><td> <u>Know Emerging Distributed Systems</u>: Know about different emerging distributed systems (e.g. Internet of Things, Edge Computing, Cyber Physical Systems, Software Defined Networks, Social Networking, Web Services, AI, ML, etc).</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> <u>Comprehend Asynchrony</u>: 1) Understand cause and effect of Asynchrony and how to ensure that computational correctness. 2)Understand asynchrony is the characteristics of modern systems and understand asynchrony in PDC context. 3)1) Can utilize a standard coordination strategy to prevent incorrect operation due to uncontrolled concurrency (race conditions)</td> <td>CS1/CS2/DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Asynchrony</u>: 1) Understand cause and effect of Asynchrony and how to ensure that computational correctness. 2)Understand asynchrony is the characteristics of modern systems and understand asynchrony in PDC context. 3)1) Can utilize a standard coordination strategy to prevent incorrect operation due to uncontrolled concurrency (race conditions)</td> <td>CS1/CS2/DSA</td><td>
+     {{ range first 2 .Site.Taxonomies.tcppdetails.c_asynchrony }}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+    {{ end }}
+    <a href="{{ $.Site.BaseURL }}/tcppdetails/c_asynchrony">See All ({{ len .Site.Taxonomies.tcppdetails.c_asynchrony }}) </a>
+</td></tr>
 <tr><td> <u>Apply Concurrency and Dependency</u>: 1) Understand concurrency is an algorithmic property and difference between concurrency and parallelism. 2) Understand sequential dependency limit degree of concurrency and hence parallelism. 3)Identify sequential dependency in algorithms.</td> <td>CS1/CS2/DSA</td><td>
      {{ range first 2 .Site.Taxonomies.tcppdetails.k_concurrency }}
     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;

@@ -4,8 +4,8 @@ date: 2019-11-07T11:07:01-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_CommunicationAndCoordination"]
 cs2013details: ["PD_1", "CAC_1","CAC_2","CAC_5","CAC_8"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms", "TCPP_CrossCutting"]
-tcppdetails: ["A_CriticalRegions", "C_DataRaces", "A_Synchronization", "K_NonDeterminism"]
-courses: ["K_12", "CS2", "DSA", "Systems"]
+tcppdetails: ["A_CriticalRegions", "C_DataRaces", "C_Concurrency", "A_Synchronization", "K_NonDeterminism", "K_Asynchrony", "C_MutualExclusion", "C_Asynchrony", ]
+courses: ["K_12", "CS1", CS2", "DSA", "Systems"]
 senses: ["movement"]
 medium: ["roleplay", "food"]
 ---
@@ -78,7 +78,7 @@ glass is on.
 * When a student robot reaches a table, he or she immediately puts the 
   block on the table, until they are finished with whatever activity they are 
   doing at the table. Once they are done, they put the block back on the chair, 
-  and leaves.
+  and leave.
 
 * Every student robot who comes to the table must check to see if there is a 
   block on the table. If so, they cannot come to the table, and must instead 
@@ -114,20 +114,23 @@ algorithm.
 
 ### Programming Topics
 
-* Apply Critical regions: Be able to write shared memory 
-  programs that use critical regions for synchronization.
+* Apply Critical regions: Be able to write shared memory programs that use critical regions for synchronization.
 
-* Comprehend Data Races: Know what a race condition is, and how to use synchronization to prevent it
+* Comprehend Race Condition: Know what a race condition is, and how to use synchronization to prevent it
+
+* Comprehend Concurrency Issues: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a race condition, the correctness of the output may depend on the order of execution)
 
 ### Algorithm Topics
 
-* Apply Synchronization: Be aware of methods for controlling race conditions.
+* Comprehend Concurrency, Asynchrony, Dependencies, and Nondeterminism: Qualitatively understand the notion of concurrency, asynchrony, dependencies, and nondeterminism through one or more every day examples illustrating simultaneous events with dependencies. 
 
-### Cross-Cutting and Advanced Topics
+* Apply Synchronization: Recognize that synchronization is necessary for certain algorithms to work correctly. Also recognize that synchronization should be used only when needed as it entails its own overheads.
 
-*  Know Non-determinism: Different execution sequences can lead to different 
-   results hence algorithm design either be tolerant to such phenomena or be 
-   able to take advantage of this.
+* Comprehend Mutual Exclusion and Conflict Resolution: Understand the need to resolve conflicts among concurrent processes competing for a shared resource. Here the computation may have to grant exclusive access to one process to ensure correctness and/or progress. Be able to identify and mitigate problems due to races. 
+
+### Emerging and Pervasive Topics
+
+*  Comprehend Asynchrony: 1) Understand cause and effect of Asynchrony and how to ensure that computational correctness. 2)Understand asynchrony is the characteristics of modern systems and understand asynchrony in PDC context. 3)1) Can utilize a standard coordination strategy to prevent incorrect operation due to uncontrolled concurrency (race conditions)
  
 ---
 
@@ -137,8 +140,8 @@ algorithm.
 * **K-12**: The authors used dramatizations in a high school course, which 
   suggests that the activity is appropriate for K-12 students.
 
-* **CS2/DSA/Systems** TCPP recommends that programming topics such as 
-  synchronization can be taught as early as CS2, and is also appropriate for 
+* **CS1/CS2/DSA/Systems** TCPP recommends that programming topics such as 
+  synchronization can be taught as early as CS1, and is also appropriate for 
   DSA and Systems courses. Topics such as data races and non-determinism may 
   be most appropriate for DSA or systems courses.
 

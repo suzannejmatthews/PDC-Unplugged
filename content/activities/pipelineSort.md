@@ -3,8 +3,8 @@ title: "PipelineSort"
 date: 2019-12-11T12:38:56-05:00
 cs2013: ["PD_ParallelAlgorithms"]
 cs2013details: ["Algo_9"]
-tcpp: ["TCPP_Architecture"]
-tcppdetails: ["c_pipelines", "k_pipeline_streams"]
+tcpp: ["TCPP_Architecture", "TCPP_Algorithms"]
+tcppdetails: ["c_pipelines", "k_pipeline_streams", "k_sorting"]
 courses: ["K_12"]
 senses: ["touch", "visual", "accessible"]
 medium: ["roleplay"]
@@ -128,6 +128,10 @@ algorithm breaks down. They recommend that students act this out (i.e., remove o
 * Comprehend Pipelines (Basic Structure and Organization): Describe basic pipelining process (multiple instructions can execute at the same time), describe stages of instruction execution
 
 * Know Pipeline Streams (e.g., GPU): Know that stream-based architecture exists in GPUs for graphics
+
+### Algorithms Topics
+
+* Know Sorting: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses
 
 ---
 

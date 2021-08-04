@@ -4,7 +4,7 @@ date: 2020-01-08T11:16:31-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms", "PD_ParallelPerformance"]
 cs2013details: ["PD_1", "PD_2", "PD_3", "PD_4", "PD_5", "Algo_4", "Algo_5", "Algo_9", "Perf_1"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["C_Decomposition", "C_LoadBalancing", "C_Time", "A_Dependencies"]
+tcppdetails: ["C_Decomposition", "C_LoadBalancing", "C_Time", "A_Dependencies", "K_LoadBalancing"]
 courses: ["CS1", "CS2", "DSA", "Systems", "ParProg"]
 medium: ["analogy"]
 ---
@@ -103,11 +103,11 @@ given the dependencies between the actions, it is again impossible for the three
 
 ### Algorithms Topics
 
-* Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism (0.33 hours)
+* Comprehend Time: Recognize time as a fundamental computational resource that can be influenced by parallelism 
 
-* Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures (0.5 hours)
+* Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures 
 
-* Know Dependencies: Understand the impacts of dependencies (0.5 hours)
+* Know Load Balancing: Understand that processors equitably sharing the computational/communication load among processors benefits the entire algorithm. That is, the most stretched processor determines the performance of the entire algorithm. Use a simple task graph (for example) with a small number of processors to illustrate the idea.
 
 
 ---

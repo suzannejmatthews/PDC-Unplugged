@@ -3,8 +3,8 @@ title: "ParallelGarbageCollection"
 date: 2020-01-06T14:36:44-05:00
 cs2013: ["PD_CommunicationAndCoordination"]
 cs2013details: ["CAC_8"]
-tcpp: ["TCPP_Algorithms"]
-tcppdetails: ["K_Asynchrony", "C_GraphSearchAlgorithms"]
+tcpp: ["TCPP_Algorithms", "TCPP_Pervasive"]
+tcppdetails: ["K_Asynchrony", "C_Asynchrony", "C_GraphSearchAlgorithms"]
 courses: ["CS2", "DSA", "ParProg","Graduate"]
 senses: ["movement", "visual"]
 medium: ["roleplaying", "cards"]
@@ -67,7 +67,12 @@ This activity is effective at demonstrating an _incorrect_ algorithm. To force a
 ### Algorithms Topics
 
 * Know Asynchrony: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions)
+
 * Comprehend Graph Search Algorithms: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)
+
+### Emerging and Pervasive Topics
+
+* Comprehend Asynchrony: Understand cause and effect of Asynchrony and how to ensure that computational correctness. 2)Understand asynchrony is the characteristics of modern systems and understand asynchrony in PDC context. 3)1) Can utilize a standard coordination strategy to prevent incorrect operation due to uncontrolled concurrency (race conditions)
 
 ---
 

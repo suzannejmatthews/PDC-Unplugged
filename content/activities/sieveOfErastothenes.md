@@ -3,8 +3,8 @@ title: "SieveOfErastothenes"
 date: 2019-11-04T10:56:26-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelArchitecture", "PD_ParallelPerformance"]
 cs2013details: ["PD_5", "Arch_1", Perf_1"]
-tcpp: ["TCPP_Programming", "TCPP_Architecture"]
-tcppdetails: ["C_Taxonomy", "A_DataParallel", "C_LoadBalancing", "C_DistributedMemory"]
+tcpp: ["TCPP_Programming", "TCPP_Architecture", "TCPP_Algorithms", "TCPP_Pervasive"]
+tcppdetails: ["C_Taxonomy", "A_DataParallel", "C_LoadBalancing", "C_DistributedMemory", "K_LoadBalancing", "A_SpecializedComputations"]
 courses: ["CS2", "DSA", "Systems", "ProgLang"]
 senses: ["movement", "visual"]
 medium: ["paper", "boardwork"]
@@ -146,8 +146,16 @@ The instructor then writes the received primes on the board.
 ### TCPP Programming Topics
 
 * Apply Data parallel: Be able to write a correct data parallel program for shared-memory machines and get speedup, should do an exercise.
+
 * Comprehend Load balancing: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes.
+
 * Comprehend Distributed Memory: Know basic notions of messaging among processes, different ways of message passing, collective operations 
+
+### TCPP Algorithm Topics
+
+* Know Load Balancing: Understand that processors equitably sharing the computational/communication load among processors benefits the entire algorithm. That is, the most stretched processor determines the performance of the entire algorithm. Use a simple task graph (for example) with a small number of processors to illustrate the idea.
+
+* Apply Deeper Algorithmic Experience: Experience through class instruction and assignment/project the design, analysis, and implementation aspects of at least one parallel or distributed algorithm of choice in detail. Master PDC algorithmic concepts through a detailed exploration, including recognizing how algorithm design reflects the structure of the computational problem(s) and the PDC model/environment.
 
 ---
 

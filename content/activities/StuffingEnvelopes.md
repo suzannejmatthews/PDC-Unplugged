@@ -4,7 +4,7 @@ date: 2020-01-07T14:10:46-05:00
 cs2013: ["PD_ParallelDecomposition", "PD_ParallelAlgorithms"]
 cs2013details: ["PD_4", "PD_5", "Algo_4", "Algo_5", "Algo_9"]
 tcpp: ["TCPP_Programming", "TCPP_Algorithms"]
-tcppdetails: ["C_Decomposition", "A_Dependencies"]
+tcppdetails: ["C_Decomposition", "A_Dependencies", "K_Notions"]
 courses: ["K_12", "CS1", "CS2", "DSA", "Systems"]
 senses: ["touch", "visual"]
 medium: ["roleplaying", "envelopes"]
@@ -58,6 +58,8 @@ The students should recognize that due to dependencies between tasks, the level 
 ### Algorithms Topics
 
 * Apply Dependencies: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures
+
+* Know Notions from scheduling: Understand how to decompose a problem into tasks
 
 
 

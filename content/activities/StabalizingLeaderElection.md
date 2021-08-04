@@ -3,8 +3,8 @@ title: "StabalizingLeaderElection"
 date: 2020-01-06T16:15:10-05:00
 cs2013: ["PD_DistributedSystems", "PD_CloudComputing"]
 cs2013details: ["DS_9", "CC_2"]
-tcpp: ["TCPP_Algorithms", "TCPP_CrossCutting"]
-tcppdetails: ["K_Asynchrony", K_FaultTolerance"]
+tcpp: ["TCPP_Architecture", TCPP_Algorithms", "TCPP_CrossCutting"]
+tcppdetails: ["K_Asynchrony", K_FaultTolerance", "K_PID"]
 courses: ["CS2", "Systems", "ParProg", "Graduate"]
 senses: ["visual"]
 medium: ["roleplaying"]
@@ -58,13 +58,13 @@ See paper for full details. This activity demonstrates how an algorithm can reco
 
 ## TCPP Topics Coverage
 
+## Architecture Topics
+
+* Know Process ID, System/Node ID: Explain need for a process identifier to enable interprocess communication, and for a node identifier in initialization of multiprocessor systems
+
 ### Algorithms Topics
 
 * Know Asynchrony: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions)
-
-### Cross Cutting and Advanced Topics
-
-* Know Fault tolerance: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)
 
 ---
 
