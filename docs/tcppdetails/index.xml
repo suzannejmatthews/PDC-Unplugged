@@ -30,11 +30,11 @@
     </item>
     
     <item>
-      <title>K_Synchronization</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_synchronization/</link>
+      <title>C_DataRaces</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_dataraces/</link>
       <pubDate>Wed, 08 Jan 2020 15:20:31 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_synchronization/</guid>
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_dataraces/</guid>
       <description></description>
     </item>
     
@@ -84,11 +84,11 @@
     </item>
     
     <item>
-      <title>K_Dependencies</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</link>
+      <title>K_LoadBalancing</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_loadbalancing/</link>
       <pubDate>Wed, 08 Jan 2020 11:16:31 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_dependencies/</guid>
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_loadbalancing/</guid>
       <description></description>
     </item>
     
@@ -120,11 +120,11 @@
     </item>
     
     <item>
-      <title>C_DataRaces</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/c_dataraces/</link>
-      <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
+      <title>K_Notions</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_notions/</link>
+      <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/tcppdetails/c_dataraces/</guid>
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_notions/</guid>
       <description></description>
     </item>
     
@@ -210,6 +210,24 @@
     </item>
     
     <item>
+      <title>K_PID</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_pid/</link>
+      <pubDate>Mon, 06 Jan 2020 16:15:10 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_pid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Asynchrony</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_asynchrony/</link>
+      <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_asynchrony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>C_GraphSearchAlgorithms</title>
       <link>https://www.pdcunplugged.org/tcppdetails/c_graphsearchalgorithms/</link>
       <pubDate>Mon, 06 Jan 2020 14:36:44 -0500</pubDate>
@@ -264,11 +282,11 @@
     </item>
     
     <item>
-      <title>C_DivideAndConquer</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/c_divideandconquer/</link>
+      <title>A_DivideAndConquer</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/a_divideandconquer/</link>
       <pubDate>Mon, 09 Dec 2019 15:43:45 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/tcppdetails/c_divideandconquer/</guid>
+      <guid>https://www.pdcunplugged.org/tcppdetails/a_divideandconquer/</guid>
       <description></description>
     </item>
     
@@ -372,6 +390,33 @@
     </item>
     
     <item>
+      <title>A_Synchronization</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/a_synchronization/</link>
+      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/a_synchronization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_Concurrency</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_concurrency/</link>
+      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_MutualExclusion</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_mutualexclusion/</link>
+      <pubDate>Thu, 07 Nov 2019 11:07:01 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_mutualexclusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>K_Bandwidth</title>
       <link>https://www.pdcunplugged.org/tcppdetails/k_bandwidth/</link>
       <pubDate>Tue, 05 Nov 2019 17:46:25 -0500</pubDate>
@@ -417,15 +462,6 @@
     </item>
     
     <item>
-      <title>C_Dynamic</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/c_dynamic/</link>
-      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/c_dynamic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>C_Multicore</title>
       <link>https://www.pdcunplugged.org/tcppdetails/c_multicore/</link>
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
@@ -435,18 +471,18 @@
     </item>
     
     <item>
-      <title>C_Static</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/c_static/</link>
+      <title>C_StaticDynamic</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_staticdynamic/</link>
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
-      <guid>https://www.pdcunplugged.org/tcppdetails/c_static/</guid>
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_staticdynamic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A_SpecializedComputations</title>
       <link>https://www.pdcunplugged.org/tcppdetails/a_specializedcomputations/</link>
-      <pubDate>Mon, 04 Nov 2019 09:38:59 -0500</pubDate>
+      <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/a_specializedcomputations/</guid>
       <description></description>
@@ -467,6 +503,15 @@
       <pubDate>Mon, 04 Nov 2019 08:25:13 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/c_asymptotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C_ConcurrencyIssues</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/c_concurrencyissues/</link>
+      <pubDate>Fri, 01 Nov 2019 16:19:09 -0400</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/c_concurrencyissues/</guid>
       <description></description>
     </item>
     

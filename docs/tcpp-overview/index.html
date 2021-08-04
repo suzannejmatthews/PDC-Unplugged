@@ -22,7 +22,6 @@
 </style>
 
 
-<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
 
 
 
@@ -38,7 +37,9 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     
@@ -160,7 +161,7 @@
   </p>
   <p>Each topic is preceded by one of these terms. Use the Bloom taxonomy classification to gauge the level of topic coverage in a course.</p>
 
-  <h3>Architecture Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_architecture">10 Activities  </a>)</h3>
+  <h3>Architecture Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_architecture">11 Activities  </a>)</h3>
 
 <table >
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
@@ -282,8 +283,12 @@ Systems: know that I/O is mostly interrupt-driven.
 </td><td>Systems</td><td></td></tr>  
 <tr><td> <u>Know Process ID, System/Node ID
 </u>: Explain need for a process identifier to enable interprocess communication, and for a node identifier in initialization of multiprocessor systems
-</td><td>Systems</td><td></td></tr>  
-
+</td><td>Systems</td><td>
+ 
+    <a href="https://www.pdcunplugged.org/activities/stabalizingleaderelection/">StabalizingLeaderElection</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_pid">See All (1) </a>
+</td></tr>  
 <tr><td> <u>Know Floating Point Range</u>: Understand that range is limited, implications of infinities</td><td>CS1/CS2/Systems</td><td></td></tr>
 <tr><td> <u>Know Floating Point Precision</u>: How single and double precision floating point numbers impact software performance, basic ways to avoid loss of precision in calculations</td><td>CS1/CS2/Systems</td><td></td></tr>
 <tr><td> <u>Know Floating Point Error Propagation</u>: Understand NaN, Infinity values and how they affect computations and exception handling</td><td>CS2</td><td></td></tr>
@@ -308,7 +313,13 @@ Systems: know that I/O is mostly interrupt-driven.
 
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
-<tr><td> <u>Comprehend Concurrency and Parallelism</u>: Understand concurrency is an algorithmic property; it exposes potential for parallelization. If concurrency is present in an algorithm, it can be parallelized, without concurrency there is no scope for parallelization. Concurrency can be present in a sequential program, parallelization takes advantage of concurrency to increase performance.</td><td>CS1/CS2/DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Concurrency and Parallelism</u>: Understand concurrency is an algorithmic property; it exposes potential for parallelization. If concurrency is present in an algorithm, it can be parallelized, without concurrency there is no scope for parallelization. Concurrency can be present in a sequential program, parallelization takes advantage of concurrency to increase performance.</td><td>CS1/CS2/DSA</td><td>
+     
+    <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
+    
+    <a href="https://www.pdcunplugged.org/activities/pbjinparallel/">PBJinParallel</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_concurrency">See All (2) </a></td></tr>
 <tr><td> <u>Know SIMD</u>: Understand common vector operations including element-by-element operations and reductions</td><td>CS2/Systems</td><td></td></tr>
 <tr><td> <u>Know SIMD  (Process vector extensions)</u> : Know examples - e.g., Intel AVX or Power VSX macros</td><td>Systems</td><td></td></tr>
 <tr><td> <u> Apply Shared Memory</u>: Be able to write correct thread-based programs (protecting shared data) and understand how to obtain speed up.</td><td>CS2/DSA</td>
@@ -389,7 +400,12 @@ Systems: know that I/O is mostly interrupt-driven.
   </td></tr>
 <tr><td> <u>Apply Producer-consumer</u>: Be able to write shared memory programs that use the producer-consumer pattern to share data and synchronize threads</td><td>CS2/DSA/Systems</td><td></td></tr>
 
-<tr><td> <u>Comprehend Concurrency Issues</u>: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a  race condition, the correctness of the output may depend on the order of execution)</td><td>DSA/Systems</td><td></td></tr>
+<tr><td> <u>Comprehend Concurrency Issues</u>: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a  race condition, the correctness of the output may depend on the order of execution)</td><td>DSA/Systems</td><td>
+      
+    <a href="https://www.pdcunplugged.org/activities/pbjinparallel/">PBJinParallel</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_concurrencyissues">See All (1) </a>
+</td></tr>
 <tr><td> <u>Comprehend Deadlock/Livelock</u>: Understand what deadlock and livelock are, and methods for detecting and preventing them; also cast in terms of distributed systems</td><td>DSA/Systems</td>
   <td>
       
@@ -403,13 +419,12 @@ Systems: know that I/O is mostly interrupt-driven.
 <tr><td> <u>Comprehend Race Condition</u>:  Know what a race condition is, and how to use synchronization to prevent it</td><td>DSA/Systems</td>
   <td>
           
+    <a href="https://www.pdcunplugged.org/activities/survivoranalogy/">SurvivorAnalogy</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/arrayaddition/">ArrayAddition</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/concerttickets/">ConcertTickets</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/c_dataraces">See All (5) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_dataraces">See All (6) </a>
   </td></tr>
-<tr><td> <u>Know Tools to detect concurrency defects</u>: Know the existence of tools to detect race conditions (e.g., Eraser) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
 <tr><td> <u>Comprehend Computation Decomposition Strategies</u>: Understand different ways to assign computations to threads or processes</td><td>CS2/DSA</td>
 <td>
     
@@ -421,6 +436,7 @@ Systems: know that I/O is mostly interrupt-driven.
 </td></tr>
 <tr><td> <u>Comprehend Owner Computes Rule</u>: Understand how to assign loop iterations to threads based on which thread/process owns the data element(s) written in an iteration</td><td>CS2/DSA</td><td></td></tr>
 <tr><td> <u>Comprehend Decomposition into Atomic Tasks</u>: Understand how to decompose computations into tasks with communication only at the beginning and end of each task, and assign them to threads/processes</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u>Know Decomposition into Map and Reduce tasks</u>: Know that divide and conquer can be expressed and programmed as a Map and Reduce decomposition</td><td>CS2</td><td></td></tr>
 <tr><td> <u>Comprehend Load balancing</u>: Understand the effects of load imbalances on performance, and ways to balance load across threads or processes (1 hour)</td><td>DSA/Systems</td>
   <td>
     
@@ -430,53 +446,52 @@ Systems: know that I/O is mostly interrupt-driven.
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_loadbalancing">See All (5) </a>
   </td></tr>
-<tr><td> <u> Comprehend Static Scheduling and mapping</u>: Understand how to map and schedule computations before runtime</td><td>DSA/Systems</td><td>
+<tr><td> <u> Comprehend Scheduling and mapping</u>: Understand the importance of a programmer, compiler and/or runtime system mapping and scheduling computations to threads/processes, both statically and dynamically</td><td>DSA/Systems</td><td>
         
     <a href="https://www.pdcunplugged.org/activities/jigsawpuzzle/">JigsawPuzzle</a>;
     
     <a href="https://www.pdcunplugged.org/activities/companyanalogy/">CompanyAnalogy</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/c_static">See All (2) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_staticdynamic">See All (2) </a>
 </td></tr>
-<tr><td> <u> Comprehend Dynamic Scheduling and mapping</u>: Understand how to map and schedule computations at runtime</td><td>DSA/Systems</td>
-  <td>
-          
-    <a href="https://www.pdcunplugged.org/activities/jigsawpuzzle/">JigsawPuzzle</a>;
-    
-    <a href="https://www.pdcunplugged.org/activities/companyanalogy/">CompanyAnalogy</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/c_dynamic">See All (2) </a>
-  </td></tr>
-<tr><td> <u> Know Data</u>: Understand impact of data distribution, layout and locality on performance; know false sharing and its impact on performance (e.g., in a cyclic mapping in a parallel loop); notion that transfer of data has fixed cost plus bit rate (irrespective of transfer from memory or inter-processor) (1 hour)</td><td>DSA/ProgLang</td>
+<tr><td> <u>Know Effect of timing failures/delay in distributed systems</u>: Understand that a failure in one node can cause a global failure in a distributed system. For example, one could use waiting on a non-terminating program to illustrate a failure scenario in distributed systems (e.g., in the context of consensus).</td><td>CS2</td><td></td></tr>
+<tr><td> <u> Know Data</u>: Understand impact of data distribution, layout and locality on performance</td><td>DSA</td>
   <td>
           
     <a href="https://www.pdcunplugged.org/activities/jigsawpuzzle/">JigsawPuzzle</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_data">See All (1) </a>
   </td></tr>
-<tr><td> <u> Know Data Distribution</u>: Know what block, cyclic, and block-cyclic data distributions are, and what it means to distribute data across multiple threads/processes</td><td>DSA/ProgLang</td><td></td></tr>
-<tr><td> <u> Know Data layout</u>: Know how to lay out data in memory to get improve performance (memory hierarchy)</td><td>DSA/ProgLang</td>
+<tr><td> <u> Know Data layout</u>: Know how to lay out data in memory to get improve performance (memory hierarch in shared memory parallel system)</td><td>DSA/Systems</td>
   <td>
      
     <a href="https://www.pdcunplugged.org/activities/kitchenanalogy/">KitchenAnalogy</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_datalayout">See All (1) </a>
   </td></tr>
-<tr><td> <u> Know Data locality</u>: Know what spatial and temporal locality are, and how to organize data to take advantage of them</td><td>DSA/ProgLang</td>
-  <td>
-     
-    <a href="https://www.pdcunplugged.org/activities/kitchenanalogy/">KitchenAnalogy</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_datalocality">See All (1) </a>
-  </td></tr>
-<tr><td> <u> Know False sharing</u>: Know that for cache coherent shared memory systems, data is kept coherent in blocks, not individual words, and how to avoid false sharing across threads of data for a block</td><td>DSA/ProgLang</td>
+
+<tr><td> <u> Know Data False sharing</u>: Know that for cache coherent shared memory systems, data is kept coherent in blocks, not individual words, and how to avoid false sharing across threads of data for a block</td><td>DSA/ProgLang</td>
   <td>
      
     <a href="https://www.pdcunplugged.org/activities/kitchenanalogy/">KitchenAnalogy</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/k_falsesharing">See All (1) </a>
   </td></tr>
-<tr><td> <u> Know Performance Tools</u>: Know of tools for runtime monitoring (e.g., gprof, monitoring tools Vtune) (0.5 hours)</td><td>DSA/Systems</td><td></td></tr>
+  <tr><td> <u>Know Data Energy Impact</u>: Know the energy cost of loading data into memory from secondary storage (and writing out modified data to secondary storage)</td><td>Systems</td><td></td></tr>
+  <tr><td> <u>Know Data Representation</u>: 
+Power savings using smaller data representation 64-bit vs. 32-bit vs. 16-bit floating-point precision, 32-bit vs. 16-bit integer). For example, machine learning on GPUs is driving lower (16-bit) floating-point precision. </td><td>DSA/Systems</td><td></td></tr>
+ <tr><td> <u> Know Data locality</u>: Know what spatial and temporal locality are, and how to organize data to take advantage of them</td><td>DSA/ProgLang</td>
+  <td>
+     
+    <a href="https://www.pdcunplugged.org/activities/kitchenanalogy/">KitchenAnalogy</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_datalocality">See All (1) </a>
+  </td></tr>
+  <tr><td> <u>Know Performance impact of data movement</u>: Know the performance cost of moving data to secondary storage for big data analysis, distributed vs centralized analysis. Be aware of specific mechanisms that take advantage of locality (e.g., in-situ processing)</td><td>Systems</td><td></td></tr>
+  <tr><td> <u>Know Structured vs unstructured data</u>: Know the differences and tradeoffs between these data representations</td><td>DSA</td><td></td></tr>
+  <tr><td> <u>Know Graph representations and databases</u>: Know of graph representations of data to facilitate graph analysis</td><td>DSA</td><td></td></tr>
+  <tr><td> <u>Know Distributed file systems</u>: Be aware of existence of distributed file systems and common examples of where they are used and why</td><td>Systems</td><td></td></tr>
+<tr><td> <u> Know Performance Tools</u>: Know of tools for runtime monitoring (e.g., gprof, perf, Intel Performance Toolkit, TAU)</td><td>DSA/Systems</td><td></td></tr>
 <tr><td> <u> Comprehend Speedup</u>: Understand how to compute speedup, and what it means</td><td>CS2/DSA</td>
   <td>
           
@@ -487,6 +502,7 @@ Systems: know that I/O is mostly interrupt-driven.
     <a href="https://www.pdcunplugged.org/tcppdetails/c_speedup">See All (4) </a>
   </td></tr>
 <tr><td> <u> Comprehend Efficiency</u>: Understand how to compute efficiency, and why it matters</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u> Comprehend Parallel Scalability</u>: Understand that speedup and efficiency is a single point of measure for a particular problem size and  number of processes/threads. These metrics change as problem size and/or number of processes/threads vary. Understand that scalability is a metric that measures how speedup varies as problem size and/or number of processes/threads vary.</td><td>CS2/DSA</td><td></td></tr>
 <tr><td> <u> Know Amdahl's Law</u>: Know that speedup is limited by the sequential portion of a parallel program, if problem size is kept fixed</td><td>CS2/DSA</td>
   <td>
           
@@ -497,18 +513,28 @@ Systems: know that I/O is mostly interrupt-driven.
     <a href="https://www.pdcunplugged.org/tcppdetails/k_amdahl">See All (3) </a>
   </td></tr>
 <tr><td> <u> Know Gustafson’s Law</u>: Understand the idea of weak scaling, where problem size increases as the number of processes/threads increases</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u> Know Power-latency tradeoff</u>: Familiar with the notion that problem decompositions (including their granularity), and active/idle states (e.g., including modulation of CPU frequency) may be exploited to adjust balance among throughput, latency, and energy consumption.</td><td>Systems</td><td></td></tr>
+<tr><td> <u> Know Energy efficiency vs. load balancing</u>: Aware that unbalanced work decomposition and communication congestion can prolong computation and reduce energy efficiency.</td><td>Systems</td><td></td></tr>
 </table>
 
 
 <p><br></p>
 
 
-<h3>Algorithms Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms">22 Activities </a>)</h3>
+<h3>Algorithms Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_algorithms">24 Activities </a>)</h3>
 
 <table>
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
-<tr><td> <u>Comprehend Asymptotics</u>: Understand upper (big-O) and lower bounds (big- Omega,); follow elementary big-O analyses, e.g., the O(log n) tree-depth argument for mergesort with unbounded parallelism. (1 hour)</td> <td>DSA</td><td></td></tr>
-<tr><td> <u>Comprehend Time</u>: Recognize time as a fundamental computational resource that can be influenced by parallelism (0.33 hours)</td><td>DSA</td>
+<tr><td> <u>Comprehend Concurrency, Asynchrony, Dependencies, and Nondeterminism</u>: Qualitatively understand the notion of concurrency, asynchrony, dependencies, and nondeterminism through one or more every day examples illustrating simultaneous events with dependencies. The examples can be non-computational in CS1; for example, preheating the oven and preparing the batter for a cake can proceed concurrently and asynchronously to save time, but both these events must finish before baking starts (dependency). Computational  examples of the appropriate level can be used in CS2. The goal for the instructor is to develop a baseline of ideas upon which to build the PDC concepts.</td> <td>CS1/CS2</td><td>
+      
+    <a href="https://www.pdcunplugged.org/activities/stabalizingleaderelection/">StabalizingLeaderElection</a>;
+    
+    <a href="https://www.pdcunplugged.org/activities/parallelgarbagecollection/">ParallelGarbageCollection</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_asynchrony">See All (4) </a> 
+</td></tr>
+<tr><td> <u>Comprehend Asymptotics</u>: Be able to describe upper (big-O) and lower bounds (big- Omega,) in the context of PDC, understanding that the functions whose order is being analyzed may have an additional variable related to the number of processing elements in the PDC context. </td> <td>DSA/CS2</td><td></td></tr>
+<tr><td> <u>Comprehend Time</u>: Recognize time as a fundamental computational resource that can be influenced by parallelism.</td><td>DSA</td>
 	<td>
 		   
     <a href="https://www.pdcunplugged.org/activities/plantingtrees/">PlantingTrees</a>;
@@ -517,8 +543,11 @@ Systems: know that I/O is mostly interrupt-driven.
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_time">See All (6) </a>
 	</td></tr>
-<tr><td> <u>Comprehend Space/Memory</u>: Recognize space/memory in the same manner as time (0.33 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Comprehend Scaling</u>: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time (strong and weak scaling) (1 hour)</td><td>DSA</td>
+<tr><td> <u>Comprehend Work</u>: Understand the definition of computational work and how it is different from time. Be able to observe its impact on complexity measures such as time, speedup, energy consumption, etc.</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Space/Memory</u>: Recognize space/memory in the same manner as time </td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Memory and Communication complexity</u>: Understand that data movement (such as memory accesses or communication) may take more wall-time and energy than computations. Understand also that in certain distributed "big data" applications, moving data is cost prohibitive.</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Speedup (Scalability)</u>: Recognize the use of parallelism either to solve a given problem instance faster or to solve larger instance in the same time. Understand and be able to explain why there's an upper limit on speedup for a given problem of a given size (Amdah's law).
+ </td><td>DSA</td>
 	<td>
 		   
     <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>;
@@ -527,110 +556,99 @@ Systems: know that I/O is mostly interrupt-driven.
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_scaling">See All (8) </a>
 	</td></tr>
-<tr><td> <u>Comprehend/Know Scalability in Algorithms and Architectures</u>: Comprehend via several examples that having access more processors does not guarantee faster execution --- the notion of inherent sequentiality (0.5 hours)</td><td>DSA</td>
+<tr><td> <u>Know Efficiency, Scalability, Throughput</u>: Know about the notions of efficiency, strong and weak scaling, and throughput.</td><td>DSA</td>
 	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/ck_scalability">See All (1) </a>
 	</td></tr>
-<tr><td> <u>Know PRAM</u>: Recognize the PRAM as embodying the simplest forms of parallel computation: Embarrassingly parallel problems can be sped up easily just by employing many processors (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Know BSP/CILK</u>: Be exposed to higher-level algorithmic abstractions that encapsulate more aspects of real architectures. Either BSP or CILK would be a good option to introduce a higher level programming model and higher-level notions. Remark that both of these abstractions have led to programming models. (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Apply Dependencies</u>: Observe how dependencies constrain the execution order of subcomputations --- thereby lifting one from the limited domain of "embarrassing parallelism" to more complex computational structures (0.5 hours)</td><td>CS1/CS2/DSA</td>
+<tr><td> <u>Know Model(s) to abstract from architectural details (for example PRAM (shared mem) and/or completely connected (network))</u>: Understand concurrency basics without the trappings of real systems (routing, data alignment etc.). Recognize the PRAM as embodying the simplest forms of parallel computation: Embarrassingly parallel problems can be sped up easily just by employing many processors.  Recognize how a completely connected network abstracts away from routing details. Recognize the difference between the model(s) and real systems. Such a MODEL of CHOICE (MoC) is assumed to be adopted by the instructor on which PDC concepts would be discussed.</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Notions from scheduling</u>: Understand how to decompose a problem into tasks</td><td>DSA</td><td>
+ 
+    <a href="https://www.pdcunplugged.org/activities/stuffingenvelopes/">StuffingEnvelopes</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_notions">See All (1) </a></td></tr>
+<tr><td> <u>Apply Dependencies</u>: Understand how dependencies constrain the execution order of sub-computations (thereby lifting one from the limited domain of “embarrassing parallelism” to more complex computational structures) and how deleterious race conditions can occur when dependencies among concurrent tasks are not respected. Also understand that there are situations where not respecting the order of certain computations may result in nondeterministic, but acceptable results.</td><td>CS1/CS2/DSA</td>
 	<td>   
     <a href="https://www.pdcunplugged.org/activities/plantingtrees/">PlantingTrees</a>;
     
     <a href="https://www.pdcunplugged.org/activities/stuffingenvelopes/">StuffingEnvelopes</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/a_dependencies">See All (6) </a></td></tr>
-<tr><td> <u>Comprehend Task Graphs</u>: See multiple examples of this concrete algorithmic abstraction as a mechanism for exposing inter-task dependencies. These graphs, which are used also in compiler analyses, form the level at which parallelism is exposed and exploited (0.5 hours)</td><td>DSA/SWEng</td>
-	<td>
-	
-	</td></tr>
-<tr><td> <u>Comprehend Work</u>: Observe the impact of computational work (e.g., the total number of tasks executed) on complexity measures such as power consumption. (0.5 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Know Make/Span</u>: Observe analyses in which makespan is identified with parallel time (basically, time to completion) (0.5 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Comprehend  Divide & Conquer (parallel aspects)</u>: Observe, via tree-structured examples such as mergesort or numerical integration (trapezoid rule, Simpson's rule) or (at a more advanced level) Strassen's matrix-multiply, how the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation (1 hour) <td>CS2/DSA/Algo2</td>
+<tr><td> <u>Comprehend Task Graphs</u>: See multiple examples of this concrete algorithmic abstraction as a mechanism for exposing inter-task dependencies. These graphs, which are used also in compiler analyses, form the level at which parallelism is exposed and exploited</td><td>DSA/SWEng</td><td></td></tr>
+
+<tr><td> <u>Know Make/Span</u>: Observe analyses in which makespan is identified with parallel time (basically, time to completion)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Apply  Divide & Conquer (parallel aspects)</u>: 
+Recognize that the same structure that enables divide and conquer (sequential) algorithms exposes opportunities for parallel computation. Examples include mergesort or numerical integration (trapezoid rule, Simpson’s rule) or (at a more advanced level) Strassen's matrix-multiply.
+ <td>CS2/DSA</td>
 	<td>
 		   
     <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>;
     
     <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/c_divideandconquer">See All (3) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/a_divideandconquer">See All (3) </a>
 	</td></tr>
-<tr><td> <u>Comprehend Recursion (parallel aspects)</u>: Recognize algorithms that, via unfolding, yield tree structures whose subtrees can be computed independently, in parallel (0.5 hours)</td><td>CS2/DSA</td><td></td></tr>
-<tr><td> <u>Know/Comprehend Reduction (map-reduce)</u>: Recognize, and use, the tree structure implicit in scalar product or mergesort or histogram (equivalent apps) (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Know Dependencies</u>: Understand the impacts of dependencies (0.5 hours)<td>Systems</td>
-	<td>
-		   
+<tr><td> <u>Know Load Balancing</u>: Understand that processors equitably sharing the computational/communication load among processors benefits the entire algorithm. That is, the most stretched processor determines the performance of the entire algorithm. Use a simple task graph (for example) with a small number of processors to illustrate the idea.</td><td>DSA/CS2</td><td>
+         
     <a href="https://www.pdcunplugged.org/activities/plantingtrees/">PlantingTrees</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/stuffingenvelopes/">StuffingEnvelopes</a>;
+    <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_dependencies">See All (3) </a>
-	</td></tr>
-<tr><td> <u> Comprehend/Know Series-parallel composition</u>: Understand how "barrier synchronizations" can be used to enable a simple thread-based abstraction for parallel programming. Understand the
-possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/Systems(C)</td><td></td></tr>
-<tr><td> <u>Comprehend/Apply Communication</u>: Understand --- via hands-on experience --- that inter-processor communication is one of the most challenging aspects of PDC. (2 hours)</td> <td> -- </td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/buildingcommunicationanalogy/">BuildingCommunicationAnalogy</a>;
-    
-    <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/ca_communication">See All (6) </a>
-	</td></tr>
-<tr><td> <u>Comprehend/Apply Broadcast</u>: Use this important mode of global communication; observe enabling algorithms for various platforms (e.g., recursive doubling) (1 hour)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Know/Comprehend Multicast</u>: Recognize other modalities of global communication on a variety of platforms: e.g., rings, 2D-meshes, hypercubes, trees (0.5 hours)</td><td>DSA</td><td></td></tr>
-<tr><td> <u>Comprehend/Apply Scatter/gather</u>: Recognize these informational analogues of Map and reduce (0.5 hours)<td>DSA</td><td></td></tr>
-<tr><td> <u>Know Asynchrony</u>: Understand asynchrony as exhibited on a distributed platform, its strengths (no need for synchs) and pitfalls (the danger of race conditions) (0.5 hours)</td><td>CS2</td><td>
-     
-    <a href="https://www.pdcunplugged.org/activities/stabalizingleaderelection/">StabalizingLeaderElection</a>;
-    
-    <a href="https://www.pdcunplugged.org/activities/parallelgarbagecollection/">ParallelGarbageCollection</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_asynchrony">See All (2) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_loadbalancing">See All (2) </a>
 </td></tr>
-<tr><td> <u>Know Synchronization</u>: Be aware of methods for controlling race conditions (1 hour)</td> <td>CS2/DSA</td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/survivoranalogy/">SurvivorAnalogy</a>;
-    
+<tr><td> <u>Comprehend Reduction</u>: Recognize and use the tree structure implicit in applications such as scalar product, mergesort, histogram, mapreduce, etc.</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Apply Synchronization</u>: Recognize that synchronization is necessary for certain algorithms to work correctly. Also recognize that synchronization should be used only when needed as it entails its own overheads.</td> <td>CS1/CS2/DSA</td>
+  <td>
+       
     <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_synchronization">See All (3) </a>
-	</td></tr>
-<tr><td> <u>Know Sorting</u>: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses (1 hour)</td><td>CS2/DSA</td>
+    <a href="https://www.pdcunplugged.org/activities/pbjinparallel/">PBJinParallel</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/a_synchronization">See All (2) </a>
+  </td></tr>
+<tr><td> <u>Know Parallel Prefix (Scan)</u>: Observe, via examples this "high-level" algorithmic tool. For instance, polynomial evaluation can be done as a prefix product (of powers of x), then a set of multiplications, followed by a reduction.</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Other multi-party communication patterns</u>: Recognize common multi-party communication patterns such as broadcast, gather, scatter, all-to-all or many-to-many communications, and their use as building blocks for parallel and distributed algorithms.  Illustrate using block matrix transpose or shuffle from map-reduce, etc.</td><td>CS2/DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Mutual Exclusion and Conflict Resolution</u>: 
+Understand the need to resolve conflicts among concurrent processes competing for a shared resource. Here the computation may have to grant exclusive access to one process to ensure correctness and/or progress. Be able to identify and mitigate problems due to races. Instructors may provide examples such as (a) selecting an airline seat that may be simultaneously competed for by several passengers, (b) selecting which customer gets an item when more than one tries to buy it simultaneously, (c)  mutual exclusion in the context of Java threads, (d) Dining philosophers.
+</td><td>CS2/DSA</td><td>
+     
+    <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_mutualexclusion">See All (1) </a>
+</td></tr>
+
+
+<tr><td> <u>Comprehend Reduction and Broadcast for communication and synchronization</u>: Understand, for example, how recursive doubling can be used for all-to-one reduction, and its dual, one-to-all reduction, in log(p) steps.  The same applies to all-to-all broadcast and all-to-all reduction. Be aware of the synonyms for these operations in the jargon associated with different areas; for example, all-to-all broadcast may be referred to as "gossip" or "total exchange". Recognize that all-to-all broadcast/reduction are synchronizing operations in a distributed (event-driven) environment.</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Comprehend Parallel Prefix (Scan)</u>: Understand the structure of at least one simple parallel prefix algorithm, for example, on a PRAM-type model. One could consider recursive or iterative approaches (such as those of Ladner-Fischer, Kogge-Stone, Brent-Kung)</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Termination detection</u>: Observe that, unlike the sequential case, processes in parallel and distributed algorithms may not know when the problem has been solved, or even if their part of the problem is solved; so termination has to be addressed explicitly. In some cases (such as reduction, tree algorithms, divide and conquer) it may be possible for a process to terminate on the basis of local information (for example, a node has passed its information to its parent in a reduction tree). In other cases, a global check may be necessary.</td><td>DSA</td><td></td></tr>
+<tr><td> <u>Know Sorting</u>: Observe several sorting algorithms for varied platforms --- together with analyses. Parallel merge sort is the simplest example, but equally simple alternatives for rings and meshes might be covered also; more sophisticated algorithms might be covered in more advanced courses</td><td>CS2/DSA</td>
 	<td>
 		   
     <a href="https://www.pdcunplugged.org/activities/nondeterministicsorting/">NondeterministicSorting</a>;
     
-    <a href="https://www.pdcunplugged.org/activities/parallelradixsort/">ParallelRadixSort</a>;
+    <a href="https://www.pdcunplugged.org/activities/pipelinesort/">PipelineSort</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_sorting">See All (5) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_sorting">See All (6) </a>
 	</td></tr>
-<tr><td> <u>Know Selection</u>: Observe algorithms for finding order statistics, notably min and max. Understand that selection can always be accomplished by sorting but that direct algorithms may be simpler. 0.5 hours)</td><td>CS2/DSA</td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/paralleladdition/">ParallelAddition</a>;
-    
-    <a href="https://www.pdcunplugged.org/activities/findsmallestcard/">FindSmallestCard</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_selection">See All (4) </a>
-	</td></tr>
-<tr><td> <u>Comprehend Graph Search Algorithms</u>: Know how to carry out BFS- and DFS-like parallel search in a graph or solution space (1 hour)</td> <td>DSA</td>
+
+<tr><td> <u>Know Search</u>: With the help of BFS- or DFS-like parallel search in a tree, graph or solution space, understand speedup anomalies and the fact that certain algorithms don't lend themselves to parallelization without modifying the semantics of the original problem.</td> <td>DSA</td>
   <td>
     
     <a href="https://www.pdcunplugged.org/activities/parallelgarbagecollection/">ParallelGarbageCollection</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_graphsearchalgorithms">See All (1) </a>
   </td></tr>
-<tr><td> <u>Apply Specialized computations</u>: Master one or two from among computations such as: matrix product, transposition, convolution, and linear systems; recognize how algorithm design reflects the structure of the computational problems. (2 hours)</td><td>CS2/DSA</td>
+<tr><td> <u>Know Algorithms for streams</u>: 
+Comprehend the notion of efficient algorithms (e.g., Bloom filters, heavy hitters) and structures (e.g., distributed hash tables) for stream data, and the difficulty of dealing with limited space.</td><td>CS1/DSA</td><td></td></tr>
+<tr><td> <u>Apply Deeper Algorithmic Experience</u>: 
+Experience through class instruction and assignment/project the design, analysis, and implementation aspects of at least one parallel or distributed algorithm of choice in detail. Master PDC algorithmic concepts through a detailed exploration, including recognizing how algorithm design reflects the structure of the computational problem(s) and the PDC model/environment.  Possible computational problems to explore include matrix product, map reduce, sorting, search, convolution, a graph algorithm of your choice.
+
+</td><td>CS2/DSA</td>
 	<td>
 		   
+    <a href="https://www.pdcunplugged.org/activities/sieveoferastothenes/">SieveOfErastothenes</a>;
+    
     <a href="https://www.pdcunplugged.org/activities/matrixaddition/">MatrixAddition</a>;
     
-    <a href="https://www.pdcunplugged.org/tcppdetails/a_specializedcomputations">See All (1) </a>
+    <a href="https://www.pdcunplugged.org/tcppdetails/a_specializedcomputations">See All (2) </a>
 	</td></tr>
 </table>
 <p><br></p>
@@ -638,71 +656,36 @@ possible penalties (in parallelism) that this transformation incurs.<td>CS2(K)/S
 
 <p><br></p>
 
-<h3>Cross Cutting and Advanced Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_crosscutting">8 Activities </a>)</h3>
+
+<h3>Emerging and Pervasive Topics (<a href="https://www.pdcunplugged.org/tcpp/tcpp_pervasive">3 Activities </a>)</h3>
 
 <table id="t02">
 <tr>    <th width="40%">Topic</th>  <th>Suggested Course</th>  <th>Unplugged Activities</th>    </tr>
-<tr><td> <u>Know why and what is parallel/distributed computing</u>: Know the common issues and differences between parallel and distributed computing; history and applications. Microscopic level to macroscopic level parallelism in current architectures. (0.5 hours)</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> <u>Comprehend Locality</u>: Understand this as a dominant factor impacting performance - minimizing cache/memory access latency or inter-processor communication. (1 hour)</td> <td>DSA/Systems</td>
+<tr><td> <u>Know Emerging Distributed Systems</u>: Know about different emerging distributed systems (e.g. Internet of Things, Edge Computing, Cyber Physical Systems, Software Defined Networks, Social Networking, Web Services, AI, ML, etc).</td> <td>CS1/CS2</td><td></td></tr>
+<tr><td> <u>Comprehend Asynchrony</u>: 1) Understand cause and effect of Asynchrony and how to ensure that computational correctness. 2)Understand asynchrony is the characteristics of modern systems and understand asynchrony in PDC context. 3)1) Can utilize a standard coordination strategy to prevent incorrect operation due to uncontrolled concurrency (race conditions)</td> <td>CS1/CS2/DSA</td><td>
+     
+    <a href="https://www.pdcunplugged.org/activities/parallelgarbagecollection/">ParallelGarbageCollection</a>;
+    
+    <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/c_asynchrony">See All (3) </a>
+</td></tr>
+<tr><td> <u>Apply Concurrency and Dependency</u>: 1) Understand concurrency is an algorithmic property and difference between concurrency and parallelism. 2) Understand sequential dependency limit degree of concurrency and hence parallelism. 3)Identify sequential dependency in algorithms.</td> <td>CS1/CS2/DSA</td><td>
+     
+    <a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
+    
+    <a href="https://www.pdcunplugged.org/tcppdetails/k_concurrency">See All (1) </a>
+</td></tr>
+<tr><td> <u>Apply Locality</u>:1)Understand the locality of space and time. 2) Can describe one case of locality affecting behavior(e.g. web cache). 3) Know about some algorithm/program sensitive to some sort of artifact of architectural locality. 4) Implement some programs that are optimized around some locality. 5) Aware of at least two forms of locality.</td> <td>CS1/CS2/DSA/Systems</td>
   <td>
          
     <a href="https://www.pdcunplugged.org/activities/kitchenanalogy/">KitchenAnalogy</a>;
     
     <a href="https://www.pdcunplugged.org/tcppdetails/c_locality">See All (1) </a>
   </td></tr>
-<tr><td> <u>Know Concurrency</u>: The degree of inherent parallelism in an algorithm, independent of how it is executed on a machine (0.5 hours)</td> <td>CS2/DSA</td><td>
-	   
-    <a href="https://www.pdcunplugged.org/activities/moreprocessorsnotalwaysbetter/">MoreProcessorsNotAlwaysBetter</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_concurrency">See All (1) </a>
-</td></tr>
-<tr><td> <u>Know Non-determinism</u>: Different execution sequences can lead to different results hence algorithm design either be tolerant to such phenomena or be able to take advantage of this. (0.5 hours)</td> <td>DSA/Systems</td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/nondeterministicsorting/">NondeterministicSorting</a>;
-    
-    <a href="https://www.pdcunplugged.org/activities/sweetenjuice/">SweetenJuice</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_nondeterminism">See All (2) </a>
-	</td></tr>
-<tr><td> <u>Know Power Consumption</u>: Know that power consumption is a metric of growing importance, its impact on architectural evolution, and design of algorithms and software. (0.5 hours)</td> <td>DSA/Systems</td><td></td></tr>
-<tr><td> <u>Know Fault tolerance</u>: Large-scale parallel/distributed hardware/software systems are prone to components failing but system as a whole needs to work. (0.5 hours)</td> <td>Systems</td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/stabalizingleaderelection/">StabalizingLeaderElection</a>;
-    
-    <a href="https://www.pdcunplugged.org/activities/faulttoleranttokenring/">FaultTolerantTokenRing</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_faulttolerance">See All (3) </a>
-	</td></tr>
-<tr><td> <u>Know Cluster Computing</u>: Be able to describe a cluster as a popular local-memory architecture with commodity compute nodes and a high-performance interconnection network. (0.25 hours)</td> <td>CS2/DSA/Systems</td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/byzantinegenerals/">ByzantineGenerals</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_clustercomputing">See All (1) </a>
-	</td></tr>
-<tr><td> <u>Know Cloud/grid Computing</u>: Recognize cloud and grid as shared distributed resources - cloud is distinguished by ondemand, virtualized, service-oriented software and hardware resources. (0.25 hours)</td> <td>Systems</td><td></td></tr>
-<tr><td> <u>Know Peer to Peer Computing</u>: Be able to describe a peer to peer system and the roles of server and client nodes with distributed data. Recognize existing peer to peer systems. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> <u>Know Consistency in Distributed Transactions</u>: Recognize classic consistency problems. Know that consistency maintenance is a primary issue in transactions issued concurrently by multiple agents. (0.25 hours)</td> <td>CS1/CS2/Systems</td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/concerttickets/">ConcertTickets</a>;
-    
-    <a href="https://www.pdcunplugged.org/activities/byzantinegenerals/">ByzantineGenerals</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_consistency">See All (2) </a>
-	</td></tr>
-<tr><td> <u>Know Web search</u>: Recognize popular search engines as large distributed processing systems for information gathering that employ distributed hardware to support efficient response to user searches. (0.25 hours)</td> <td>CS1/CS2</td><td></td></tr>
-<tr><td> <u>Know Security in Distributed Systems</u>: Know that distributed systems are more vulnerable to privacy and security threats; distributed attacks modes; inherent tension between privacy and security. (0.5 hours)</td> <td>Systems</td>
-	<td>
-		   
-    <a href="https://www.pdcunplugged.org/activities/byzantinegenerals/">ByzantineGenerals</a>;
-    
-    <a href="https://www.pdcunplugged.org/tcppdetails/k_security">See All (1) </a>
-	</td></tr>
-</table>
 
+<tr><td> <u>Apply Performance</u>: 1) Understand what to measure and how. 2) Understand space, time, & energy are fundamental commodities to measure. 3)Able to implement/tune some algorithms around performance metric. 4) Comprehend, explore, and analyze some speedup, efficiency, and scalability.</td> <td>CS1/CS2/DSA/Systems</td><td></td></tr>
+</table>
 </main>
 
         <footer>

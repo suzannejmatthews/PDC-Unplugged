@@ -22,7 +22,6 @@
 </style>
 
 
-<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
 
 
 
@@ -38,7 +37,9 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     
@@ -162,7 +163,9 @@
         
 <a href="https://www.pdcunplugged.org/courses/k_12"><kbd class="item-course">K_12</kbd></a>
 
-<a href="https://www.pdcunplugged.org/courses/cs2"><kbd class="item-course">CS2</kbd></a>
+<a href="https://www.pdcunplugged.org/courses/cs1"><kbd class="item-course">CS1</kbd></a>
+
+<a href="https://www.pdcunplugged.org/courses/cs2"><kbd class="item-course">CS2&#34;</kbd></a>
 
 <a href="https://www.pdcunplugged.org/courses/dsa"><kbd class="item-course">DSA</kbd></a>
 
@@ -229,7 +232,7 @@ glass is on.</p>
 <p>When a student robot reaches a table, he or she immediately puts the
 block on the table, until they are finished with whatever activity they are
 doing at the table. Once they are done, they put the block back on the chair,
-and leaves.</p>
+and leave.</p>
 </li>
 <li>
 <p>Every student robot who comes to the table must check to see if there is a
@@ -255,22 +258,30 @@ algorithm.</p>
 <h3 id="programming-topics">Programming Topics</h3>
 <ul>
 <li>
-<p>Apply Critical regions: Be able to write shared memory
-programs that use critical regions for synchronization.</p>
+<p>Apply Critical regions: Be able to write shared memory programs that use critical regions for synchronization.</p>
 </li>
 <li>
-<p>Comprehend Data Races: Know what a race condition is, and how to use synchronization to prevent it</p>
+<p>Comprehend Race Condition: Know what a race condition is, and how to use synchronization to prevent it</p>
+</li>
+<li>
+<p>Comprehend Concurrency Issues: Understand the notions of deadlock (detection, prevention), race conditions (definition), determinacy/non-determinacy in parallel programs (e.g., if there is a race condition, the correctness of the output may depend on the order of execution)</p>
 </li>
 </ul>
 <h3 id="algorithm-topics">Algorithm Topics</h3>
 <ul>
-<li>Know Synchronization: Be aware of methods for controlling race conditions.</li>
+<li>
+<p>Comprehend Concurrency, Asynchrony, Dependencies, and Nondeterminism: Qualitatively understand the notion of concurrency, asynchrony, dependencies, and nondeterminism through one or more every day examples illustrating simultaneous events with dependencies.</p>
+</li>
+<li>
+<p>Apply Synchronization: Recognize that synchronization is necessary for certain algorithms to work correctly. Also recognize that synchronization should be used only when needed as it entails its own overheads.</p>
+</li>
+<li>
+<p>Comprehend Mutual Exclusion and Conflict Resolution: Understand the need to resolve conflicts among concurrent processes competing for a shared resource. Here the computation may have to grant exclusive access to one process to ensure correctness and/or progress. Be able to identify and mitigate problems due to races.</p>
+</li>
 </ul>
-<h3 id="cross-cutting-and-advanced-topics">Cross-Cutting and Advanced Topics</h3>
+<h3 id="emerging-and-pervasive-topics">Emerging and Pervasive Topics</h3>
 <ul>
-<li>Know Non-determinism: Different execution sequences can lead to different
-results hence algorithm design either be tolerant to such phenomena or be
-able to take advantage of this.</li>
+<li>Comprehend Asynchrony: 1) Understand cause and effect of Asynchrony and how to ensure that computational correctness. 2)Understand asynchrony is the characteristics of modern systems and understand asynchrony in PDC context. 3)1) Can utilize a standard coordination strategy to prevent incorrect operation due to uncontrolled concurrency (race conditions)</li>
 </ul>
 <hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
@@ -280,8 +291,8 @@ able to take advantage of this.</li>
 suggests that the activity is appropriate for K-12 students.</p>
 </li>
 <li>
-<p><strong>CS2/DSA/Systems</strong> TCPP recommends that programming topics such as
-synchronization can be taught as early as CS2, and is also appropriate for
+<p><strong>CS1/CS2/DSA/Systems</strong> TCPP recommends that programming topics such as
+synchronization can be taught as early as CS1, and is also appropriate for
 DSA and Systems courses. Topics such as data races and non-determinism may
 be most appropriate for DSA or systems courses.</p>
 </li>

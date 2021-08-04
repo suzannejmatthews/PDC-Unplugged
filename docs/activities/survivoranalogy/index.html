@@ -22,7 +22,6 @@
 </style>
 
 
-<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css">
 
 
 
@@ -38,7 +37,9 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
+
+
+<link rel="stylesheet" href="https://www.pdcunplugged.org/css/main.css"> 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     
@@ -174,7 +175,7 @@
 <p>No link to independent description publicly available. See &ldquo;Details&rdquo; section for more details:</p>
 <hr>
 <h2 id="details">Details</h2>
-<p>This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book <em>The Lord of the Flies</em>, not everyone may be familiar with that book (and some who are may not want to be reminded of it).
+<p>This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book <em>The Lord of the Flies</em>, not everyone may be familiar with that book (and some who are already familiar may not want to be reminded of it).
 Instead, it may be useful to explain the following general scenario:</p>
 <p>Imagine if a group of people are stranded on a deserted island. Occasionally, they must get together to make decisions. In order to prevent the meetings from getting chaotic, everyone agrees to a common rule that whoever holds a special conch shell is the only one who speaks. When the person speaking finishes, they put down the shell, enabling other people to compete for the shell. Whoever acquires it first is the person who speaks next. Other people must wait until the person speaking finishes, before they can attempt to get a turn.</p>
 <p>In this analogy, the ship-wrecked people in the meeting represent threads or processes executing concurrently. The conch represents a lock, while the area where people talk represents a critical section. To ensure that communication is synchronized (and therefore intelligible), the conch enforces the rule that only one person talks at a time. Likewise, in order to ensure that processes or threads don&rsquo;t overwrite each other, locks ensure that only one thread or process enters a critical section at a time.</p>
@@ -186,15 +187,15 @@ Instead, it may be useful to explain the following general scenario:</p>
 <p>1. Use mutual exclusion to avoid a given race condition. [Usage]</p>
 <hr>
 <h2 id="tcpp-topics-coverage">TCPP Topics Coverage</h2>
-<h3 id="algorithms-topics">Algorithms Topics</h3>
+<h3 id="programming-topics">Programming Topics</h3>
 <ul>
-<li>Know Synchronization: Be aware of methods for controlling race conditions (1 hour)</li>
+<li>Comprehend Race Condition: Know what a race condition is, and how to use synchronization to prevent it</li>
 </ul>
 <hr>
 <h2 id="recommended-courses">Recommended Courses</h2>
 <ul>
 <li><strong>CS1</strong>: Bogaerts used the analogy in a CS1 course</li>
-<li><strong>CS2/DSA</strong>: TCPP recommends that synchronization concepts be covered in CS2 or DSA.</li>
+<li><strong>CS2/DSA</strong>: TCPP recommends that synchronization concepts be covered in CS1, CS2 or DSA.</li>
 </ul>
 <hr>
 <h2 id="accessibility">Accessibility</h2>

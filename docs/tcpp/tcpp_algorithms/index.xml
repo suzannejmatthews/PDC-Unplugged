@@ -19,7 +19,7 @@
       <guid>https://www.pdcunplugged.org/activities/survivoranalogy/</guid>
       <description>Original Author/link Originally described by Steve Bogaerts (Bogaerts2014).
 No link to independent description publicly available. See &amp;ldquo;Details&amp;rdquo; section for more details:
- Details This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book The Lord of the Flies, not everyone may be familiar with that book (and some who are may not want to be reminded of it). Instead, it may be useful to explain the following general scenario:</description>
+ Details This analogy is used to explain the mechanism of locks. While (Bogaerts2014) specifically references the book The Lord of the Flies, not everyone may be familiar with that book (and some who are already familiar may not want to be reminded of it). Instead, it may be useful to explain the following general scenario:</description>
     </item>
     
     <item>
@@ -89,6 +89,19 @@ Paper and poster available online:
 Paper and poster available online:
  Details See paper and poster for full details. A high level summary is provided below:
   A group of students are chosen to represent elements in an array. Each student is given a sign/sticker that indicates their position in the array. Each student is also given an index card with a random integer value on it.</description>
+    </item>
+    
+    <item>
+      <title>PipelineSort</title>
+      <link>https://www.pdcunplugged.org/activities/pipelinesort/</link>
+      <pubDate>Wed, 11 Dec 2019 12:38:56 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/pipelinesort/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Bachelis1994). It was also mentioned in (Kitche1992), but (Maxim1990) is listed as a reference.
+No link to independent description publicly available. Please see details section for a synopsis.
+Similiar Exercises: Sorting: OddEvenTranspositionSort, ParallelRadixSort, CardSorting, SortingNetwork
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, SieveOfErastothenes, OddEvenTranspositionSort, CardSorting
+ Details From (Bachelis1994): The goal of this exercise is to illustrate how sorting can occur in a stream/pipeline.</description>
     </item>
     
     <item>
@@ -196,6 +209,19 @@ Two students volunteer to be robots. A drinking glass is placed at a visible poi
       <description>Original Author/link Oklahoma Supercomputing Center for Educaton and Research (OSCER)
 &amp;ldquo;Supercomputing in Plain English&amp;rdquo; - Overview, Slides 45-52.
  Available in: PPT and PDF Also described in (Neeman2006)   Variations It is theoretically possible to &amp;ldquo;act out&amp;rdquo; the analogy by using an actual puzzle. However, the puzzle needs to be small enough to enable students to complete the puzzle in a reasonable amount of time. This variation is described in (Neeman2006):</description>
+    </item>
+    
+    <item>
+      <title>SieveOfErastothenes</title>
+      <link>https://www.pdcunplugged.org/activities/sieveoferastothenes/</link>
+      <pubDate>Mon, 04 Nov 2019 10:56:26 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/activities/sieveoferastothenes/</guid>
+      <description>Original Author/link Originally described by Gregory F. Bachelis, David A. James, Bruce R. Maxim and Quentin F. Stout (Maxim1990, Bachelis1994). Also described by Michelle Moore (Moore2000) and (Kitchen1992).
+No web-link to independent description available. See papers (Bachelis1994, Moore2000) for additional details.
+Other activities by authors (Bachelis1994): ParallelAddition, FindSmallestCard, OddEvenTranspositionSort
+(Moore2000): CardSorting, OddEvenTranspositionSort, MatrixAddition
+ Details Suppose the goal is to find all the primes less than n = 1,000. In the serial case, all the numbers from 2 .</description>
     </item>
     
     <item>
