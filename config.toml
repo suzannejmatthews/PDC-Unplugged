@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "PDC Unplugged"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = "G-HW51LS47QF"
+googleAnalytics = "G-RTF0RCM0TP"
 publishDir = "docs"
 
 [taxonomies]
