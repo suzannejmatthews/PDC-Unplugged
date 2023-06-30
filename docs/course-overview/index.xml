@@ -5,11 +5,7 @@
     <link>https://www.pdcunplugged.org/course-overview/</link>
     <description>Recent content in Course-overviews on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://www.pdcunplugged.org/course-overview/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://www.pdcunplugged.org/course-overview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.pdcunplugged.org/course-overview/intentionally-left-blank/</link>

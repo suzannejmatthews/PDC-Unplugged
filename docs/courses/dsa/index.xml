@@ -6,11 +6,7 @@
     <description>Recent content in DSA on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.pdcunplugged.org/courses/dsa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate><atom:link href="https://www.pdcunplugged.org/courses/dsa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MessagePassingAcrobats</title>
       <link>https://www.pdcunplugged.org/activities/messagepassingacrobats/</link>
@@ -64,7 +60,7 @@ No public description avaialable. See Details section for more information.
       <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
-      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
+      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&#39; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
  Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
     </item>
@@ -75,7 +71,7 @@ No link to indepdendent description available. Please see Details section for mo
       <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/stuffingenvelopes/</guid>
-      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
+      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&#39; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
  Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
     </item>

@@ -67,16 +67,16 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.68.3" />
+ <meta name="generator" content="Hugo 0.92.2" />
         
 
         
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW51LS47QF"></script>
             <script>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments)};
               gtag('js', new Date());
-              gtag('config', 'UA-155045117-1');
+              gtag('config', 'G-HW51LS47QF');
             </script>
         
 
@@ -184,12 +184,12 @@ but (Maxim1990) is listed as a reference.</p>
 The number of pipeline stages must equal the number of numbers to be sorted. Each student represents a separate pipeline stage, and receives cards from the right and passes them to the left.</p>
 <p>Students stand facing the classroom in a line. The instructor stands at the right-most end of the line and has the input numbers (which are written on large cards). The instructor is in charge of placing input into the pipeline and calling out the time steps.</p>
 <p>Students are given a set of instructions that read as follows:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. Receive number from your right. 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. Receive number from your right. 
 2. If you have two cards, pass the larger to your left during the next time step.
 3. If, after you have started to receive cards from the right, you don&#39;t receive 
    a card from the right, pass one to the right whenever you have one to pass. 
 </code></pre></div><p>The students follow the instructions every time step. The instructor calls out the time step with each iteration. To illustrate the sort, we consider a scenario with six numbers and six student processors. The instructor has the following six numbers written on separate index cards in order: 2, 6, 3, 7, 4, 1. The pipeline at the start is shown below (remember, students are facing the front of the class.)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Step [Intr]          [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Step [Intr]          [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]
 0:   [1,4,7,3,6,2]          
 1    [1,4,7,3,6]       2 
 2:   [1,4,7,3]        (6,2)
@@ -212,13 +212,13 @@ The number of pipeline stages must equal the number of numbers to be sorted. Eac
 </code></pre></div><h3 id="variation-kitchen1994">Variation (Kitchen1994)</h3>
 <p>(Kitchen1994) has a modified set of instructions from (Bachelis1994), where the output appears on the other side of the pipeline (instead of being returned back to the instructor). The numbers appear sorted
 (in ascending order) out of the stream.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. Receive number from your right. 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. Receive number from your right. 
 2. If you have two cards, pass the smaller to your left during the next time step.
 3. If, after starting to receive cards from the right, you don&#39;t receive 
    a card from the right (and you have one card), pass your number to the left 
    during the next time step. 
 </code></pre></div><p>Here is how the pipeline operates using the description from (Kitchen1994):</p>
-<pre><code class="language-textStep" data-lang="textStep">[Intr]               [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]   [Output]
+<pre tabindex="0"><code class="language-textStep" data-lang="textStep">[Intr]               [Stu0] [Stu1] [Stu2] [Stu3] [Stu4] [Stu5]   [Output]
 0:   [1,4,7,3,6,2]          
 1    [1,4,7,3,6]       2 
 2:   [1,4,7,3]        (6,2)
@@ -276,8 +276,8 @@ can participate equally.</p>
 <h2 id="citations">Citations</h2>
 <ul>
 <li>
-<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&quot;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
-on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE'90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
 </li>
 <li>
 <p>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.

@@ -6,11 +6,7 @@
     <description>Recent content in instruments on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Nov 2019 12:37:23 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.pdcunplugged.org/medium/instruments/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 14 Nov 2019 12:37:23 -0500</lastBuildDate><atom:link href="https://www.pdcunplugged.org/medium/instruments/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FaultTolerantTokenRing</title>
       <link>https://www.pdcunplugged.org/activities/faulttoleranttokenring/</link>

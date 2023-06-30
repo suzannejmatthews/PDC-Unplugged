@@ -67,16 +67,16 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.68.3" />
+ <meta name="generator" content="Hugo 0.92.2" />
         
 
         
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155045117-1"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW51LS47QF"></script>
             <script>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments)};
               gtag('js', new Date());
-              gtag('config', 'UA-155045117-1');
+              gtag('config', 'G-HW51LS47QF');
             </script>
         
 
@@ -211,7 +211,7 @@ students assigned smaller prime numbers. This highlights a load-balancing issue 
 <h3 id="second-attempt">Second attempt</h3>
 <p>The second version of the algorithm takes a data parallel approach. Each student is assigned a subset of <em>centuries</em>. Thus, if there are 10 student processors, each student is handed one century (shown below,
 from Bachelis1994):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Century _00 to _99
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Century _00 to _99
 
 _01  _03  _05  _07  _09 
 _11  _13  _15  _17  _19 
@@ -225,7 +225,7 @@ _81  _83  _85  _87  _89
 _91  _93  _95  _97  _99 
 </code></pre></div><p>So, student 0 is assigned the century 01 .. 99, while student 1 is assigned the century 101 .. 199, student 2 is assigned the century 201 .. 299 and so forth.  Note that student 0 will necessarily eliminate <code>1</code> from their matrix, since <code>1</code> is not prime.</p>
 <p>Students find the prime numbers in their century by following the algorithm below:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">for each number p in set of prime numbers
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">for each number p in set of prime numbers
    divide the first number in the century by p and round up to the next highest integer. Call this number q.
    Now multiply this number by p (i.e., q = q * p)
    if q is even, add p to it. This is the first odd multiple of p in the century.
@@ -336,8 +336,8 @@ significantly.</p>
 <h2 id="citations">Citations</h2>
 <ul>
 <li>
-<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&quot;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
-on Computer Science Education (SIGCSE&rsquo;90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
+<p>B. R. Maxim, G. Bachelis, D. James, and Q. Stout, &ldquo;Introducing parallel algorithms in undergraduate computer science courses (tutorial session)&rdquo;, in <em>Proceedings of the Twenty-first SIGCSE Technical Symposium
+on Computer Science Education (SIGCSE'90)</em>. ACM, 1990, pp. 255. Available: <a href="http://doi.acm.org/10.1145/323410.323415">http://doi.acm.org/10.1145/323410.323415</a></p>
 </li>
 <li>
 <p>A. T. Kitchen, N. C. Schaller, and P. T. Tymann, &ldquo;Game playing as a technique for teaching parallel computing concepts&rdquo;, <em>SIGCSE Bulletin</em>, vol. 24, no. 3, pp. 35–38, Sept. 1992.

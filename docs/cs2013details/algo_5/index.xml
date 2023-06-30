@@ -6,11 +6,7 @@
     <description>Recent content in Algo_5 on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jan 2020 11:16:31 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.pdcunplugged.org/cs2013details/algo_5/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 08 Jan 2020 11:16:31 -0500</lastBuildDate><atom:link href="https://www.pdcunplugged.org/cs2013details/algo_5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PlantingTrees</title>
       <link>https://www.pdcunplugged.org/activities/plantingtrees/</link>
@@ -30,7 +26,7 @@ No public description avaialable. See Details section for more information.
       <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/stuffingenvelopes/</guid>
-      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
+      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&#39; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
  Details Prior to the activity, students should be assigned to teams of four. The goal is to discuss different strategies for completing the stack of preparing letters for mailing. In doing the activity, students learn about domain (data) decomposition vs task decomposition.</description>
     </item>

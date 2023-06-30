@@ -6,18 +6,14 @@
     <description>Recent content in cards on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.pdcunplugged.org/medium/cards/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 07 Jan 2020 15:13:49 -0500</lastBuildDate><atom:link href="https://www.pdcunplugged.org/medium/cards/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ArrayAddition</title>
       <link>https://www.pdcunplugged.org/activities/arrayaddition/</link>
       <pubDate>Tue, 07 Jan 2020 15:13:49 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/activities/arrayaddition/</guid>
-      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&amp;rsquo; book (see citations) as inspiration for this example.
+      <description>Original Author/link Originally described by Robert Chesebrough and Ivan Turner; the authors cite the 2nd chapter of James Reinders&#39; book (see citations) as inspiration for this example.
 No link to indepdendent description available. Please see Details section for more information.
  Details Students sitting at desks represent &amp;ldquo;threads&amp;rdquo; on individual cores. Each student has a piece of paper on their desk representing local memory. Prior to the activity, the instructor writes an array on the board, filled with random values (limit 1 through 10 for ease of addition), with indices written underneath.</description>
     </item>

@@ -6,20 +6,7 @@
     <description>Recent content in Medium on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.pdcunplugged.org/medium/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>roleplay</title>
-      <link>https://www.pdcunplugged.org/medium/roleplay/</link>
-      <pubDate>Wed, 08 Jan 2020 16:20:50 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/medium/roleplay/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate><atom:link href="https://www.pdcunplugged.org/medium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>roleplaying</title>
       <link>https://www.pdcunplugged.org/medium/roleplaying/</link>
@@ -80,6 +67,15 @@
       <pubDate>Tue, 07 Jan 2020 14:10:46 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/medium/envelopes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roleplay</title>
+      <link>https://www.pdcunplugged.org/medium/roleplay/</link>
+      <pubDate>Mon, 06 Jan 2020 13:39:13 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/medium/roleplay/</guid>
       <description></description>
     </item>
     

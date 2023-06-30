@@ -6,11 +6,7 @@
     <description>Recent content in Tcppdetails on PDC Unplugged</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.pdcunplugged.org/tcppdetails/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 08 Jan 2020 16:20:50 -0500</lastBuildDate><atom:link href="https://www.pdcunplugged.org/tcppdetails/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C_DistributedMemory</title>
       <link>https://www.pdcunplugged.org/tcppdetails/c_distributedmemory/</link>
@@ -152,15 +148,6 @@
       <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/c_pipelines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K_Data</title>
-      <link>https://www.pdcunplugged.org/tcppdetails/k_data/</link>
-      <pubDate>Tue, 07 Jan 2020 08:40:19 -0500</pubDate>
-      
-      <guid>https://www.pdcunplugged.org/tcppdetails/k_data/</guid>
       <description></description>
     </item>
     
@@ -476,6 +463,15 @@
       <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
       
       <guid>https://www.pdcunplugged.org/tcppdetails/c_staticdynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K_Data</title>
+      <link>https://www.pdcunplugged.org/tcppdetails/k_data/</link>
+      <pubDate>Mon, 04 Nov 2019 13:12:43 -0500</pubDate>
+      
+      <guid>https://www.pdcunplugged.org/tcppdetails/k_data/</guid>
       <description></description>
     </item>
     
